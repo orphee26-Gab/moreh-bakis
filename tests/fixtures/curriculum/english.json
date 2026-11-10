@@ -1,0 +1,41 @@
+{
+ "id": "english",
+ "name": {
+  "he": "אנגלית",
+  "fr": "Anglais"
+ },
+ "schoolYear": "תשפ\"ז",
+ "status": "draft",
+ "levels": [
+  {
+   "units": 4,
+   "grades": [
+    {
+     "grade": "all",
+     "topics": [
+      {
+       "id": "english-4-all-01",
+       "he": "Present perfect",
+       "fr": "Present perfect",
+       "subtopics": [
+        {
+         "he": "have / has + participle"
+        }
+       ]
+      },
+      {
+       "id": "english-4-all-02",
+       "he": "Reading comprehension",
+       "fr": "Compréhension écrite"
+      },
+      {
+       "id": "english-4-all-03",
+       "he": "Writing an opinion essay",
+       "fr": "Rédiger un essai d'opinion"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
