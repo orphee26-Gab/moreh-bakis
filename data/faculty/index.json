@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T11:53:05.808Z",
+ "generatedAt": "2026-11-10T14:01:06.915Z",
  "status": "draft",
  "institutions": [
   {
@@ -631,7 +631,8 @@
      "he": "חשבון אינפיניטסימלי 1",
      "fr": "Calcul infinitésimal 1",
      "code": "88-132",
-     "credits": 6
+     "credits": 6,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-88133",
@@ -639,7 +640,8 @@
      "he": "חשבון אינפיניטסימלי 2",
      "fr": "Calcul infinitésimal 2",
      "code": "88-133",
-     "credits": 6
+     "credits": 6,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-88112",
@@ -647,7 +649,8 @@
      "he": "אלגברה ליניארית 1",
      "fr": "Algèbre linéaire 1",
      "code": "88-112",
-     "credits": 6
+     "credits": 6,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-88195",
@@ -655,7 +658,8 @@
      "he": "מתמטיקה בדידה",
      "fr": "Mathématiques discrètes",
      "code": "88-195",
-     "credits": 6
+     "credits": 6,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-88165",
@@ -663,7 +667,8 @@
      "he": "מבוא להסתברות וסטטיסטיקה",
      "fr": "Introduction aux probabilités et à la statistique",
      "code": "88-165",
-     "credits": 6
+     "credits": 6,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-88151",
@@ -671,7 +676,8 @@
      "he": "שימושי מחשב",
      "fr": "Applications informatiques",
      "code": "88-151",
-     "credits": 5
+     "credits": 5,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-89110",
@@ -679,7 +685,8 @@
      "he": "מבוא למדעי המחשב",
      "fr": "Introduction à l'informatique",
      "code": "89-110",
-     "credits": 5
+     "credits": 5,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-891200",
@@ -687,7 +694,8 @@
      "he": "מבני נתונים",
      "fr": "Structures de données",
      "code": "89-1200",
-     "credits": 5
+     "credits": 5,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-86115",
@@ -695,7 +703,8 @@
      "he": "מכניקה",
      "fr": "Mécanique",
      "code": "86-115",
-     "credits": 6
+     "credits": 6,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-86120",
@@ -703,7 +712,8 @@
      "he": "חשמל ומגנטיות",
      "fr": "Électricité et magnétisme",
      "code": "86-120",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-84101",
@@ -711,7 +721,8 @@
      "he": "כימיה כללית א'",
      "fr": "Chimie générale A",
      "code": "84-101",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "2 שיעור + 2 תרגיל (שעות שבועיות)"
     },
     {
      "id": "biu-84103",
@@ -719,7 +730,8 @@
      "he": "כימיה כללית ב'",
      "fr": "Chimie générale B",
      "code": "84-103",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "4 שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-84171",
@@ -727,7 +739,8 @@
      "he": "מתמטיקה לכימאים א'",
      "fr": "Mathématiques pour chimistes A",
      "code": "84-171",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-84181",
@@ -735,7 +748,8 @@
      "he": "פיסיקה כללית לכימאים א'",
      "fr": "Physique générale pour chimistes A",
      "code": "84-181",
-     "credits": 4
+     "credits": 4,
+     "creditsUnit": "4 שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-84107",
@@ -743,7 +757,8 @@
      "he": "סטטיסטיקה וההסתברות לכימאים",
      "fr": "Statistique et probabilités pour chimistes",
      "code": "84-107",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-84205",
@@ -751,7 +766,8 @@
      "he": "כימיה אורגנית א'",
      "fr": "Chimie organique A",
      "code": "84-205",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-80150",
@@ -759,7 +775,8 @@
      "he": "ביוסטטיסטיקה",
      "fr": "Biostatistique",
      "code": "80-150",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "3 שעות שבועיות"
     },
     {
      "id": "biu-86147",
@@ -767,7 +784,8 @@
      "he": "מתמטיקה 1 לפיזיקאים",
      "fr": "Mathématiques 1 pour physiciens",
      "code": "86-147",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-86153",
@@ -775,7 +793,8 @@
      "he": "אלגברה ליניארית לפיזיקאים",
      "fr": "Algèbre linéaire pour physiciens",
      "code": "86-153",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-86156",
@@ -783,7 +802,8 @@
      "he": "הסתברות וסטטיסטיקה",
      "fr": "Probabilités et statistique",
      "code": "86-156",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)"
     },
     {
      "id": "biu-86170",
@@ -791,7 +811,8 @@
      "he": "מבוא לפיזיקה מודרנית",
      "fr": "Introduction à la physique moderne",
      "code": "86-170",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "2 שיעור + 1 תרגיל (שעות שבועיות)"
     },
     {
      "id": "biu-55004",
@@ -799,7 +820,8 @@
      "he": "מתמטיקה 1",
      "fr": "Mathématiques 1",
      "code": "55-004",
-     "credits": 3
+     "credits": 3,
+     "creditsUnit": "נקודות זכות"
     },
     {
      "id": "biu-55009",
@@ -807,7 +829,8 @@
      "he": "שיטות מחקר וניתוח נתונים",
      "fr": "Méthodes de recherche et analyse de données",
      "code": "55-009",
-     "credits": 3
+     "credits": 3,
+     "creditsUnit": "נקודות זכות"
     },
     {
      "id": "biu-55015",
@@ -815,7 +838,8 @@
      "he": "מבוא לכלכלה מיקרו",
      "fr": "Introduction à la microéconomie",
      "code": "55-015",
-     "credits": 3
+     "credits": 3,
+     "creditsUnit": "נקודות זכות"
     },
     {
      "id": "biu-55016",
@@ -823,7 +847,8 @@
      "he": "מבוא לכלכלה מאקרו",
      "fr": "Introduction à la macroéconomie",
      "code": "55-016",
-     "credits": 3
+     "credits": 3,
+     "creditsUnit": "נקודות זכות"
     },
     {
      "id": "biu-99665",
@@ -831,7 +856,8 @@
      "he": "מבוא למשפט ישראלי",
      "fr": "Introduction au droit israélien",
      "code": "99-665",
-     "credits": 4
+     "credits": 4,
+     "creditsUnit": "נקודות זכות"
     },
     {
      "id": "biu-academic-writing-mechina",
@@ -839,7 +865,8 @@
      "he": "כתיבה אקדמית",
      "fr": "Rédaction académique",
      "code": "—",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "שעות קורס"
     },
     {
      "id": "biu-other-math-preparatory",
@@ -847,7 +874,8 @@
      "he": "קורס הכנה במתמטיקה",
      "fr": "Cours de préparation en mathématiques",
      "code": "—",
-     "credits": null
+     "credits": null,
+     "creditsUnit": "שעות קורס"
     },
     {
      "id": "biu-efl-mitkadmim-a",
@@ -855,7 +883,8 @@
      "he": "מתקדמים א'",
      "fr": "Avancé A",
      "code": "—",
-     "credits": 4
+     "credits": 4,
+     "creditsUnit": "נקודות זכות"
     }
    ]
   },

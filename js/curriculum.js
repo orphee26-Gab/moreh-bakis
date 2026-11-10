@@ -1,5 +1,6 @@
 // Programmes du lycée (data/curriculum/*.json) : chargement et sélection des thèmes.
 import { S } from './store.js';
+import { t, lang } from './i18n.js';
 
 export const DATA_BASE = new URLSearchParams(location.search).get('data') || 'data';
 export const SUBJECTS = [
@@ -20,7 +21,15 @@ export function loadJSON(path) {
   }
   return cache.get(path);
 }
-export const loadSubject = (id) => loadJSON(`curriculum/${id}.json`);
+// Niveaux lus dans les documents du ministère mais PAS confirmés comme niveaux d'enseignement :
+//  - hébreu 5 : seulement le « travail de fin d'études » (code 11279), pas un cours de 5 יחידות ;
+//  - physique 1 : « introduction aux sciences », autre programme que la physique du bagrout.
+// À retirer de cette liste dès que Gabriel confirme ces niveaux.
+const HIDDEN_LEVELS = { hebrew: [5], physics: [1] };
+export const loadSubject = (id) => loadJSON(`curriculum/${id}.json`).then((d) => {
+  const hide = HIDDEN_LEVELS[id];
+  return d && hide ? { ...d, levels: (d.levels || []).filter((l) => !hide.includes(Number(l.units))) } : d;
+});
 
 export const tr = (o) => (S.lang === 'fr' ? (o?.fr || o?.he) : (o?.he || o?.fr)) || '';
 
@@ -62,3 +71,8 @@ export function progressOf(data, units, grade) {
   return { done, total: topics.length, pct: topics.length ? Math.round((done / topics.length) * 100) : 0 };
 }
 export const gradeLabel = (g) => ({ 10: "י'", 11: 'י"א', 12: 'י"ב' }[Number(g)] || String(g));
+// Texte affiché pour une classe : « כיתה י"א » en hébreu, « Première (י"א) » en français.
+export function gradeText(g) {
+  const n = Number(g), key = `grade.n${n}`, word = t(key);
+  return lang() === 'he' || word === key ? `${t('grade')} ${gradeLabel(n)}` : `${word} (<bdi dir="rtl">${gradeLabel(n)}</bdi>)`;
+}

@@ -2,7 +2,7 @@
 import { S, save } from '../store.js';
 import { t } from '../i18n.js';
 import { $, esc, toast, modal, mascot, setMascot, confetti, sfx } from '../ui.js';
-import { SUBJECTS, subjectMeta, loadSubject, unitsAvailable, unitsFor, topicsFor, findTopic, tr, gradeLabel, progressOf } from '../curriculum.js';
+import { SUBJECTS, subjectMeta, loadSubject, unitsAvailable, unitsFor, topicsFor, findTopic, tr, gradeLabel, gradeText, progressOf } from '../curriculum.js';
 import { loadFaculty, findCourse } from '../faculty.js';
 import { chat, parseJSON, aiReady, aiErrorKey } from '../ai.js';
 import { tutorSystem, quizSystem } from '../prompts.js';
@@ -16,7 +16,7 @@ const go = (h) => { location.hash = h; };
 async function describe(args, q) {
   if (args[0] === 'academy') {
     const [, instId, courseId, idx] = args;
-    const f = findCourse(await loadFaculty(), instId, courseId);
+    const f = await findCourse(await loadFaculty(), instId, courseId);
     if (!f) return null;
     const topics = f.course.topics || [];
     const tp = topics[Number(idx)];
@@ -71,7 +71,7 @@ export const map = {
       root.innerHTML = `
         <div class="top"><button class="icon" data-act="back" aria-label="${t('back')}"><span class="arr">→</span></button><div class="grow"><div class="h1">${meta.icon} ${esc(t('subj.' + meta.id))}</div></div></div>
         <div class="chips" id="uc">${avail.map((u) => `<button class="chip ${u === units ? 'on' : ''}" data-u="${u}">${u} ${t('units')}</button>`).join('')}</div>
-        <div class="chips" id="gc">${[10, 11, 12].map((g) => `<button class="chip ${g === S.grade ? 'on' : ''}" data-g="${g}">${t('grade')} ${gradeLabel(g)}</button>`).join('')}</div>
+        <div class="chips" id="gc">${[10, 11, 12].map((g) => `<button class="chip ${g === S.grade ? 'on' : ''}" data-g="${g}">${gradeText(g)}</button>`).join('')}</div>
         ${data?.status === 'draft' ? `<div class="warn small">${t('map.draft')}</div>` : ''}
         ${approx ? `<div class="warn small gap">${t('map.approx')}</div>` : ''}
         ${topics.length

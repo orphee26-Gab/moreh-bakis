@@ -2,7 +2,7 @@
 import { S, save } from '../store.js';
 import { t } from '../i18n.js';
 import { $, esc, toast, modal, mascot, ring, confetti, sfx } from '../ui.js';
-import { SUBJECTS, loadSubject, unitsFor, progressOf, gradeLabel } from '../curriculum.js';
+import { SUBJECTS, loadSubject, unitsFor, progressOf, gradeText } from '../curriculum.js';
 import { levelInfo, dailyInfo, openChest, energyLeft, FREE_ENERGY, BADGES, addXP } from '../game.js';
 import { unlockAudio } from '../voice.js';
 import { academyHome } from './academy.js';
@@ -30,7 +30,7 @@ export const welcome = {
         <div class="center gap2">${mascot('happy', 150)}<h1 class="h1 gap">${t('wel.title')}</h1><p class="muted">${t('wel.sub')}</p></div>
         <div class="field gap"><label>${t('wel.name')}</label><input class="inp" id="nm" dir="auto" value="${esc(S.name)}" autocomplete="given-name"></div>
         <div class="field"><label>${t('wel.track')}</label><div class="chips"><button class="chip ${track === 'school' ? 'on' : ''}" data-tr="school">🏫 ${t('track.school')}</button><button class="chip ${track === 'academy' ? 'on' : ''}" data-tr="academy">🎓 ${t('track.academy')}</button></div></div>
-        ${track === 'school' ? `<div class="field"><label>${t('wel.grade')}</label><div class="chips">${[10, 11, 12].map((g) => `<button class="chip ${g === grade ? 'on' : ''}" data-g="${g}">${t('grade')} ${gradeLabel(g)}</button>`).join('')}</div></div>` : ''}
+        ${track === 'school' ? `<div class="field"><label>${t('wel.grade')}</label><div class="chips">${[10, 11, 12].map((g) => `<button class="chip ${g === grade ? 'on' : ''}" data-g="${g}">${gradeText(g)}</button>`).join('')}</div></div>` : ''}
         <button class="btn block gap2" id="go">${t('wel.go')}</button>
         <p class="small muted center gap">${t('wel.privacy')}</p>`;
       root.onclick = (e) => {
@@ -78,7 +78,7 @@ export const learn = {
         <h1 class="h1">${t('nav.learn')}</h1>
         <div class="chips"><button class="chip ${S.track === 'school' ? 'on' : ''}" data-tr="school">🏫 ${t('track.school')}</button><button class="chip ${S.track === 'academy' ? 'on' : ''}" data-tr="academy">🎓 ${t('track.academy')}</button></div>
         ${S.track === 'school'
-          ? `<div class="chips">${[10, 11, 12].map((g) => `<button class="chip ${g === S.grade ? 'on' : ''}" data-g="${g}">${t('grade')} ${gradeLabel(g)}</button>`).join('')}</div><div class="gap">${grid}</div>`
+          ? `<div class="chips">${[10, 11, 12].map((g) => `<button class="chip ${g === S.grade ? 'on' : ''}" data-g="${g}">${gradeText(g)}</button>`).join('')}</div><div class="gap">${grid}</div>`
           : '<div id="ah" class="gap"></div>'}`;
       bindGrid(root);
       if (S.track === 'academy') academyHome($('#ah', root));

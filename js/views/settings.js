@@ -2,7 +2,7 @@
 import { S, save, resetAll, exportJSON } from '../store.js';
 import { t, loadLang } from '../i18n.js';
 import { $, esc, toast, modal, flags } from '../ui.js';
-import { gradeLabel } from '../curriculum.js';
+import { gradeText } from '../curriculum.js';
 import { chat, aiReady } from '../ai.js';
 import { deviceVoices, speak, stopSpeaking, elevenVoices, elevenSearchHebrew, elevenAddShared, unlockAudio, sttSupported } from '../voice.js';
 
@@ -20,13 +20,13 @@ function draw(root) {
 
     <div class="sec"><h3>${t('set.profile')}</h3>
       <div class="field"><label>${t('wel.name')}</label><input class="inp" id="nm" dir="auto" value="${esc(S.name)}"></div>
-      <div class="chips">${[10, 11, 12].map((g) => `<button class="chip ${g === S.grade ? 'on' : ''}" data-g="${g}">${t('grade')} ${gradeLabel(g)}</button>`).join('')}</div>
+      <div class="chips">${[10, 11, 12].map((g) => `<button class="chip ${g === S.grade ? 'on' : ''}" data-g="${g}">${gradeText(g)}</button>`).join('')}</div>
       <div class="chips"><button class="chip ${S.track === 'school' ? 'on' : ''}" data-tr="school">🏫 ${t('track.school')}</button><button class="chip ${S.track === 'academy' ? 'on' : ''}" data-tr="academy">🎓 ${t('track.academy')}</button></div></div>
 
     <div class="sec"><h3>${t('set.ai')}</h3>
       <div class="chips"><button class="chip ${mode === 'demo' ? 'on' : ''}" data-ai="demo">${t('set.ai.demo')}</button><button class="chip ${mode === 'key' ? 'on' : ''}" data-ai="key">${t('set.ai.mykey')}</button><button class="chip ${mode === 'proxy' ? 'on' : ''}" data-ai="proxy">${t('set.ai.proxy')}</button></div>
       ${mode === 'key' ? `<div class="field"><label>${t('set.ai.key')}</label><input class="inp" id="aikey" type="password" dir="ltr" placeholder="sk-ant-..." value="${esc(S.ai.key)}" autocomplete="off"></div><div class="warn small">${t('set.ai.keynote')}</div>` : ''}
-      ${mode === 'proxy' ? `<div class="field"><label>${t('set.ai.url')}</label><input class="inp" id="aiurl" dir="ltr" placeholder="https://..." value="${esc(S.ai.proxyUrl)}"></div><div class="ok small">${t('set.ai.freeserver')}</div>` : ''}
+      ${mode === 'proxy' ? `<div class="field"><label>${t('set.ai.url')}</label><input class="inp" id="aiurl" dir="ltr" placeholder="https://..." value="${esc(S.ai.proxyUrl)}"></div><div class="${S.ai.proxyUrl ? 'ok' : 'warn'} small">${t(S.ai.proxyUrl ? 'set.ai.freeserver' : 'set.ai.noserver')}</div>` : ''}
       ${mode === 'demo' ? `<p class="small muted">${t('set.ai.demonote')}</p>` : ''}
       <div class="field"><label>${t('set.ai.model')}</label><select class="inp" id="model" dir="ltr">${opts(MODELS, S.ai.model)}</select></div>
       <div class="field"><label>${t('set.ai.vision')}</label><select class="inp" id="vmodel" dir="ltr">${opts(MODELS, S.ai.visionModel)}</select></div>

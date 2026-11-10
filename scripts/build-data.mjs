@@ -63,7 +63,7 @@ for (const i of institutions) {
 }
 // L'index ne garde que l'essentiel : les thèmes complets restent dans data/faculty/raw/*.json.
 const families = [...byFamily.values()].filter((f) => f.offers.length >= 1);
-const slim = (c) => ({ id: c.id, family: c.family, he: c.he, fr: c.fr, code: c.code, credits: c.credits });
+const slim = (c) => ({ id: c.id, family: c.family, he: c.he, fr: c.fr, code: c.code, credits: c.credits, creditsUnit: c.creditsUnit });
 const faculty = {
   generatedAt: new Date().toISOString(),
   status: 'draft',

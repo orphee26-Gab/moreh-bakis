@@ -3,7 +3,7 @@ import { S } from '../store.js';
 import { t } from '../i18n.js';
 import { $, esc } from '../ui.js';
 import { tr } from '../curriculum.js';
-import { loadFaculty, findCourse } from '../faculty.js';
+import { loadFaculty, findCourse, creditsKind } from '../faculty.js';
 import { unlockAudio } from '../voice.js';
 
 const go = (h) => { location.hash = h; };
@@ -41,7 +41,7 @@ export const academy = {
         <div class="warn small">${t('acad.draft')}</div>
         ${inst.website ? `<p class="small"><a href="${esc(inst.website)}" target="_blank" rel="noopener" style="color:var(--sky)">${esc(inst.website)}</a></p>` : ''}
         <h2 class="h2 gap">${t('acad.courses')}</h2>
-        ${Object.entries(byFam).map(([fam, cs]) => `<h3 class="small muted gap" dir="auto">${esc(famName(fac, fam))}</h3><div class="list">${cs.map((c) => `<button class="item" data-c="${esc(c.id)}"><span class="em">📘</span><div class="grow"><b dir="auto">${esc(c.he || tr(c))}</b><div class="small muted">${c.code ? esc(c.code) + ' · ' : ''}${c.credits != null ? esc(String(c.credits)) + ' ' + t('acad.credits') : ''}</div></div></button>`).join('')}</div>`).join('')}
+        ${Object.entries(byFam).map(([fam, cs]) => `<h3 class="small muted gap" dir="auto">${esc(famName(fac, fam))}</h3><div class="list">${cs.map((c) => `<button class="item" data-c="${esc(c.id)}"><span class="em">📘</span><div class="grow"><b dir="auto">${esc(c.he || tr(c))}</b><div class="small muted">${c.code ? esc(c.code) + ' · ' : ''}${c.credits != null ? esc(String(c.credits)) + ' ' + t('acad.credits.' + creditsKind(inst.id, c)) : ''}</div></div></button>`).join('')}</div>`).join('')}
         <h2 class="h2 gap2">${t('acad.faculties')}</h2>
         <div class="list">${(inst.faculties || []).map((f) => `<div class="card flat" dir="auto"><b>${f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener" style="color:var(--ink)">${esc(f.he || tr(f))}</a>` : esc(f.he || tr(f))}</b>${S.lang === 'fr' && f.fr ? `<div class="small muted">${esc(f.fr)}</div>` : ''}${(f.mainDegrees || []).length ? `<div class="small muted">${f.mainDegrees.slice(0, 4).map((d) => esc(d.he || tr(d))).join(' · ')}</div>` : ''}</div>`).join('')}</div>`;
       bindBack('#/learn');
@@ -55,7 +55,7 @@ export const academy = {
       const inst = found.inst, c = found.course;
       const base = `${inst.id}/${c.id}`;
       root.innerHTML = top(c.he || tr(c)) + `
-        <div class="muted small">${esc(nm(inst))}${c.code ? ' · ' + esc(c.code) : ''}${c.credits != null ? ' · ' + esc(String(c.credits)) + ' ' + t('acad.credits') : ''}</div>
+        <div class="muted small">${esc(nm(inst))}${c.code ? ' · ' + esc(c.code) : ''}${c.credits != null ? ' · ' + esc(String(c.credits)) + ' ' + t('acad.credits.' + creditsKind(inst.id, c)) : ''}</div>
         <div class="warn small gap">${t('acad.draft')}</div>
         ${(c.prerequisites || []).length ? `<p class="small muted gap" dir="auto">${t('acad.prereq')}: ${c.prerequisites.map(esc).join(' · ')}</p>` : ''}
         <h2 class="h2 gap">${t('acad.topics')}</h2>
