@@ -1,0 +1,67 @@
+[
+  {
+    "id": "math",
+    "subject": "math",
+    "url": "https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/new-curriculum/"
+  },
+  {
+    "id": "math-exams",
+    "subject": "math",
+    "url": "https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/examination-evaluation/"
+  },
+  {
+    "id": "physics-curriculum",
+    "subject": "physics",
+    "url": "https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/curriculum/"
+  },
+  {
+    "id": "physics-exams",
+    "subject": "physics",
+    "url": "https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/matriculation-exams/"
+  },
+  {
+    "id": "history",
+    "subject": "history",
+    "url": "https://pop.education.gov.il/learning-plans/history/high-school/"
+  },
+  {
+    "id": "history-exams",
+    "subject": "history",
+    "url": "https://pop.education.gov.il/tchumey_daat/historya/chativa-elyona/pedagogia-historia/bhinot-bagrut-halofot-haraha"
+  },
+  {
+    "id": "tanakh",
+    "subject": "tanakh",
+    "url": "https://pop.education.gov.il/tchumey_daat/tanach_mamlachti/chativa-elyona/pedagogy-state-bible-junior-high/curriculum/"
+  },
+  {
+    "id": "tanakh-curriculum",
+    "subject": "tanakh",
+    "url": "https://pop.education.gov.il/learning-plans/bible/high-school/"
+  },
+  {
+    "id": "hebrew",
+    "subject": "hebrew",
+    "url": "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/"
+  },
+  {
+    "id": "hebrew-topics",
+    "subject": "hebrew",
+    "url": "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/noseem_nilmadim/"
+  },
+  {
+    "id": "english",
+    "subject": "english",
+    "url": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/english-pedagogy/curriculum/"
+  },
+  {
+    "id": "english-exams",
+    "subject": "english",
+    "url": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/bagrut-exam/table-of-specifications/"
+  },
+  {
+    "id": "requirements",
+    "subject": "bagrut",
+    "url": "https://meyda.education.gov.il/files/Exams/BagrutRequirementsReforma.pdf"
+  }
+]
