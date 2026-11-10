@@ -1,0 +1,717 @@
+{
+  "id": "physics",
+  "name": {
+    "he": "פיזיקה",
+    "fr": "Physique"
+  },
+  "schoolYear": "תשפ\"ז",
+  "status": "draft",
+  "retrievedAt": "2026-11-10",
+  "officialPages": [
+    "https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/curriculum/",
+    "https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/matriculation-exams/",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/HozerMaabadaPG.pdf",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/hozer-mafmar-tashpaz.pdf",
+    "https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/laboratory/",
+    "https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/laboratory-ordinary/",
+    "https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/research-laboratory-questionnaire/",
+    "https://physics.education.gov.il/",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMotemetPartA012019.doc",
+    "https://meyda.education.gov.il/files/Pop/0files/physics/table-of-contents.docx",
+    "https://meyda.education.gov.il/files/Pop/0files/physics/Matriculation-11-12.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/physics/Matriculation-11-12-projects.pdf",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/SheelonimMishneAndExternim.pdf",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/portal/HalimaTashad/phizika.pdf"
+  ],
+  "levels": [
+    {
+      "units": 5,
+      "label": {
+        "he": "5 יחידות לימוד (רמה מוגברת)",
+        "fr": "5 yéhidot (niveau renforcé)"
+      },
+      "grades": [
+        {
+          "grade": "all",
+          "gradeLabel": "י'–י\"ב (התכנית אינה מחולקת לפי כיתות)",
+          "topics": [
+            {
+              "id": "physics-5-all-01",
+              "he": "מכניקה – פרק 1: קינמטיקה",
+              "fr": "Mécanique – chap. 1 : Cinématique",
+              "subtopics": [
+                {
+                  "he": "מושגי יסוד בתנועה לאורך קו ישר; תיאור תנועה - מקום כפונקציה של הזמן",
+                  "fr": "Notions de base du mouvement rectiligne ; description : position en fonction du temps"
+                },
+                {
+                  "he": "תנועה קצובה לאורך קו ישר",
+                  "fr": "Mouvement uniforme rectiligne"
+                },
+                {
+                  "he": "תנועה יחסית",
+                  "fr": "Mouvement relatif"
+                },
+                {
+                  "he": "תנועה במהירות משתנה",
+                  "fr": "Mouvement à vitesse variable"
+                },
+                {
+                  "he": "תנועה בתאוצה קבועה",
+                  "fr": "Mouvement à accélération constante"
+                },
+                {
+                  "he": "תנועה בתאוצה משתנה",
+                  "fr": "Mouvement à accélération variable"
+                },
+                {
+                  "he": "מושגי יסוד בתנועה במישור; וקטורים",
+                  "fr": "Notions de base du mouvement plan ; vecteurs"
+                },
+                {
+                  "he": "המהירות והתאוצה בתנועה במישור",
+                  "fr": "Vitesse et accélération dans le mouvement plan"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-02",
+              "he": "מכניקה – פרק 2: דינמיקה",
+              "fr": "Mécanique – chap. 2 : Dynamique",
+              "subtopics": [
+                {
+                  "he": "כוחות ומדידתם; תכונות של כוחות",
+                  "fr": "Forces et leur mesure ; propriétés des forces"
+                },
+                {
+                  "he": "התמדה; מתיחות, כוח נורמלי וכוח חיכוך",
+                  "fr": "Inertie ; tension, force normale et frottement"
+                },
+                {
+                  "he": "ניתוח מצבי התמדה פשוטים",
+                  "fr": "Analyse de situations d'inertie simples"
+                },
+                {
+                  "he": "החוק השני של ניוטון",
+                  "fr": "Deuxième loi de Newton"
+                },
+                {
+                  "he": "כוח הכובד, והמסה כמדד לעָצמתו",
+                  "fr": "Force de gravité ; la masse comme mesure de son intensité"
+                },
+                {
+                  "he": "יישום החוק השני לגבי תנועה לאורך קו ישר",
+                  "fr": "Application de la 2e loi au mouvement rectiligne"
+                },
+                {
+                  "he": "תנועה במישור בהשפעת כוח קבוע; תנועה מעגלית",
+                  "fr": "Mouvement plan sous force constante ; mouvement circulaire"
+                },
+                {
+                  "he": "מערכות ייחוס",
+                  "fr": "Référentiels"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-03",
+              "he": "מכניקה – פרק 3: התנע ושימורו",
+              "fr": "Mécanique – chap. 3 : Quantité de mouvement et sa conservation",
+              "subtopics": [
+                {
+                  "he": "מתקף, תנע והקשר ביניהם",
+                  "fr": "Impulsion, quantité de mouvement et relation entre elles"
+                },
+                {
+                  "he": "חוק שימור התנע",
+                  "fr": "Loi de conservation de la quantité de mouvement"
+                },
+                {
+                  "he": "יישומים של חוק שימור התנע",
+                  "fr": "Applications de la loi de conservation de la quantité de mouvement"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-04",
+              "he": "מכניקה – פרק 4: אנרגיה מכנית ושימורה",
+              "fr": "Mécanique – chap. 4 : Énergie mécanique et sa conservation",
+              "subtopics": [
+                {
+                  "he": "אנרגיה קינטית, עבודה והקשר ביניהן",
+                  "fr": "Énergie cinétique, travail et leur relation"
+                },
+                {
+                  "he": "אנרגיה פוטנציאלית",
+                  "fr": "Énergie potentielle"
+                },
+                {
+                  "he": "שימור אנרגיה מכנית",
+                  "fr": "Conservation de l'énergie mécanique"
+                },
+                {
+                  "he": "תנועה במעגל אנכי",
+                  "fr": "Mouvement dans un cercle vertical"
+                },
+                {
+                  "he": "היבטים אנרגטיים בהתנגשות",
+                  "fr": "Aspects énergétiques d'une collision"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-05",
+              "he": "מכניקה – פרק 5: מודל הגז האידאלי",
+              "fr": "Mécanique – chap. 5 : Modèle du gaz parfait",
+              "subtopics": [
+                {
+                  "he": "תכונות מַקרוסקופיות של גזים",
+                  "fr": "Propriétés macroscopiques des gaz"
+                },
+                {
+                  "he": "הסבר התנהגות גז אידאלי באמצעות המודל הקינטי",
+                  "fr": "Comportement d'un gaz parfait expliqué par le modèle cinétique"
+                },
+                {
+                  "he": "החוק הראשון והחוק השני של התרמודינמיקה",
+                  "fr": "Premier et deuxième principes de la thermodynamique"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-06",
+              "he": "מכניקה – פרק 6: תנועה הרמונית פשוטה",
+              "fr": "Mécanique – chap. 6 : Mouvement harmonique simple",
+              "subtopics": [
+                {
+                  "he": "תנועה מחזורית, תנודות, תנודות הרמוניות",
+                  "fr": "Mouvement périodique, oscillations, oscillations harmoniques"
+                },
+                {
+                  "he": "נוסחאות קינמטיות לתיאור תנועתו של אוסצילטור הרמוני",
+                  "fr": "Formules cinématiques de l'oscillateur harmonique"
+                },
+                {
+                  "he": "דוגמאות: תנודות גוף הקשור לקפיץ אנכי ותנודות של מטוטלת פשוטה",
+                  "fr": "Exemples : corps au bout d'un ressort vertical, pendule simple"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-07",
+              "he": "מכניקה – פרק 7: כבידה",
+              "fr": "Mécanique – chap. 7 : Gravitation",
+              "subtopics": [
+                {
+                  "he": "רקע היסטורי וחוקי קפלר",
+                  "fr": "Contexte historique et lois de Kepler"
+                },
+                {
+                  "he": "חוק הכבידה",
+                  "fr": "Loi de la gravitation"
+                },
+                {
+                  "he": "המושג \"שדה\", עבודה ואנרגיה בשדה הכבידה",
+                  "fr": "Notion de « champ », travail et énergie dans le champ gravitationnel"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-08",
+              "he": "אלקטרומגנטיות – פרק 1: חוק קולון והשדה האלקטרוסטטי",
+              "fr": "Électromagnétisme – chap. 1 : Loi de Coulomb et champ électrostatique",
+              "subtopics": [
+                {
+                  "he": "תופעות חשמליות",
+                  "fr": "Phénomènes électriques"
+                },
+                {
+                  "he": "חוק קולון",
+                  "fr": "Loi de Coulomb"
+                },
+                {
+                  "he": "השדה האלקטרוסטטי, המושג \"שדה\" בפיזיקה",
+                  "fr": "Champ électrostatique, notion de « champ » en physique"
+                },
+                {
+                  "he": "חוק גאוס, הקשר בין חוק גאוס לחוק קולון",
+                  "fr": "Loi de Gauss et son lien avec la loi de Coulomb"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-09",
+              "he": "אלקטרומגנטיות – פרק 2: פוטנציאל חשמלי, קיבול וקבלים",
+              "fr": "Électromagnétisme – chap. 2 : Potentiel électrique, capacité et condensateurs",
+              "subtopics": [
+                {
+                  "he": "פוטנציאל והפרש פוטנציאלים",
+                  "fr": "Potentiel et différence de potentiel"
+                },
+                {
+                  "he": "קיבול וקבלים",
+                  "fr": "Capacité et condensateurs"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-10",
+              "he": "אלקטרומגנטיות – פרק 3: מעגלי זרם ישר",
+              "fr": "Électromagnétisme – chap. 3 : Circuits à courant continu",
+              "subtopics": [
+                {
+                  "he": "הזרם החשמלי ועָצמת הזרם החשמלי",
+                  "fr": "Courant électrique et son intensité"
+                },
+                {
+                  "he": "המתח החשמלי וחוק אום",
+                  "fr": "Tension électrique et loi d'Ohm"
+                },
+                {
+                  "he": "התנגדות",
+                  "fr": "Résistance"
+                },
+                {
+                  "he": "כא\"מ ומתח הדקים",
+                  "fr": "Force électromotrice et tension aux bornes"
+                },
+                {
+                  "he": "טיפול כמותי בטעינה ופריקה של קבל",
+                  "fr": "Étude quantitative de la charge et de la décharge d'un condensateur"
+                },
+                {
+                  "he": "הספק ואנרגיה במעגל חשמלי, נצילות",
+                  "fr": "Puissance et énergie dans un circuit, rendement"
+                },
+                {
+                  "he": "מעגלים חשמליים",
+                  "fr": "Circuits électriques"
+                },
+                {
+                  "he": "מכשירי מדידה",
+                  "fr": "Appareils de mesure"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-11",
+              "he": "אלקטרומגנטיות – פרק 4: השדה המגנטי",
+              "fr": "Électromagnétisme – chap. 4 : Champ magnétique",
+              "subtopics": [
+                {
+                  "he": "שדות מגנטיים של מגנטים וזרמים",
+                  "fr": "Champs magnétiques d'aimants et de courants"
+                },
+                {
+                  "he": "השפעת השדה המגנטי על זרם, עָצמת השדה המגנטי",
+                  "fr": "Effet du champ magnétique sur un courant ; intensité du champ magnétique"
+                },
+                {
+                  "he": "הקשר בין השדה המגנטי ומקורותיו - בקרבת תיל ארוך מאוד, במרכז כריכה מעגלית, בסילונית",
+                  "fr": "Lien entre champ magnétique et sources : fil très long, centre d'une spire, solénoïde"
+                },
+                {
+                  "he": "כוח בין זרמים מקבילים, הגדרת האמפר",
+                  "fr": "Force entre courants parallèles ; définition de l'ampère"
+                },
+                {
+                  "he": "כוח הפועל על מטען הנע בשדה מגנטי",
+                  "fr": "Force sur une charge en mouvement dans un champ magnétique"
+                },
+                {
+                  "he": "יישומים של הכוח המגנטי",
+                  "fr": "Applications de la force magnétique"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-12",
+              "he": "אלקטרומגנטיות – פרק 5: השראה אלקטרומגנטית",
+              "fr": "Électromagnétisme – chap. 5 : Induction électromagnétique",
+              "subtopics": [
+                {
+                  "he": "כא\"מ מושרה, חוק פארדיי וחוק לנץ",
+                  "fr": "Force électromotrice induite, lois de Faraday et de Lenz"
+                },
+                {
+                  "he": "יישומים טכנולוגיים",
+                  "fr": "Applications technologiques"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-13",
+              "he": "קרינה וחומר – פרק 1: תופעות יסודיות של האור, ייצוג מהלך האור באמצעות קרניים",
+              "fr": "Rayonnement et matière – chap. 1 : Phénomènes lumineux fondamentaux ; représentation du trajet de la lumière par des rayons",
+              "subtopics": [
+                {
+                  "he": "ראיית עצמים, אפיון האור, ייצוג מהלך האור באמצעות קרניים",
+                  "fr": "Vision des objets, caractérisation de la lumière, représentation par des rayons"
+                },
+                {
+                  "he": "החזרת אור: חוקי ההחזרה, דמות במראה מישורית",
+                  "fr": "Réflexion : lois de la réflexion, image dans un miroir plan"
+                },
+                {
+                  "he": "שבירת אור: חוקי השבירה, החזרה חלקית ומלאה",
+                  "fr": "Réfraction : lois de la réfraction, réflexion partielle et totale"
+                },
+                {
+                  "he": "עדשות כדוריות דקות: מהלך האור ויצירת דמויות",
+                  "fr": "Lentilles sphériques minces : trajet de la lumière et formation d'images"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-14",
+              "he": "קרינה וחומר – פרק 2: המושג \"מודל\", תפקידיו, המודל החלקיקי של האור",
+              "fr": "Rayonnement et matière – chap. 2 : Notion de « modèle », ses rôles ; modèle corpusculaire de la lumière",
+              "subtopics": [
+                {
+                  "he": "המושג \"מודל\", תפקידי המודל",
+                  "fr": "Notion de « modèle », rôles du modèle"
+                },
+                {
+                  "he": "המודל החלקיקי של האור",
+                  "fr": "Modèle corpusculaire de la lumière"
+                },
+                {
+                  "he": "ניבויי המודל החלקיקי של האור",
+                  "fr": "Prédictions du modèle corpusculaire de la lumière"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-15",
+              "he": "קרינה וחומר – פרק 3: גלים מכניים ואלקטרומגנטיים",
+              "fr": "Rayonnement et matière – chap. 3 : Ondes mécaniques et électromagnétiques",
+              "subtopics": [
+                {
+                  "he": "תכונות של פולסים והשוואתן לתכונות האור",
+                  "fr": "Propriétés des impulsions, comparées à celles de la lumière"
+                },
+                {
+                  "he": "גלים מחזוריים חד-ממדיים",
+                  "fr": "Ondes périodiques unidimensionnelles"
+                },
+                {
+                  "he": "תכונות של גלים דו-ממדיים והשוואתן לתכונות האור",
+                  "fr": "Propriétés des ondes bidimensionnelles, comparées à celles de la lumière"
+                },
+                {
+                  "he": "התאבכות ועקיפה בגלי מים ובאור",
+                  "fr": "Interférences et diffraction des ondes de l'eau et de la lumière"
+                },
+                {
+                  "he": "גלים אלקטרומגנטיים, ספקטרום, יישומים ורקע היסטורי",
+                  "fr": "Ondes électromagnétiques, spectre, applications et contexte historique"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-16",
+              "he": "קרינה וחומר – פרק 4: מבוא לתורת הקוונטים- המודל הדואלי של האור",
+              "fr": "Rayonnement et matière – chap. 4 : Introduction à la théorie quantique – modèle dual de la lumière",
+              "subtopics": [
+                {
+                  "he": "האפקט הפוטואלקטרי, הסבר איינשטיין וניסוי מיליקן",
+                  "fr": "Effet photoélectrique, explication d'Einstein et expérience de Millikan"
+                },
+                {
+                  "he": "אפקט קומפטון",
+                  "fr": "Effet Compton"
+                },
+                {
+                  "he": "קרינת רנטגן לאור הסבריו של איינשטיין",
+                  "fr": "Rayons X à la lumière des explications d'Einstein"
+                },
+                {
+                  "he": "המודל הדואלי של הקרינה האלקטרומגנטית",
+                  "fr": "Modèle dual du rayonnement électromagnétique"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-17",
+              "he": "קרינה וחומר – פרק 5: מבנה האטום",
+              "fr": "Rayonnement et matière – chap. 5 : Structure de l'atome",
+              "subtopics": [
+                {
+                  "he": "גילוי האלקטרון",
+                  "fr": "Découverte de l'électron"
+                },
+                {
+                  "he": "מודל האטום על פי תומסון",
+                  "fr": "Modèle de l'atome de Thomson"
+                },
+                {
+                  "he": "ניסוי רתרפורד והמודל הפלנטרי של האטום",
+                  "fr": "Expérience de Rutherford et modèle planétaire de l'atome"
+                },
+                {
+                  "he": "ספקטרום הפליטה הניסיוני של אטום המימן",
+                  "fr": "Spectre d'émission expérimental de l'atome d'hydrogène"
+                },
+                {
+                  "he": "מודל בוהר לאטום המימן",
+                  "fr": "Modèle de Bohr de l'atome d'hydrogène"
+                },
+                {
+                  "he": "ניסוי פרנק-הרץ",
+                  "fr": "Expérience de Franck et Hertz"
+                },
+                {
+                  "he": "ספקטרום בליעה וספקטרום פליטה",
+                  "fr": "Spectres d'absorption et d'émission"
+                },
+                {
+                  "he": "עקרון ההתאמה של בוהר",
+                  "fr": "Principe de correspondance de Bohr"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-18",
+              "he": "קרינה וחומר – פרק 6: מבוא לתורת הקוונטים - דואליות החומר",
+              "fr": "Rayonnement et matière – chap. 6 : Introduction à la théorie quantique – dualité de la matière",
+              "subtopics": [
+                {
+                  "he": "גלי דה-ברויי",
+                  "fr": "Ondes de de Broglie"
+                },
+                {
+                  "he": "המודל הקוונטי-הסתברותי של אור ושל חלקיקים",
+                  "fr": "Modèle quantique probabiliste de la lumière et des particules"
+                },
+                {
+                  "he": "עקרון אי-הוודאות",
+                  "fr": "Principe d'incertitude"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-19",
+              "he": "קרינה וחומר – פרק 7: הגרעין ומבוא לחלקיקים יסודיים",
+              "fr": "Rayonnement et matière – chap. 7 : Le noyau et introduction aux particules élémentaires",
+              "subtopics": [
+                {
+                  "he": "מבנה הגרעין והכוח החזק",
+                  "fr": "Structure du noyau et force forte"
+                },
+                {
+                  "he": "תהליכים גרעיניים",
+                  "fr": "Processus nucléaires"
+                },
+                {
+                  "he": "התפרקות רדיואקטיבית",
+                  "fr": "Désintégration radioactive"
+                },
+                {
+                  "he": "אנרגיית קשר גרעינית",
+                  "fr": "Énergie de liaison nucléaire"
+                },
+                {
+                  "he": "חלקיקים יסודיים",
+                  "fr": "Particules élémentaires"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc"
+            },
+            {
+              "id": "physics-5-all-20",
+              "he": "מעבדה",
+              "fr": "Laboratoire (heures de labo intégrées aux trois domaines ; évalué à part)",
+              "subtopics": [
+                {
+                  "he": "מסלול א' – בחינה אחידה בכתב, שאלון 036386 (בעבר \"מעבדת חקר\")",
+                  "fr": "Filière A – examen unifié écrit (ex « labo de recherche ») : expérience inconnue (UNSEEN) faite pendant l'examen (80 % de la note du labo) + 2 questions sur 2 des 8 expériences (20 %) ; portfolio de rapports imprimé autorisé"
+                },
+                {
+                  "he": "מסלול ב' – בחינה משולבת בכתב ובעל-פה, שאלונים 036356 ו-036351 (בעבר \"מעבדה רגילה\")",
+                  "fr": "Filière B – examen intégré (ex « labo ordinaire ») : oral sur 1 des 7 expériences de l'école (036356) + question 7 obligatoire dans le questionnaire d'électricité 036351"
+                },
+                {
+                  "he": "שאלון חקר 036382 (נבחני משנה ואקסטרניים)",
+                  "fr": "Questionnaire de recherche 036382 (candidats de rattrapage et externes)"
+                },
+                {
+                  "he": "תדריך מעבדה: נפילת גופים",
+                  "fr": "Guide de labo : chute des corps"
+                },
+                {
+                  "he": "תדריך מעבדה: כוח אלסטי",
+                  "fr": "Guide de labo : force élastique"
+                },
+                {
+                  "he": "תדריך מעבדה: כא\"מ ומתח הדקים",
+                  "fr": "Guide de labo : force électromotrice et tension aux bornes"
+                },
+                {
+                  "he": "תדריך מעבדה: אופיינים של רכיבים חשמליים",
+                  "fr": "Guide de labo : caractéristiques de composants électriques"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/HozerMaabadaPG.pdf"
+            },
+            {
+              "id": "physics-5-all-21",
+              "he": "מעבדה – רשימת 8 הניסויים לשנת תשפ\"ז",
+              "fr": "Laboratoire – liste des 8 expériences de l'année תשפ\"ז (aucune expérience obligatoire cette année)",
+              "subtopics": [
+                {
+                  "he": "מכניקה: פעילות ניסויית לקביעת אופי (סוג) התנועה של גוף נופל",
+                  "fr": "Mécanique : déterminer le type de mouvement d'un corps en chute"
+                },
+                {
+                  "he": "מכניקה: חקירת התלות של התארכות הקפיץ בכוח הפועל עליו",
+                  "fr": "Mécanique : dépendance de l'allongement d'un ressort vis-à-vis de la force appliquée"
+                },
+                {
+                  "he": "מכניקה: יישום החוק השני של ניוטון לחקירת התאוצה של מערכת דו-גופית",
+                  "fr": "Mécanique : 2e loi de Newton appliquée à l'accélération d'un système de deux corps"
+                },
+                {
+                  "he": "מכניקה: חקירת התנועה של מגנט במורד מסילת אלומיניום",
+                  "fr": "Mécanique : mouvement d'un aimant le long d'un rail d'aluminium (notions de base d'électricité et de magnétisme requises)"
+                },
+                {
+                  "he": "מכניקה: פעילות ניסויית לבחינת הקשר בין המתקף הכולל לבין השינוי בתנע",
+                  "fr": "Mécanique : relation entre l'impulsion totale et la variation de la quantité de mouvement"
+                },
+                {
+                  "he": "חשמל: פעילות ניסויית לבדיקת הקשר בין מתח ההדקים לבין הזרם בסוללה ובמערכת סוללות",
+                  "fr": "Électricité : relation entre tension aux bornes et courant pour une pile et un système de piles"
+                },
+                {
+                  "he": "חשמל: אופיינים של רכיבים חשמליים",
+                  "fr": "Électricité : caractéristiques de composants électriques"
+                },
+                {
+                  "he": "חשמל: מדידת ערכו של הרכיב האופקי של השדה המגנטי הארצי בעזרת החקירה של השדה המגנטי שנוצר במרכז סליל דק",
+                  "fr": "Électricité : composante horizontale du champ magnétique terrestre, via le champ au centre d'une bobine plate"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/HozerMaabadaPG.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "units": 1,
+      "label": {
+        "he": "מבוא למדעים בהוראת פיזיקה – 3 ש\"ש (שווה ערך ל-1 יח\"ל)",
+        "fr": "Introduction aux sciences (physique) – 3 h/sem., équivalent à 1 yéhida"
+      },
+      "grades": [
+        {
+          "grade": "10",
+          "gradeLabel": "י'",
+          "topics": [
+            {
+              "id": "physics-1-10-01",
+              "he": "מכניקה ניוטונית (הבנה בסיסית)",
+              "fr": "Mécanique newtonienne (compréhension de base)",
+              "subtopics": [],
+              "source": "https://physics.education.gov.il/"
+            },
+            {
+              "id": "physics-1-10-02",
+              "he": "אופטיקה גיאומטרית; \"קרינה וחומר\" ברמה בסיסית: אופטיקה וגלים",
+              "fr": "Optique géométrique ; « rayonnement et matière » au niveau de base : optique et ondes",
+              "subtopics": [
+                {
+                  "he": "צל מלא וחלקי",
+                  "fr": "Ombre et pénombre"
+                },
+                {
+                  "he": "דמויות במראה מישורית",
+                  "fr": "Images dans un miroir plan"
+                },
+                {
+                  "he": "שבירה",
+                  "fr": "Réfraction"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/curriculum/"
+            },
+            {
+              "id": "physics-1-10-03",
+              "he": "מבניות לכיתות מב\"ר, חנ\"מ, טו\"ב וכד' (שאלון 036-182: שתיים מתוך השש)",
+              "fr": "Thèmes appliqués pour classes spécifiques (מב\"ר, חנ\"מ, טו\"ב…) — questionnaire 036-182 : 2 thèmes sur 6",
+              "subtopics": [
+                {
+                  "he": "פיזיקה של הנהיגה",
+                  "fr": "Physique de la conduite"
+                },
+                {
+                  "he": "חשמל בבית",
+                  "fr": "Électricité domestique"
+                },
+                {
+                  "he": "מנוע המכונית",
+                  "fr": "Moteur de voiture"
+                },
+                {
+                  "he": "טילים ולוויינים",
+                  "fr": "Fusées et satellites"
+                },
+                {
+                  "he": "תנור המיקרוגל",
+                  "fr": "Four à micro-ondes"
+                },
+                {
+                  "he": "דוד שמש",
+                  "fr": "Chauffe-eau solaire"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/physics/table-of-contents.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "3 YÉHIDOT — TRANCHÉ : le niveau 3 יח\"ל n'existe plus comme filière ; il n'est donc PAS dans levels. Preuve principale : la page programme (lue en direct dans le navigateur le 2026-11-10), rubrique « 3 יחידות לימוד », dit « לא ניתנת יותר זכאות לבגרות 3 יח\"ל פיזיקה. לא מתקיימות בחינות בשאלון 036-001 וגם לא ניתן לקבץ שאלוני מכניקה וחשמל ולקבל עבורם קרדיט ברמת 3 יח\"ל » : https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/curriculum/",
+    "3 YÉHIDOT — la contradiction : la page des examens https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/matriculation-exams/ garde un paragraphe « 3 יחידות לימוד » qui décrit encore le regroupement mécanique 036-361 + électricité 036-371 en questionnaire principal 036-300 (crédit niveau 3 יח\"ל). La copie de la page programme renvoyée au début de la session par l'outil d'extraction (copie probablement plus ancienne) contenait ce même regroupement ; la version en direct l'a remplacé par l'interdiction ci-dessus → le paragraphe de la page examens est très probablement périmé. Recoupements : (1) la circulaire du מפמ\"ר תשפ\"ז/1 (août 2026, https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/hozer-mafmar-tashpaz.pdf) et la circulaire labo de sept./oct. 2026 (https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/HozerMaabadaPG.pdf) ne mentionnent ni niveau 3 יח\"ל ni questionnaire 036-300 (recherche textuelle négative) et leurs tableaux d'examens ne listent que des questionnaires 5 יח\"ל ; (2) le site du מפמ\"ר https://physics.education.gov.il/ ne cite aucun niveau 3 יח\"ל (seulement intro aux sciences 3 ש\"ש, 5 יח\"ל, évaluation alternative 30 %, labo, projets). Décision : aucun niveau 3 יח\"ל dans levels.",
+    "5 יח\"ל : le programme officiel (document « רמה מוגברת », dernière mise à jour שבט תשע\"ט, toujours le document complet cité par la page programme) est destiné aux classes י'–י\"ב et NE répartit volontairement PAS les chapitres par année (section « רקע ») ; il recommande un début en 10e avec ≥ 3 ש\"ש, puis ≥ 6 ש\"ש en 11e et en 12e, soit 15 ש\"ש au total. D'où un seul groupe grade = \"all\". Source : https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMeleaPartB012019_Syi5u20190114.doc",
+    "Structure 5 יח\"ל : 3 domaines obligatoires — מכניקה (7 chapitres), אלקטרומגנטיות (5), קרינה וחומר (7) — avec les heures de labo intégrées. Document « Part A » (programme adapté à l'apprentissage significatif, en vigueur depuis תשע\"ה) : מכניקה + אלקטרומגנטיות + מעבדה = 70 % du programme, évalués par examen externe (6 ש\"ש + 4,5 ש\"ש) ; קרינה וחומר = 30 % (4,5 ש\"ש), recommandé en évaluation interne ; optique et ondes mécaniques ont été déplacées de la mécanique vers קרינה וחומר. Source : https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/TochnitLimodimPhizikaMotemetPartA012019.doc",
+    "Examens 5 יח\"ל en 2026-27 — circulaire labo de sept./oct. 2026 « בחינת הבגרות במעבדה בפיזיקה, לפי תכנית ההיבחנות החדשה תשפ\"ז » (https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/HozerMaabadaPG.pdf), qui actualise la circulaire d'août : deux filières. A (examen unifié écrit, ex « labo de recherche ») : מכניקה 036361 30 % (11e ou 12e) ; חשמל 036371 25 % (12e) ; מעבדה 036386 15 % (12e ; 80 % expérience faite pendant l'examen + 20 % sur 2 des 8 expériences) ; évaluation d'école 036283 30 % (12e). B (intégrée écrit + oral, ex « labo ordinaire ») : מכניקה 036361 30 % ; חשמל 036351 30 % (12e, 7 questions, la n° 7 obligatoire sur les pratiques de labo ≈ 5 % du total) ; מעבדה 036356 10 % (oral sur 1 des 7 expériences) ; évaluation d'école 036283 30 %. Le questionnaire 036376 est supprimé dès תשפ\"ז (les tableaux antérieurs, dont https://meyda.education.gov.il/files/Pop/0files/physics/Matriculation-11-12.pdf et l'annexe 3 de la circulaire d'août, le citent encore). Candidats de rattrapage/externes : 036382 (labo de recherche) et 036282 (קרינה וחומר) ; « פיזיקה בגישה חוקרת » remplace labo + évaluation alternative. Page labo : https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/laboratory/ et https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/laboratory-ordinary/.",
+    "MICKOUD de l'examen 2026-27 (annexe 2 de https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/hozer-mafmar-tashpaz.pdf) — ne seront PAS posés : מכניקה : tout le chapitre 6 (תנועה הרמונית פשוטה) ; חשמל : 3.5 (טיפול כמותי בטעינה ופריקה של קבל), 3.6 (הספק ואנרגיה במעגל חשמלי, נצילות), 4.4 (כוח בין זרמים מקבילים, הגדרת האמפר) ; קרינה וחומר (seulement pour le questionnaire 036382 des candidats de rattrapage/externes, pas pour l'évaluation alternative) : chapitres 1 (« לא תהיה שאלה באופטיקה גיאומטרית ») et 2 en entier. Ces éléments restent dans les sous-thèmes (programme enseigné). Une circulaire « בחינות תשפ\"ז » est annoncée pour Adar תשפ\"ז.",
+    "Classes d'examen (circulaire labo, sept./oct. 2026) : מכניקה en 11e ou 12e ; חשמל, מעבדה et évaluation d'école 036283 en 12e ; un élève qui passe חשמל 036371 en 11e ne peut pas ensuite passer la filière B (§3.1–3.2 de la circulaire). Aucun contenu n'est officiellement assigné à une classe.",
+    "Document ancien phizika.pdf (valable jusqu'à l'été תשע\"ד, https://meyda.education.gov.il/files/Mazkirut_Pedagogit/portal/HalimaTashad/phizika.pdf) : recoupé avec le programme actuel — mêmes grandes parties (cinématique, dynamique, quantité de mouvement, énergie, gravitation ; électrostatique, potentiel, circuits CC, champ magnétique, induction ; ondes, quantique, atome, noyau) mais le texte extrait n'y mentionne ni le modèle du gaz parfait, ni le mouvement harmonique simple, ni capacité/condensateurs (ajoutés dans le programme actuel) ; optique et ondes y sont dans un chapitre « אופטיקה וגלים », aujourd'hui rangés dans קרינה וחומר. Il décrit aussi encore des programmes 1 et 3 יח\"ל (périmés). Il n'a PAS servi de source pour les thèmes.",
+    "Intro aux sciences (niveau units=1) : « מבוא למדעים » = 3 ש\"ש (≈ 1 יח\"ל), obligatoire pour les élèves hors filière scientifique/technologique, évaluation interne ; la page programme dit qu'il se déroule en 10e (y compris, plus loin, « י, יא או יב ») ; le מפמ\"ר le situe en 10e : https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/curriculum/ et https://physics.education.gov.il/. Le questionnaire 1 יח\"ל 036-101 n'est plus commandable depuis תש\"ף (pages programme et examens). Les sous-thèmes de ce niveau viennent des titres des matériels recommandés et de la table des contenus https://meyda.education.gov.il/files/Pop/0files/physics/table-of-contents.docx — pas d'un syllabus formel.",
+    "Programmes complémentaires (non détaillés) : « פיזיקה בגישה חוקרת » (remplace évaluation alternative 30 % + labo ; projet annuel ou portfolio) et « פיזיקה מחקרית » (5 יח\"ל supplémentaires, projet en binôme avec encadrement académique) — https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/curriculum/",
+    "Sous-thèmes : fidèles aux titres 1.1, 1.2… du document Part B. Pour respecter le maximum de 8 par thème, des titres voisins ont été fusionnés (séparés par « ; ») : cinématique 1.1+1.2 et 1.8+1.9 ; dynamique 2.1+2.2, 2.3+2.4 et 2.9+2.10.",
+    "Heures recommandées (Part B) : mécanique 135 h (24/46/13/22/6/11/13), électromagnétisme 90 h (15/14/25/19/17), rayonnement et matière 99 h (19/6/28/8/17/7/14) — non reprises dans les champs car la Part A (alignée sur les heures d'enseignement) donne d'autres chiffres (160/120/120 h) avec une somme incohérente pour la mécanique (25+55+20+30+10+10+20 = 170 ≠ 160).",
+    "Lecture des fichiers : .doc convertis avec textutil (hébreu dans le bon ordre, vérifié sur le titre et les tables) ; PDF lus avec PyMuPDF (hébreu lisible, nombres à plusieurs chiffres parfois inversés — aucun nombre de PDF n'est repris sans recoupement avec une page HTML ou un autre document)."
+  ],
+  "unverified": [
+    "Circulaire d'examens « תשפ\"ז – בחינות » annoncée pour Adar תשפ\"ז (dans la circulaire d'août 2026) : pas encore publiée — le מיקוד et les modalités d'examen peuvent encore changer.",
+    "Document Part A : les couleurs (rose = allégé/non exigé, jaune = enseigné de façon réduite, vert = choix/approfondissement) ne sont pas lisibles dans l'extraction texte ; les parties allégées de chaque chapitre ne sont donc pas distinguées.",
+    "Critères détaillés de choix des 7 expériences de la filière B (type d'activité, niveau de complexité : rubriques repliées de https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/laboratory-ordinary/) : non lus ; seule la répartition 3 mécanique + 3 électromagnétisme + 1 libre est lue. La liste des 8 expériences de תשפ\"ז vient de la circulaire labo.",
+    "Aucune répartition officielle par classe (10/11/12) du programme 5 יח\"ל n'a été trouvée : le document dit explicitement ne pas en faire.",
+    "MAVO_5UNITS.doc (introduction au programme 5 יח\"ל, https://meyda.education.gov.il/files/Mazkirut_Pedagogit/phizika/2019/MAVO_5UNITS.doc) : téléchargé et converti mais non exploité.",
+    "Sous-thèmes du niveau intro aux sciences : déduits des titres de matériels recommandés ; le thème « mécanique newtonienne » n'a pas de sous-thèmes publiés dans les documents lus."
+  ]
+}
