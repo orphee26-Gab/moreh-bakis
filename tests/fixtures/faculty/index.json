@@ -1,0 +1,100 @@
+{
+ "status": "draft",
+ "institutions": [
+  {
+   "id": "technion",
+   "name": {
+    "he": "הטכניון",
+    "fr": "Technion"
+   },
+   "website": "https://www.technion.ac.il",
+   "faculties": [
+    {
+     "id": "cs",
+     "he": "הפקולטה למדעי המחשב",
+     "fr": "Informatique",
+     "url": "https://cs.technion.ac.il",
+     "mainDegrees": [
+      {
+       "he": "מדעי המחשב"
+      }
+     ]
+    }
+   ],
+   "courses": [
+    {
+     "id": "technion-104031",
+     "family": "calculus1",
+     "he": "חשבון דיפרנציאלי ואינטגרלי 1",
+     "fr": "Calcul 1",
+     "code": "104031",
+     "credits": 5.5,
+     "topics": [
+      {
+       "he": "גבולות"
+      },
+      {
+       "he": "נגזרות"
+      },
+      {
+       "he": "אינטגרלים"
+      }
+     ],
+     "prerequisites": [],
+     "source": "https://example.org/fixture"
+    }
+   ]
+  },
+  {
+   "id": "tau",
+   "name": {
+    "he": "אוניברסיטת תל אביב",
+    "fr": "Université de Tel-Aviv"
+   },
+   "faculties": [
+    {
+     "id": "exact",
+     "he": "הפקולטה למדעים מדויקים",
+     "fr": "Sciences exactes"
+    }
+   ],
+   "courses": [
+    {
+     "id": "tau-0366",
+     "family": "calculus1",
+     "he": "חדוו״א 1",
+     "fr": "Calcul 1",
+     "code": "0366-1101",
+     "credits": 5,
+     "topics": [
+      {
+       "he": "סדרות וגבולות"
+      },
+      {
+       "he": "נגזרות"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "families": [
+  {
+   "family": "calculus1",
+   "he": "חשבון דיפרנציאלי ואינטגרלי 1",
+   "fr": "Calcul différentiel et intégral 1",
+   "match": "high",
+   "note": "Fixture de test.",
+   "offers": [
+    {
+     "inst": "technion",
+     "course": "technion-104031"
+    },
+    {
+     "inst": "tau",
+     "course": "tau-0366"
+    }
+   ]
+  }
+ ]
+}
