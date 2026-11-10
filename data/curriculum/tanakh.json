@@ -1,0 +1,424 @@
+{
+  "id": "tanakh",
+  "name": {
+    "he": "תנ\"ך",
+    "fr": "Tanakh (Bible hébraïque) — public laïc « ממלכתי »"
+  },
+  "schoolYear": "תשפ\"ז",
+  "status": "draft",
+  "retrievedAt": "2026-11-10",
+  "officialPages": [
+    "https://pop.education.gov.il/tchumey_daat/tanach_mamlachti/chativa-elyona/",
+    "https://pop.education.gov.il/tchumey_daat/tanach_mamlachti/chativa-elyona/pedagogy-state-bible-junior-high/curriculum/",
+    "https://edu.929.org.il/%d7%aa%d7%9b%d7%a0%d7%99%d7%aa-%d7%94%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99%d7%9d/",
+    "https://edu.929.org.il/%d7%aa%d7%9b%d7%a0%d7%99%d7%aa-%d7%94%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99%d7%9d/%d7%97%d7%98%d7%a2/",
+    "https://edu.929.org.il/%d7%aa%d7%9b%d7%a0%d7%99%d7%aa-%d7%94%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99%d7%9d/%d7%97%d7%98%d7%a2/%d7%97%d7%95%d7%91%d7%94-2-%d7%99%d7%97%d7%99%d7%93%d7%95%d7%aa-%d7%9c%d7%99%d7%9e%d7%95%d7%93/%d7%a0%d7%aa%d7%99%d7%91-%d7%9c%d7%9e%d7%99%d7%93%d7%94-%d7%9e%d7%aa%d7%97%d7%93%d7%a9%d7%aa/",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOACH2027.PDF",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2026/KOACH2026.PDF",
+    "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/TochnitTashat.pdf"
+  ],
+  "levels": [
+    {
+      "units": 2,
+      "label": {
+        "he": "2 יחידות לימוד – תנ\"ך ממלכתי (חובה)",
+        "fr": "2 yéhidot – Tanakh public laïc (obligatoire)"
+      },
+      "grades": [
+        {
+          "grade": "10",
+          "gradeLabel": "י'",
+          "topics": [
+            {
+              "id": "tanakh-2-10-01",
+              "he": "סיפורי ראשית העולם והאנושות",
+              "fr": "Récits des origines du monde et de l'humanité (« עלילות ראשית » ; évaluation interne)",
+              "subtopics": [
+                {
+                  "he": "בראשית א'",
+                  "fr": "Genèse 1"
+                },
+                {
+                  "he": "בראשית ב'",
+                  "fr": "Genèse 2"
+                },
+                {
+                  "he": "בראשית ג'",
+                  "fr": "Genèse 3"
+                },
+                {
+                  "he": "בראשית ד'",
+                  "fr": "Genèse 4"
+                },
+                {
+                  "he": "בראשית ט'",
+                  "fr": "Genèse 9"
+                },
+                {
+                  "he": "בראשית י\"א (א'-ט')",
+                  "fr": "Genèse 11 (1-9)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-10-02",
+              "he": "סיפורי האבות – אברהם אבינו",
+              "fr": "Récits des patriarches – Abraham",
+              "subtopics": [
+                {
+                  "he": "בראשית י\"ב",
+                  "fr": "Genèse 12"
+                },
+                {
+                  "he": "בראשית ט\"ו",
+                  "fr": "Genèse 15"
+                },
+                {
+                  "he": "בראשית ט\"ז",
+                  "fr": "Genèse 16"
+                },
+                {
+                  "he": "בראשית י\"ח",
+                  "fr": "Genèse 18"
+                },
+                {
+                  "he": "בראשית כ\"א",
+                  "fr": "Genèse 21"
+                },
+                {
+                  "he": "בראשית כ\"ב (א'-י\"ט)",
+                  "fr": "Genèse 22 (1-19)"
+                },
+                {
+                  "he": "בראשית כ\"ג",
+                  "fr": "Genèse 23"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-10-03",
+              "he": "סיפורי האבות – יצחק ויעקב",
+              "fr": "Récits des patriarches – Isaac et Jacob",
+              "subtopics": [
+                {
+                  "he": "בראשית כ\"ד",
+                  "fr": "Genèse 24"
+                },
+                {
+                  "he": "בראשית כ\"ז",
+                  "fr": "Genèse 27"
+                },
+                {
+                  "he": "בראשית כ\"ח",
+                  "fr": "Genèse 28"
+                },
+                {
+                  "he": "בראשית כ\"ט",
+                  "fr": "Genèse 29"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-10-04",
+              "he": "סיפורי יוסף",
+              "fr": "Récits de Joseph",
+              "subtopics": [
+                {
+                  "he": "בראשית ל\"ז",
+                  "fr": "Genèse 37"
+                },
+                {
+                  "he": "בראשית ל\"ח",
+                  "fr": "Genèse 38"
+                },
+                {
+                  "he": "בראשית ל\"ט",
+                  "fr": "Genèse 39"
+                },
+                {
+                  "he": "בראשית מ'",
+                  "fr": "Genèse 40"
+                },
+                {
+                  "he": "בראשית מ\"א",
+                  "fr": "Genèse 41"
+                },
+                {
+                  "he": "בראשית מ\"ב",
+                  "fr": "Genèse 42"
+                },
+                {
+                  "he": "בראשית מ\"ד",
+                  "fr": "Genèse 44"
+                },
+                {
+                  "he": "בראשית מ\"ה",
+                  "fr": "Genèse 45"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            }
+          ]
+        },
+        {
+          "grade": "11",
+          "gradeLabel": "י\"א",
+          "topics": [
+            {
+              "id": "tanakh-2-11-01",
+              "he": "סיפור התהוות האומה",
+              "fr": "Récit de la formation de la nation (Exode et Sinaï)",
+              "subtopics": [
+                {
+                  "he": "שמות ב'",
+                  "fr": "Exode 2"
+                },
+                {
+                  "he": "שמות ג'",
+                  "fr": "Exode 3"
+                },
+                {
+                  "he": "שמות י\"ד",
+                  "fr": "Exode 14"
+                },
+                {
+                  "he": "שמות י\"ט",
+                  "fr": "Exode 19"
+                },
+                {
+                  "he": "שמות כ' (א'-י\"ח)",
+                  "fr": "Exode 20 (1-18)"
+                },
+                {
+                  "he": "שמות ל\"ב",
+                  "fr": "Exode 32"
+                },
+                {
+                  "he": "שמות ל\"ג",
+                  "fr": "Exode 33"
+                },
+                {
+                  "he": "שמות ל\"ד (א'-ט\"ז; כ\"ז-ל\"ה)",
+                  "fr": "Exode 34 (1-16 ; 27-35)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-11-02",
+              "he": "שיבת ציון",
+              "fr": "Le retour à Sion (thème au choix : 1 sur 5 en תשפ\"ז)",
+              "subtopics": [
+                {
+                  "he": "התקומה העתידית בארץ ישראל: יחזקאל ל\"ז",
+                  "fr": "Le renouveau futur en terre d'Israël : Ézéchiel 37"
+                },
+                {
+                  "he": "הצהרת כורש והעליות הראשונות: עזרא א', ג'",
+                  "fr": "Déclaration de Cyrus et premières montées : Esdras 1, 3"
+                },
+                {
+                  "he": "בשוב ה' את שיבת ציון: תהלים קכ\"ו",
+                  "fr": "« Quand l'Éternel ramena les captifs de Sion » : Psaumes 126"
+                },
+                {
+                  "he": "קשיי שבי ציון בבניית המקדש: חגי א'",
+                  "fr": "Difficultés des rapatriés pour rebâtir le Temple : Aggée 1"
+                },
+                {
+                  "he": "עליית נחמיה וקשיי התקופה: נחמיה א', ה'",
+                  "fr": "Montée de Néhémie et difficultés de l'époque : Néhémie 1, 5"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-11-03",
+              "he": "נביא ונבואה",
+              "fr": "Le prophète et la prophétie (thème au choix : 1 sur 5 en תשפ\"ז)",
+              "subtopics": [
+                {
+                  "he": "הקדשת הנביא: ירמיהו א'",
+                  "fr": "Consécration du prophète : Jérémie 1"
+                },
+                {
+                  "he": "נביא אל מול העם: ירמיהו ב' (א'-כ\"ח)",
+                  "fr": "Le prophète face au peuple : Jérémie 2 (1-28)"
+                },
+                {
+                  "he": "מוסר מול פולחן: ירמיהו ז' (א'-כ')",
+                  "fr": "Morale contre culte : Jérémie 7 (1-20)"
+                },
+                {
+                  "he": "המאבק בנביאי שקר: ירמיהו כ\"ח",
+                  "fr": "Le combat contre les faux prophètes : Jérémie 28"
+                },
+                {
+                  "he": "נביא מול קונצנזוס: ירמיהו כ\"ו",
+                  "fr": "Le prophète face au consensus : Jérémie 26"
+                },
+                {
+                  "he": "נביא כמבשר גאולה: ירמיהו ל\"א",
+                  "fr": "Le prophète annonciateur de délivrance : Jérémie 31"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-11-04",
+              "he": "חוק וחברה",
+              "fr": "Loi et société (thème au choix : 1 sur 5 en תשפ\"ז)",
+              "subtopics": [
+                {
+                  "he": "חוקים חברתיים: ויקרא י\"ט (א'-ד'; ט'-י\"ח); דברים כ\"ד (י'-כ\"ב)",
+                  "fr": "Lois sociales : Lévitique 19 (1-4 ; 9-18) ; Deutéronome 24 (10-22)"
+                },
+                {
+                  "he": "חגים: דברים ט\"ז",
+                  "fr": "Fêtes : Deutéronome 16"
+                },
+                {
+                  "he": "סדרי שלטון: דברים י\"ז (ח'-כ')",
+                  "fr": "Organisation du pouvoir : Deutéronome 17 (8-20)"
+                },
+                {
+                  "he": "חוקי מלחמה: דברים כ'",
+                  "fr": "Lois de la guerre : Deutéronome 20"
+                },
+                {
+                  "he": "קדושת החיים: במדבר ל\"ה (ט'-ל\"ד)",
+                  "fr": "Sainteté de la vie : Nombres 35 (9-34)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-11-05",
+              "he": "מזמורי תהלים",
+              "fr": "Psaumes (thème au choix : 1 sur 5 en תשפ\"ז)",
+              "subtopics": [
+                {
+                  "he": "דמות הצדיק האידיאלית: תהלים א'",
+                  "fr": "Figure idéale du juste : Psaumes 1"
+                },
+                {
+                  "he": "תפילת האדם: תהלים ק\"ל",
+                  "fr": "Prière de l'homme : Psaumes 130"
+                },
+                {
+                  "he": "התייחסות לבריאה ולטבע: תהלים ח', ק\"ד",
+                  "fr": "Regard sur la création et la nature : Psaumes 8, 104"
+                },
+                {
+                  "he": "מזמורי חרטה: תהלים נ\"א",
+                  "fr": "Psaumes de repentir : Psaumes 51"
+                },
+                {
+                  "he": "שירי המעלות: תהלים קכ\"ב, קכ\"ח",
+                  "fr": "Cantiques des degrés : Psaumes 122, 128"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-11-06",
+              "he": "ספרות החכמה – הרהורים על החיים",
+              "fr": "Littérature de sagesse – réflexions sur la vie : Job, Qohélet (thème au choix : 1 sur 5 en תשפ\"ז)",
+              "subtopics": [
+                {
+                  "he": "איוב א', ב', ג', ד' (א'-ט'), ל\"ח (א'-כ\"ו)",
+                  "fr": "Job 1, 2, 3, 4 (1-9), 38 (1-26)"
+                },
+                {
+                  "he": "קהלת א', ב'",
+                  "fr": "Qohélet 1, 2"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-11-07",
+              "he": "על אהבה וחסד",
+              "fr": "De l'amour et de la bonté : Ruth, Cantique des cantiques, Proverbes (évaluation interne, 1 de 2 : avec « Entre Saül et David »)",
+              "subtopics": [
+                {
+                  "he": "רות א'-ד'",
+                  "fr": "Ruth 1-4"
+                },
+                {
+                  "he": "שיר השירים ג'",
+                  "fr": "Cantique des cantiques 3"
+                },
+                {
+                  "he": "משלי אשת חיל ל\"א (י'-ל\"א)",
+                  "fr": "Proverbes 31 (10-31) (« femme vaillante »)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            },
+            {
+              "id": "tanakh-2-11-08",
+              "he": "בין שאול לדוד",
+              "fr": "Entre Saül et David (évaluation interne, 1 de 2 : avec « De l'amour et de la bonté »)",
+              "subtopics": [
+                {
+                  "he": "שמואל א' י\"א",
+                  "fr": "1 Samuel 11"
+                },
+                {
+                  "he": "שמואל א' ט\"ו",
+                  "fr": "1 Samuel 15"
+                },
+                {
+                  "he": "שמואל א' ט\"ז",
+                  "fr": "1 Samuel 16"
+                },
+                {
+                  "he": "שמואל א' י\"ז",
+                  "fr": "1 Samuel 17"
+                },
+                {
+                  "he": "שמואל א' י\"ח",
+                  "fr": "1 Samuel 18"
+                },
+                {
+                  "he": "שמואל א' כ\"ד",
+                  "fr": "1 Samuel 24"
+                },
+                {
+                  "he": "שמואל א' ל\"א",
+                  "fr": "1 Samuel 31"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "SOURCE PRINCIPALE (תשפ\"ז) : circulaire officielle du 01/07/2026 « תכנית הבגרויות הגמישה ה\"תשפ\"ז » (https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOLEL2027.PDF, 41 p.) : pour chaque thème, programme complet, programme réduit « מיקוד תוכן » de תשפ\"ז et liste des chapitres « שלא ילמדו ». Les subtopics de chaque thème sont ceux du programme RÉDUIT de תשפ\"ז. Le document dit que le programme (formules flexible et régulière) reste réduit comme pendant la période du Covid, avec un seul thème au choix.",
+    "CORRECTION du brief : « כו\"ח » = כבדי שמיעה וחרשים (malentendants et sourds). Les fichiers KOACH2026/KOACH2027 (https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2026/KOACH2026.PDF ; https://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/tanach2027/KOACH2027.PDF) sont des programmes ADAPTÉS à ces élèves — tableau « תכנית לימודים (הרגילה) » en regard d'une colonne verte « תכנית לימודים כו\"ח » plus réduite, avec en jaune ce qui est retiré en תשפ\"ז — et non le programme général. KOACH2027 (lu en entier) n'a servi que de recoupement : sa colonne « הרגילה » reproduit les mêmes listes complètes que KOLEL2027.",
+    "CLASSES : aucun document ne rend la répartition par classe obligatoire. La « הצעה לארגון הלמידה » (KOLEL2027 p.15 et p.17, mêmes dispositions en formule flexible et régulière) place : 10e — sept.–nov. « עלילות ראשית » (récits des origines, évaluation interne 15 %), puis déc.–mai patriarches + Joseph ; 11e — sept.–mars formation de la nation + thème au choix, puis avr.–juin « על אהבה וחסד » OU « בין שאול לדוד » (évaluation interne 15 %). Rien n'est prévu pour la 12e dans ces documents. Les groupes 10 et 11 ci-dessus suivent cette proposition.",
+    "STRUCTURE 70 % / 30 % : 70 % = patriarches (Abraham ; Isaac et Jacob), Joseph, formation de la nation, un thème au choix ; 30 % = évaluation interne (récits des origines + un des deux : amour et bonté / Saül et David). Formule flexible : examen externe 35 % + deux tâches contrôlées 35 % + 30 % évaluation d'école ; formule régulière : examen externe 70 % + 30 %. Pour la cohorte de 10e תשפ\"ו–תשפ\"ח, l'examen externe flexible peut être passé en 10e dès la session d'été (sans note de remise) ; le régulier en 11e dès la session d'hiver (KOLEL2027 p.18).",
+    "CHOIX en תשפ\"ז : UN seul thème parmi cinq (שיבת ציון, נביא ונבואה, חוק וחברה, מזמורי תהלים, ספרות החכמה) ; le même document annonce « שני נושאים מתוך חמישה » pour תשפ\"ח. L'ancienne règle (trois thèmes sur sept) figure encore sur la page de présentation du lycée : https://edu.929.org.il/%d7%aa%d7%9b%d7%a0%d7%99%d7%aa-%d7%94%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99%d7%9d/%d7%97%d7%98%d7%a2/",
+    "RETIRÉS du programme réduit de תשפ\"ז (liste « לא ילמדו ») — ראשית העולם : בראשית ו' (ה'-כ\"ב) ; אברהם : בראשית י\"ג, י\"ט ; יצחק ויעקב : בראשית כ\"ה (י\"ט-ל\"ד), ל\"ב (כ\"ד-ל\"ב) ; יוסף : בראשית מ\"ג, מ\"ח, נ' ; התהוות האומה : שמות א', י\"ב (כ\"ט-מ\"ב), י\"ג (י\"ז-כ\"ב) ; שיבת ציון : תהלים קל\"ז, נחמיה ח' ; נביא ונבואה : ירמיהו ל\"ח, כ' ; חוק וחברה : דברים ו' (ד'-ט'), ט\"ו (א'-י\"א), כ\"א (י'-י\"ד), כ\"ג (י'-ט\"ו), בראשית ט' (ו'), שמות כ' (י\"ג), דברים כ\"א (א'-ט' ; כ\"ב-כ\"ג) ; תהלים : כ\"ג, קכ\"א ; ספרות החכמה : איוב י\"ג, מ' (א'-ה'), מ\"ב, קהלת ג' (א'-י\"ב) ; אהבה וחסד : שיר השירים א', ב' ; שאול ודוד : שמואל א' ח', ט', כ\"ח, שמואל ב' א' (י\"ז-כ\"ז).",
+    "Le programme complet (avant réduction) est la 1re colonne du tableau de KOLEL2027. Le document général de 2018 (http://meyda.education.gov.il/files/Mazkirut_Pedagogit/tanach/TochnitTashat.pdf, PDF créé le 2018-06-26, 107 p.) n'a été lu que pour l'introduction et les buts du lycée (pp. 26-30) ; cadre : « תכנית הלימודים בחינוך העל יסודי (כיתות ז'-י\"ב) » sur https://edu.929.org.il/%d7%aa%d7%9b%d7%a0%d7%99%d7%aa-%d7%94%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99%d7%9d/%d7%97%d7%98%d7%a2/ ; page officielle : https://pop.education.gov.il/tchumey_daat/tanach_mamlachti/chativa-elyona/pedagogy-state-bible-junior-high/curriculum/",
+    "PUBLIC RELIGIEUX (חמ\"ד) : programme séparé, à 3 יחידות, non détaillé ici : https://pop.education.gov.il/tchumey_daat/bible-hemed/high-school/pedagogy/curriculum/ (URL répond 200, contenu non lu).",
+    "Intitulés et chapitres : numérotation en lettres hébraïques normalisée (א', י\"ב…) ; versets entre parenthèses comme dans le document. Les cellules du tableau du PDF sont mélangées à l'extraction texte (hébreu de droite à gauche) : pour chacun des 12 thèmes on a vérifié par script que liste complète = programme réduit + chapitres retirés, et relu à l'image les pages 3 (patriarches), 5 (formation de la nation) et 8 (loi et société, début des Psaumes) du PDF.",
+    "Le lien du brief .../tanach_mamlachti/pedagogy-state-bible-junior-high/curriculum/ ne renvoie pas la page du lycée à l'extraction ; la bonne URL est https://pop.education.gov.il/tchumey_daat/tanach_mamlachti/chativa-elyona/pedagogy-state-bible-junior-high/curriculum/ (chativa-elyona/…), dont le contenu renvoie vers le portail edu.929.org.il."
+  ],
+  "unverified": [
+    "Unités élargies (3/5 יח\"ל) du public laïc — « הולך נגד הרוח », « מנהיגות במבחן », « שייכות וזרות », « מתווה הלימודים המורחבים » : liens listés sur la page programme (https://pop.education.gov.il/tchumey_daat/tanach_mamlachti/chativa-elyona/pedagogy-state-bible-junior-high/curriculum/) mais non ouverts.",
+    "Classe de 12e : aucun contenu 2 יח\"ל défini dans les documents lus (une école peut étaler autrement) ; la répartition 10e/11e est une proposition, pas une obligation.",
+    "Dans KOLEL2027 p.11, la cellule « programme complet » de « בין שאול לדוד » contient une liste de chapitres de Genèse (כ\"ד, כ\"ה…, ל\"ב) qui semble une coquille de mise en page : ignorée ; la liste de Samuel est cohérente avec KOACH.",
+    "Page « בחינות בגרות ונבחני משנה » du tanakh laïc, annexes de KOLEL2027 (modèles de questions, règles de réponse) et grands principes pédagogiques : non exploités (hors périmètre « thèmes »).",
+    "Les « grandes idées » (רעיונות גדולים) attachées à chaque thème dans KOLEL2027 ne sont pas reprises.",
+    "KOACH2026 (lien du brief) : lu seulement en tête (titre, objectif) ; contenu détaillé non utilisé."
+  ]
+}
