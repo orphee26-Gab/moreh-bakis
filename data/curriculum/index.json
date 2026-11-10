@@ -1,0 +1,138 @@
+{
+ "generatedAt": "2026-11-10T10:16:24.479Z",
+ "schoolYear": "תשפ\"ז",
+ "status": "draft",
+ "subjects": [
+  {
+   "id": "english",
+   "name": {
+    "he": "אנגלית",
+    "fr": "Anglais"
+   },
+   "status": "draft",
+   "schoolYear": "תשפ\"ז",
+   "units": [
+    3,
+    4,
+    5
+   ],
+   "levels": 3,
+   "topics": 51,
+   "retrievedAt": "2026-11-10",
+   "unverified": 7
+  },
+  {
+   "id": "math",
+   "name": {
+    "he": "מתמטיקה",
+    "fr": "Mathématiques"
+   },
+   "status": "draft",
+   "schoolYear": "תשפ\"ז",
+   "units": [
+    3,
+    4,
+    5
+   ],
+   "levels": 3,
+   "topics": 36,
+   "retrievedAt": "2026-11-10",
+   "unverified": 5
+  },
+  {
+   "id": "physics",
+   "name": {
+    "he": "פיזיקה",
+    "fr": "Physique"
+   },
+   "status": "draft",
+   "schoolYear": "תשפ\"ז",
+   "units": [
+    1,
+    5
+   ],
+   "levels": 2,
+   "topics": 24,
+   "retrievedAt": "2026-11-10",
+   "unverified": 6
+  },
+  {
+   "id": "geometry",
+   "name": {
+    "he": "גאומטריה",
+    "fr": "Géométrie"
+   },
+   "status": "draft",
+   "schoolYear": "תשפ\"ז",
+   "units": [
+    3,
+    4,
+    5
+   ],
+   "levels": 3,
+   "topics": 23,
+   "retrievedAt": "2026-11-10",
+   "unverified": 3
+  },
+  {
+   "id": "hebrew",
+   "name": {
+    "he": "עברית: הבנה, הבעה ולשון",
+    "fr": "Hébreu : compréhension, expression et langue"
+   },
+   "status": "draft",
+   "schoolYear": "תשפ\"ז",
+   "units": [
+    2,
+    5
+   ],
+   "levels": 2,
+   "topics": 13,
+   "retrievedAt": "2026-11-10",
+   "unverified": 5
+  },
+  {
+   "id": "history",
+   "name": {
+    "he": "היסטוריה (ממלכתי)",
+    "fr": "Histoire (secteur laïc « ממלכתי »)"
+   },
+   "status": "draft",
+   "schoolYear": "תשפ\"ז",
+   "units": [
+    2
+   ],
+   "levels": 1,
+   "topics": 13,
+   "retrievedAt": "2026-11-10",
+   "unverified": 7
+  },
+  {
+   "id": "tanakh",
+   "name": {
+    "he": "תנ\"ך",
+    "fr": "Tanakh (Bible hébraïque) — public laïc « ממלכתי »"
+   },
+   "status": "draft",
+   "schoolYear": "תשפ\"ז",
+   "units": [
+    2
+   ],
+   "levels": 1,
+   "topics": 12,
+   "retrievedAt": "2026-11-10",
+   "unverified": 6
+  }
+ ],
+ "totals": {
+  "subjects": 7,
+  "topics": 172,
+  "units": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ }
+}
