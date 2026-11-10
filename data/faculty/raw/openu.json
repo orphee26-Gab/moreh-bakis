@@ -1,0 +1,1925 @@
+{
+  "id": "openu",
+  "name": {
+    "he": "האוניברסיטה הפתוחה",
+    "fr": "Université ouverte d'Israël"
+  },
+  "website": "https://www.openu.ac.il/",
+  "status": "draft",
+  "retrievedAt": "2026-11-10",
+  "faculties": [
+    {
+      "id": "math-cs",
+      "he": "המחלקה למתמטיקה ולמדעי המחשב",
+      "fr": "Département de mathématiques et d'informatique",
+      "url": "https://academic.openu.ac.il/cs/pages/default.aspx",
+      "mainDegrees": [
+        {
+          "he": "תואר ראשון במתמטיקה",
+          "fr": "Licence en mathématiques"
+        },
+        {
+          "he": "תואר ראשון במדעי המחשב",
+          "fr": "Licence en informatique"
+        },
+        {
+          "he": "תואר ראשון בהנדסת תוכנה",
+          "fr": "Licence en génie logiciel"
+        },
+        {
+          "he": "תואר ראשון בהנדסת תעשייה וניהול",
+          "fr": "Licence en génie industriel et gestion"
+        },
+        {
+          "he": "תואר ראשון ביישומי מערכות נבונות",
+          "fr": "Licence en applications de systèmes intelligents"
+        }
+      ]
+    },
+    {
+      "id": "natural-sciences",
+      "he": "המחלקה למדעי הטבע",
+      "fr": "Département de sciences de la nature",
+      "url": "https://academic.openu.ac.il/natural_sciences/pages/default.aspx",
+      "mainDegrees": [
+        {
+          "he": "תואר ראשון בפיסיקה",
+          "fr": "Licence en physique"
+        },
+        {
+          "he": "תואר ראשון בכימיה",
+          "fr": "Licence en chimie"
+        },
+        {
+          "he": "תואר ראשון במדעי החיים",
+          "fr": "Licence en sciences de la vie"
+        },
+        {
+          "he": "תואר ראשון במדעי כדור הארץ",
+          "fr": "Licence en sciences de la Terre"
+        }
+      ]
+    },
+    {
+      "id": "management-economics",
+      "he": "המחלקה לניהול ולכלכלה",
+      "fr": "Département de gestion et d'économie",
+      "url": "https://academic.openu.ac.il/economics/pages/default.aspx",
+      "mainDegrees": [
+        {
+          "he": "תואר ראשון בניהול",
+          "fr": "Licence en gestion (management)"
+        },
+        {
+          "he": "תואר ראשון בכלכלה",
+          "fr": "Licence en économie"
+        },
+        {
+          "he": "תואר ראשון בחשבונאות",
+          "fr": "Licence en comptabilité"
+        }
+      ]
+    },
+    {
+      "id": "education-psychology",
+      "he": "המחלקה לחינוך ולפסיכולוגיה",
+      "fr": "Département d'éducation et de psychologie",
+      "url": "https://academic.openu.ac.il/education_psychology/pages/default.aspx",
+      "mainDegrees": [
+        {
+          "he": "תואר ראשון בחינוך",
+          "fr": "Licence en éducation (parcours bi-disciplinaire)"
+        },
+        {
+          "he": "תואר ראשון בפסיכולוגיה",
+          "fr": "Licence en psychologie"
+        },
+        {
+          "he": "תואר ראשון במדעי הקוגניציה",
+          "fr": "Licence en sciences cognitives (bi-disciplinaire)"
+        }
+      ]
+    },
+    {
+      "id": "history-philosophy-judaism",
+      "he": "המחלקה להיסטוריה, פילוסופיה ומדעי היהדות",
+      "fr": "Département d'histoire, de philosophie et d'études juives",
+      "url": "https://academic.openu.ac.il/history/pages/default.aspx",
+      "mainDegrees": [
+        {
+          "he": "תואר ראשון בהיסטוריה",
+          "fr": "Licence en histoire"
+        },
+        {
+          "he": "תואר ראשון בפילוסופיה",
+          "fr": "Licence en philosophie"
+        },
+        {
+          "he": "תואר ראשון בפכ\"מ - פילוסופיה, כלכלה ומדע המדינה",
+          "fr": "Licence PPE (philosophie, économie et science politique)"
+        },
+        {
+          "he": "תואר ראשון במדעי היהדות",
+          "fr": "Licence en études juives"
+        }
+      ]
+    },
+    {
+      "id": "literature-language-arts",
+      "he": "המחלקה לספרות, לשון ואמנויות",
+      "fr": "Département de littérature, de langue et d'arts",
+      "url": "https://academic.openu.ac.il/arts/pages/default.aspx",
+      "mainDegrees": [
+        {
+          "he": "תואר ראשון בספרות",
+          "fr": "Licence en littérature"
+        },
+        {
+          "he": "תואר ראשון בקולנוע",
+          "fr": "Licence en cinéma"
+        },
+        {
+          "he": "תואר ראשון במוסיקה",
+          "fr": "Licence en musique"
+        },
+        {
+          "he": "תואר ראשון בתולדות האמנות",
+          "fr": "Licence en histoire de l'art"
+        },
+        {
+          "he": "תואר ראשון רב-תחומי באמנויות",
+          "fr": "Licence pluridisciplinaire en arts"
+        }
+      ]
+    },
+    {
+      "id": "sociology-politics-communication",
+      "he": "המחלקה לסוציולוגיה, למדע המדינה ולתקשורת",
+      "fr": "Département de sociologie, de science politique et de communication",
+      "url": "https://academic.openu.ac.il/sociology/pages/default.aspx",
+      "mainDegrees": [
+        {
+          "he": "תואר ראשון בסוציולוגיה ואנתרופולוגיה",
+          "fr": "Licence en sociologie et anthropologie"
+        },
+        {
+          "he": "תואר ראשון בתקשורת",
+          "fr": "Licence en communication"
+        },
+        {
+          "he": "תואר ראשון במדע המדינה ויחסים בינלאומיים",
+          "fr": "Licence en science politique et relations internationales"
+        },
+        {
+          "he": "תואר ראשון במדע המדינה ומדיניות ציבורית",
+          "fr": "Licence en science politique et politiques publiques"
+        },
+        {
+          "he": "תואר ראשון במשפט ציבורי",
+          "fr": "Licence en droit public"
+        }
+      ]
+    },
+    {
+      "id": "local-government-school",
+      "he": "בית הספר לשלטון מקומי",
+      "fr": "École du gouvernement local",
+      "url": "https://academic.openu.ac.il/localgovernmentschool/Pages/default.aspx",
+      "mainDegrees": [
+        {
+          "he": "תכנית מובנית לתואר ראשון (BA) במדעי החברה והרוח, עם דיפלומה בלימודי שלטון מקומי",
+          "fr": "Licence structurée (BA) en sciences sociales et humaines, avec diplôme en études de gouvernement local"
+        }
+      ]
+    },
+    {
+      "id": "english-unit",
+      "he": "היחידה לאנגלית כשפה בין-לאומית",
+      "fr": "Unité d'anglais langue internationale",
+      "url": "https://academic.openu.ac.il/english/pages/default.aspx",
+      "mainDegrees": []
+    }
+  ],
+  "foundationCourses": [
+    {
+      "id": "openu-20474",
+      "family": "calculus1",
+      "he": "חשבון אינפיניטסימלי 1",
+      "fr": "Calcul infinitésimal 1",
+      "code": "20474",
+      "credits": 7,
+      "facultiesServed": [
+        "math-cs",
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "אקסיומות המספרים הממשיים",
+          "fr": "Axiomes des nombres réels"
+        },
+        {
+          "he": "גבולות של סדרות",
+          "fr": "Limites de suites"
+        },
+        {
+          "he": "חסמים עליונים ותחתונים של קבוצות",
+          "fr": "Bornes supérieures et inférieures d'ensembles"
+        },
+        {
+          "he": "גבולות חלקיים",
+          "fr": "Limites partielles (valeurs d'adhérence)"
+        },
+        {
+          "he": "גבולות של פונקציות",
+          "fr": "Limites de fonctions"
+        },
+        {
+          "he": "פונקציות רציפות ותכונותיהן",
+          "fr": "Fonctions continues et leurs propriétés"
+        },
+        {
+          "he": "רציפות במידה שווה",
+          "fr": "Continuité uniforme"
+        },
+        {
+          "he": "פונקציות מעריכיות",
+          "fr": "Fonctions exponentielles"
+        },
+        {
+          "he": "הנגזרת ושימושיה",
+          "fr": "La dérivée et ses applications"
+        }
+      ],
+      "prerequisites": [
+        "Connaissance préalable recommandée : le cours « אשנב למתמטיקה » (04101)",
+        "La fiche conseille de réviser le niveau lycée de 5 יחידות לימוד en mathématiques ; à défaut, le cours pré-académique « מתמטיקה קדם אקדמית » (95003), sans crédits"
+      ],
+      "source": "https://www.openu.ac.il/courses/20474.htm"
+    },
+    {
+      "id": "openu-20406",
+      "family": "calculus1",
+      "he": "חשבון דיפרנציאלי ואינטגרלי א",
+      "fr": "Calcul différentiel et intégral A",
+      "code": "20406",
+      "credits": 6,
+      "facultiesServed": [
+        "math-cs",
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "קואורדינטות, גרפים וישרים",
+          "fr": "Coordonnées, graphes et droites"
+        },
+        {
+          "he": "פונקציות וגבולות",
+          "fr": "Fonctions et limites"
+        },
+        {
+          "he": "גזירה",
+          "fr": "Dérivation"
+        },
+        {
+          "he": "יישומי הנגזרת",
+          "fr": "Applications de la dérivée"
+        },
+        {
+          "he": "אינטגרציה",
+          "fr": "Intégration"
+        },
+        {
+          "he": "יישומים של האינטגרל המסוים",
+          "fr": "Applications de l'intégrale définie"
+        },
+        {
+          "he": "פונקציות לוגריתמיות ופונקציות מעריכיות",
+          "fr": "Fonctions logarithmiques et exponentielles"
+        },
+        {
+          "he": "פונקציות טריגונומטריות הפוכות ופונקציות היפרבוליות הפוכות",
+          "fr": "Fonctions trigonométriques inverses et hyperboliques inverses"
+        },
+        {
+          "he": "שיטות אינטגרציה",
+          "fr": "Méthodes d'intégration"
+        },
+        {
+          "he": "אינטגרלים מוכללים; כלל לופיטל",
+          "fr": "Intégrales généralisées ; règle de L'Hôpital"
+        },
+        {
+          "he": "טורים אינסופיים",
+          "fr": "Séries infinies"
+        }
+      ],
+      "prerequisites": [
+        "Aucune connaissance post-secondaire préalable requise (fiche : « לא נדרש ידע על-תיכוני קודם »)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20406.htm"
+    },
+    {
+      "id": "openu-20475",
+      "family": "calculus2",
+      "he": "חשבון אינפיניטסימלי 2",
+      "fr": "Calcul infinitésimal 2",
+      "code": "20475",
+      "credits": 7,
+      "facultiesServed": [
+        "math-cs",
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "האינטגרל המסוים",
+          "fr": "L'intégrale définie"
+        },
+        {
+          "he": "שיטות אינטגרציה",
+          "fr": "Méthodes d'intégration"
+        },
+        {
+          "he": "האינטגרל המוכלל",
+          "fr": "L'intégrale généralisée"
+        },
+        {
+          "he": "פיתוחי טיילור ומקלורן",
+          "fr": "Développements de Taylor et de Maclaurin"
+        },
+        {
+          "he": "טורים",
+          "fr": "Séries numériques"
+        },
+        {
+          "he": "סדרות וטורים של פונקציות",
+          "fr": "Suites et séries de fonctions"
+        },
+        {
+          "he": "חשבון דיפרנציאלי של פונקציות בשני משתנים",
+          "fr": "Calcul différentiel des fonctions de deux variables"
+        }
+      ],
+      "prerequisites": [
+        "Requis : « חשבון אינפיניטסימלי 1 » (20474)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20475.htm"
+    },
+    {
+      "id": "openu-20423",
+      "family": "calculus2",
+      "he": "חשבון דיפרנציאלי ואינטגרלי ב",
+      "fr": "Calcul différentiel et intégral B",
+      "code": "20423",
+      "credits": 6,
+      "facultiesServed": [
+        "math-cs",
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "טורים אינסופיים",
+          "fr": "Séries infinies"
+        },
+        {
+          "he": "נושאים בגאומטריה אנליטית",
+          "fr": "Thèmes de géométrie analytique"
+        },
+        {
+          "he": "קואורדינטות קטביות והצגות פרמטריות",
+          "fr": "Coordonnées polaires et représentations paramétriques"
+        },
+        {
+          "he": "המרחב התלת-ממדי; וקטורים",
+          "fr": "L'espace à trois dimensions ; vecteurs"
+        },
+        {
+          "he": "פונקציות וקטוריות",
+          "fr": "Fonctions vectorielles"
+        },
+        {
+          "he": "נגזרות חלקיות",
+          "fr": "Dérivées partielles"
+        },
+        {
+          "he": "אינטגרלים כפולים ומשולשים",
+          "fr": "Intégrales doubles et triples"
+        },
+        {
+          "he": "נושאים באנליזה וקטורית",
+          "fr": "Thèmes d'analyse vectorielle"
+        },
+        {
+          "he": "משוואות דיפרנציאליות מסדר שני",
+          "fr": "Équations différentielles du second ordre"
+        }
+      ],
+      "prerequisites": [
+        "Requis : « חשבון דיפרנציאלי ואינטגרלי א » (20406), ou le couple « חשבון אינפיניטסימלי 1 » (20474) + « השלמות בחשבון אינטגרלי » (20492)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20423.htm"
+    },
+    {
+      "id": "openu-20109",
+      "family": "linear-algebra1",
+      "he": "אלגברה לינארית 1",
+      "fr": "Algèbre linéaire 1",
+      "code": "20109",
+      "credits": 7,
+      "facultiesServed": [
+        "math-cs",
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "מערכות משוואות לינאריות",
+          "fr": "Systèmes d'équations linéaires"
+        },
+        {
+          "he": "המרחב F n",
+          "fr": "L'espace Fⁿ"
+        },
+        {
+          "he": "מטריצות",
+          "fr": "Matrices"
+        },
+        {
+          "he": "דטרמיננטות",
+          "fr": "Déterminants"
+        },
+        {
+          "he": "שדות סופיים",
+          "fr": "Corps finis"
+        },
+        {
+          "he": "שדה המספרים המרוכבים",
+          "fr": "Le corps des nombres complexes"
+        },
+        {
+          "he": "מרחבים לינאריים",
+          "fr": "Espaces vectoriels"
+        },
+        {
+          "he": "בסיסים ותורת הממד",
+          "fr": "Bases et théorie de la dimension"
+        },
+        {
+          "he": "העתקות לינאריות",
+          "fr": "Applications linéaires"
+        },
+        {
+          "he": "ייצוג העתקות באמצעות מטריצות",
+          "fr": "Représentation des applications linéaires par des matrices"
+        },
+        {
+          "he": "ערכים עצמיים",
+          "fr": "Valeurs propres"
+        },
+        {
+          "he": "המכפלה הסקלרית",
+          "fr": "Produit scalaire"
+        }
+      ],
+      "prerequisites": [
+        "Connaissance préalable recommandée : le cours « אשנב למתמטיקה » (04101)",
+        "La fiche conseille de réviser le niveau lycée de 5 יחידות לימוד (surtout algèbre et trigonométrie) ; à défaut, « מתמטיקה קדם אקדמית » (95003), sans crédits"
+      ],
+      "source": "https://www.openu.ac.il/courses/20109.htm"
+    },
+    {
+      "id": "openu-20430",
+      "family": "linear-algebra1",
+      "he": "אלגברה לינארית לתלמידי מדעים",
+      "fr": "Algèbre linéaire pour étudiants en sciences",
+      "code": "20430",
+      "credits": 4,
+      "facultiesServed": [
+        "natural-sciences",
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "מערכות משוואות לינאריות",
+          "fr": "Systèmes d'équations linéaires"
+        },
+        {
+          "he": "המרחב F n",
+          "fr": "L'espace Fⁿ"
+        },
+        {
+          "he": "מטריצות",
+          "fr": "Matrices"
+        },
+        {
+          "he": "דטרמיננטות",
+          "fr": "Déterminants"
+        },
+        {
+          "he": "מרחבים וקטוריים",
+          "fr": "Espaces vectoriels"
+        },
+        {
+          "he": "טרנספורמציות לינאריות (כולל ערכים עצמיים ולכסון מטריצות)",
+          "fr": "Transformations linéaires (dont valeurs propres et diagonalisation de matrices)"
+        },
+        {
+          "he": "המרחב האוקלידי ה-n ממדי",
+          "fr": "L'espace euclidien de dimension n"
+        },
+        {
+          "he": "המספרים המרוכבים",
+          "fr": "Les nombres complexes (annexe)"
+        }
+      ],
+      "prerequisites": [
+        "Recommandé : au moins un cours de l'Université ouverte en sciences de la nature ou en mathématiques"
+      ],
+      "source": "https://www.openu.ac.il/courses/20430.htm"
+    },
+    {
+      "id": "openu-20476",
+      "family": "discrete-math",
+      "he": "מתמטיקה בדידה: תורת הקבוצות, קומבינטוריקה ותורת הגרפים",
+      "fr": "Mathématiques discrètes : théorie des ensembles, combinatoire et théorie des graphes",
+      "code": "20476",
+      "credits": 4,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "מבוא קצר ללוגיקה – פסוקים, קַשָרִים, לוחות אמת; משתנים, פרדיקטים, כמתים",
+          "fr": "Mini-introduction à la logique : propositions, connecteurs, tables de vérité ; variables, prédicats, quantificateurs"
+        },
+        {
+          "he": "תורת הקבוצות – קבוצה, איבר, שוויון והכלה בין קבוצות; פעולות בין קבוצות; קבוצת החזקה; מכפלה קרטזית",
+          "fr": "Théorie des ensembles : ensembles, éléments, égalité et inclusion ; opérations sur les ensembles ; ensemble des parties ; produit cartésien"
+        },
+        {
+          "he": "יחס רפלקסיבי, סימטרי, טרנזיטיבי; יחס שקילות; מחלקות שקילות; קבוצות מנה; סדר חלקי ומלא",
+          "fr": "Relations : réflexive, symétrique, transitive ; relation d'équivalence, classes d'équivalence, ensembles quotients ; ordres partiel et total"
+        },
+        {
+          "he": "פונקציות; פונקציות על, פונקציות חד-חד-ערכיות; אינדוקציה",
+          "fr": "Fonctions (surjectives, injectives) et récurrence (induction)"
+        },
+        {
+          "he": "קבוצות בנות מנייה; עצמת הרצף; משפט קנטור-שרדר-ברנשטיין; חיבור, כפל וחזקה של עצמות; משפט קנטור",
+          "fr": "Ensembles dénombrables ; puissance du continu ; théorème de Cantor-Schröder-Bernstein ; opérations sur les cardinaux ; théorème de Cantor"
+        },
+        {
+          "he": "קומבינטוריקה – עקרונות החיבור והכפל; תמורות, צירופים וחליפות עם חזרות ובלי חזרות; הבינום של ניוטון; זהויות במקדמים בינומיים",
+          "fr": "Combinatoire : principes d'addition et de multiplication ; permutations, combinaisons et arrangements ; binôme de Newton ; identités sur les coefficients binomiaux"
+        },
+        {
+          "he": "עקרון ההכלה וההפרדה; פונקציית אוילר; אי-סדר מלא; עקרון שובך היונים",
+          "fr": "Principe d'inclusion-exclusion ; fonction d'Euler ; dérangements ; principe des tiroirs"
+        },
+        {
+          "he": "יחסי נסיגה, פתרון יחסי נסיגה לינאריים; פונקציות יוצרות",
+          "fr": "Relations de récurrence (résolution des récurrences linéaires) ; fonctions génératrices"
+        },
+        {
+          "he": "תורת הגרפים – גרף: דרגה, מסלול, מעגל, מרחק, קשירות, תת-גרף, תת-גרף פורש, גרף מלא, גרף משלים, גרף דו-צדדי; אפיון של גרפים דו-צדדיים; עצים; משפט קיילי; סדרות פרופר",
+          "fr": "Théorie des graphes : degré, chemin, cycle, distance, connexité, sous-graphes ; graphes bipartis ; arbres ; théorème de Cayley ; suites de Prüfer"
+        },
+        {
+          "he": "מעגלי אוילר ומעגלי המילטון: משפט אוילר, משפט אור ומשפט דירק; זיווגים, כיסויים, קליקים וקבוצות בלתי-תלויות: משפטי ברג' והול; כיסויים בקשתות של צמתים וכיסויים בצמתים של קשתות",
+          "fr": "Cycles eulériens et hamiltoniens ; couplages, couvertures, cliques et ensembles indépendants (théorèmes de Berge et de Hall) ; couvertures d'arêtes et de sommets"
+        },
+        {
+          "he": "גרפים מישוריים: נוסחת אוילר ומסקנות פשוטות ממנה; העדנה של גרף; צביעת גרפים: משפט חמשת הצבעים",
+          "fr": "Graphes planaires (formule d'Euler) ; subdivision d'un graphe ; coloration des graphes (théorème des cinq couleurs)"
+        }
+      ],
+      "prerequisites": [
+        "Connaissance préalable recommandée : le cours « אשנב למתמטיקה » (04101)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20476.htm"
+    },
+    {
+      "id": "openu-20425",
+      "family": "probability",
+      "he": "הסתברות ומבוא לסטטיסטיקה למדעי המחשב",
+      "fr": "Probabilités et introduction à la statistique pour l'informatique",
+      "code": "20425",
+      "credits": 5,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "קומבינטוריקה",
+          "fr": "Combinatoire"
+        },
+        {
+          "he": "אקסיומות ההסתברות",
+          "fr": "Axiomes des probabilités"
+        },
+        {
+          "he": "הסתברות מותנית ואי-תלות",
+          "fr": "Probabilité conditionnelle et indépendance"
+        },
+        {
+          "he": "משתנים מקריים",
+          "fr": "Variables aléatoires"
+        },
+        {
+          "he": "משתנים מקריים רציפים (משתנה מקרי רציף כללי, נורמלי, מעריכי ואחיד)",
+          "fr": "Variables aléatoires continues (générale, normale, exponentielle, uniforme)"
+        },
+        {
+          "he": "התפלגות משותפת של משתנים מקריים (בדידה)",
+          "fr": "Loi conjointe de variables aléatoires (cas discret)"
+        },
+        {
+          "he": "תכונות של תוחלת",
+          "fr": "Propriétés de l'espérance"
+        },
+        {
+          "he": "משפטי גבול",
+          "fr": "Théorèmes limites"
+        },
+        {
+          "he": "סטטיסטיקה",
+          "fr": "Statistique"
+        }
+      ],
+      "prerequisites": [
+        "Requis : le couple « חשבון אינפיניטסימלי 1 » (20474) + « חשבון אינפיניטסימלי 2 » (20475), ou « חשבון דיפרנציאלי ואינטגרלי א » (20406)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20425.htm"
+    },
+    {
+      "id": "openu-20416",
+      "family": "probability",
+      "he": "תורת ההסתברות",
+      "fr": "Théorie des probabilités",
+      "code": "20416",
+      "credits": 5,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "קומבינטוריקה",
+          "fr": "Combinatoire"
+        },
+        {
+          "he": "אקסיומות ההסתברות",
+          "fr": "Axiomes des probabilités"
+        },
+        {
+          "he": "הסתברות מותנית ואי-תלות",
+          "fr": "Probabilité conditionnelle et indépendance"
+        },
+        {
+          "he": "משתנים מקריים",
+          "fr": "Variables aléatoires"
+        },
+        {
+          "he": "משתנים מקריים רציפים",
+          "fr": "Variables aléatoires continues"
+        },
+        {
+          "he": "התפלגות משותפת של משתנים מקריים",
+          "fr": "Loi conjointe de variables aléatoires"
+        },
+        {
+          "he": "תכונות של תוחלת",
+          "fr": "Propriétés de l'espérance"
+        },
+        {
+          "he": "משפטי גבול",
+          "fr": "Théorèmes limites"
+        }
+      ],
+      "prerequisites": [
+        "Requis : le couple « חשבון אינפיניטסימלי 1 » (20474) + « חשבון אינפיניטסימלי 2 » (20475), ou le couple « חשבון דיפרנציאלי ואינטגרלי א » (20406) + « חשבון דיפרנציאלי ואינטגרלי ב » (20423)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20416.htm"
+    },
+    {
+      "id": "openu-30203",
+      "family": "statistics",
+      "he": "מבוא לסטטיסטיקה ולהסתברות למדעים",
+      "fr": "Introduction à la statistique et aux probabilités pour les sciences",
+      "code": "30203",
+      "credits": 3,
+      "facultiesServed": [
+        "natural-sciences",
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "הקדמה כללית לסטטיסטיקה",
+          "fr": "Introduction générale à la statistique"
+        },
+        {
+          "he": "יסודות הסטטיסטיקה התיאורית",
+          "fr": "Fondements de la statistique descriptive"
+        },
+        {
+          "he": "דרכים לתיאור, לסיכום ולקיבוץ נתונים בעזרת טבלות, גרפים ומדדים שונים",
+          "fr": "Description, synthèse et regroupement des données par tableaux, graphiques et indicateurs"
+        },
+        {
+          "he": "ניסוי מקרי",
+          "fr": "Expérience aléatoire"
+        },
+        {
+          "he": "מרחב מדגם",
+          "fr": "Espace échantillon"
+        },
+        {
+          "he": "פונקציות הסתברות",
+          "fr": "Fonctions de probabilité"
+        },
+        {
+          "he": "משתנה מקרי",
+          "fr": "Variable aléatoire"
+        },
+        {
+          "he": "תוחלת",
+          "fr": "Espérance"
+        },
+        {
+          "he": "שונות וסטיית תקן",
+          "fr": "Variance et écart-type"
+        }
+      ],
+      "prerequisites": [
+        "Aucune connaissance post-secondaire requise ; mathématiques de niveau lycée raisonnable (fiche)"
+      ],
+      "source": "https://www.openu.ac.il/courses/30203.htm"
+    },
+    {
+      "id": "openu-30204",
+      "family": "statistics",
+      "he": "הסקה סטטיסטית",
+      "fr": "Inférence statistique",
+      "code": "30204",
+      "credits": 4,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "דגימה",
+          "fr": "Échantillonnage"
+        },
+        {
+          "he": "חוק המספרים הגדולים",
+          "fr": "Loi des grands nombres"
+        },
+        {
+          "he": "משפט הגבול המרכזי",
+          "fr": "Théorème central limite"
+        },
+        {
+          "he": "אמידה ורווח-סמך",
+          "fr": "Estimation et intervalle de confiance"
+        },
+        {
+          "he": "בדיקת השערות",
+          "fr": "Tests d'hypothèses"
+        },
+        {
+          "he": "מתאם ורגרסיה",
+          "fr": "Corrélation et régression"
+        },
+        {
+          "he": "ניתוח שונות חד כיווני",
+          "fr": "Analyse de variance à un facteur"
+        },
+        {
+          "he": "ניתוח שונות רב משתני",
+          "fr": "Analyse de variance multivariée"
+        }
+      ],
+      "prerequisites": [
+        "Requis : l'un des cours « מבוא לסטטיסטיקה ולהסתברות למדעים » (30203), « הסתברות ומבוא לסטטיסטיקה למדעי המחשב » (20425) ou « תורת ההסתברות » (20416)"
+      ],
+      "source": "https://www.openu.ac.il/courses/30204.htm"
+    },
+    {
+      "id": "openu-30111",
+      "family": "statistics",
+      "he": "מבוא לסטטיסטיקה לתלמידי מדעי החברה א",
+      "fr": "Introduction à la statistique pour les sciences sociales A",
+      "code": "30111",
+      "credits": 3,
+      "facultiesServed": [
+        "education-psychology",
+        "sociology-politics-communication"
+      ],
+      "topics": [
+        {
+          "he": "היסטוגרמה",
+          "fr": "Histogramme"
+        },
+        {
+          "he": "ממוצע, חציון, שכיח",
+          "fr": "Moyenne, médiane, mode"
+        },
+        {
+          "he": "סטיית תקן",
+          "fr": "Écart-type"
+        },
+        {
+          "he": "התפלגות נורמלית סטנדרטית",
+          "fr": "Loi normale centrée réduite"
+        },
+        {
+          "he": "מדדי קשר",
+          "fr": "Mesures d'association"
+        },
+        {
+          "he": "מרחב מדגם",
+          "fr": "Espace échantillon"
+        },
+        {
+          "he": "הסתברות",
+          "fr": "Probabilité"
+        },
+        {
+          "he": "מאורעות",
+          "fr": "Événements"
+        },
+        {
+          "he": "הסתברות מותנה",
+          "fr": "Probabilité conditionnelle"
+        },
+        {
+          "he": "משתנים מקריים",
+          "fr": "Variables aléatoires"
+        },
+        {
+          "he": "משתנה בינומי",
+          "fr": "Variable binomiale"
+        },
+        {
+          "he": "תוחלת ושונות של משתנים מקריים",
+          "fr": "Espérance et variance de variables aléatoires"
+        }
+      ],
+      "prerequisites": [
+        "Aucune connaissance préalable requise selon la fiche"
+      ],
+      "source": "https://www.openu.ac.il/courses/30111.htm"
+    },
+    {
+      "id": "openu-20441",
+      "family": "intro-programming",
+      "he": "מבוא למדעי המחשב ושפת Java",
+      "fr": "Introduction à l'informatique et au langage Java",
+      "code": "20441",
+      "credits": 6,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "הקדמה ויסודות השפה Java",
+          "fr": "Introduction et bases du langage Java"
+        },
+        {
+          "he": "תכנות מונחה עצמים: שימוש במחלקות נתונות וכתיבת מחלקות",
+          "fr": "Programmation orientée objet : utiliser des classes données et écrire des classes"
+        },
+        {
+          "he": "בקרת זרימה (משפטי תנאי ולולאות)",
+          "fr": "Contrôle de flux (conditions et boucles)"
+        },
+        {
+          "he": "מערכים",
+          "fr": "Tableaux"
+        },
+        {
+          "he": "הרחבת OOP – ירושה, שיטות סטטיות ומשתנים, העמסה של שיטות, מארזים, פולימורפיזם וממשקים",
+          "fr": "Approfondissement de la POO : héritage, méthodes et variables statiques, surcharge, paquetages, polymorphisme et interfaces"
+        },
+        {
+          "he": "סיבוכיות אלגוריתמים, אלגוריתמים למיון וחיפוש",
+          "fr": "Complexité des algorithmes ; algorithmes de tri et de recherche"
+        },
+        {
+          "he": "רקורסיה",
+          "fr": "Récursivité"
+        },
+        {
+          "he": "רשימות מקושרות",
+          "fr": "Listes chaînées"
+        },
+        {
+          "he": "מחסניות ותורים, עצים ועצים בינריים",
+          "fr": "Piles et files, arbres et arbres binaires"
+        },
+        {
+          "he": "חישוביות על קצה המזלג",
+          "fr": "Aperçu de la calculabilité"
+        }
+      ],
+      "prerequisites": [
+        "Capacité de lire des textes scientifiques en anglais (connaissance préalable indiquée sur la fiche)",
+        "Recommandé : un cours de mathématiques"
+      ],
+      "source": "https://www.openu.ac.il/courses/20441.htm"
+    },
+    {
+      "id": "openu-20605",
+      "family": "intro-programming",
+      "he": "יסודות התכנות בשפת פייתון",
+      "fr": "Bases de la programmation en Python",
+      "code": "20605",
+      "credits": 4,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "יסודות השפה",
+          "fr": "Bases du langage"
+        },
+        {
+          "he": "בקרת זרימה ומשפטי תנאי",
+          "fr": "Contrôle de flux et instructions conditionnelles"
+        },
+        {
+          "he": "לולאות",
+          "fr": "Boucles"
+        },
+        {
+          "he": "פונקציות",
+          "fr": "Fonctions"
+        },
+        {
+          "he": "מצבים חריגים",
+          "fr": "Exceptions"
+        },
+        {
+          "he": "מבני נתונים",
+          "fr": "Structures de données"
+        },
+        {
+          "he": "רקורסיה",
+          "fr": "Récursivité"
+        },
+        {
+          "he": "יעילות",
+          "fr": "Efficacité"
+        },
+        {
+          "he": "חיפוש ומיון",
+          "fr": "Recherche et tri"
+        },
+        {
+          "he": "קבצים",
+          "fr": "Fichiers"
+        },
+        {
+          "he": "תכנות מונחה עצמים",
+          "fr": "Programmation orientée objet"
+        },
+        {
+          "he": "חבילות של שפת פייתון",
+          "fr": "Paquets (packages) Python"
+        }
+      ],
+      "prerequisites": [
+        "Capacité de lire des textes scientifiques en anglais (connaissance préalable indiquée sur la fiche)",
+        "Recommandé : un cours de mathématiques"
+      ],
+      "source": "https://www.openu.ac.il/courses/20605.htm"
+    },
+    {
+      "id": "openu-20606",
+      "family": "intro-programming",
+      "he": "תכנות וניתוח נתונים בשפת פייתון",
+      "fr": "Programmation et analyse de données en Python",
+      "code": "20606",
+      "credits": 6,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "יסודות השפה",
+          "fr": "Bases du langage"
+        },
+        {
+          "he": "בקרת זרימה ומשפטי תנאי",
+          "fr": "Contrôle de flux et instructions conditionnelles"
+        },
+        {
+          "he": "לולאות",
+          "fr": "Boucles"
+        },
+        {
+          "he": "פונקציות",
+          "fr": "Fonctions"
+        },
+        {
+          "he": "מצבים חריגים",
+          "fr": "Exceptions"
+        },
+        {
+          "he": "מבני נתונים בסיסיים",
+          "fr": "Structures de données de base"
+        },
+        {
+          "he": "מבני נתונים מתקדמים",
+          "fr": "Structures de données avancées"
+        },
+        {
+          "he": "רקורסיה – נושאים בסיסיים ומתקדמים",
+          "fr": "Récursivité (notions de base et avancées)"
+        },
+        {
+          "he": "קבצים",
+          "fr": "Fichiers"
+        },
+        {
+          "he": "תכנות מונחה עצמים",
+          "fr": "Programmation orientée objet"
+        },
+        {
+          "he": "מבוא לניתוח נתונים",
+          "fr": "Introduction à l'analyse de données"
+        },
+        {
+          "he": "חבילות של שפת פייתון – היכרות עם מגוון חבילות לניתוח נתונים",
+          "fr": "Paquets Python : panorama de paquets pour l'analyse de données"
+        }
+      ],
+      "prerequisites": [
+        "Capacité de lire des textes scientifiques en anglais (connaissance préalable indiquée sur la fiche)",
+        "Recommandé : un cours de mathématiques"
+      ],
+      "source": "https://www.openu.ac.il/courses/20606.htm"
+    },
+    {
+      "id": "openu-20433",
+      "family": "data-structures",
+      "he": "מבני נתונים",
+      "fr": "Structures de données",
+      "code": "20433",
+      "credits": 6,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "יסודות מתמטיים: סימונים אסימפטוטיים",
+          "fr": "Fondements mathématiques : notations asymptotiques"
+        },
+        {
+          "he": "מיונים: מיון מהיר, מיון ערימה, מיון בזמן לינארי",
+          "fr": "Tris : tri rapide, tri par tas, tri en temps linéaire"
+        },
+        {
+          "he": "מבני נתונים בסיסיים",
+          "fr": "Structures de données de base"
+        },
+        {
+          "he": "טבלאות גיבוב",
+          "fr": "Tables de hachage"
+        },
+        {
+          "he": "עצי חיפוש בינריים",
+          "fr": "Arbres binaires de recherche"
+        },
+        {
+          "he": "עצי AVL",
+          "fr": "Arbres AVL"
+        },
+        {
+          "he": "אלגוריתמים בגרפים: מושגים בסיסיים; סריקה לרוחב; מסלולים קצרים ביותר; עץ פורש מינימלי",
+          "fr": "Algorithmes sur les graphes : notions de base ; parcours en largeur ; plus courts chemins ; arbre couvrant minimal"
+        }
+      ],
+      "prerequisites": [
+        "Requis : « מבוא למדעי המחשב ושפת Java » (20441) ou « תכנות וניתוח נתונים בשפת פייתון » (20606)",
+        "Requis : « מתמטיקה בדידה : תורת הקבוצות, קומבינטוריקה ותורת הגרפים » (20476) ou « נושאים במתמטיקה לתלמידי מדעי החברה… » (10444) ; la suite de la liste de prérequis n'a pas été relue"
+      ],
+      "source": "https://www.openu.ac.il/courses/20433.htm"
+    },
+    {
+      "id": "openu-20407",
+      "family": "data-structures",
+      "he": "מבני נתונים ומבוא לאלגוריתמים",
+      "fr": "Structures de données et introduction aux algorithmes",
+      "code": "20407",
+      "credits": 6,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "גידול של פונקציות",
+          "fr": "Croissance des fonctions"
+        },
+        {
+          "he": "נוסחאות נסיגה",
+          "fr": "Relations de récurrence"
+        },
+        {
+          "he": "הוכחות נכונות",
+          "fr": "Preuves de correction"
+        },
+        {
+          "he": "מיונים",
+          "fr": "Tris"
+        },
+        {
+          "he": "מציאת האיבר ה-i הקטן ביותר",
+          "fr": "Sélection du i-ème plus petit élément"
+        },
+        {
+          "he": "הערמה ושימושיה",
+          "fr": "Le tas et ses applications"
+        },
+        {
+          "he": "מבני נתונים בסיסיים",
+          "fr": "Structures de données de base"
+        },
+        {
+          "he": "פונקציות גיבוב",
+          "fr": "Fonctions de hachage"
+        },
+        {
+          "he": "עצי חיפוש בינריים",
+          "fr": "Arbres binaires de recherche"
+        },
+        {
+          "he": "עצים אדומים-שחורים",
+          "fr": "Arbres rouges-noirs"
+        },
+        {
+          "he": "הרחבת מבני נתונים",
+          "fr": "Extension de structures de données"
+        }
+      ],
+      "prerequisites": [
+        "Requis : « מבוא למדעי המחשב ושפת Java » (20441) (ou les deux cours 20453 + 20454) ou « יסודות התכנות בשפת פייתון » (20605)",
+        "Requis : « מתמטיקה בדידה : תורת הקבוצות, קומבינטוריקה ותורת הגרפים » (20476)",
+        "Recommandé : « חשבון אינפיניטסימלי 1 » (20474) ; « אלגברה לינארית 1 » (20109) ou « אלגברה לינארית לתלמידי מדעים » (20430) ; « הסתברות ומבוא לסטטיסטיקה למדעי המחשב » (20425) ou « מבוא לסטטיסטיקה ולהסתברות למדעים » (30203)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20407.htm"
+    },
+    {
+      "id": "openu-20471",
+      "family": "other-computer-organization",
+      "he": "ארגון המחשב",
+      "fr": "Organisation de l'ordinateur",
+      "code": "20471",
+      "credits": 4,
+      "facultiesServed": [
+        "math-cs"
+      ],
+      "topics": [
+        {
+          "he": "הקדמה - הפשטה של מחשבים וטכנולוגיה",
+          "fr": "Introduction : abstraction des ordinateurs et de la technologie"
+        },
+        {
+          "he": "הערכת ביצועי המעבד",
+          "fr": "Évaluation des performances du processeur"
+        },
+        {
+          "he": "ייצוג מספרים",
+          "fr": "Représentation des nombres"
+        },
+        {
+          "he": "אלגברה בוליאנית ופונקציות בוליאניות",
+          "fr": "Algèbre booléenne et fonctions booléennes"
+        },
+        {
+          "he": "האסמבלי של mips",
+          "fr": "Assembleur MIPS"
+        },
+        {
+          "he": "מחסנית פרוצדורות והקשר לשפות תכנות",
+          "fr": "Pile d'appel des procédures et lien avec les langages de programmation"
+        },
+        {
+          "he": "לוגיקה צירופית בניית ה-ALU",
+          "fr": "Logique combinatoire : construction de l'UAL (ALU)"
+        },
+        {
+          "he": "לוגיקה סדרתית ויחידות זיכרון בניית מקבץ האוגרים",
+          "fr": "Logique séquentielle et unités mémoire : construction du banc de registres"
+        },
+        {
+          "he": "מעבד חד מחזורי",
+          "fr": "Processeur monocycle"
+        },
+        {
+          "he": "שיפור ביצועי המעבד באמצעות הצנרה-pipeline",
+          "fr": "Amélioration des performances du processeur par le pipeline"
+        },
+        {
+          "he": "גדול ומהיר: ניצול היררכיות הזיכרון",
+          "fr": "Grand et rapide : exploiter la hiérarchie mémoire"
+        }
+      ],
+      "prerequisites": [
+        "Requis : « מבוא למדעי המחשב ושפת Java » (20441), ou les deux cours « Java א » (20453) + « Java ב » (20454)",
+        "Recommandé : « מעבדה בתכנות מערכות » (20465), « מבני נתונים ומבוא לאלגוריתמים » (20407) ou « מבני נתונים » (20433) ; fin de la liste non relue"
+      ],
+      "source": "https://www.openu.ac.il/courses/20471.htm"
+    },
+    {
+      "id": "openu-20215",
+      "family": "physics-mechanics",
+      "he": "מכניקה",
+      "fr": "Mécanique",
+      "code": "20215",
+      "credits": 7,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "וקטורים וקינמטיקה",
+          "fr": "Vecteurs et cinématique"
+        },
+        {
+          "he": "חוקי ניוטון",
+          "fr": "Lois de Newton"
+        },
+        {
+          "he": "מערכות ייחוס: טרנספורמציית גליליי",
+          "fr": "Référentiels : transformation de Galilée"
+        },
+        {
+          "he": "שימור האנרגיה",
+          "fr": "Conservation de l'énergie"
+        },
+        {
+          "he": "שימור תנע קוי ושימור תנע זויתי",
+          "fr": "Conservation de la quantité de mouvement linéaire et du moment cinétique"
+        },
+        {
+          "he": "המתנד (אוסצילטור) ההרמוני",
+          "fr": "L'oscillateur harmonique"
+        },
+        {
+          "he": "יסודות הדינמיקה של גוף קשיח",
+          "fr": "Bases de la dynamique du solide"
+        },
+        {
+          "he": "הכוח הריבועי ההפוך",
+          "fr": "La force en inverse du carré"
+        },
+        {
+          "he": "תנועה בשדה אלקטרומגנטי",
+          "fr": "Mouvement dans un champ électromagnétique"
+        },
+        {
+          "he": "תורת היחסות המצומצמת I",
+          "fr": "Relativité restreinte I"
+        },
+        {
+          "he": "תורת היחסות המצומצמת II",
+          "fr": "Relativité restreinte II"
+        },
+        {
+          "he": "אנרגיה ומסה בתורת היחסות המצומצמת",
+          "fr": "Énergie et masse en relativité restreinte"
+        }
+      ],
+      "prerequisites": [
+        "Requis : « חשבון דיפרנציאלי ואינטגרלי א » (20406) ou « חשבון אינפיניטסימלי 1 » (20474) + « השלמות בחשבון אינטגרלי » (20492)",
+        "Requis : « יסודות הפיסיקה » (20125) ou « יסודות הפיסיקה א » (20113) + « יסודות הפיסיקה ב » (20114)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20215.htm"
+    },
+    {
+      "id": "openu-20250",
+      "family": "physics-electromagnetism",
+      "he": "חשמל ומגנטיות",
+      "fr": "Électricité et magnétisme",
+      "code": "20250",
+      "credits": 7,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "אלקטרוסטאטיקה: מטענים ושדות",
+          "fr": "Électrostatique : charges et champs"
+        },
+        {
+          "he": "הפוטנציאל החשמלי",
+          "fr": "Le potentiel électrique"
+        },
+        {
+          "he": "שדות חשמליים סביב מוליכים",
+          "fr": "Champs électriques autour des conducteurs"
+        },
+        {
+          "he": "זרמים חשמליים",
+          "fr": "Courants électriques"
+        },
+        {
+          "he": "השדות של מטענים נעים",
+          "fr": "Champs des charges en mouvement"
+        },
+        {
+          "he": "השדה המגנטי",
+          "fr": "Le champ magnétique"
+        },
+        {
+          "he": "השראה אלקטרומגנטית",
+          "fr": "Induction électromagnétique"
+        },
+        {
+          "he": "מעגלי זרם חילופין",
+          "fr": "Circuits en courant alternatif"
+        },
+        {
+          "he": "משוואות מקסוול וגלים אלקטרומגנטיים",
+          "fr": "Équations de Maxwell et ondes électromagnétiques"
+        },
+        {
+          "he": "שדות חשמליים בחומר",
+          "fr": "Champs électriques dans la matière"
+        },
+        {
+          "he": "שדות מגנטיים בחומר",
+          "fr": "Champs magnétiques dans la matière"
+        }
+      ],
+      "prerequisites": [
+        "Requis : « מכניקה » (20215)",
+        "Requis : « חשבון דיפרנציאלי ואינטגרלי א » (20406) ou « חשבון אינפיניטסימלי 1 » (20474) + « השלמות בחשבון אינטגרלי » (20492)",
+        "Recommandé : « אלגברה לינארית 1 » (liste complète des recommandations non relue)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20250.htm"
+    },
+    {
+      "id": "openu-20248",
+      "family": "other-waves-optics",
+      "he": "גלים ואופטיקה",
+      "fr": "Ondes et optique",
+      "code": "20248",
+      "credits": 4,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "מבוא",
+          "fr": "Introduction"
+        },
+        {
+          "he": "משוואת המיתר",
+          "fr": "L'équation de la corde vibrante"
+        },
+        {
+          "he": "אנליזה הרמונית",
+          "fr": "Analyse harmonique"
+        },
+        {
+          "he": "נפיצה",
+          "fr": "Dispersion"
+        },
+        {
+          "he": "גלים במרחב דו-ממד",
+          "fr": "Ondes dans l'espace à deux dimensions"
+        },
+        {
+          "he": "אופטיקה גיאומטרית",
+          "fr": "Optique géométrique"
+        },
+        {
+          "he": "התאבכות",
+          "fr": "Interférences"
+        },
+        {
+          "he": "עקיפה",
+          "fr": "Diffraction"
+        }
+      ],
+      "prerequisites": [
+        "Requis : le couple « חשבון דיפרנציאלי ואינטגרלי א » + « חשבון דיפרנציאלי ואינטגרלי ב » (20406 + 20423), ou le trio « חשבון אינפיניטסימלי 1 » (20474) + « חשבון אינפיניטסימלי 2 » (20475) + un troisième cours (liste tronquée, non relue)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20248.htm"
+    },
+    {
+      "id": "openu-20437",
+      "family": "general-chemistry",
+      "he": "כימיה כללית",
+      "fr": "Chimie générale",
+      "code": "20437",
+      "credits": 6,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "אטומים: עולם הקוואנטים",
+          "fr": "Atomes : le monde quantique"
+        },
+        {
+          "he": "קשרים כימיים",
+          "fr": "Liaisons chimiques"
+        },
+        {
+          "he": "תצורות ומבנים של מולקולות",
+          "fr": "Configurations et structures des molécules"
+        },
+        {
+          "he": "תכונות גזים",
+          "fr": "Propriétés des gaz"
+        },
+        {
+          "he": "נוזלים ומוצקים",
+          "fr": "Liquides et solides"
+        },
+        {
+          "he": "תרמודינמיקה: החוק הראשון; החוק השני והחוק השלישי",
+          "fr": "Thermodynamique : premier principe ; deuxième et troisième principes"
+        },
+        {
+          "he": "שיווי משקל פיזיקלי",
+          "fr": "Équilibre physique"
+        },
+        {
+          "he": "שיווי משקל כימי",
+          "fr": "Équilibre chimique"
+        },
+        {
+          "he": "חומצות ובסיסים",
+          "fr": "Acides et bases"
+        },
+        {
+          "he": "שיווי משקל בתמיסות מימיות",
+          "fr": "Équilibres en solution aqueuse"
+        },
+        {
+          "he": "אלקטרוכימיה",
+          "fr": "Électrochimie"
+        },
+        {
+          "he": "קינטיקה כימית",
+          "fr": "Cinétique chimique"
+        }
+      ],
+      "prerequisites": [
+        "Recommandé : chimie niveau bagrout (3 יחידות לימוד) ou le cours « עולם הכימיה » (20116)",
+        "Cours destiné aux étudiants dont le domaine principal est les sciences de la nature et de la vie ; non recommandé comme premier cours de chimie sans connaissances préalables (fiche)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20437.htm"
+    },
+    {
+      "id": "openu-20470",
+      "family": "general-chemistry",
+      "he": "כימיה כללית א",
+      "fr": "Chimie générale A",
+      "code": "20470",
+      "credits": 4,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "אטומים: העולם הקוונטי",
+          "fr": "Atomes : le monde quantique"
+        },
+        {
+          "he": "קשרים כימיים",
+          "fr": "Liaisons chimiques"
+        },
+        {
+          "he": "צורות ומבנים של מולקולות",
+          "fr": "Formes et structures des molécules"
+        },
+        {
+          "he": "תכונות הגזים",
+          "fr": "Propriétés des gaz"
+        },
+        {
+          "he": "נוזלים ומוצקים",
+          "fr": "Liquides et solides"
+        },
+        {
+          "he": "תרמודינמיקה: החוק הראשון",
+          "fr": "Thermodynamique : premier principe"
+        },
+        {
+          "he": "תרמודינמיקה: החוק השני והשלישי",
+          "fr": "Thermodynamique : deuxième et troisième principes"
+        },
+        {
+          "he": "שיווי משקל פיזיקלי",
+          "fr": "Équilibre physique"
+        },
+        {
+          "he": "שיווי משקל כימי",
+          "fr": "Équilibre chimique"
+        }
+      ],
+      "prerequisites": [
+        "Recommandé : chimie niveau bagrout (3 יחידות לימוד) ou le cours « עולם הכימיה » (20116)",
+        "Cours obligatoire dans les parcours qui intègrent la chimie ; non recommandé comme premier cours de chimie sans 3 יחידות de bagrout (fiche)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20470.htm"
+    },
+    {
+      "id": "openu-20480",
+      "family": "general-chemistry",
+      "he": "כימיה כללית ב",
+      "fr": "Chimie générale B",
+      "code": "20480",
+      "credits": 4,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "חומצות ובסיסים",
+          "fr": "Acides et bases"
+        },
+        {
+          "he": "שיווי משקל בתמיסות מימיות",
+          "fr": "Équilibres en solution aqueuse"
+        },
+        {
+          "he": "אלקטרוכימיה",
+          "fr": "Électrochimie"
+        },
+        {
+          "he": "קינטיקה כימית",
+          "fr": "Cinétique chimique"
+        },
+        {
+          "he": "יסודות: ארבע המשפחות הראשונות הראשיות",
+          "fr": "Éléments : les quatre premières familles principales"
+        },
+        {
+          "he": "יסודות: ארבע המשפחות הראשיות האחרונות",
+          "fr": "Éléments : les quatre dernières familles principales"
+        },
+        {
+          "he": "יסודות: גוש d",
+          "fr": "Éléments : bloc d"
+        },
+        {
+          "he": "כימיה גרעינית",
+          "fr": "Chimie nucléaire"
+        }
+      ],
+      "prerequisites": [
+        "Requis : « כימיה כללית א » (20470)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20480.htm"
+    },
+    {
+      "id": "openu-20116",
+      "family": "general-chemistry",
+      "he": "עולם הכימיה",
+      "fr": "Le monde de la chimie",
+      "code": "20116",
+      "credits": 3,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "שיטות ומדידות",
+          "fr": "Méthodes et mesures"
+        },
+        {
+          "he": "מבנה האטום והטבלה המחזורית",
+          "fr": "Structure de l'atome et tableau périodique"
+        },
+        {
+          "he": "מבנה ותכונות של תרכובות יוניות ומולקולריות",
+          "fr": "Structure et propriétés des composés ioniques et moléculaires"
+        },
+        {
+          "he": "חישובים והמשוואה הכימית",
+          "fr": "Calculs et équation chimique"
+        },
+        {
+          "he": "מצבי צבירה: גז, נוזל ומוצק",
+          "fr": "États de la matière : gaz, liquide et solide"
+        },
+        {
+          "he": "תמיסות",
+          "fr": "Solutions"
+        },
+        {
+          "he": "אנרגיה, קצב תגובה ושיווי משקל",
+          "fr": "Énergie, vitesse de réaction et équilibre"
+        },
+        {
+          "he": "חומצות, בסיסים ותגובות חמצון-חיזור",
+          "fr": "Acides, bases et réactions d'oxydoréduction"
+        },
+        {
+          "he": "הגרעין, רדיואקטיביות ורפואה גרעינית",
+          "fr": "Noyau, radioactivité et médecine nucléaire"
+        }
+      ],
+      "prerequisites": [
+        "Aucune connaissance préalable requise selon la fiche"
+      ],
+      "source": "https://www.openu.ac.il/courses/20116.htm"
+    },
+    {
+      "id": "openu-20456",
+      "family": "organic-chemistry",
+      "he": "כימיה אורגנית",
+      "fr": "Chimie organique",
+      "code": "20456",
+      "credits": 6,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "מבוא לכימיה אורגנית",
+          "fr": "Introduction à la chimie organique"
+        },
+        {
+          "he": "פחמימנים: אלקאנים, אלקאנים ציקליים, אלקנים ואלקינים",
+          "fr": "Hydrocarbures : alcanes, cycloalcanes, alcènes et alcynes"
+        },
+        {
+          "he": "סטראוכימיה – כימיה מרחבית",
+          "fr": "Stéréochimie (chimie dans l'espace)"
+        },
+        {
+          "he": "תגובות התמרה נוקלאופיליות ותגובות אלימינציה",
+          "fr": "Substitutions nucléophiles et réactions d'élimination"
+        },
+        {
+          "he": "אל-איתור אלקטרוני: דיאנים ותרכובות ארומטיות",
+          "fr": "Délocalisation électronique : diènes et composés aromatiques"
+        },
+        {
+          "he": "תרכובות אורגניות פונקציונליות שונות: כהלים, אתרים, אפוקסידים, תיאולים, אלדהידים וקטונים, אמינים וחומצות קרבוקסיליות ונגזרותיהן",
+          "fr": "Composés organiques fonctionnels : alcools, éthers, époxydes, thiols, aldéhydes et cétones, amines, acides carboxyliques et leurs dérivés"
+        },
+        {
+          "he": "דחיסות קרבונליות נבחרות",
+          "fr": "Condensations carbonylées choisies"
+        },
+        {
+          "he": "תגובות התמרה אלקטרופיליות",
+          "fr": "Substitutions électrophiles"
+        },
+        {
+          "he": "שיטות ספקטרליות: MS, UV, אור נראה, IR, 1 H-NMR ו- 13 C-NMR",
+          "fr": "Méthodes spectrales : MS, UV, visible, IR, RMN ¹H et ¹³C"
+        },
+        {
+          "he": "תגובות חמצון – חיזור",
+          "fr": "Réactions d'oxydoréduction"
+        },
+        {
+          "he": "תרכובות אורגנו-מתכתיות",
+          "fr": "Composés organométalliques"
+        }
+      ],
+      "prerequisites": [
+        "Requis : « כימיה כללית » (20437), ou « כימיה כללית א » (20470) + « כימיה כללית ב » (20480), ou « כימיה כללית א » + « כימיה כללית ב לביולוגים » (20490)",
+        "Capacité de lire des textes scientifiques en anglais (connaissance préalable indiquée sur la fiche)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20456.htm"
+    },
+    {
+      "id": "openu-20118",
+      "family": "intro-biology",
+      "he": "ביולוגיה כללית א: התא, גנטיקה, אבולוציה ומגוון",
+      "fr": "Biologie générale A : la cellule, la génétique, l'évolution et la diversité",
+      "code": "20118",
+      "credits": 6,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "הבסיס התאי של החיים",
+          "fr": "La base cellulaire de la vie"
+        },
+        {
+          "he": "עקרונות התורשה",
+          "fr": "Principes de l'hérédité"
+        },
+        {
+          "he": "עקרונות האבולוציה",
+          "fr": "Principes de l'évolution"
+        },
+        {
+          "he": "אבולוציה ומגוון",
+          "fr": "Évolution et diversité"
+        }
+      ],
+      "prerequisites": [
+        "Aucune connaissance préalable requise selon la fiche"
+      ],
+      "source": "https://www.openu.ac.il/courses/20118.htm"
+    },
+    {
+      "id": "openu-20119",
+      "family": "intro-biology",
+      "he": "ביולוגיה כללית ב: מבנה ותפקוד צמחים ובעלי חיים, אקולוגיה",
+      "fr": "Biologie générale B : structure et fonction des plantes et des animaux, écologie et comportement",
+      "code": "20119",
+      "credits": 6,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "המבנה והתפקוד של צמחים",
+          "fr": "Structure et fonction des plantes"
+        },
+        {
+          "he": "המבנה והתפקוד של בעלי חיים",
+          "fr": "Structure et fonction des animaux"
+        },
+        {
+          "he": "אקולוגיה והתנהגות",
+          "fr": "Écologie et comportement"
+        }
+      ],
+      "prerequisites": [
+        "Connaissance préalable recommandée : « ביולוגיה כללית א » (20118)"
+      ],
+      "source": "https://www.openu.ac.il/courses/20119.htm"
+    },
+    {
+      "id": "openu-20121",
+      "family": "intro-biology",
+      "he": "אשנב למדעי החיים",
+      "fr": "Fenêtre sur les sciences de la vie",
+      "code": "20121",
+      "credits": 6,
+      "facultiesServed": [
+        "natural-sciences"
+      ],
+      "topics": [
+        {
+          "he": "הבסיס התאי של החיים",
+          "fr": "La base cellulaire de la vie"
+        },
+        {
+          "he": "עקרונות התורשה",
+          "fr": "Principes de l'hérédité"
+        },
+        {
+          "he": "אבולוציה ומגוון",
+          "fr": "Évolution et diversité"
+        },
+        {
+          "he": "המבנה והתפקוד של בעלי חיים",
+          "fr": "Structure et fonction des animaux"
+        },
+        {
+          "he": "אקולוגיה",
+          "fr": "Écologie"
+        }
+      ],
+      "prerequisites": [
+        "Aucune connaissance préalable requise selon la fiche"
+      ],
+      "source": "https://www.openu.ac.il/courses/20121.htm"
+    },
+    {
+      "id": "openu-10835",
+      "family": "intro-law",
+      "he": "מבוא למשפט ויסודות המשפט",
+      "fr": "Introduction au droit et fondements du droit",
+      "code": "10835",
+      "credits": 4,
+      "facultiesServed": [
+        "sociology-politics-communication"
+      ],
+      "topics": [
+        {
+          "he": "מקורות משפט",
+          "fr": "Sources du droit"
+        },
+        {
+          "he": "שיטות משפט",
+          "fr": "Systèmes juridiques"
+        },
+        {
+          "he": "מבנה המשטר של מדינת ישראל",
+          "fr": "Structure du régime de l'État d'Israël"
+        },
+        {
+          "he": "יסודות האחריות הפלילית",
+          "fr": "Fondements de la responsabilité pénale"
+        },
+        {
+          "he": "יסודות המשפט המינהלי",
+          "fr": "Fondements du droit administratif"
+        },
+        {
+          "he": "דיני חיובים",
+          "fr": "Droit des obligations"
+        },
+        {
+          "he": "דיני חוזים",
+          "fr": "Droit des contrats"
+        },
+        {
+          "he": "דיני נזיקין",
+          "fr": "Droit de la responsabilité délictuelle (torts)"
+        },
+        {
+          "he": "דיני קניין",
+          "fr": "Droit des biens (propriété)"
+        }
+      ],
+      "prerequisites": [
+        "Aucune connaissance préalable requise selon la fiche"
+      ],
+      "source": "https://www.openu.ac.il/courses/10835.htm"
+    },
+    {
+      "id": "openu-10125",
+      "family": "other-educational-psychology",
+      "he": "פסיכולוגיה חינוכית: להבין למידה והתפתחות",
+      "fr": "Psychologie éducationnelle : comprendre l'apprentissage et le développement",
+      "code": "10125",
+      "credits": 6,
+      "facultiesServed": [
+        "education-psychology"
+      ],
+      "topics": [
+        {
+          "he": "התפתחות קוגניטיבית",
+          "fr": "Développement cognitif"
+        },
+        {
+          "he": "העצמי והתפתחות חברתית ומוסרית",
+          "fr": "Le soi et le développement social et moral"
+        },
+        {
+          "he": "הבדלים בין לומדים ושונות בצורכי הלמידה",
+          "fr": "Différences entre apprenants et diversité des besoins d'apprentissage"
+        },
+        {
+          "he": "התפתחות השפה ושונות בשפה",
+          "fr": "Développement du langage et diversité linguistique"
+        },
+        {
+          "he": "תרבות ושונות",
+          "fr": "Culture et diversité"
+        },
+        {
+          "he": "גישות התנהגותיות -ביהביוריסטיות ללמידה",
+          "fr": "Approches comportementalistes de l'apprentissage"
+        },
+        {
+          "he": "תיאוריות קוגניטיביות על למידה",
+          "fr": "Théories cognitives de l'apprentissage"
+        },
+        {
+          "he": "תהליכי חשיבה מורכבים",
+          "fr": "Processus de pensée complexes"
+        },
+        {
+          "he": "קונסטרוקטיביזם ועיצוב סביבות למידה",
+          "fr": "Constructivisme et conception d'environnements d'apprentissage"
+        },
+        {
+          "he": "השקפות חברתיות-קוגניטיביות על למידה ועל הנעה",
+          "fr": "Perspectives socio-cognitives sur l'apprentissage et la motivation"
+        },
+        {
+          "he": "ניהול סביבות למידה",
+          "fr": "Gestion des environnements d'apprentissage"
+        }
+      ],
+      "prerequisites": [
+        "Aucune connaissance préalable requise selon la fiche"
+      ],
+      "source": "https://www.openu.ac.il/courses/10125.htm"
+    }
+  ],
+  "notes": [
+    "Crédits : l'Université ouverte compte en נקודות זכות (נ\"ז), unité propre à l'OU (pas des ECTS) ; `credits` reprend la valeur écrite sur chaque fiche. Les fiches 20474, 20475 et 20109 précisent que le cours accordait 6 נ\"ז jusqu'au semestre ג2021 inclus (https://www.openu.ac.il/courses/20474.htm).",
+    "Structure : enseignement à distance (« בזמן, במקום ובדרך שמתאימים לך », https://www.openu.ac.il/). Les « facultés » ci-dessus sont les départements académiques (מחלקות אקדמיות) de https://academic.openu.ac.il/ ; mathématiques, informatique, physique, etc. sont des disciplines à l'intérieur de ces départements. Pas de première année imposée : les cours listés sont des cours d'entrée (niveau פתיחה ou רגיל, sans prérequis avancé) cités comme base par les fiches.",
+    "Sources : fiches https://www.openu.ac.il/courses/<code>.htm (lues en version « ?t=h ») ; listes de cours par discipline https://www3.openu.ac.il/ouweb/owal/catalog.sksub (pages catalog.sksub_list?v_kod_nose=<code>, offre 2026-27) ; pages de département https://academic.openu.ac.il/<département>/pages/default.aspx ; liste des disciplines de licence https://academic.openu.ac.il/degrees/pages/default.aspx.",
+    "Thèmes : titres recopiés de la rubrique « חומר הלימוד / נושאי הלימוד / נושאי הקורס » des fiches (sans l'étiquette « פרק N / יחידה N »). Écarts : (a) 20476, 30203, 30204, 30111, 10835 et 10125 n'ont pas de liste à puces ; leurs thèmes sont des expressions recopiées de la description officielle, parfois regroupées avec « ; » (20476) ; (b) 20471 : renvois « (פרק N בספר) » retirés ; (c) 20109 : « פרקי הכנה » omis (plafond de 12 thèmes) ; (d) 20437 : deux chapitres de thermodynamique fusionnés (plafond de 12) ; (e) 20606 : trois thèmes omis (יעילות, חיפוש ומיון, OOP avancé) pour le plafond de 12 ; (f) 20118, 20119, 20121 : la fiche ne liste que 4, 3 et 5 divisions.",
+    "Niveau « פתיחה » (introductif) : 20116, 20118, 20121, 30111 ; les autres cours listés sont de niveau « רגיל ».",
+    "`facultiesServed` est déduit du public visé écrit sur la fiche, de ses prérequis (p. ex. 20215, 20250 et 20248 exigent des cours de calcul) et du classement du cours dans le catalogue ; les tableaux d'exigences de chaque licence n'ont pas été relus systématiquement. 30111 est rattaché à education-psychology et sociology-politics-communication d'après son classement « מדעי החברה - כללי » au catalogue et la recommandation de la fiche 10264 (psychologie cognitive).",
+    "Versions parallèles : calcul infinitésimal 1+2 (20474 + 20475, preuves complètes) ou calcul différentiel et intégral A+B (20406 + 20423, plus appliqué) ; chimie générale en un cours de 6 נ\"ז (20437) ou deux de 4 נ\"ז (20470 + 20480) ; programmation en Java (20441, ou 20453 + 20454 en deux parties) ou en Python (20605, 20606) ; algèbre linéaire 20109 (7 נ\"ז) ou 20430 (4 נ\"ז, pour étudiants en sciences).",
+    "10125 : le catalogue 2026-27 (https://www3.openu.ac.il/ouweb/owal/catalog.sksub_list?v_kod_nose=1550) l'intitule « פסיכולוגיה חינוכית: להבין למידה והתפתחות » ; l'ancienne fiche lue le titre « פסיכולוגיה בחינוך » (topics pris sur cette fiche).",
+    "mainDegrees ne liste que le 1er cycle ; des masters (MBA, informatique, histoire, psychologie, éducation…), un doctorat en éducation et des certificats d'enseignement existent aussi (pages de département). L'unité d'anglais n'a pas de licence (cours seulement) ; l'École du gouvernement local propose une licence structurée de 120 נ\"ז (https://academic.openu.ac.il/localgovernmentschool/Pages/program.aspx)."
+  ],
+  "unverified": [
+    "Familles NON couvertes dans foundationCourses car les listes de thèmes n'ont pas été lues (un appel d'outil de lecture des fiches a été bloqué faute d'approbation en session et n'a pas été relancé) : microeconomics — 10131 מבוא למיקרוכלכלה (4 נ\"ז, פתיחה) ; macroeconomics — 10126 מבוא למקרוכלכלה (4 נ\"ז, פתיחה), 10793 מקרו כלכלה א (3) ; financial-accounting — 10863 יסודות החשבונאות הפיננסית (6), 10280 יסודות החשבונאות (6) ; intro-psychology — 10136 מבוא לפסיכולוגיה (6, פתיחה) ; research-methods — 10285 שיטות מחקר במדעי החברה: עקרונות המחקר וסגנונותיו (4), 10769 יסודות המחקר הכמותי א (4) ; academic-writing — 10172 קריאה וכתיבה אקדמית למדעי הרוח והחברה (6, פתיחה) ; autres : 10142 חשבון דיפרנציאלי לתלמידי כלכלה וניהול (3, פתיחה), 10836 מבוא למשפט ולדיני עסקים (6). Codes, titres, crédits et niveaux viennent des fiches https://www.openu.ac.il/courses/<code>.htm ; rien n'est affirmé sur leur contenu.",
+    "Autres cours d'entrée repérés dans le catalogue (https://www3.openu.ac.il/ouweb/owal/catalog.sksub) mais non exploités : 10134 מבוא לסוציולוגיה, 10153 מבוא לאנתרופולוגיה, 10408 מבוא ללימודי תקשורת, 10165 מבוא לגישות ושיטות במדע המדינה, 10703 מבוא ללוגיקה, 10163 מבוא להנדסת תעשייה, 10104 פסיכולוגיה חברתית, 10230 יסודות המימון, 10860 חשבונאות ניהולית ; aucun cours détaillé pour les départements d'histoire/philosophie/judaïsme et de littérature/arts.",
+    "20113 / 20114 יסודות הפיסיקה א / ב (3 נ\"ז chacun) : la fiche 20113 affiche deux tableaux de thèmes qui diffèrent aux unités 5-6 (גלים + אור ואופטיקה contre אלקטרוסטטיקה + זרם ישר) ; l'édition correspondant à chaque tableau n'a pas été établie, cours exclus. 20123 / 20124 (physique pour biologistes) et 20120 : pas de liste de thèmes exploitable sur la fiche.",
+    "20611 / 20612 (chimie organique A / B) et 20614 (biologie de la cellule) : la fiche en ancien format (« ?t=h ») n'est pas disponible, cours non inclus. 20229 (algèbre linéaire 2) et 20466 (logique pour l'informatique) : fiches lues mais écartées (20229 : seulement 3 blocs de thèmes ; 20466 : exige déjà deux cours de mathématiques et deux d'informatique).",
+    "mainDegrees : intitulés de licence reconstitués à partir des disciplines affichées sur https://academic.openu.ac.il/degrees/pages/default.aspx et sur les pages de département (« תואר ראשון ב… ») ; l'intitulé exact du diplôme (BA/BSc) n'a pas été relevé pour chaque discipline. Cours d'anglais (p. ex. 31001, 31010, 31015, 0 נ\"ז au catalogue) non lus ; la page de l'École du gouvernement local indique que les cours d'anglais ne donnent pas de נ\"ז."
+  ]
+}
