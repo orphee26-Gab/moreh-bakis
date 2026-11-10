@@ -61,11 +61,17 @@ for (const i of institutions) {
     byFamily.get(fam).offers.push({ inst: i.id, course: c.id });
   }
 }
+// L'index ne garde que l'essentiel : les thèmes complets restent dans data/faculty/raw/*.json.
 const families = [...byFamily.values()].filter((f) => f.offers.length >= 1);
+const slim = (c) => ({ id: c.id, family: c.family, he: c.he, fr: c.fr, code: c.code, credits: c.credits });
 const faculty = {
   generatedAt: new Date().toISOString(),
   status: 'draft',
-  institutions,
+  institutions: institutions.map((i) => ({
+    id: i.id, name: i.name, website: i.website, status: i.status, retrievedAt: i.retrievedAt,
+    notes: undefined, unverified: undefined, foundationCourses: undefined,
+    faculties: i.faculties, courses: (i.courses || []).map(slim)
+  })),
   families,
   totals: { institutions: institutions.length, courses: institutions.reduce((n, i) => n + (i.courses || []).length, 0), families: families.length }
 };
