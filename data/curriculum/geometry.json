@@ -1,0 +1,702 @@
+{
+  "id": "geometry",
+  "name": {
+    "he": "גאומטריה",
+    "fr": "Géométrie"
+  },
+  "schoolYear": "תשפ\"ז",
+  "status": "draft",
+  "retrievedAt": "2026-11-10",
+  "officialPages": [
+    "https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/new-curriculum/",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/hozer-mafmar-tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/Topics-not-be-taught-in-Tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/3-points-tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/4-points-tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/5-points-tashpaz.pdf"
+  ],
+  "levels": [
+    {
+      "units": 3,
+      "label": {
+        "he": "3 יחידות לימוד",
+        "fr": "3 yéhidot"
+      },
+      "grades": [
+        {
+          "grade": "10",
+          "gradeLabel": "י'",
+          "topics": [
+            {
+              "id": "geometry-3-10-01",
+              "he": "אשכול התמצאות במישור ובמרחב",
+              "fr": "Grappe « Orientation dans le plan et dans l'espace » (40 h)",
+              "subtopics": [
+                {
+                  "he": "היקפים של צורות גיאומטריות (משולשים, מרובעים, מעגלים, צורות המורכבות ממלבנים ו/או ממעגלים ו/או מחלקי מעגלים)",
+                  "fr": "Périmètres de figures géométriques (triangles, quadrilatères, cercles, figures composées) — 8 h"
+                },
+                {
+                  "he": "מסלולים – חישוב מהירות",
+                  "fr": "Trajets : calcul de vitesse — 8 h"
+                },
+                {
+                  "he": "שטחים של צורות גיאומטריות (משולשים, מרובעים, מעגלים, צורות המורכבות ממלבנים ו/או ממעגלים ו/או מחלקי מעגלים)",
+                  "fr": "Aires de figures géométriques — 8 h"
+                },
+                {
+                  "he": "ריצופים",
+                  "fr": "Pavages — 6 h"
+                },
+                {
+                  "he": "היקפים ושטחים של צורות גיאומטריות – מינימום/מקסימום (פונקציה ריבועית)",
+                  "fr": "Périmètres et aires ; minimum/maximum d'une fonction quadratique — 10 h"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/eshkol_merhav_10.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "11",
+          "gradeLabel": "י\"א",
+          "topics": [
+            {
+              "id": "geometry-3-11-01",
+              "he": "אשכול התמצאות במישור ובמרחב",
+              "fr": "Grappe « Orientation dans le plan et dans l'espace » (40 h)",
+              "subtopics": [
+                {
+                  "he": "יחס ופרופורציה בהקשר אורייני – כולל קנה מידה",
+                  "fr": "Rapport et proportion en contexte, échelle comprise"
+                },
+                {
+                  "he": "דמיון משולשים בהקשר אורייני",
+                  "fr": "Similitude de triangles en contexte"
+                },
+                {
+                  "he": "שימוש בטריגונומטריה בהקשר אורייני",
+                  "fr": "Trigonométrie en contexte (sinus, cosinus, tangente dans le triangle rectangle)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/yud_alef_02.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "12",
+          "gradeLabel": "י\"ב",
+          "topics": [
+            {
+              "id": "geometry-3-12-01",
+              "he": "אשכול התמצאות במישור ובמרחב: גאומטריה במרחב, ראייה מרחבית",
+              "fr": "Grappe « Orientation dans le plan et dans l'espace » : géométrie dans l'espace et vision spatiale (30 h)",
+              "subtopics": [
+                {
+                  "he": "הכרת התכונות של הגופים: תיבה (כולל קובייה), מנסרה ישרה שבסיסה משולש, פירמידה ישרה, פירמידה לא ישרה שאחד מהמקצועות הצדדיים מאונך לבסיס, גליל ישר, חרוט ישר וכדור",
+                  "fr": "Propriétés des solides : pavé/cube, prisme droit à base triangulaire, pyramides (droite ou à arête latérale perpendiculaire à la base), cylindre droit, cône droit, sphère"
+                },
+                {
+                  "he": "נוסחאות לחישוב שטח מעטפת של הגופים",
+                  "fr": "Formules d'aire latérale"
+                },
+                {
+                  "he": "נוסחאות לחישוב שטח פנים של הגופים",
+                  "fr": "Formules d'aire totale"
+                },
+                {
+                  "he": "נוסחאות לחישוב נפח של הגופים",
+                  "fr": "Formules de volume"
+                },
+                {
+                  "he": "ראייה מרחבית: הסתכלות על גוף תלת ממדי נתון מנקודות מבט שונות",
+                  "fr": "Vision spatiale : un solide vu sous différents points de vue — 10 h"
+                },
+                {
+                  "he": "זיהוי גוף תלת ממדי הבנוי מקוביות על סמך תרשים מספרי או תרשים מבטים",
+                  "fr": "Reconnaître un solide fait de cubes d'après un schéma numérique ou un schéma de vues"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/geometry-merhav-12.pdf"
+            },
+            {
+              "id": "geometry-3-12-02",
+              "he": "גאומטריה אנליטית",
+              "fr": "Géométrie analytique (25 h)",
+              "subtopics": [
+                {
+                  "he": "נקודות וקטעים: אורך קטע ואמצע קטע",
+                  "fr": "Points et segments : longueur, milieu"
+                },
+                {
+                  "he": "ישרים: שיפוע ומשוואת הקו הישר (בצורה מפורשת ובצורה סתומה)",
+                  "fr": "Droites : pente, équation explicite et implicite"
+                },
+                {
+                  "he": "מצבים הדדיים בין ישרים: התלכדות, הקבלה, חיתוך, ניצבות",
+                  "fr": "Positions relatives : confondues, parallèles, sécantes, perpendiculaires"
+                },
+                {
+                  "he": "חיתוך ישרים: נקודות חיתוך עם הצירים ונקודת חיתוך של שני ישרים",
+                  "fr": "Intersections : avec les axes et de deux droites"
+                },
+                {
+                  "he": "מצולעים: שימוש בתכונות משולשים ומרובעים, היקפים ושטחים",
+                  "fr": "Polygones : propriétés des triangles et quadrilatères, périmètres, aires"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/analitic-geometry-12.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "units": 4,
+      "label": {
+        "he": "4 יחידות לימוד",
+        "fr": "4 yéhidot"
+      },
+      "grades": [
+        {
+          "grade": "10",
+          "gradeLabel": "י'",
+          "topics": [
+            {
+              "id": "geometry-4-10-01",
+              "he": "גאומטריה של המישור",
+              "fr": "Géométrie du plan",
+              "subtopics": [
+                {
+                  "he": "קווים מיוחדים במשולש: תיכונים, חוצי זוויות, אנכים אמצעיים, גבהים",
+                  "fr": "Droites remarquables du triangle : médianes, bissectrices, médiatrices, hauteurs"
+                },
+                {
+                  "he": "דמיון משולשים: הגדרה ומשפטי דמיון",
+                  "fr": "Similitude de triangles : définition et critères"
+                },
+                {
+                  "he": "יחס היקפים, יחס שטחים ויחס קווים מיוחדים במשולשים דומים",
+                  "fr": "Rapports des périmètres, des aires et des droites remarquables dans des triangles semblables"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/10th-4-yachal-22.pdf"
+            },
+            {
+              "id": "geometry-4-10-02",
+              "he": "טריגונומטריה במישור",
+              "fr": "Trigonométrie plane",
+              "subtopics": [
+                {
+                  "he": "הגדרת סינוס, קוסינוס וטנגנס של זווית חדה כיחס צלעות במשולש ישר זווית",
+                  "fr": "Sinus, cosinus, tangente d'un angle aigu comme rapports de côtés d'un triangle rectangle"
+                },
+                {
+                  "he": "קשרים בין הפונקציות הטריגונומטריות וערכים של הזוויות 30°, 45°, 60°",
+                  "fr": "Relations entre les fonctions trigonométriques ; valeurs pour 30°, 45°, 60°"
+                },
+                {
+                  "he": "שטח משולש לפי הנוסחה S = ½·a·b·sinγ",
+                  "fr": "Aire d'un triangle S = ½·a·b·sinγ"
+                },
+                {
+                  "he": "צורות המתפרקות למשולשים ישרי זווית ו/או למרובעים: אורכים, זוויות, היקף ושטח",
+                  "fr": "Figures décomposables en triangles rectangles et/ou quadrilatères : longueurs, angles, périmètre, aire"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/10th-4-yachal-22.pdf"
+            },
+            {
+              "id": "geometry-4-10-03",
+              "he": "גאומטריה אנליטית",
+              "fr": "Géométrie analytique",
+              "subtopics": [
+                {
+                  "he": "נקודות וקטעים: מרחק בין נקודות (אורך קטע) ואמצע קטע",
+                  "fr": "Points et segments : distance entre points, milieu"
+                },
+                {
+                  "he": "ישרים: שיפוע כטנגנס הזווית החדה, משוואת ישר",
+                  "fr": "Droites : pente comme tangente de l'angle aigu, équation"
+                },
+                {
+                  "he": "מצבים הדדיים בין ישרים: התלכדות, הקבלה, חיתוך, ניצבות",
+                  "fr": "Positions relatives : confondues, parallèles, sécantes, perpendiculaires"
+                },
+                {
+                  "he": "חיתוך ישרים: נקודות חיתוך עם הצירים ונקודת חיתוך של שני ישרים",
+                  "fr": "Intersection de droites : avec les axes et entre deux droites"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/10th-4-yachal-22.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "11",
+          "gradeLabel": "י\"א",
+          "topics": [
+            {
+              "id": "geometry-4-11-01",
+              "he": "גאומטריה אוקלידית",
+              "fr": "Géométrie euclidienne",
+              "subtopics": [
+                {
+                  "he": "מעגל: הגדרות, מיתר, קשת, זווית מרכזית וזווית היקפית",
+                  "fr": "Cercle : définitions, corde, arc, angle au centre et angle inscrit"
+                },
+                {
+                  "he": "משפטים על מיתרים, קשתות וזוויות מרכזיות והיקפיות",
+                  "fr": "Théorèmes sur cordes, arcs, angles au centre et angles inscrits"
+                },
+                {
+                  "he": "משיקים למעגל: הגדרה, תכונות ומשפטים",
+                  "fr": "Tangentes à un cercle : définition, propriétés, théorèmes"
+                },
+                {
+                  "he": "משולש ומרובע חסום במעגל; משולש חוסם מעגל",
+                  "fr": "Triangle et quadrilatère inscrits ; triangle circonscrit à un cercle"
+                },
+                {
+                  "he": "היקף מעגל ושטח עיגול",
+                  "fr": "Circonférence du cercle et aire du disque"
+                },
+                {
+                  "he": "העשרה: אומדן המספר π",
+                  "fr": "Enrichissement : estimation du nombre π"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/curriculum-4units.pdf"
+            },
+            {
+              "id": "geometry-4-11-02",
+              "he": "טריגונומטריה במישור",
+              "fr": "Trigonométrie plane",
+              "subtopics": [
+                {
+                  "he": "משפט הסינוסים: R הוא רדיוס המעגל החוסם את המשולש",
+                  "fr": "Loi des sinus (R = rayon du cercle circonscrit)"
+                },
+                {
+                  "he": "שטח משולש ושטח מקבילית בעזרת סינוס הזווית שביניהן",
+                  "fr": "Aire d'un triangle et d'un parallélogramme avec le sinus de l'angle compris"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/curriculum-4units.pdf"
+            },
+            {
+              "id": "geometry-4-11-03",
+              "he": "גאומטריה אנליטית",
+              "fr": "Géométrie analytique",
+              "subtopics": [
+                {
+                  "he": "מעגל: משוואה קנונית ומשוואה כללית",
+                  "fr": "Cercle : équation canonique et équation générale"
+                },
+                {
+                  "he": "מעגל וישר: קביעת המצב ההדדי (השוואת רדיוס למרחק או פתרון מערכת משוואות)",
+                  "fr": "Cercle et droite : position relative (rayon contre distance, ou système d'équations)"
+                },
+                {
+                  "he": "משוואת משיק למעגל בנקודה שעל המעגל; מעגל המשיק לאחד הצירים או לשניהם",
+                  "fr": "Tangente en un point du cercle ; cercle tangent à un axe ou aux deux"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/curriculum-4units.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "12",
+          "gradeLabel": "י\"ב",
+          "topics": [
+            {
+              "id": "geometry-4-12-01",
+              "he": "ישרים, מישורים והמצב ההדדי ביניהם, ותכונות הגופים",
+              "fr": "Droites, plans, positions relatives et propriétés des solides",
+              "subtopics": [
+                {
+                  "he": "מצב הדדי בין שני ישרים: נחתכים, מצטלבים, מקבילים",
+                  "fr": "Deux droites : sécantes, non coplanaires, parallèles"
+                },
+                {
+                  "he": "קביעת מישור: שני ישרים נחתכים, שלוש נקודות שאינן על ישר אחד, ישר ונקודה מחוץ לישר, שני ישרים מקבילים",
+                  "fr": "Détermination d'un plan : deux droites sécantes, trois points non alignés, droite et point extérieur, deux droites parallèles"
+                },
+                {
+                  "he": "מצב הדדי בין ישר למישור ובין שני מישורים",
+                  "fr": "Positions relatives droite-plan et plan-plan"
+                },
+                {
+                  "he": "ישר מאונך למישור: הגדרה והתנאי המספיק",
+                  "fr": "Droite perpendiculaire à un plan : définition et condition suffisante"
+                },
+                {
+                  "he": "מנסרה (לאו דווקא ישרה): בסיס, פאה, מקצוע, אלכסון, גובה, שטח מעטפת ושטח פנים; תיבה וקובייה",
+                  "fr": "Prisme (pas nécessairement droit) : base, face, arête, diagonale, hauteur, aire latérale et totale ; pavé et cube"
+                },
+                {
+                  "he": "פירמידה (לאו דווקא ישרה) ופירמידה ישרה: קודקוד הראש, בסיס, פאות, מקצועות, גובה",
+                  "fr": "Pyramide (pas nécessairement droite) et pyramide droite : sommet, base, faces, arêtes, hauteur"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/geo-vector-4y-12.pdf"
+            },
+            {
+              "id": "geometry-4-12-02",
+              "he": "וקטור בגישה גאומטרית",
+              "fr": "Vecteur : approche géométrique",
+              "subtopics": [
+                {
+                  "he": "וקטור במישור ובמרחב: סימון, וקטור האפס, אורך, וקטורים קולינאריים, שווים ונגדיים",
+                  "fr": "Vecteur du plan et de l'espace : notation, vecteur nul, norme, colinéaires, égaux, opposés"
+                },
+                {
+                  "he": "פעולות בווקטורים גאומטריים: חיבור, חיסור, כפל בסקלר ותכונותיהן",
+                  "fr": "Opérations : addition, soustraction, multiplication par un scalaire, propriétés"
+                },
+                {
+                  "he": "תנאי הכרחי ומספיק לקולינאריות של וקטורים",
+                  "fr": "Condition nécessaire et suffisante de colinéarité"
+                },
+                {
+                  "he": "צירוף לינארי של וקטורים והצגה יחידה של וקטור",
+                  "fr": "Combinaison linéaire et décomposition unique d'un vecteur"
+                },
+                {
+                  "he": "קביעה בעזרת וקטורים אם ישר נמצא במישור או מקביל למישור",
+                  "fr": "Savoir avec des vecteurs si une droite est dans un plan ou parallèle à un plan"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/geo-vector-4y-12.pdf"
+            },
+            {
+              "id": "geometry-4-12-03",
+              "he": "וקטור בגישה אלגברית",
+              "fr": "Vecteur : approche algébrique",
+              "subtopics": [
+                {
+                  "he": "מערכת צירים במרחב ושיעורי נקודה",
+                  "fr": "Repère de l'espace et coordonnées d'un point"
+                },
+                {
+                  "he": "וקטורי היחידה של הצירים והצגה אלגברית של וקטור",
+                  "fr": "Vecteurs unitaires des axes et écriture algébrique d'un vecteur"
+                },
+                {
+                  "he": "שוויון, חיבור וכפל בסקלר של וקטורים בהצגה אלגברית; וקטורים קולינאריים",
+                  "fr": "Égalité, addition, multiplication par un scalaire en coordonnées ; colinéarité"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/geo-vector-4y-12.pdf"
+            },
+            {
+              "id": "geometry-4-12-04",
+              "he": "מכפלה סקלרית של וקטורים",
+              "fr": "Produit scalaire",
+              "subtopics": [
+                {
+                  "he": "זווית בין שני וקטורים והגדרת המכפלה הסקלרית",
+                  "fr": "Angle entre deux vecteurs et définition du produit scalaire"
+                },
+                {
+                  "he": "תכונות המכפלה הסקלרית",
+                  "fr": "Propriétés du produit scalaire"
+                },
+                {
+                  "he": "חישובי אורכים, זוויות ושטחים בעזרת המכפלה הסקלרית",
+                  "fr": "Longueurs, angles et aires avec le produit scalaire"
+                },
+                {
+                  "he": "ניצבות של וקטורים וניצבות בין וקטור למישור",
+                  "fr": "Orthogonalité de vecteurs et d'un vecteur à un plan"
+                },
+                {
+                  "he": "מכפלה סקלרית של וקטורים בהצגה אלגברית",
+                  "fr": "Produit scalaire en coordonnées"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/geo-vector-4y-12.pdf"
+            },
+            {
+              "id": "geometry-4-12-05",
+              "he": "חישובי נפחים של גופים",
+              "fr": "Calculs de volumes de solides",
+              "subtopics": [
+                {
+                  "he": "נפח מנסרה ונפח פירמידה",
+                  "fr": "Volume d'un prisme et d'une pyramide"
+                },
+                {
+                  "he": "חישוב הגובה: שיעורי קצוות, מקצוע מאונך לבסיס, מכפלה סקלרית, משפט פיתגורס או טריגונומטריה",
+                  "fr": "Calcul de la hauteur : coordonnées, arête perpendiculaire à la base, produit scalaire, Pythagore ou trigonométrie"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/geo-vector-4y-12.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "units": 5,
+      "label": {
+        "he": "5 יחידות לימוד",
+        "fr": "5 yéhidot"
+      },
+      "grades": [
+        {
+          "grade": "10",
+          "gradeLabel": "י'",
+          "topics": [
+            {
+              "id": "geometry-5-10-01",
+              "he": "מבוא להנדסה אנליטית",
+              "fr": "Introduction à la géométrie analytique (10 h)",
+              "subtopics": [
+                {
+                  "he": "חזרה על נושא הישר והפרבולה והרחבתו תוך קישור למושג הפונקציה",
+                  "fr": "Rappel de la droite et de la parabole, lien avec la notion de fonction"
+                },
+                {
+                  "he": "מציאת משוואת ישר על פי שתי נקודות ועל פי שיפוע ונקודה, הקבלה, אמצע קטע, חיתוך, ניצבות ומרחק בין שתי נקודות",
+                  "fr": "Équation d'une droite (deux points ; pente et point), parallélisme, milieu, intersection, perpendicularité, distance entre deux points"
+                },
+                {
+                  "he": "מערכת משוואות לינאריות והצגתה הגרפית; משוואה מפורשת לעומת משוואה כללית של קו ישר",
+                  "fr": "Système linéaire et sa représentation graphique ; équation explicite ou générale d'une droite"
+                },
+                {
+                  "he": "מערכת של משוואה ריבועית ומשוואה לינארית",
+                  "fr": "Système d'une équation du second degré et d'une équation linéaire"
+                },
+                {
+                  "he": "משוואת מעגל קנוני (שמרכזו בראשית הצירים) והזזתו",
+                  "fr": "Équation canonique du cercle (centre à l'origine) et sa translation"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            },
+            {
+              "id": "geometry-5-10-02",
+              "he": "מקומות גאומטריים, נקודות מיוחדות במשולש ומשפט חפיפה רביעי",
+              "fr": "Lieux géométriques, points remarquables du triangle et quatrième critère d'égalité (10 h)",
+              "subtopics": [
+                {
+                  "he": "מעגל, אנך אמצעי וחוצה זווית כמקומות גאומטריים; ישרים מקבילים כמקום גאומטרי",
+                  "fr": "Cercle, médiatrice, bissectrice, droites parallèles comme lieux géométriques"
+                },
+                {
+                  "he": "שלושת האנכים האמצעיים במשולש והמעגל החוסם",
+                  "fr": "Les trois médiatrices et le cercle circonscrit"
+                },
+                {
+                  "he": "שלושת חוצי הזוויות והמעגל החסום",
+                  "fr": "Les trois bissectrices et le cercle inscrit"
+                },
+                {
+                  "he": "שלושת התיכונים: היחס 2:1 ומרכז הכובד",
+                  "fr": "Les trois médianes : rapport 2:1 et centre de gravité"
+                },
+                {
+                  "he": "שלושת הגבהים במשולש",
+                  "fr": "Les trois hauteurs du triangle"
+                },
+                {
+                  "he": "מציאת מרכז מעגל חוסם ומעגל חסום בסרגל ומחוגה ו/או בתוכנה דינמית",
+                  "fr": "Construction des centres des cercles circonscrit et inscrit"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            },
+            {
+              "id": "geometry-5-10-03",
+              "he": "המעגל",
+              "fr": "Le cercle (20 h)",
+              "subtopics": [
+                {
+                  "he": "קשתות, זוויות ומיתרים במעגל; זווית מרכזית וזווית היקפית",
+                  "fr": "Arcs, angles et cordes ; angle au centre et angle inscrit"
+                },
+                {
+                  "he": "מרובע החסום במעגל: סכום זוויות נגדיות 180° והמשפט ההפוך",
+                  "fr": "Quadrilatère inscrit : angles opposés supplémentaires, et réciproque"
+                },
+                {
+                  "he": "משיק למעגל: הגדרה ומשפטים (ניצבות לרדיוס בנקודת ההשקה)",
+                  "fr": "Tangente à un cercle : définition et théorèmes (perpendiculaire au rayon au point de contact)"
+                },
+                {
+                  "he": "בניות: מרכז של מעגל נתון, משיק מנקודה על המעגל ומנקודה מחוצה לו",
+                  "fr": "Constructions : centre d'un cercle, tangente depuis un point du cercle ou extérieur"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            },
+            {
+              "id": "geometry-5-10-04",
+              "he": "פרופורציה ודמיון משולשים",
+              "fr": "Proportions et similitude de triangles (20 h)",
+              "subtopics": [
+                {
+                  "he": "משפט תאלס, המשפט ההפוך והמשפטים הנובעים משניהם",
+                  "fr": "Théorème de Thalès, sa réciproque et leurs conséquences"
+                },
+                {
+                  "he": "משפטי הדמיון של משולשים",
+                  "fr": "Critères de similitude des triangles"
+                },
+                {
+                  "he": "היחס במשולשים דומים בין היקפים, תיכונים, חוצי זווית, גבהים ורדיוסי מעגלים חוסמים וחסומים",
+                  "fr": "Rapports dans des triangles semblables : périmètres, médianes, bissectrices, hauteurs, rayons des cercles circonscrits et inscrits"
+                },
+                {
+                  "he": "היחס בין היקפים והיחס בין שטחים במצולעים דומים",
+                  "fr": "Rapports des périmètres et des aires de polygones semblables"
+                },
+                {
+                  "he": "משפט חוצה הזווית הפנימית במשולש",
+                  "fr": "Théorème de la bissectrice intérieure"
+                },
+                {
+                  "he": "בניות: חלוקת קטע ל-n חלקים שווים וחלוקת קטע ביחס נתון",
+                  "fr": "Constructions : partage d'un segment en n parties égales ou dans un rapport donné"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            },
+            {
+              "id": "geometry-5-10-05",
+              "he": "פונקציות טריגונומטריות ויישומיהן",
+              "fr": "Fonctions trigonométriques et applications (30 h)",
+              "subtopics": [
+                {
+                  "he": "פונקציות טריגונומטריות על מעגל היחידה (15 שעות): סינוס, קוסינוס, טנגנס, מחזוריות וסימטריה",
+                  "fr": "Fonctions trigonométriques sur le cercle unité : sinus, cosinus, tangente, périodicité, symétries — 15 h"
+                },
+                {
+                  "he": "זהויות ומשוואות טריגונומטריות בסיסיות",
+                  "fr": "Identités et équations trigonométriques de base"
+                },
+                {
+                  "he": "טריגונומטריה במישור (15 שעות): שטח משולש S = ½·a·b·sinγ",
+                  "fr": "Trigonométrie plane : aire d'un triangle S = ½·a·b·sinγ — 15 h"
+                },
+                {
+                  "he": "משפט הסינוסים ומשפט הקוסינוסים ושימושיהם",
+                  "fr": "Loi des sinus et loi des cosinus, applications"
+                },
+                {
+                  "he": "שימוש בטריגונומטריה להוכחת משפטים וטענות בגאומטריה",
+                  "fr": "Trigonométrie pour démontrer des propriétés géométriques"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "11",
+          "gradeLabel": "י\"א",
+          "topics": [
+            {
+              "id": "geometry-5-11-01",
+              "he": "זהויות טריגונומטריות ויישומן בבעיות בגאומטריה",
+              "fr": "Identités trigonométriques et applications en géométrie (15 h)",
+              "subtopics": [
+                {
+                  "he": "הזהויות sin(α±β), cos(α±β), sin2α, cos2α, סכום והפרש סינוסים וקוסינוסים, ופתרון משוואות מתאימות",
+                  "fr": "Identités de somme/différence d'angles, angle double, somme/différence de sinus et cosinus ; équations correspondantes"
+                },
+                {
+                  "he": "שימוש בזהויות בצורות גאומטריות במישור ובמרחב",
+                  "fr": "Utilisation des identités sur des figures géométriques du plan et de l'espace"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodalef5.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "12",
+          "gradeLabel": "י\"ב",
+          "topics": [
+            {
+              "id": "geometry-5-12-01",
+              "he": "וקטורים בגישה גאומטרית ואלגברית (כולל טריגונומטריה במרחב)",
+              "fr": "Vecteurs, approches géométrique et algébrique, trigonométrie de l'espace comprise (50 h)",
+              "subtopics": [
+                {
+                  "he": "מבוא ותכונות בסיסיות (8 שעות)",
+                  "fr": "Introduction et propriétés de base — 8 h"
+                },
+                {
+                  "he": "תלות לינארית ויחידות ההצגה (10 שעות)",
+                  "fr": "Dépendance linéaire et unicité de la représentation — 10 h"
+                },
+                {
+                  "he": "מכפלה סקלארית בין וקטורים (8 שעות)",
+                  "fr": "Produit scalaire — 8 h"
+                },
+                {
+                  "he": "ההצגה האלגברית של וקטורים במרחב ושימושיה (12 שעות): מערכת צירים, הצגה פרמטרית של ישר, משוואת מישור, מצבים הדדיים, מרחקים וזוויות",
+                  "fr": "Écriture algébrique des vecteurs de l'espace : repère, droite paramétrée, plan, positions relatives, distances et angles — 12 h"
+                },
+                {
+                  "he": "יישומים בגאומטריית המרחב (12 שעות)",
+                  "fr": "Applications à la géométrie de l'espace — 12 h"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodbet5.pdf"
+            },
+            {
+              "id": "geometry-5-12-02",
+              "he": "גאומטריה אנליטית",
+              "fr": "Géométrie analytique (40 h)",
+              "subtopics": [
+                {
+                  "he": "נקודות וישרים (7 שעות): חלוקת קטע ביחס נתון, מרחק נקודה מישר ומרחק בין ישרים, מקומות גאומטריים, מצבים הדדיים",
+                  "fr": "Points et droites : partage d'un segment dans un rapport donné, distance point-droite, lieux géométriques, positions relatives — 7 h"
+                },
+                {
+                  "he": "מעגל (7 שעות)",
+                  "fr": "Cercle — 7 h"
+                },
+                {
+                  "he": "פרבולה (8 שעות)",
+                  "fr": "Parabole — 8 h"
+                },
+                {
+                  "he": "אליפסה (8 שעות)",
+                  "fr": "Ellipse — 8 h"
+                },
+                {
+                  "he": "היפרבולה (8 שעות)",
+                  "fr": "Hyperbole — 8 h"
+                },
+                {
+                  "he": "מבט מאחד אלגברי באמצעות המשוואה הכללית Ax² + By² + Cx + Dy + E = 0",
+                  "fr": "Vue unifiée par l'équation générale Ax² + By² + Cx + Dy + E = 0"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodbet5.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Le ministère ne traite pas la géométrie comme une matière séparée : c'est un chapitre (תחום) du programme de mathématiques (page : https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/new-curriculum/). Ce fichier extrait les chapitres de géométrie des mêmes PDF que math.json (mêmes `source`), avec le même schéma ; l'id de matière est « geometry ».",
+    "Retenus : géométrie euclidienne du plan, géométrie analytique, trigonométrie plane, géométrie dans l'espace (solides, vision spatiale), vecteurs et leur usage géométrique. Non retenus : programmation linéaire, calcul différentiel/intégral (y compris des fonctions trigonométriques), statistiques/probabilités, nombres complexes. Aucun chapitre autonome de transformations géométriques (symétries, rotations, homothéties) n'existe dans ces programmes : « טרנספורמציות » désigne les transformations de graphes de fonctions ; les transformations du plan apparaissent seulement comme application des nombres complexes (5 יח\"ל י\"ב, yodbet5.pdf).",
+    "4 יח\"ל י' et י\"א : géométrie euclidienne du plan, géométrie analytique et trigonométrie sont enseignées de façon intégrée (« נלמדים בצורה משולבת ») — voir 10th-4-yachal-22.pdf p.2 et curriculum-4units.pdf p.11 ; les chapitres ci-dessous suivent les trois domaines, pas un ordre d'enseignement.",
+    "Géométrie dans les épreuves (page du ministère) : 35372 (3 יח\"ל) — chapitre 1 : géométrie analytique + programmation linéaire ; « אשכול גאומטריה - גופים במרחב וראיה מרחבית » ; 35471 — « פרק שני – גאומטריה משולבת », 1 question sur 2 ; 35571 — « פרק שלישי – גאומטריה, טריגונומטריה במישור », 1 question sur 2 ; 35572 — « הנדסה אנליטית, וקטורים (כולל טריגונומטריה במרחב), מספרים מרוכבים », 2 questions sur 3. En תשפ\"ז (35471) les questions de géométrie ne combinent que deux des trois domaines (plan, analytique, trigonométrie) et sans paramètres (circulaire : https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/hozer-mafmar-tashpaz.pdf).",
+    "Recommandations d'enseignement תשפ\"ז : https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/3-points-tashpaz.pdf ; https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/4-points-tashpaz.pdf ; https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/5-points-tashpaz.pdf .",
+    "Thèmes de géométrie NON enseignés en תשפ\"ז (fichier officiel https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/Topics-not-be-taught-in-Tashpaz.pdf) : 3 יח\"ל י\"א (35371) — pavages ; trigonométrie des polygones réguliers de plus de 4 côtés. 4 יח\"ל י\"א (35471) — théorème de la bissectrice d'un angle du triangle et sa réciproque ; point de concours des bissectrices ; deux tangentes à un cercle ; triangle circonscrit à un cercle. 4 יח\"ל י\"ב (35472) — géométrie dans l'espace : pas de combinaison avec le point de concours des médianes ni avec la loi des sinus. 5 יח\"ל י\"א (35571) — quadrilatère circonscrit à un cercle ; rapports (périmètres, médianes, bissectrices, rayons des cercles circonscrits/inscrits) dans les triangles semblables. 5 יח\"ל י\"ב (35572) — applications en géométrie de l'espace : cylindre, cône, sphère. Toutes les classes י' : tout est enseigné."
+  ],
+  "unverified": [
+    "10th-4-yachal-22.pdf (4 יח\"ל, י') : le PDF contient des mots et lignes écrits à l'envers (défaut du document, aussi avec web_extract) ; les intitulés de géométrie (pages 5-10) ont été remis à l'endroit puis relus en contexte ; la liste exacte des valeurs trigonométriques et certains items (p.7-8, 10) restent partiellement illisibles → à valider contre le PDF.",
+    "Le contenu de géométrie de la classe de 4 יח\"ל י' suppose aussi des acquis du collège listés à l'annexe א' (axiomes, angles, quadrilatères, Pythagore...) que ce fichier ne reprend pas (seuls les contenus nouveaux sont listés).",
+    "Annexes (exemples de questions, liste des théorèmes de géométrie de yod5.pdf) non lues en détail ; « משפט חפיפה רביעי » (5 יח\"ל י') est cité par son titre sans que son énoncé ait été relevé."
+  ]
+}
