@@ -1,0 +1,7 @@
+{
+  "proxyUrl": "https://moreh-bakis-proxy.orphee26.workers.dev",
+  "free": true,
+  "limits": { "perDay": 90000, "total": 3000000, "note": "Plafond gratuit du mandataire. Au-delà, il faut passer au payant." },
+  "updatedAt": "2026-11-10",
+  "note": "Ce fichier dit à l'appli où est le mandataire gratuit. Il ne contient aucune clé d'API."
+}
