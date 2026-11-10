@@ -1,0 +1,2275 @@
+{
+ "id": "biu",
+ "name": {
+  "he": "אוניברסיטת בר אילן",
+  "fr": "Université Bar-Ilan"
+ },
+ "website": "https://www.biu.ac.il/",
+ "retrievedAt": "2026-11-10",
+ "faculties": [
+  {
+   "id": "exact-sciences",
+   "he": "הפקולטה למדעים מדויקים",
+   "fr": "Faculté des sciences exactes",
+   "url": "https://esc.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "בוגר מדעים (B.Sc.) במתמטיקה",
+     "fr": "Licence ès sciences en mathématiques"
+    },
+    {
+     "he": "בוגר מדעים (B.Sc.) בסטטיסטיקה ומדעי הנתונים",
+     "fr": "Licence ès sciences en statistique et science des données"
+    },
+    {
+     "he": "בוגר מדעים (B.Sc.) במדעי המחשב",
+     "fr": "Licence ès sciences en informatique"
+    },
+    {
+     "he": "בוגר מדעים (B.Sc.) במדעי המחשב, מגמת בינה מלאכותית חישובית",
+     "fr": "Licence ès sciences en informatique, parcours IA computationnelle"
+    },
+    {
+     "he": "בוגר מדעים (B.Sc.) בפיזיקה",
+     "fr": "Licence ès sciences en physique"
+    },
+    {
+     "he": "בוגר מדעים (B.Sc.) בכימיה",
+     "fr": "Licence ès sciences en chimie"
+    },
+    {
+     "he": "בוגר מדעים (B.Sc.) בביולוגיה חישובית",
+     "fr": "Licence ès sciences en biologie computationnelle"
+    }
+   ],
+   "departments": [
+    {
+     "id": "cs",
+     "he": "המחלקה למדעי המחשב ולבינה מלאכותית",
+     "fr": "Département d'informatique et d'intelligence artificielle",
+     "url": "https://cs.biu.ac.il/"
+    },
+    {
+     "id": "math",
+     "he": "המחלקה למתמטיקה",
+     "fr": "Département de mathématiques",
+     "url": "https://math.biu.ac.il/"
+    },
+    {
+     "id": "physics",
+     "he": "המחלקה לפיזיקה",
+     "fr": "Département de physique",
+     "url": "https://physics.biu.ac.il/"
+    },
+    {
+     "id": "chemistry",
+     "he": "המחלקה לכימיה",
+     "fr": "Département de chimie",
+     "url": "https://ch.biu.ac.il/"
+    }
+   ]
+  },
+  {
+   "id": "social-sciences",
+   "he": "הפקולטה למדעי החברה",
+   "fr": "Faculté des sciences sociales",
+   "url": "https://social-sciences.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "תואר ראשון (B.A.) בפסיכולוגיה",
+     "fr": "Licence (B.A.) en psychologie"
+    },
+    {
+     "he": "תואר ראשון (B.A.) בכלכלה",
+     "fr": "Licence (B.A.) en économie"
+    },
+    {
+     "he": "תואר ראשון (B.A.) בניהול ולוגיסטיקה",
+     "fr": "Licence (B.A.) en gestion et logistique"
+    },
+    {
+     "he": "תואר ראשון (B.A.) במדעי המדינה",
+     "fr": "Licence (B.A.) en science politique"
+    },
+    {
+     "he": "תואר ראשון (B.A.) בסוציולוגיה ואנתרופולוגיה",
+     "fr": "Licence (B.A.) en sociologie et anthropologie"
+    },
+    {
+     "he": "תואר ראשון (B.A.) בקרימינולוגיה",
+     "fr": "Licence (B.A.) en criminologie"
+    },
+    {
+     "he": "תואר ראשון (B.S.W.) בעבודה סוציאלית",
+     "fr": "Licence (B.S.W.) en travail social"
+    }
+   ],
+   "departments": [
+    {
+     "id": "psychology",
+     "he": "המחלקה לפסיכולוגיה",
+     "fr": "Département de psychologie",
+     "url": "https://psychology.biu.ac.il/"
+    },
+    {
+     "id": "economics",
+     "he": "המחלקה לכלכלה",
+     "fr": "Département d'économie",
+     "url": "https://econ.biu.ac.il/"
+    },
+    {
+     "id": "management",
+     "he": "המחלקה לניהול",
+     "fr": "Département de gestion",
+     "url": "https://management.biu.ac.il/"
+    },
+    {
+     "id": "politics",
+     "he": "המחלקה למדעי המדינה",
+     "fr": "Département de science politique",
+     "url": "https://politics.biu.ac.il/"
+    },
+    {
+     "id": "sociology",
+     "he": "המחלקה לסוציולוגיה ולאנתרופולוגיה",
+     "fr": "Département de sociologie et d'anthropologie",
+     "url": "https://sociology.biu.ac.il/"
+    },
+    {
+     "id": "criminology",
+     "he": "המחלקה לקרימינולוגיה",
+     "fr": "Département de criminologie",
+     "url": "http://criminology.biu.ac.il/"
+    },
+    {
+     "id": "communication",
+     "he": "בית הספר לתקשורת",
+     "fr": "École de communication",
+     "url": "http://communication.biu.ac.il/"
+    },
+    {
+     "id": "social-work",
+     "he": "בית הספר לעבודה סוציאלית ע\"ש לואיס וגבי וייספלד",
+     "fr": "École de travail social Louis et Gabi Weisfeld",
+     "url": "http://social-work.biu.ac.il/"
+    },
+    {
+     "id": "geoenv",
+     "he": "המחלקה לסביבה, תכנון וקיימות",
+     "fr": "Département d'environnement, d'urbanisme et de durabilité",
+     "url": "http://geoenv.biu.ac.il/"
+    },
+    {
+     "id": "business",
+     "he": "בית הספר למנהל עסקים",
+     "fr": "École de gestion des affaires",
+     "url": "http://mba.biu.ac.il/"
+    },
+    {
+     "id": "social-health",
+     "he": "המחלקה למדעי חברה ובריאות",
+     "fr": "Département des sciences sociales et de la santé",
+     "url": "https://social-health.biu.ac.il/"
+    }
+   ]
+  },
+  {
+   "id": "humanities",
+   "he": "הפקולטה למדעי הרוח",
+   "fr": "Faculté des lettres et sciences humaines",
+   "url": "https://humanities.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "בוגר אמנויות רב-תחומי במדעי הרוח",
+     "fr": "Licence pluridisciplinaire en sciences humaines"
+    },
+    {
+     "he": "תואר ראשון בספרות אנגלית ובלשנות",
+     "fr": "Licence en littérature anglaise et linguistique"
+    },
+    {
+     "he": "תואר ראשון במדעי המידע ויישומי בינה מלאכותית",
+     "fr": "Licence en sciences de l'information et applications de l'IA"
+    },
+    {
+     "he": "תואר ראשון בהיסטוריה כללית",
+     "fr": "Licence en histoire générale"
+    },
+    {
+     "he": "תואר ראשון בשפה הערבית",
+     "fr": "Licence en langue arabe"
+    },
+    {
+     "he": "תואר ראשון בפילוסופיה",
+     "fr": "Licence en philosophie"
+    },
+    {
+     "he": "תואר ראשון במוזיקה",
+     "fr": "Licence en musique"
+    }
+   ],
+   "departments": [
+    {
+     "id": "english",
+     "he": "המחלקה לבלשנות וספרות אנגלית",
+     "fr": "Département de linguistique et de littérature anglaise",
+     "url": "https://english.biu.ac.il/"
+    },
+    {
+     "id": "history",
+     "he": "המחלקה להיסטוריה כללית",
+     "fr": "Département d'histoire générale",
+     "url": "https://history.biu.ac.il/"
+    },
+    {
+     "id": "classics",
+     "he": "המחלקה ללימודים קלאסיים – יוון ורומא",
+     "fr": "Département d'études classiques – Grèce et Rome",
+     "url": "https://classics.biu.ac.il/"
+    },
+    {
+     "id": "info-science",
+     "he": "המחלקה למדעי המידע ויישומי בינה מלאכותית",
+     "fr": "Département des sciences de l'information et applications de l'IA",
+     "url": "https://is.biu.ac.il/"
+    },
+    {
+     "id": "music",
+     "he": "המחלקה למוזיקה",
+     "fr": "Département de musique",
+     "url": "http://music.biu.ac.il/"
+    },
+    {
+     "id": "comparative-lit",
+     "he": "המחלקה לספרות משווה",
+     "fr": "Département de littérature comparée",
+     "url": "https://comlit.biu.ac.il"
+    },
+    {
+     "id": "arabic",
+     "he": "המחלקה לערבית",
+     "fr": "Département d'arabe",
+     "url": "https://arabic.biu.ac.il/"
+    },
+    {
+     "id": "philosophy",
+     "he": "המחלקה לפילוסופיה",
+     "fr": "Département de philosophie",
+     "url": "http://philosophy.biu.ac.il/"
+    },
+    {
+     "id": "french",
+     "he": "המחלקה לתרבות צרפת",
+     "fr": "Département de culture française",
+     "url": "https://french.biu.ac.il/"
+    },
+    {
+     "id": "translation",
+     "he": "המחלקה לתרגום וחקר התרגום",
+     "fr": "Département de traduction et d'études traductologiques",
+     "url": "http://translation.biu.ac.il/"
+    },
+    {
+     "id": "asian-studies",
+     "he": "לימודי אסיה",
+     "fr": "Études asiatiques",
+     "url": "https://barav.biu.ac.il/"
+    },
+    {
+     "id": "efl",
+     "he": "היחידה לאנגלית כשפה זרה",
+     "fr": "Unité d'anglais langue étrangère",
+     "url": "http://efl.biu.ac.il/"
+    }
+   ]
+  },
+  {
+   "id": "engineering",
+   "he": "הפקולטה להנדסה ע\"ש אלכסנדר קופקין",
+   "fr": "Faculté d'ingénierie Alexandre-Kofkin",
+   "url": "https://engineering.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "תואר ראשון בהנדסת חשמל (B.Sc.)",
+     "fr": "Licence (B.Sc.) en génie électrique"
+    },
+    {
+     "he": "תואר ראשון בהנדסת מחשבים (B.Sc.)",
+     "fr": "Licence (B.Sc.) en génie informatique"
+    },
+    {
+     "he": "תואר ראשון בהנדסת תעשייה ומערכות מידע (B.Sc.)",
+     "fr": "Licence (B.Sc.) en génie industriel et systèmes d'information"
+    },
+    {
+     "he": "תואר ראשון בהנדסת חומרים (B.Sc.)",
+     "fr": "Licence (B.Sc.) en génie des matériaux"
+    },
+    {
+     "he": "תואר ראשון בהנדסת תוכנה (B.Sc.)",
+     "fr": "Licence (B.Sc.) en génie logiciel"
+    },
+    {
+     "he": "תואר ראשון בהנדסת נתונים ובינה מלאכותית (B.Sc.)",
+     "fr": "Licence (B.Sc.) en génie des données et intelligence artificielle"
+    }
+   ],
+   "departments": [
+    {
+     "id": "electrical",
+     "he": "הנדסת חשמל",
+     "fr": "Génie électrique",
+     "url": "https://engineering.biu.ac.il/tracks/Electrical_Engineering"
+    },
+    {
+     "id": "computer-eng",
+     "he": "הנדסת מחשבים",
+     "fr": "Génie informatique",
+     "url": "https://engineering.biu.ac.il/"
+    },
+    {
+     "id": "data-eng",
+     "he": "הנדסת נתונים ובינה מלאכותית",
+     "fr": "Génie des données et intelligence artificielle",
+     "url": "https://engineering.biu.ac.il/"
+    },
+    {
+     "id": "materials",
+     "he": "הנדסת חומרים",
+     "fr": "Génie des matériaux",
+     "url": "https://engineering.biu.ac.il/"
+    },
+    {
+     "id": "software",
+     "he": "הנדסת תוכנה",
+     "fr": "Génie logiciel",
+     "url": "https://engineering.biu.ac.il/"
+    }
+   ]
+  },
+  {
+   "id": "life-sciences",
+   "he": "הפקולטה למדעי החיים ע\"ש מינה ואבררד גודמן",
+   "fr": "Faculté des sciences de la vie Mina-et-Everard-Goodman",
+   "url": "https://life-sciences.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "בוגר מדעים (B.Sc.) במדעי החיים (ביולוגיה), חד-חוגי",
+     "fr": "Licence (B.Sc.) en sciences de la vie (biologie), parcours unique"
+    },
+    {
+     "he": "בוגר מדעים (B.Sc.) בביוטכנולוגיה",
+     "fr": "Licence (B.Sc.) en biotechnologie"
+    },
+    {
+     "he": "בוגר מדעים (B.Sc.) בביולוגיה חישובית",
+     "fr": "Licence (B.Sc.) en biologie computationnelle"
+    },
+    {
+     "he": "דו-חוגי מדעי החיים-כימיה",
+     "fr": "Double majeure sciences de la vie – chimie"
+    },
+    {
+     "he": "דו-חוגי מדעי החיים-פסיכולוגיה",
+     "fr": "Double majeure sciences de la vie – psychologie"
+    },
+    {
+     "he": "דו-חוגי מדעי החיים-מדעי המוח",
+     "fr": "Double majeure sciences de la vie – neurosciences"
+    },
+    {
+     "he": "תואר ראשון באופטומטריה",
+     "fr": "Licence en optométrie"
+    }
+   ],
+   "departments": [
+    {
+     "id": "optometry",
+     "he": "בית הספר לאופטומטריה ומדעי הראייה",
+     "fr": "École d'optométrie et sciences de la vision",
+     "url": "https://life-sciences.biu.ac.il/"
+    }
+   ]
+  },
+  {
+   "id": "law",
+   "he": "הפקולטה למשפטים",
+   "fr": "Faculté de droit",
+   "url": "https://law.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "תואר ראשון במשפטים (LL.B.), חד-חוגי",
+     "fr": "Licence (LL.B.) en droit, parcours unique"
+    },
+    {
+     "he": "תוכנית אימפקט משפטים לסטודנטים מעולים",
+     "fr": "Programme Impact en droit pour étudiants d'excellence"
+    },
+    {
+     "he": "תואר ראשון כפול במשפטים ובכלכלה",
+     "fr": "Double diplôme droit et économie"
+    },
+    {
+     "he": "תואר ראשון כפול במשפטים ובעבודה סוציאלית",
+     "fr": "Double diplôme droit et travail social"
+    },
+    {
+     "he": "תואר ראשון במשפטים ותואר שני במנהל עסקים",
+     "fr": "Droit (LL.B.) et maîtrise en administration des affaires"
+    },
+    {
+     "he": "תואר ראשון במשפטים ותואר שני ברגולציה ומדיניות סביבתית",
+     "fr": "Droit (LL.B.) et maîtrise en régulation et politique environnementale"
+    }
+   ],
+   "departments": [
+    {
+     "id": "law-school",
+     "he": "הפקולטה למשפטים",
+     "fr": "Faculté de droit",
+     "url": "https://law.biu.ac.il/"
+    }
+   ]
+  },
+  {
+   "id": "education",
+   "he": "הפקולטה לחינוך",
+   "fr": "Faculté d'éducation",
+   "url": "https://education.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "תואר ראשון במנהיגות וניהול מערכות חינוך",
+     "fr": "Licence en leadership et gestion des systèmes éducatifs"
+    },
+    {
+     "he": "תואר ראשון בחינוך מיוחד עם תעודת הוראה",
+     "fr": "Licence en éducation spécialisée avec certificat d'enseignement"
+    },
+    {
+     "he": "תואר ראשון בייעוץ חינוכי",
+     "fr": "Licence en conseil éducatif"
+    },
+    {
+     "he": "תואר ראשון בחינוך כללי",
+     "fr": "Licence en éducation générale"
+    },
+    {
+     "he": "חינוך במגמת למידה בארגונים",
+     "fr": "Éducation, parcours apprentissage en organisations"
+    },
+    {
+     "he": "נחשונים להוראה",
+     "fr": "Programme Nahshonim pour l'enseignement"
+    }
+   ],
+   "departments": [
+    {
+     "id": "education-school",
+     "he": "הפקולטה לחינוך",
+     "fr": "Faculté d'éducation",
+     "url": "https://education.biu.ac.il/"
+    }
+   ]
+  },
+  {
+   "id": "jewish-studies",
+   "he": "הפקולטה למדעי היהדות",
+   "fr": "Faculté des études juives",
+   "url": "https://jewish-faculty.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "תואר ראשון במדעי היהדות, חד-חוגי",
+     "fr": "Licence en études juives, parcours unique"
+    },
+    {
+     "he": "תואר ראשון במדעי היהדות, מסלול ישיר",
+     "fr": "Licence en études juives, parcours direct"
+    },
+    {
+     "he": "תואר ראשון במדעי היהדות, מסלול משולב",
+     "fr": "Licence en études juives, parcours combiné"
+    }
+   ],
+   "departments": [
+    {
+     "id": "talmud",
+     "he": "המחלקה לתלמוד ותורה שבעל-פה ע\"ש נפתלי יפה",
+     "fr": "Département de Talmud et Torah orale Naftali Yaffe",
+     "url": "https://jewish-faculty.biu.ac.il/units"
+    },
+    {
+     "id": "bible",
+     "he": "המחלקה לתנ\"ך ע\"ש זלמן שמיר",
+     "fr": "Département de Bible Zalman Shamir",
+     "url": "https://jewish-faculty.biu.ac.il/units"
+    },
+    {
+     "id": "hebrew-lang",
+     "he": "המחלקה ללשון העברית וללשונות שמיות",
+     "fr": "Département de langue hébraïque et langues sémitiques",
+     "url": "https://jewish-faculty.biu.ac.il/units"
+    },
+    {
+     "id": "jewish-history",
+     "he": "המחלקה להיסטוריה של עם ישראל ויהדות זמננו ע\"ש ישראל וגולדה קושיצקי",
+     "fr": "Département d'histoire du peuple d'Israël et du judaïsme contemporain",
+     "url": "https://jewish-faculty.biu.ac.il/units"
+    },
+    {
+     "id": "jewish-philosophy",
+     "he": "המחלקה לפילוסופיה יהודית",
+     "fr": "Département de philosophie juive",
+     "url": "https://jphilosophy.biu.ac.il/node/2151"
+    },
+    {
+     "id": "middle-east",
+     "he": "המחלקה ללימודי המזרח התיכון",
+     "fr": "Département d'études du Moyen-Orient",
+     "url": "https://jewish-faculty.biu.ac.il/units"
+    },
+    {
+     "id": "israel-studies",
+     "he": "המחלקה ללימודי ארץ ישראל וארכיאולוגיה ע\"ש מרטין (זוס)",
+     "fr": "Département d'études sur la Terre d'Israël et l'archéologie",
+     "url": "https://jewish-faculty.biu.ac.il/units"
+    },
+    {
+     "id": "jewish-lit",
+     "he": "המחלקה לספרות עם ישראל ע\"ש יוסף ונחום ברמן",
+     "fr": "Département de littérature du peuple juif Yosef-et-Nahum-Berman",
+     "url": "https://jewish-faculty.biu.ac.il/units"
+    },
+    {
+     "id": "jewish-art",
+     "he": "המחלקה לאמנות יהודית",
+     "fr": "Département d'art juif",
+     "url": "https://jewish-faculty.biu.ac.il/units"
+    },
+    {
+     "id": "interdisciplinary-jewish",
+     "he": "החוג הרב-תחומי למדעי היהדות",
+     "fr": "Département pluridisciplinaire d'études juives",
+     "url": "https://jewish-faculty.biu.ac.il/units"
+    }
+   ]
+  },
+  {
+   "id": "medicine",
+   "he": "הפקולטה לרפואה ע\"ש עזריאלי",
+   "fr": "Faculté de médecine Azrieli",
+   "url": "https://medicine.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "לימודים לתואר דוקטור ברפואה (M.D.) – התכנית השש-שנתית",
+     "fr": "Doctorat de médecine (M.D.) – programme de six ans"
+    },
+    {
+     "he": "לימודים לתואר דוקטור ברפואה (M.D.) – התכנית הארבע-שנתית",
+     "fr": "Doctorat de médecine (M.D.) – programme de quatre ans"
+    },
+    {
+     "he": "לימודים לתואר דוקטור ברפואה (M.D.) – התכנית התלת-שנתית",
+     "fr": "Doctorat de médecine (M.D.) – programme de trois ans"
+    }
+   ],
+   "departments": [
+    {
+     "id": "medicine-school",
+     "he": "הפקולטה לרפואה ע\"ש עזריאלי",
+     "fr": "Faculté de médecine Azrieli",
+     "url": "https://medicine.biu.ac.il/"
+    }
+   ]
+  },
+  {
+   "id": "interdis",
+   "he": "היחידה ללימודים בין תחומיים",
+   "fr": "Unité d'études interdisciplinaires",
+   "url": "https://interdis.biu.ac.il/",
+   "mainDegrees": [
+    {
+     "he": "תואר ראשון רב-תחומי בחקר המוח",
+     "fr": "Licence pluridisciplinaire en recherche sur le cerveau"
+    }
+   ],
+   "departments": [
+    {
+     "id": "brain-research",
+     "he": "התכנית למדעי המוח",
+     "fr": "Programme des neurosciences",
+     "url": "https://interdis.biu.ac.il/node/738"
+    },
+    {
+     "id": "conflict-resolution",
+     "he": "התכנית לניהול ויישוב סכסוכים ומשא ומתן",
+     "fr": "Programme de gestion et de résolution des conflits",
+     "url": "https://pconfl.biu.ac.il/"
+    },
+    {
+     "id": "sts",
+     "he": "התכנית למדע, טכנולוגיה וחברה",
+     "fr": "Programme sciences, technologie et société",
+     "url": "https://sts.biu.ac.il/"
+    },
+    {
+     "id": "hermeneutics",
+     "he": "התכנית לפרשנות ותרבות",
+     "fr": "Programme d'herméneutique et de culture",
+     "url": "http://culture.biu.ac.il/"
+    }
+   ]
+  }
+ ],
+ "foundationCourses": [
+  {
+   "id": "biu-88132",
+   "family": "calculus1",
+   "he": "חשבון אינפיניטסימלי 1",
+   "fr": "Calcul infinitésimal 1",
+   "code": "88-132",
+   "credits": 6,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "שדה המספרים הממשיים",
+     "Le corps des nombres réels"
+    ],
+    [
+     "סדרות מתכנסות ומתבדרות",
+     "Suites convergentes et divergentes"
+    ],
+    [
+     "גבול של סדרה מתכנסת",
+     "Limite d'une suite convergente"
+    ],
+    [
+     "טורים",
+     "Séries"
+    ],
+    [
+     "פונקציות רציפות",
+     "Fonctions continues"
+    ],
+    [
+     "הנגזרת ושימושיה בחקירת פונקציות",
+     "La dérivée et son emploi dans l'étude des fonctions"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם פורמלי; המדריך המחלקתי מניח שליטה בגאומטריה אנליטית, פונקציות מעריכיות ולוגריתמיות, טריגונומטריה וסדרות הנדסיות"
+   ],
+   "source": "https://u.math.biu.ac.il/~vishneu/courses/88132/88132.html",
+   "creditsNote": "התוכן לקוח מדף הקורס וממדריך הסטודנט של המחלקה למתמטיקה (גרסה 1.56, 2012)"
+  },
+  {
+   "id": "biu-88133",
+   "family": "calculus2",
+   "he": "חשבון אינפיניטסימלי 2",
+   "fr": "Calcul infinitésimal 2",
+   "code": "88-133",
+   "credits": 6,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "משפטי פרמה, רול, לגרנז' וקושי",
+     "Théorèmes de Fermat, Rolle, Lagrange et Cauchy"
+    ],
+    [
+     "כלל לופיטל",
+     "Règle de L'Hôpital"
+    ],
+    [
+     "נוסחת טיילור עם שארית",
+     "Formule de Taylor avec reste"
+    ],
+    [
+     "סדרות וטורים של פונקציות",
+     "Suites et séries de fonctions"
+    ],
+    [
+     "טורי חזקות",
+     "Séries de puissances"
+    ],
+    [
+     "האינטגרל הלא מסוים ושיטות באינטגרציה",
+     "Intégrale indéfinie et méthodes d'intégration"
+    ],
+    [
+     "האינטגרל המסוים והמשפט היסודי",
+     "Intégrale définie et théorème fondamental"
+    ],
+    [
+     "אינטגרלים לא אמיתיים",
+     "Intégrales impropres"
+    ],
+    [
+     "מבוא לפונקציות של כמה משתנים",
+     "Introduction aux fonctions de plusieurs variables"
+    ]
+   ],
+   "prerequisites": [
+    "חשבון אינפיניטסימלי 1 (88-132)"
+   ],
+   "source": "https://u.math.biu.ac.il/~vishneu/students/Junior/syllabi/8813301.pdf",
+   "creditsNote": "סילבוס תשס\"ט; יש לבדוק מול גרסה עדכנית"
+  },
+  {
+   "id": "biu-88112",
+   "family": "linear-algebra1",
+   "he": "אלגברה ליניארית 1",
+   "fr": "Algèbre linéaire 1",
+   "code": "88-112",
+   "credits": 6,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "מערכות משוואות ליניאריות בכל מספר משתנים",
+     "Systèmes d'équations linéaires"
+    ],
+    [
+     "ייצוג באמצעות מטריצות ווקטורים",
+     "Représentation par matrices et vecteurs"
+    ],
+    [
+     "מרחב וקטורי",
+     "Espace vectoriel"
+    ],
+    [
+     "העתקות ליניאריות",
+     "Applications linéaires"
+    ],
+    [
+     "ייצוג העתקות ליניאריות במטריצות",
+     "Représentation des applications linéaires par matrices"
+    ],
+    {
+     "he": "פתרון מערכת בארבעה נעלמים כמקרה פרטי של n נעלמים",
+     "fr": "Résolution d'un système à quatre inconnues comme cas particulier de n inconnues"
+    },
+    {
+     "he": "מערכות עם משתנה חופשי",
+     "fr": "Systèmes à variable libre"
+    },
+    {
+     "he": "דוגמאות מערכות כגון {x+y=6, 2x+3y=9}",
+     "fr": "Exemples de systèmes comme {x+y=6, 2x+3y=9}"
+    }
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם"
+   ],
+   "source": "https://u.math.biu.ac.il/~vishneu/students/FirstYear/NewcomersGuide.doc",
+   "creditsNote": "התוכן לקוח ממדריך הסטודנט של המחלקה למתמטיקה (2012); לא נמצא סילבוס נוכחי ; רשימת הנושאים חלקית: מקור אחד בלבד זמין"
+  },
+  {
+   "id": "biu-88195",
+   "family": "discrete-math",
+   "he": "מתמטיקה בדידה",
+   "fr": "Mathématiques discrètes",
+   "code": "88-195",
+   "credits": 6,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "קבוצות ופעולות עליהן",
+     "Ensembles et opérations sur les ensembles"
+    ],
+    [
+     "יחסים ויחסי שקילות",
+     "Relations et relations d'équivalence"
+    ],
+    [
+     "יחסי סדר",
+     "Relations d'ordre"
+    ],
+    [
+     "פונקציות",
+     "Fonctions"
+    ],
+    [
+     "לוגיקה וקשרים לוגיים",
+     "Logique et connecteurs logiques"
+    ],
+    [
+     "עוצמות",
+     "Cardinaux"
+    ],
+    [
+     "משפטי קנטור-ברנשטיין ולמת הצורן",
+     "Théorèmes de Cantor-Bernstein et lemme de Zorn"
+    ],
+    [
+     "מבוא לקומבינטוריקה",
+     "Introduction à la combinatoire"
+    ],
+    [
+     "מקדמים בינומיים ומקדמים מולטינומיים",
+     "Coefficients binomiaux et multinomiaux"
+    ],
+    [
+     "עקרונות ההכלה וההדחה",
+     "Principes d'inclusion-exclusion"
+    ],
+    [
+     "נוסחאות נסיגה",
+     "Relations de récurrence"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם"
+   ],
+   "source": "https://u.cs.biu.ac.il/~tsaban/Pdf/DM88195Syl.pdf",
+   "creditsNote": "תוכן פרקים מסילבוס מפורט של הקורס 88-195 באתר המחלקה למדעי המחשב"
+  },
+  {
+   "id": "biu-88165",
+   "family": "probability",
+   "he": "מבוא להסתברות וסטטיסטיקה",
+   "fr": "Introduction aux probabilités et à la statistique",
+   "code": "88-165",
+   "credits": 6,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "סטטיסטיקה תיאורית: מדדי מרכז ומדדי פיזור",
+     "Statistique descriptive : mesures de centre et de dispersion"
+    ],
+    [
+     "מרחבי הסתברות בדידים, מאורעות והכלה והדחה",
+     "Espaces probabilisés discrets, événements et inclusion-exclusion"
+    ],
+    [
+     "הסתברות מותנית, הסתברות שלמה וחוק בייס",
+     "Probabilité conditionnelle, probabilité totale et théorème de Bayes"
+    ],
+    [
+     "משתנים מקריים בדידים",
+     "Variables aléatoires discrètes"
+    ],
+    [
+     "התפלגויות בדידות: אחידה, ברנולי, בינומית, פואסון",
+     "Lois discrètes : uniforme, Bernoulli, binomiale, Poisson"
+    ],
+    [
+     "משתנים רציפים וצפיפות משותפת",
+     "Variables continues et densité conjointe"
+    ],
+    [
+     "התפלגויות רציפות: אחידה, מעריכית, נורמלית, חי-בריבוע, t, F",
+     "Lois continues : uniforme, exponentielle, normale, khi-deux, t, F"
+    ],
+    [
+     "אי-שוויוני מרקוב וצ'בישב, החוק החלש והחוק החזק",
+     "Inégalités de Markov et Tchebychev, lois faible et forte des grands nombres"
+    ],
+    [
+     "משפט הגבול המרכזי",
+     "Théorème central limite"
+    ],
+    [
+     "תהליכי מרקוב סופיים",
+     "Chaînes de Markov finies"
+    ],
+    [
+     "אמידה נקודתית ושיטת הנראות המקסימלית",
+     "Estimation ponctuelle et maximum de vraisemblance"
+    ],
+    [
+     "רווח סמך לתוחלת ולשונות",
+     "Intervalle de confiance pour la moyenne et la variance"
+    ],
+    [
+     "בדיקת השערות",
+     "Tests d'hypothèses"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://u.math.biu.ac.il/~vishneu/courses/88165/88165syl.doc",
+   "creditsNote": "התוכן לקוח מסילבוס הקורס (תשע\"א); מדריך הסטודנט מתאר את 88-165 כקורס הסתברות וסטטיסטיקה בשנה א'"
+  },
+  {
+   "id": "biu-88151",
+   "family": "intro-programming",
+   "he": "שימושי מחשב",
+   "fr": "Applications informatiques",
+   "code": "88-151",
+   "credits": 5,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "תכנות בחבילת Maple",
+     "Programmation dans le logiciel Maple"
+    ],
+    [
+     "תכנות בחבילת Matlab",
+     "Programmation dans le logiciel Matlab"
+    ],
+    [
+     "חקירה עצמית של דוגמאות בקורסים אחרים",
+     "Exploration autonome d'exemples dans d'autres cours"
+    ],
+    {
+     "he": "ביצוע חישובים באופן עצמאי בתוכנה מתמטית",
+     "fr": "Réaliser des calculs de façon autonome avec un logiciel mathématique"
+    },
+    {
+     "he": "שימוש בתוכנה לחיזוק האינטואיציה בקורסים אחרים",
+     "fr": "Utilisation du logiciel pour renforcer l'intuition dans les autres cours"
+    },
+    {
+     "he": "חקירה עצמית של דוגמאות באמצעות התוכנה",
+     "fr": "Exploration autonome d'exemples à l'aide du logiciel"
+    }
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://u.math.biu.ac.il/~vishneu/students/FirstYear/NewcomersGuide.doc",
+   "creditsNote": "תואר הקורס ותכניו לקוחים ממדריך הסטודנט (2012); שמו המדויק של 88-151 \"שימושי מחשב\" ; רשימת הנושאים חלקית: מקור אחד בלבד זמין"
+  },
+  {
+   "id": "biu-89110",
+   "family": "intro-programming",
+   "he": "מבוא למדעי המחשב",
+   "fr": "Introduction à l'informatique",
+   "code": "89-110",
+   "credits": 5,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "ייצוג בבסיסים שונים והמרות",
+     "Représentation dans différentes bases et conversions"
+    ],
+    [
+     "פעולות אריתמטיות ולוגיות בבינארי, Floating point",
+     "Opérations arithmétiques et logiques en binaire, virgule flottante"
+    ],
+    [
+     "אופרטורים, תנאים ולולאות",
+     "Opérateurs, conditions et boucles"
+    ],
+    [
+     "פונקציות ומבחנים",
+     "Fonctions et tests"
+    ],
+    [
+     "מערכים ומחרוזות, מבנה הזיכרון",
+     "Tableaux et chaînes de caractères, mémoire"
+    ],
+    [
+     "מצביעים",
+     "Pointeurs"
+    ],
+    [
+     "הקצאות זיכרון דינמיות",
+     "Allocation dynamique de mémoire"
+    ],
+    [
+     "תכנות מודולרי, קבצים ותהליך הקומפילציה",
+     "Programmation modulaire, fichiers et compilation"
+    ],
+    [
+     "מבני נתונים בסיסיים",
+     "Structures de données de base"
+    ],
+    [
+     "ניתוח זמן ריצה של תוכנית",
+     "Analyse de la complexité"
+    ],
+    [
+     "אלגוריתמי מיון וסריקה בסיסיים",
+     "Algorithmes de tri et de balayage de base"
+    ],
+    [
+     "תכנות בשפת C",
+     "Programmation en C"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://courses.biu.ac.il/CourseSylabusView.aspx?lid=777477",
+   "creditsNote": "הנקודות לא נקבעו במקור; ניקדתי את היקף שעות ההרצאה והתרגיל השבועיות בלבד"
+  },
+  {
+   "id": "biu-891200",
+   "family": "data-structures",
+   "he": "מבני נתונים",
+   "fr": "Structures de données",
+   "code": "89-1200",
+   "credits": 5,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "הקדמה וסיבוכיות אלגוריתמים",
+     "Introduction et complexité des algorithmes"
+    ],
+    [
+     "רשימות לינאריות, תור, מחסנית ודו-תור",
+     "Listes linéaires, file, pile et file à deux bouts"
+    ],
+    [
+     "הקצאה עוקבת ומשולבת, רקורסיה",
+     "Allocation contiguë et chaînée, récursion"
+    ],
+    [
+     "עצים בינריים וסריקת עצים",
+     "Arbres binaires et parcours"
+    ],
+    [
+     "עצי חיפוש ועצים מאוזנים",
+     "Arbres de recherche et arbres équilibrés"
+    ],
+    [
+     "עצי AVL",
+     "Arbres AVL"
+    ],
+    [
+     "עצי B",
+     "Arbres B"
+    ],
+    [
+     "טבלאות גיבוב",
+     "Tables de hachage"
+    ],
+    [
+     "תור קדימויות וערימות",
+     "File de priorité et tas"
+    ],
+    [
+     "שיטות מיון וחסם תחתון",
+     "Méthodes de tri et borne inférieure"
+    ],
+    [
+     "הפרד ומשול, כפל מהיר ובעיית הבחירה",
+     "Diviser pour régner, multiplication rapide et problème de sélection"
+    ],
+    [
+     "ניתוח לשיעורין",
+     "Analyse amortie"
+    ],
+    [
+     "מבנה לניהול קבוצות זרות",
+     "Structure union-find"
+    ],
+    [
+     "עצי סיומת",
+     "Arbres de suffixes"
+    ],
+    [
+     "תכנות דינמי",
+     "Programmation dynamique"
+    ]
+   ],
+   "prerequisites": [
+    "מבוא למדעי המחשב",
+    "אינפיניטסימלי 1",
+    "אלגברה ליניארית 1",
+    "מתמטיקה בדידה",
+    "הסתברות (במקביל)"
+   ],
+   "source": "https://courses.biu.ac.il/CourseSylabusView.aspx?lid=781586",
+   "creditsNote": "הנקודות לא נקבעו במקור; ניקדתי את היקף שעות ההרצאה והתרגיל השבועיות בלבד"
+  },
+  {
+   "id": "biu-86115",
+   "family": "physics-mechanics",
+   "he": "מכניקה",
+   "fr": "Mécanique",
+   "code": "86-115",
+   "credits": 6,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "קינמטיקה בקואורדינאטות קרטזיות ופולאריות",
+     "Cinématique en coordonnées cartésiennes et polaires"
+    ],
+    [
+     "חוקי ניוטון ותנועת חלקיק נקודתי",
+     "Lois de Newton et mouvement d'une particule"
+    ],
+    [
+     "תנע קווי ומתקף, מסה משתנה",
+     "Quantité de mouvement linéaire et impulsion, masse variable"
+    ],
+    [
+     "משפט עבודה ואנרגיה והתנגשויות",
+     "Théorème de l'énergie cinétique et collisions"
+    ],
+    [
+     "תנע זוויתי וטורק",
+     "Moment cinétique et couple"
+    ],
+    [
+     "חוקי קפלר ותנועת כוכבי הלכת",
+     "Lois de Kepler et mouvement planétaire"
+    ],
+    [
+     "תנועת גוף קשיח ומומנט אינרציה",
+     "Mouvement d'un corps rigide et moment d'inertie"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://courses.biu.ac.il/CourseSylabusView.aspx?lid=777700",
+   "creditsNote": "תוכן הקורס מקטלוג הקורסים; ניקדתי 4 שיעור + 2 תרגיל לפי דף הקורס במחלקה לפיזיקה"
+  },
+  {
+   "id": "biu-86120",
+   "family": "physics-electromagnetism",
+   "he": "חשמל ומגנטיות",
+   "fr": "Électricité et magnétisme",
+   "code": "86-120",
+   "credits": null,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "מטענים חשמליים וחוק קולון",
+     "Charges électriques et loi de Coulomb"
+    ],
+    [
+     "השדה החשמלי ועקרון הסופרפוזיציה",
+     "Champ électrique et principe de superposition"
+    ],
+    [
+     "שטף חשמלי וחוק גאוס",
+     "Flux électrique et théorème de Gauss"
+    ],
+    [
+     "הפוטנציאל החשמלי",
+     "Potentiel électrique"
+    ],
+    [
+     "דיברגנץ ומשוואת פואסון",
+     "Divergence et équation de Poisson"
+    ],
+    [
+     "Curl ומשפט סטוקס",
+     "Rotationnel et théorème de Stokes"
+    ],
+    [
+     "מוליכים ומטען דמות",
+     "Conducteurs et charges images"
+    ],
+    [
+     "קיבול וסוגי קבלים",
+     "Capacité et types de condensateurs"
+    ],
+    [
+     "זרם חשמלי, התנגדות וחוק אוהם",
+     "Courant électrique, résistance et loi d'Ohm"
+    ],
+    [
+     "מעגלי RC",
+     "Circuits RC"
+    ],
+    [
+     "השדה המגנטי וכוח לורנץ",
+     "Champ magnétique et force de Lorentz"
+    ],
+    [
+     "השראות אלקטרומגנטית",
+     "Induction électromagnétique"
+    ],
+    [
+     "מעגלי RCL ותהודה",
+     "Circuits RCL et résonance"
+    ],
+    [
+     "משוואות מקסוול וגלים אלקטרומגנטיים",
+     "Équations de Maxwell et ondes électromagnétiques"
+    ]
+   ],
+   "prerequisites": [
+    "מכניקה (86-115)"
+   ],
+   "source": "https://courses.biu.ac.il/CourseSylabusView.aspx?lid=777682",
+   "creditsNote": "ניקדתי את הנושאים מתאור הקורס בקטלוג; הנקודות לא נקבעו במקור"
+  },
+  {
+   "id": "biu-84101",
+   "family": "general-chemistry",
+   "he": "כימיה כללית א'",
+   "fr": "Chimie générale A",
+   "code": "84-101",
+   "credits": null,
+   "creditsUnit": "2 שיעור + 2 תרגיל (שעות שבועיות)",
+   "facultiesServed": [
+    "exact-sciences",
+    "life-sciences"
+   ],
+   "topics": [
+    [
+     "מהי כימיה, חומר ואנרגיה",
+     "Introduction, matière et énergie"
+    ],
+    [
+     "סטויכיומטריה והמול",
+     "Stœchiométrie et mole"
+    ],
+    [
+     "המשוואה הכימית ואיזונה",
+     "Équation chimique et équilibrage"
+    ],
+    [
+     "תמיסות",
+     "Solutions"
+    ],
+    [
+     "הגז האידיאלי וחוקי הגזים",
+     "Gaz parfait et lois des gaz"
+    ],
+    [
+     "התורה הקינטית של הגזים",
+     "Théorie cinétique des gaz"
+    ],
+    [
+     "כוחות בין-מולקולריים",
+     "Forces intermoléculaires"
+    ],
+    [
+     "מוצקים ונוזלים, מבנה גבישי",
+     "Solides et liquides, structure cristalline"
+    ],
+    [
+     "תכונות קוליגטיביות של תמיסות",
+     "Propriétés colligatives des solutions"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם; מומלץ בגרות בכימיה"
+   ],
+   "source": "https://ch.biu.ac.il/sites/ch/files/shared/pdf/84101%20%D7%97%D7%92%D7%99%20%D7%A9%D7%A4%D7%99%D7%99%D7%96%D7%9E%D7%9F.pdf",
+   "creditsNote": "הנקודות לא נקבעו במקור; ניקדתי שעות הרצאה ותרגיל לפי הסילבוס"
+  },
+  {
+   "id": "biu-84103",
+   "family": "other-chemistry-service",
+   "he": "כימיה כללית ב'",
+   "fr": "Chimie générale B",
+   "code": "84-103",
+   "credits": null,
+   "creditsUnit": "4 שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences",
+    "life-sciences"
+   ],
+   "topics": [
+    [
+     "שיווי משקל כימי",
+     "Équilibre chimique"
+    ],
+    [
+     "חומרים קשי תמס",
+     "Sels peu solubles"
+    ],
+    [
+     "חומצות ובסיסים",
+     "Acides et bases"
+    ],
+    [
+     "תרמוכימיה ותרמודינמיקה",
+     "Thermochimie et thermodynamique"
+    ],
+    [
+     "קינטיקה",
+     "Cinétique"
+    ],
+    [
+     "חמצון וחיזור",
+     "Oxydoréduction"
+    ],
+    [
+     "כימיה אלקטרוכימית",
+     "Électrochimie"
+    ]
+   ],
+   "prerequisites": [
+    "כימיה כללית א' (84-101)"
+   ],
+   "source": "https://ch.biu.ac.il/sites/ch/files/shared/pdf/%D7%97%D7%A0%D7%95%D7%9A%20%D7%A1%D7%A0%D7%93%D7%A8%D7%95%D7%91%D7%99%D7%A5%2084103%20%D7%9B%D7%99%D7%9E%D7%99%D7%94%20%D7%9B%D7%9C%D7%9C%D7%99%D7%AA%20%D7%91%20%D7%A1%D7%99%D7%9C%D7%91%D7%95%D7%A1.pdf",
+   "creditsNote": "הנקודות לא נקבעו במקור"
+  },
+  {
+   "id": "biu-84171",
+   "family": "calculus1",
+   "he": "מתמטיקה לכימאים א'",
+   "fr": "Mathématiques pour chimistes A",
+   "code": "84-171",
+   "credits": null,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences",
+    "life-sciences"
+   ],
+   "topics": [
+    [
+     "הישר הממשי והמספרים הממשיים",
+     "La droite réelle et les nombres réels"
+    ],
+    [
+     "מושגי יסוד בפונקציות",
+     "Notions de base sur les fonctions"
+    ],
+    [
+     "גבולות של פונקציות ורציפות",
+     "Limites et continuité"
+    ],
+    [
+     "הנגזרת ומשמעותה הגיאומטרית והפיסיקלית",
+     "La dérivée et sa signification"
+    ],
+    [
+     "חקירת פונקציה",
+     "Étude de fonction"
+    ],
+    [
+     "האינטגרל הלא מסוים ושיטות באינטגרציה",
+     "Intégrale indéfinie et méthodes d'intégration"
+    ],
+    [
+     "האינטגרל המסוים והמשפט היסודי",
+     "Intégrale définie et théorème fondamental"
+    ],
+    [
+     "טורי טיילור ומקלורן",
+     "Séries de Taylor et de Maclaurin"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://ch.biu.ac.il/sites/ch/files/shared/pdf/84171%20%D7%A1%D7%99%D7%9C%D7%91%D7%95%D7%A1%20%D7%9B%D7%99%D7%9E%D7%90%D7%99%D7%9D%20%D7%90.pdf",
+   "creditsNote": "הנקודות לא נקבעו במקור"
+  },
+  {
+   "id": "biu-84181",
+   "family": "other-mechanics-service",
+   "he": "פיסיקה כללית לכימאים א'",
+   "fr": "Physique générale pour chimistes A",
+   "code": "84-181",
+   "credits": 4,
+   "creditsUnit": "4 שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences",
+    "life-sciences"
+   ],
+   "topics": [
+    [
+     "וקטורים",
+     "Vecteurs"
+    ],
+    [
+     "תנועה שוות מהירות ותנועה שוות תאוצה",
+     "Mouvement uniforme et uniformément accéléré"
+    ],
+    [
+     "משוואות התנועה בתנועה חד-מימדית",
+     "Équations du mouvement à une dimension"
+    ],
+    [
+     "משוואות התנועה בתנועה דו-מימדית",
+     "Équations du mouvement à deux dimensions"
+    ],
+    [
+     "חוקי ניוטן, כוחות ושיווי משקל",
+     "Lois de Newton, forces et équilibre"
+    ],
+    [
+     "תנועה מעגלית",
+     "Mouvement circulaire"
+    ],
+    [
+     "עבודה, אנרגיה ועקרונות שימור האנרגיה",
+     "Travail, énergie et conservation"
+    ],
+    [
+     "תנע וחוק שימור התנע",
+     "Quantité de mouvement et conservation"
+    ],
+    [
+     "תנועה הרמונית",
+     "Mouvement harmonique"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם"
+   ],
+   "source": "https://ch.biu.ac.il/sites/ch/files/shared/pdf/84181%20%D7%A8%D7%91%D7%99%D7%A0%D7%95%D7%91%D7%99%D7%A5%20%D7%9E%D7%99%D7%9B%D7%90%D7%9C.pdf"
+  },
+  {
+   "id": "biu-84107",
+   "family": "other-statistics-service",
+   "he": "סטטיסטיקה וההסתברות לכימאים",
+   "fr": "Statistique et probabilités pour chimistes",
+   "code": "84-107",
+   "credits": null,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences",
+    "life-sciences"
+   ],
+   "topics": [
+    [
+     "הסתברות: מבוא, הגדרות וקומבינטוריקה",
+     "Probabilités : introduction, définitions et combinatoire"
+    ],
+    [
+     "משתנה אקראי, ממוצע וסטיית תקן",
+     "Variable aléatoire, moyenne et écart-type"
+    ],
+    [
+     "הסתברות מותנית ותיאוריית בייס",
+     "Probabilité conditionnelle et théorème de Bayes"
+    ],
+    [
+     "פונקציית התפלגות",
+     "Fonction de répartition"
+    ],
+    [
+     "הסתברות של שני משתנים",
+     "Probabilité de deux variables"
+    ],
+    [
+     "חוק המספרים הגדולים",
+     "Loi des grands nombres"
+    ],
+    [
+     "משפט הגבול המרכזי",
+     "Théorème central limite"
+    ],
+    [
+     "אומדנים ורווח בר סמך",
+     "Estimateurs et intervalle de confiance"
+    ],
+    [
+     "בדיקת השערות, t-test, f-test",
+     "Tests d'hypothèses, test t, test F"
+    ],
+    [
+     "בדיקת מודלים והערכת שגיאות",
+     "Tests de modèles et erreurs"
+    ],
+    [
+     "רגרסיה לינארית",
+     "Régression linéaire"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם (הטבלה ריקה בסילבוס)"
+   ],
+   "source": "https://ch.biu.ac.il/sites/ch/files/shared/pdf/84107%20%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94%20%D7%95%D7%94%D7%A1%D7%AA%D7%91%D7%A8%D7%95%D7%AA.docx",
+   "creditsNote": "הנקודות לא נקבעו במקור"
+  },
+  {
+   "id": "biu-84205",
+   "family": "organic-chemistry",
+   "he": "כימיה אורגנית א'",
+   "fr": "Chimie organique A",
+   "code": "84-205",
+   "credits": null,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences",
+    "life-sciences"
+   ],
+   "topics": [
+    [
+     "כהלים",
+     "Alcools"
+    ],
+    [
+     "אתרים",
+     "Éthers"
+    ],
+    [
+     "קרבונילים",
+     "Composés carbonylés"
+    ],
+    [
+     "חומצות קרבוקסיליות",
+     "Acides carboxyliques"
+    ],
+    [
+     "נגזרות חומצה קרבוקסילית",
+     "Dérivés d'acides carboxyliques"
+    ],
+    [
+     "כימיה על פחמן α",
+     "Chimie du carbone α"
+    ],
+    [
+     "דיאסטראומרים ואפטומרים",
+     "Diastéréoisomères et épimères"
+    ],
+    [
+     "תרכובות גופרית",
+     "Composés soufrés"
+    ],
+    [
+     "אמינים",
+     "Amines"
+    ]
+   ],
+   "prerequisites": [
+    "כימיה אי-אורגנית 84-102",
+    "כימיה אי-אורגנית 84-104",
+    "מבוא לכימיה אורגנית"
+   ],
+   "source": "https://ch.biu.ac.il/sites/ch/files/shared/pdf/%D7%A8%D7%97%D7%9C%20%D7%A4%D7%A8%D7%A1%D7%A7%D7%99%20%D7%A1%D7%99%D7%9C%D7%91%D7%95%D7%A1%20%D7%9B%D7%99%D7%9E%D7%99%D7%94%20%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99%D7%AA%20%D7%90%2084205.pdf",
+   "creditsNote": "הנקודות לא נקבעו במקור"
+  },
+  {
+   "id": "biu-80150",
+   "family": "statistics",
+   "he": "ביוסטטיסטיקה",
+   "fr": "Biostatistique",
+   "code": "80-150",
+   "credits": null,
+   "creditsUnit": "3 שעות שבועיות",
+   "facultiesServed": [
+    "life-sciences"
+   ],
+   "topics": [
+    [
+     "תהליך המחקר המדעי וסוגי משתנים",
+     "Processus de recherche et types de variables"
+    ],
+    [
+     "סטטיסטיקה תיאורית",
+     "Statistique descriptive"
+    ],
+    [
+     "מדדי מרכז",
+     "Mesures de tendance centrale"
+    ],
+    [
+     "מדדי פיזור",
+     "Mesures de dispersion"
+    ],
+    [
+     "התפלגות נורמלית",
+     "Loi normale"
+    ],
+    [
+     "רווח סמך",
+     "Intervalle de confiance"
+    ],
+    [
+     "בדיקת השערות",
+     "Tests d'hypothèses"
+    ],
+    [
+     "חי בריבוע",
+     "Khi-deux"
+    ],
+    [
+     "ערך P",
+     "Valeur p"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://life-sciences.biu.ac.il/sites/life-sciences/files/shared/Med%20BSc/%D7%91%D7%99%D7%95%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94-80150.pdf",
+   "creditsNote": "הנקודות לא נקבעו במקור"
+  },
+  {
+   "id": "biu-86147",
+   "family": "calculus1",
+   "he": "מתמטיקה 1 לפיזיקאים",
+   "fr": "Mathématiques 1 pour physiciens",
+   "code": "86-147",
+   "credits": null,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "קבוצות מספרים ומספרים מרוכבים",
+     "Ensembles de nombres et nombres complexes"
+    ],
+    [
+     "סדרות וגבול של סדרה",
+     "Suites et limite d'une suite"
+    ],
+    [
+     "גבול של פונקציה ורציפות",
+     "Limite et continuité de fonctions"
+    ],
+    [
+     "נגזרות",
+     "Dérivées"
+    ],
+    [
+     "חקירת פונקציה ובעיות אופטימום",
+     "Étude de fonction et optimisation"
+    ],
+    [
+     "אינטגרל לא מסוים ואינטגרל מסוים",
+     "Intégrales indéfinie et définie"
+    ],
+    [
+     "אינטגרל לא אמיתי",
+     "Intégrales impropres"
+    ],
+    [
+     "טורים אינסופיים וטורי חזקה",
+     "Séries infinies et séries de puissances"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם"
+   ],
+   "source": "https://physics.biu.ac.il/node/992",
+   "creditsNote": "דף הקורס מעודכן ל-2012; לא נמצא סילבוס נוכחי"
+  },
+  {
+   "id": "biu-86153",
+   "family": "linear-algebra1",
+   "he": "אלגברה ליניארית לפיזיקאים",
+   "fr": "Algèbre linéaire pour physiciens",
+   "code": "86-153",
+   "credits": null,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "וקטורים במישור ובמרחב",
+     "Vecteurs dans le plan et l'espace"
+    ],
+    [
+     "גאומטריה אנליטית: ישרים ומישורים",
+     "Géométrie analytique : droites et plans"
+    ],
+    [
+     "מרחבים וקטוריים ותת-מרחבים",
+     "Espaces vectoriels et sous-espaces"
+    ],
+    [
+     "מערכות משוואות ליניאריות ומטריצות",
+     "Systèmes linéaires et matrices"
+    ],
+    [
+     "מכפלה וקטורית ודטרמיננטה",
+     "Produit vectoriel et déterminant"
+    ],
+    [
+     "בסיס, מימד ושינוי בסיס",
+     "Base, dimension et changement de base"
+    ],
+    [
+     "מכפלה פנימית ואורתוגונליות",
+     "Produit scalaire et orthogonalité"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם"
+   ],
+   "source": "https://physics.biu.ac.il/node/994"
+  },
+  {
+   "id": "biu-86156",
+   "family": "other-probability-service",
+   "he": "הסתברות וסטטיסטיקה",
+   "fr": "Probabilités et statistique",
+   "code": "86-156",
+   "credits": null,
+   "creditsUnit": "שעות שבועיות (הרצאה+תרגיל)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "קומבינטוריקה, הילוך אקראי ונוסחת סטירלינג",
+     "Combinatoire, marche aléatoire et formule de Stirling"
+    ],
+    [
+     "אקסיומות ההסתברות, התניה וחוק בייס",
+     "Axiomes, conditionnement et théorème de Bayes"
+    ],
+    [
+     "תהליך ברנולי",
+     "Processus de Bernoulli"
+    ],
+    [
+     "משתנה אקראי: תוחלת, סטיית תקן ופונקציה יוצרת",
+     "Variable aléatoire : espérance, écart-type et fonction génératrice"
+    ],
+    [
+     "משתנים רציפים: גאוס ומעריכית",
+     "Variables continues : gaussienne et exponentielle"
+    ],
+    [
+     "משפטי גבול",
+     "Théorèmes limites"
+    ],
+    [
+     "תורת האמידה ונראות מקסימלית",
+     "Théorie de l'estimation et maximum de vraisemblance"
+    ],
+    [
+     "ניתוח נתונים: שגיאת תקן, רגרסיה לינארית",
+     "Analyse de données : erreur standard, régression linéaire"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם"
+   ],
+   "source": "https://physics.biu.ac.il/node/996"
+  },
+  {
+   "id": "biu-86170",
+   "family": "other-modern-physics",
+   "he": "מבוא לפיזיקה מודרנית",
+   "fr": "Introduction à la physique moderne",
+   "code": "86-170",
+   "credits": null,
+   "creditsUnit": "2 שיעור + 1 תרגיל (שעות שבועיות)",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "טרנספורמציות גלילאיות",
+     "Transformations galiléennes"
+    ],
+    [
+     "מהירות האור והפוסטולטים של איינשטיין",
+     "Vitesse de la lumière et postulats d'Einstein"
+    ],
+    [
+     "טרנספורמציות לורנץ",
+     "Transformations de Lorentz"
+    ],
+    [
+     "מסה, אנרגיה ותנע ביחסות",
+     "Masse, énergie et quantité de mouvement en relativité"
+    ],
+    [
+     "התורה הקוונטית של קרינה וחומר",
+     "Théorie quantique du rayonnement et de la matière"
+    ],
+    [
+     "אטומים דמויי מימן",
+     "Atomes de type hydrogène"
+    ],
+    [
+     "קרינה אלקטרומגנטית: פוטואלקטרי, קומפטון",
+     "Rayonnement électromagnétique : photoélectrique, Compton"
+    ]
+   ],
+   "prerequisites": [
+    "מכניקה (86-115)"
+   ],
+   "source": "https://physics.biu.ac.il/node/997",
+   "creditsNote": "דף הקורס מעודכן ל-2012"
+  },
+  {
+   "id": "biu-55004",
+   "family": "calculus1",
+   "he": "מתמטיקה 1",
+   "fr": "Mathématiques 1",
+   "code": "55-004",
+   "credits": 3,
+   "creditsUnit": "נקודות זכות",
+   "facultiesServed": [
+    "social-sciences"
+   ],
+   "topics": [
+    [
+     "פונקציות בסיסיות, הפונקציה המעריכית והלוגריתמית",
+     "Fonctions de base, exponentielle et logarithme"
+    ],
+    [
+     "תחום הגדרה",
+     "Domaine de définition"
+    ],
+    [
+     "נגזרות ושיטות גזירה",
+     "Dérivées et méthodes de dérivation"
+    ],
+    [
+     "אופטימום וחקירת פונקציה, קמירות וקעירות",
+     "Optimisation, étude de fonction, convexité"
+    ],
+    [
+     "גבולות ואסימפטוטות",
+     "Limites et asymptotes"
+    ],
+    [
+     "פונקציות מרובות משתנים ונגזרות חלקיות",
+     "Fonctions de plusieurs variables et dérivées partielles"
+    ],
+    [
+     "אופטימום בשני משתנים",
+     "Optimisation à deux variables"
+    ],
+    [
+     "מכפלי לגראנז'",
+     "Multiplicateurs de Lagrange"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://management.biu.ac.il/sites/management/files/shared/55-004-%D7%9E%D7%AA%D7%9E%D7%98%D7%99%D7%A7%D7%94-1.pdf",
+   "creditsNote": "קורס השירות ללימודי ניהול ולוגיסטיקה; הסילבוס מתוארך ל-2004"
+  },
+  {
+   "id": "biu-55009",
+   "family": "research-methods",
+   "he": "שיטות מחקר וניתוח נתונים",
+   "fr": "Méthodes de recherche et analyse de données",
+   "code": "55-009",
+   "credits": 3,
+   "creditsUnit": "נקודות זכות",
+   "facultiesServed": [
+    "social-sciences"
+   ],
+   "topics": [
+    [
+     "השיטה המדעית ומחזור הנתונים",
+     "La méthode scientifique et le cycle des données"
+    ],
+    [
+     "הגדרת הבעיה וניסוח שאלות מחקר",
+     "Définition du problème et questions de recherche"
+    ],
+    [
+     "איסוף נתונים: דגימה, ניסוי וסקר",
+     "Collecte de données : échantillonnage, expérimentation, enquête"
+    ],
+    [
+     "שאלון, כלי מדידה, מהימנות ותוקף",
+     "Questionnaire, instruments, fiabilité et validité"
+    ],
+    [
+     "תאורית ההסתברות ובחירת בדיקה סטטיסטית",
+     "Théorie des probabilités et choix du test"
+    ],
+    [
+     "טיוב נתונים, ניקוי ושילוב ב-Excel",
+     "Nettoyage et intégration des données sous Excel"
+    ],
+    [
+     "הצגת ממצאים והשראותיהם",
+     "Présentation des résultats et inférence"
+    ],
+    [
+     "תוצאות המחקר: מסקנות והמלצות",
+     "Résultats, conclusions et recommandations"
+    ],
+    [
+     "איומים לתוקף ומגבלות המחקר",
+     "Menaces à la validité et limites"
+    ],
+    [
+     "דרכי מחקר עתידיים",
+     "Perspectives de recherche"
+    ],
+    [
+     "סיכום וחזרה",
+     "Résumé et révision"
+    ]
+   ],
+   "prerequisites": [
+    "מבוא לסטטיסטיקה א'",
+    "מבוא לסטטיסטיקה ב'"
+   ],
+   "source": "https://management.biu.ac.il/sites/management/files/shared/55-009-%D7%A9%D7%99%D7%98%D7%95%D7%AA-%D7%9E%D7%97%D7%A7%D7%A8-%D7%A2%D7%A0%D7%91%D7%A8.pdf",
+   "creditsNote": "מחלקת ניהול, תשפ\"ה; שמו באנגלית Introduction to statistics A"
+  },
+  {
+   "id": "biu-55015",
+   "family": "microeconomics",
+   "he": "מבוא לכלכלה מיקרו",
+   "fr": "Introduction à la microéconomie",
+   "code": "55-015",
+   "credits": 3,
+   "creditsUnit": "נקודות זכות",
+   "facultiesServed": [
+    "social-sciences"
+   ],
+   "topics": [
+    [
+     "עקומת התמורה ועלות אלטרנטיבית",
+     "Courbe des possibilités et coût d'opportunité"
+    ],
+    [
+     "פונקציית ייצור",
+     "Fonction de production"
+    ],
+    [
+     "שוק תחרותי מול שוק מתוכנן",
+     "Marché concurrentiel et économie planifiée"
+    ],
+    [
+     "פונקציית הוצאות ועקומת היצע",
+     "Fonction de coût et courbe d'offre"
+    ],
+    [
+     "פונקציית ביקוש וגמישות ביקוש",
+     "Fonction de demande et élasticité"
+    ],
+    [
+     "שיווי משקל בשוק המוצר",
+     "Équilibre sur le marché des biens"
+    ],
+    [
+     "התערבות ממשלתית: מיסים, סובסידיות, מחיר מינימום ומקסימום",
+     "Intervention de l'État : taxes, subventions, prix plancher et plafond"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://management.biu.ac.il/sites/management/files/shared/55-015-%D7%9E%D7%91%D7%95%D7%90-%D7%9C%D7%9B%D7%9C%D7%9B%D7%9C%D7%94-%D7%9E%D7%99.pdf",
+   "creditsNote": "קורס שירות של מחלקת ניהול ללוגיסטיקה וניהול; הסילבוס מתוארך ל-2024"
+  },
+  {
+   "id": "biu-55016",
+   "family": "macroeconomics",
+   "he": "מבוא לכלכלה מאקרו",
+   "fr": "Introduction à la macroéconomie",
+   "code": "55-016",
+   "credits": 3,
+   "creditsUnit": "נקודות זכות",
+   "facultiesServed": [
+    "social-sciences"
+   ],
+   "topics": [
+    [
+     "הקדמה וחשבונאות לאומית",
+     "Introduction et comptabilité nationale"
+    ],
+    [
+     "מדידת אינפלציה",
+     "Mesure de l'inflation"
+    ],
+    [
+     "פונקציית צריכה ופונקציית השקעה",
+     "Fonctions de consommation et d'investissement"
+    ],
+    [
+     "המודל הקיינסיאני וקביעת התוצר",
+     "Modèle keynésien et détermination du produit"
+    ],
+    [
+     "המכפיל ומדיניות פיסקאלית",
+     "Multiplicateur et politique budgétaire"
+    ],
+    [
+     "היצע הכסף ומדיניות מוניטרית",
+     "Offre de monnaie et politique monétaire"
+    ],
+    [
+     "הביקוש לכסף ושוק הכסף",
+     "Demande de monnaie et marché monétaire"
+    ],
+    [
+     "שילוב שוק המוצרים ושוק הכסף",
+     "Combinaison des marchés des biens et de la monnaie"
+    ]
+   ],
+   "prerequisites": [
+    "ידע בסיסי במתמטיקה",
+    "מבוא לכלכלה מיקרו (עדכני)"
+   ],
+   "source": "https://management.biu.ac.il/sites/management/files/shared/BA/Adva/%D7%9C%D7%95%D7%92%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94/%D7%A1%D7%99%D7%9C%D7%91%D7%95%D7%A1-%D7%9E%D7%91%D7%95%D7%90-%D7%9E%D7%A7%D7%A8%D7%95-%D7%9B%D7%9C%D7%9B%D7%9C%D7%94-55-016.pdf",
+   "creditsNote": "קורס שירות של מחלקת ניהול; תשפ\"ז"
+  },
+  {
+   "id": "biu-99665",
+   "family": "intro-law",
+   "he": "מבוא למשפט ישראלי",
+   "fr": "Introduction au droit israélien",
+   "code": "99-665",
+   "credits": 4,
+   "creditsUnit": "נקודות זכות",
+   "facultiesServed": [
+    "law"
+   ],
+   "topics": [
+    [
+     "השיטה המשפטית והשיטה הישראלית",
+     "La méthode juridique et la méthode israélienne"
+    ],
+    [
+     "כלים משפטיים ושפה משפטית",
+     "Outils juridiques et langage juridique"
+    ],
+    [
+     "ההיסטוריה של המשפט הישראלי המודרני",
+     "Histoire du droit israélien moderne"
+    ],
+    [
+     "מערכת בתי המשפט וסמכויותיהם",
+     "Organisation juridictionnelle et compétences"
+    ],
+    [
+     "הפסיקה בשיטה המקובלת",
+     "La jurisprudence dans la tradition de common law"
+    ],
+    [
+     "משפט ציבורי, פרטי ופלילי",
+     "Droit public, privé et pénal"
+    ],
+    [
+     "תיאוריות משפטיות",
+     "Théories juridiques"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://courses.biu.ac.il/CourseSylabusView.aspx?lid=797073",
+   "creditsNote": "הקורס 99-665 מועבר במסגרת התואר השני ללא משפטנים (סמסטר חורף תשפ\"ו); סילבוס התואר הראשון 99-101 \"מבוא ללימודי משפטים\" אינו זמין באינטרנט"
+  },
+  {
+   "id": "biu-academic-writing-mechina",
+   "family": "academic-writing",
+   "he": "כתיבה אקדמית",
+   "fr": "Rédaction académique",
+   "code": "—",
+   "credits": null,
+   "creditsUnit": "שעות קורס",
+   "facultiesServed": [
+    "all"
+   ],
+   "topics": [
+    [
+     "כללי הכתיבה האקדמית",
+     "Règles de la rédaction académique"
+    ],
+    [
+     "קריאה וניתוח ביקורתי של טקסטים",
+     "Lecture et analyse critique de textes"
+    ],
+    [
+     "סיכום, הערכה וסינתזה של רעיונות",
+     "Résumé, évaluation et synthèse d'idées"
+    ],
+    [
+     "הצגת טיעונים",
+     "Présentation d'arguments"
+    ],
+    [
+     "שילוב מקורות בטקסט אקדמי",
+     "Intégration de sources dans le texte"
+    ],
+    [
+     "סוגי הטקסטים: מאמר, עבודת מחקר, סקירת ספרות, דו\"ח מעבדה",
+     "Types de textes : article, mémoire, revue de littérature, rapport de laboratoire"
+    ],
+    [
+     "איזון בין קול פנימי לבין מקורות מדעיים",
+     "Équilibre entre voix personnelle et sources scientifiques"
+    ]
+   ],
+   "prerequisites": [
+    "ללא תנאי קדם שצוין"
+   ],
+   "source": "https://mechina-kda.biu.ac.il/academic-writing",
+   "creditsNote": "קורס הכנה קדם-אקדמית; מתאים גם כשירות לתלמידי שנה א'"
+  },
+  {
+   "id": "biu-other-math-preparatory",
+   "family": "other-math-preparatory",
+   "he": "קורס הכנה במתמטיקה",
+   "fr": "Cours de préparation en mathématiques",
+   "code": "—",
+   "credits": null,
+   "creditsUnit": "שעות קורס",
+   "facultiesServed": [
+    "exact-sciences"
+   ],
+   "topics": [
+    [
+     "וקטורים במישור ובמרחב",
+     "Vecteurs dans le plan et l'espace"
+    ],
+    [
+     "קומבינטוריקה והבינום של ניוטון",
+     "Combinatoire et binomial de Newton"
+    ],
+    [
+     "נגזרות ותחומי עלייה וירידה",
+     "Dérivées, croissance et décroissance"
+    ],
+    [
+     "אינטגרלים ושיטות אינטגרציה",
+     "Intégrales et méthodes d'intégration"
+    ],
+    [
+     "לוגיקה מתמטית",
+     "Logique mathématique"
+    ],
+    [
+     "הכנה לחשיבה מתמטית ברמה אקדמית",
+     "Préparation à la pensée mathématique universitaire"
+    ]
+   ],
+   "prerequisites": [
+    "מיועד למועמדים לאוניברסיטה (לא דרישת קדם)"
+   ],
+   "source": "https://math.biu.ac.il/node/1173",
+   "creditsNote": "מכינת קיץ תשפ\"ו של המחלקה למתמטיקה; לא מקנה נקודות זכות"
+  },
+  {
+   "id": "biu-efl-mitkadmim-a",
+   "family": "other-english-academic",
+   "he": "מתקדמים א'",
+   "fr": "Avancé A",
+   "code": "—",
+   "credits": 4,
+   "creditsUnit": "נקודות זכות",
+   "facultiesServed": [
+    "all"
+   ],
+   "topics": [
+    [
+     "קליטה: קריאה והאזנה",
+     "Réception : lecture et écoute"
+    ],
+    [
+     "הפקה: דיבור וכתיבה",
+     "Production : expression orale et écrite"
+    ],
+    [
+     "אינטראקציה",
+     "Interaction"
+    ],
+    [
+     "מסירה בין טקסטים",
+     "Médiation entre textes"
+    ],
+    [
+     "אוצר מילים אקדמי",
+     "Vocabulaire académique"
+    ],
+    [
+     "ניתוח טקסטים אקדמיים",
+     "Analyse de textes académiques"
+    ],
+    [
+     "הבנת שיחות קצרות בנושאים מוכרים",
+     "Compréhension de courts exposés sur des sujets familiers"
+    ]
+   ],
+   "prerequisites": [
+    "סיווג לפי מבחן הרמה של היחידה לאנגלית כשפה זרה"
+   ],
+   "source": "https://efl.biu.ac.il/node/2171",
+   "creditsNote": "הנושאים מתוך יעדי הקורס ותוצרי הלמידה (מסומנים ברמת CEFR)"
+  }
+ ],
+ "catalogueOnly": [
+  {
+   "he": "מבוא לכלכלה מיקרו",
+   "code": "66-101",
+   "credits": 4,
+   "semester": "סמסטר א'",
+   "source": "https://econ.biu.ac.il/node/4009"
+  },
+  {
+   "he": "מבוא לכלכלה מקרו",
+   "code": "66-102",
+   "credits": 4,
+   "semester": "סמסטר ב'",
+   "source": "https://econ.biu.ac.il/node/4009"
+  },
+  {
+   "he": "מבוא לחשבונאות",
+   "code": "66-106",
+   "credits": 2,
+   "semester": "סמסטר א'",
+   "source": "https://econ.biu.ac.il/node/4009"
+  },
+  {
+   "he": "מתמטיקה לכלכלנים א'",
+   "code": "66-110",
+   "credits": 3,
+   "semester": "סמסטר א'",
+   "source": "https://econ.biu.ac.il/node/4009"
+  },
+  {
+   "he": "מבוא לסטטיסטיקה א'",
+   "code": "66-153",
+   "credits": 3,
+   "semester": "סמסטר א'",
+   "source": "https://econ.biu.ac.il/node/4009"
+  },
+  {
+   "he": "מבוא לפסיכולוגיה",
+   "code": "60-101",
+   "credits": null,
+   "semester": "",
+   "source": "https://psychology.biu.ac.il/node/1529"
+  },
+  {
+   "he": "מבוא ללימודי משפטים",
+   "code": "99-101",
+   "credits": 2,
+   "semester": "",
+   "source": "https://law.biu.ac.il/sites/law/files/shared/LawBrochureBADigital_2.pdf"
+  }
+ ],
+ "notes": [
+  "Crédits : à Bar-Ilan, le volume du diplôme s'exprime en נקודות זכות (« points d'agrément »). Les fiches de cours du département de mathématiques et de la Faculté des sciences exactes donnent surtout des heures hebdomadaires (הרצאה+תרגיל) ; quand aucune valeur en נ\"ז n'est indiquée, le champ credits est null et le champ creditsUnit précise les heures hebdomadaires relevées.",
+  "Les codes de cours sont stables d'une année sur l'autre (88-132 = « חשבון אינפיניטסימלי 1 »). Le code complet comprend souvent un suffixe de groupe (ex. 88-132-01).",
+  "Plusieurs syllabus hébergés sur les sites des départements datent de 2010-2013 (physique, gestion, mathématiques) : la liste des thèmes est bien celle des documents officiels ouverts, mais la répartition hebdomadaire a pu évoluer.",
+  "Le catalogue de cours en ligne (courses.biu.ac.il) était protégé par un CAPTCHA Radware pendant la collecte ; les fiches de cours individuelles indexées ont pu être lues une par une, mais la recherche globale par code n'a pas été possible. Les fiches manquantes sont signalées dans unverified.",
+  "Les cours 89-112/89-132/89-133/89-1195 de la Faculté des sciences exactes portent les mêmes numéros que les cours 88-112/88-132/88-133/88-195 du département de mathématiques (programme d'informatique) ; les deux codes figurent dans le yediona de la Faculté des sciences exactes.",
+  "Le cours de préparation d'été en mathématiques et le cours de rédaction académique de la mechina ne donnent pas de points d'agrément ; ils sont inclus car ils sont explicitement destinés aux étudiants de première année.",
+  "Champ facultiesServed : « all » indique un cours de service ouvert à toutes les facultés (anglais langue étrangère, rédaction académique)."
+ ],
+ "unverified": [
+  "Introduction à la microéconomie 66-101, Introduction à la macroéconomie 66-102, Introduction à la comptabilité 66-106, Mathématiques pour économistes A 66-110 et Introduction à la statistique A 66-153 (département d'économie) : codes, crédits et semestres confirmés par le programme des nouveaux étudiants https://econ.biu.ac.il/node/4009, mais aucun syllabus n'est accessible — les pages de cours (https://econ.biu.ac.il/node/2898, https://econ.biu.ac.il/node/3136) ne contiennent que des examens anciens. Thèmes non relevés.",
+  "Introduction à la psychologie 60-101-01 « מבוא לפסיכולוגיה » : le cours figure dans l'archive officielle des syllabus du département (https://psychology.biu.ac.il/node/1529) mais le PDF lié (60-101-01_1.pdf) renvoie une erreur 404, et le document de 2020 ne contient pas ce cours. Thèmes non relevés.",
+  "Introduction aux études juridiques 99-101 « מבוא ללימודי משפטים » (2 נ\"ז, première année de la licence de droit) : la brochure de la faculté (https://law.biu.ac.il/sites/law/files/shared/LawBrochureBADigital_2.pdf) confirme le code, le volume et la place dans le programme, mais aucun syllabus détaillé n'a été trouvé.",
+  "Probabilité 89-1262 (programme d'informatique) : présent dans le yediona (https://cs.biu.ac.il/he/node/575) avec 3+2 heures, mais la fiche détaillée du cours n'a pas été trouvée dans le catalogue en ligne.",
+  "Physique générale pour chimistes B 84-182 « פיסיקה כללית לכימאים ב' » : le syllabus existe (https://ch.biu.ac.il/he/node/2383) mais ne liste que des chapitres de manuel (électricité, magnétisme, optique), sans thèmes de cours ; non retenu.",
+  "Laboratoire de physique générale 86-129 : fiche disponible (https://physics.biu.ac.il/node/991) mais il s'agit d'un laboratoire sans liste de thèmes de cours.",
+  "Doctorat de médecine : les trois programmes M.D. (6, 4 et 3 ans) sont confirmés (https://medicine.biu.ac.il/applicants) mais leurs programmes détaillés n'ont pas été relevés.",
+  "Unité d'études interdisciplinaires : un seul diplôme de premier cycle est confirmé (licence pluridisciplinaire en recherche sur le cerveau) ; les autres programmes de l'unité (conflits, sciences-technologie-société, herméneutique et culture) sont des cycles supérieurs, d'après https://interdis.biu.ac.il/about.",
+  "Licence en études juives : la liste des départements est officielle (https://jewish-faculty.biu.ac.il/units) et la page d'accueil indique que la faculté délivre des licences dans tous les départements, mais les intitulés exacts des diplômes de chaque département n'ont pas été confirmés un par un.",
+  "Cours de langue hébraïque (Oulpan) et cours de yiddish/études juives obligatoires pour tous les étudiants de premier cycle : mentionnés sur les pages de la faculté mais non détaillés ici."
+ ]
+}
