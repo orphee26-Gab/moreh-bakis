@@ -8,7 +8,7 @@ const DEFAULT = {
   badges: [], done: {}, units: {}, last: null,
   stats: { lessons: 0, questions: 0, right: 0, photos: 0, calls: 0, quizzes: 0 },
   prefs: { sound: true },
-  ai: { mode: 'demo', key: '', proxyUrl: '', model: 'claude-haiku-4-5', visionModel: 'claude-sonnet-4-6' },
+  ai: { mode: 'demo', key: '', proxyUrl: '', model: 'claude-haiku-4-5', visionModel: 'claude-sonnet-4-6', chosen: false },
   voice: { engine: 'device', deviceVoice: '', rate: 1, sttEngine: 'device', eleven: { key: '', voiceId: '', voiceName: '', modelHe: 'eleven_v3', modelEn: 'eleven_flash_v2_5' } },
 };
 const isObj = (x) => x && typeof x === 'object' && !Array.isArray(x);

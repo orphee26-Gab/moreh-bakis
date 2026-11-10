@@ -59,7 +59,7 @@ function draw(root) {
     if (d.lang) { S.lang = d.lang; save(); await loadLang(S.lang); draw(root); }
     else if (d.g) { S.grade = Number(d.g); save(); draw(root); }
     else if (d.tr) { S.track = d.tr; save(); draw(root); }
-    else if (d.ai) { S.ai.mode = d.ai; save(); draw(root); }
+    else if (d.ai) { S.ai.mode = d.ai; S.ai.chosen = true; save(); draw(root); }
     else if (d.ve) { S.voice.engine = d.ve; save(); draw(root); }
     else if (d.se) { S.voice.sttEngine = d.se; save(); draw(root); }
     else if (d.sound !== undefined) { S.prefs.sound = d.sound === '1'; flags.sound = S.prefs.sound; save(); draw(root); }

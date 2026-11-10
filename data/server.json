@@ -1,11 +1,5 @@
 {
   "proxyUrl": "",
-  "free": true,
-  "limits": {
-    "perDay": 90000,
-    "total": 3000000,
-    "note": "Plafond gratuit du mandataire. Au-delà, il faut passer au payant."
-  },
   "updatedAt": "2026-11-10",
   "note": "Adresse du serveur gratuit, à remplir après le déploiement du Worker Cloudflare. Ce fichier ne contient aucune clé d'API.",
   "deployed": false

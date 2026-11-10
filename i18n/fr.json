@@ -248,7 +248,7 @@
   "err.network": "Pas de connexion au serveur. Vérifie Internet et réessaie.",
   "err.http": "Erreur du serveur d'IA.",
   "err.crash": "Un problème est survenu sur cet écran.",
-  "set.ai.freeserver": "Serveur gratuit limité (90 000 requêtes par jour). Aucune clé à saisir.",
+  "set.ai.freeserver": "Serveur gratuit de Nitzotz. Aucune clé à saisir.",
   "acad.credits.points": "crédits (נ״ז)",
   "acad.credits.hours": "heures par semaine (ש״ס)",
   "set.ai.noserver": "Le serveur gratuit n'est pas encore en ligne. Saisis son adresse ou passe à « Ma clé ».",

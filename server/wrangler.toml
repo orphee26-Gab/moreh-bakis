@@ -2,9 +2,26 @@ name = "moreh-bakis-proxy"
 main = "worker.js"
 compatibility_date = "2026-01-01"
 
+[vars]
+# Sites autorisés à appeler le serveur (séparés par des virgules). Ajouter ici un futur nom de domaine.
+ALLOWED_ORIGINS = "https://orphee26-gab.github.io"
+
 [observability]
 enabled = true
 
-[[kv_namespaces]]
-binding = "mb"
-id = "REMPLACER_PAR_L_ID_DU_NAMESPACE"
+# Limites de débit, par point de présence Cloudflare (approximatives). Sans état : aucune base de données.
+[[ratelimits]]
+name = "PER_DEVICE"
+namespace_id = "1001"
+
+  [ratelimits.simple]
+  limit = 20
+  period = 60
+
+[[ratelimits]]
+name = "PER_IP"
+namespace_id = "1002"
+
+  [ratelimits.simple]
+  limit = 120
+  period = 60

@@ -1,5 +1,5 @@
 // Point d'entrée : navigation, routes, démarrage.
-import { S } from './store.js';
+import { S, save } from './store.js';
 import { loadLang, t } from './i18n.js';
 import { $, esc, flags, toast } from './ui.js';
 import { unlockAudio } from './voice.js';
@@ -40,12 +40,19 @@ async function route() {
 async function boot() {
   flags.sound = S.prefs.sound;
   await loadLang(S.lang);
-  // Adresse du serveur gratuit (fichier data/server.json, sans aucune clé d'API).
+  // Serveur gratuit (fichier data/server.json, sans aucune clé d'API). Une fois en ligne, il devient le mode par défaut,
+  // sauf si la personne a elle-même choisi un autre mode dans les réglages.
   try {
-    const r = await fetch('data/server.json');
+    const r = await fetch('data/server.json', { cache: 'no-cache' });
     const cfg = await r.json();
-    if (cfg && cfg.proxyUrl) S.ai.proxyUrl = cfg.proxyUrl;
-  } catch { /* le réglage déjà saisi est conservé */ }
+    const live = !!(cfg && cfg.proxyUrl && cfg.deployed !== false);
+    if (live) S.ai.proxyUrl = cfg.proxyUrl;
+    if (!S.ai.chosen) {
+      if (live && S.ai.mode === 'demo') S.ai.mode = 'proxy';
+      else if (!live && S.ai.mode === 'proxy') S.ai.mode = 'demo';
+    }
+    save();
+  } catch { /* hors ligne : les réglages déjà enregistrés sont conservés */ }
   document.addEventListener('pointerdown', unlockAudio, { once: true });
   window.addEventListener('hashchange', route);
   window.addEventListener('unhandledrejection', (e) => { console.error(e.reason); });
