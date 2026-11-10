@@ -1,0 +1,25 @@
+{
+ "id": "history",
+ "name": {
+  "he": "היסטוריה",
+  "fr": "Histoire"
+ },
+ "status": "draft",
+ "levels": [
+  {
+   "units": 2,
+   "grades": [
+    {
+     "grade": "12",
+     "topics": [
+      {
+       "id": "history-2-12-01",
+       "he": "מלחמת העולם השנייה",
+       "fr": "Seconde Guerre mondiale"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
