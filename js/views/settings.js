@@ -26,7 +26,7 @@ function draw(root) {
     <div class="sec"><h3>${t('set.ai')}</h3>
       <div class="chips"><button class="chip ${mode === 'demo' ? 'on' : ''}" data-ai="demo">${t('set.ai.demo')}</button><button class="chip ${mode === 'key' ? 'on' : ''}" data-ai="key">${t('set.ai.mykey')}</button><button class="chip ${mode === 'proxy' ? 'on' : ''}" data-ai="proxy">${t('set.ai.proxy')}</button></div>
       ${mode === 'key' ? `<div class="field"><label>${t('set.ai.key')}</label><input class="inp" id="aikey" type="password" dir="ltr" placeholder="sk-ant-..." value="${esc(S.ai.key)}" autocomplete="off"></div><div class="warn small">${t('set.ai.keynote')}</div>` : ''}
-      ${mode === 'proxy' ? `<div class="field"><label>${t('set.ai.url')}</label><input class="inp" id="aiurl" dir="ltr" placeholder="https://..." value="${esc(S.ai.proxyUrl)}"></div>` : ''}
+      ${mode === 'proxy' ? `<div class="field"><label>${t('set.ai.url')}</label><input class="inp" id="aiurl" dir="ltr" placeholder="https://..." value="${esc(S.ai.proxyUrl)}"></div><div class="ok small">${t('set.ai.freeserver')}</div>` : ''}
       ${mode === 'demo' ? `<p class="small muted">${t('set.ai.demonote')}</p>` : ''}
       <div class="field"><label>${t('set.ai.model')}</label><select class="inp" id="model" dir="ltr">${opts(MODELS, S.ai.model)}</select></div>
       <div class="field"><label>${t('set.ai.vision')}</label><select class="inp" id="vmodel" dir="ltr">${opts(MODELS, S.ai.visionModel)}</select></div>
