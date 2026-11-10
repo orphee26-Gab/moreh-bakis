@@ -1,0 +1,494 @@
+{
+  "id": "hebrew",
+  "name": {
+    "he": "עברית: הבנה, הבעה ולשון",
+    "fr": "Hébreu : compréhension, expression et langue"
+  },
+  "schoolYear": "תשפ\"ז",
+  "status": "draft",
+  "retrievedAt": "2026-11-10",
+  "officialPages": [
+    "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/",
+    "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/noseem_nilmadim/",
+    "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/noseem_nilmadim/havana-vehabaa/",
+    "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/noseem_nilmadim/habaa-beal-pe/",
+    "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/noseem_nilmadim/lashon/",
+    "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/bhinot-bagrut-umesimot/",
+    "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/avodot-gemer/",
+    "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/dvar-hamafmar-tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/mikud-tasahpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/unique-programs-tashpavz.pdf",
+    "https://meyda.education.gov.il/files/Curriculum/hebrew-7-12.pdf",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/AgafPituachPedagogi/tochnit_hibachanut_tashap.pdf"
+  ],
+  "levels": [
+    {
+      "units": 2,
+      "label": {
+        "he": "2 יחידות לימוד (מקצוע חובה)",
+        "fr": "2 yéhidot (matière obligatoire)"
+      },
+      "grades": [
+        {
+          "grade": "all",
+          "gradeLabel": "י', י\"א, י\"ב",
+          "topics": [
+            {
+              "id": "hebrew-2-all-01",
+              "he": "הבנה והבעה — הבנת הנקרא",
+              "fr": "Compréhension et expression — compréhension de lecture",
+              "subtopics": [
+                {
+                  "he": "מאמרים עיוניים במבנים לוגיים־רטוריים שונים",
+                  "fr": "Articles informatifs à structures logico-rhétoriques variées"
+                },
+                {
+                  "he": "מאמרי עמדה ושכנוע",
+                  "fr": "Articles d'opinion et de persuasion"
+                },
+                {
+                  "he": "טקסטים שימושיים",
+                  "fr": "Textes fonctionnels"
+                },
+                {
+                  "he": "טקסטים בלתי רציפים (דיאגרמות, טבלאות, תרשימים) ובלתי מילוליים",
+                  "fr": "Textes non continus (diagrammes, tableaux, schémas) et non verbaux"
+                },
+                {
+                  "he": "איתור מידע",
+                  "fr": "Repérage d'informations"
+                },
+                {
+                  "he": "הבנה (פרשנות והיסק)",
+                  "fr": "Compréhension (interprétation et inférence)"
+                },
+                {
+                  "he": "הערכה ביקורתית ושיקוף (רפלקציה)",
+                  "fr": "Évaluation critique et réflexion"
+                },
+                {
+                  "he": "אוצר מילים: משמעות מילים בהקשר; נרדפות, ניגודיות והיכללות",
+                  "fr": "Vocabulaire : sens en contexte ; synonymie, antonymie, inclusion"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf"
+            },
+            {
+              "id": "hebrew-2-all-02",
+              "he": "הבנה והבעה — הבעה בכתב",
+              "fr": "Compréhension et expression — expression écrite",
+              "subtopics": [
+                {
+                  "he": "תהליכי כתיבה: תכנון, טיוטות, משוב ושכתוב",
+                  "fr": "Processus d'écriture : planification, brouillons, retours, réécriture"
+                },
+                {
+                  "he": "מאמר טיעוני־שכנועי (תוצר סופי בתלקיט)",
+                  "fr": "Article argumentatif-persuasif (produit final du portfolio)"
+                },
+                {
+                  "he": "כתיבה בזיקה למקורות מידע והבאת דברים בשם אומרם",
+                  "fr": "Écriture à partir de sources, avec attribution des propos"
+                },
+                {
+                  "he": "כתיבה ממזגת: סקירת ספרות על סמך שני טקסטים",
+                  "fr": "Écriture de synthèse : revue de littérature à partir de deux textes"
+                },
+                {
+                  "he": "עקרונות המיזוג: מיון והכללה, המאחד והמייחד, פרפרזה",
+                  "fr": "Principes de fusion : classement et généralisation, points communs et spécifiques, paraphrase"
+                },
+                {
+                  "he": "רכיבי הערכה: תוכן ומבנה, לשון ומבע",
+                  "fr": "Critères d'évaluation : contenu et structure, langue et expression"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf"
+            },
+            {
+              "id": "hebrew-2-all-03",
+              "he": "הבעה בעל פה",
+              "fr": "Expression orale",
+              "subtopics": [
+                {
+                  "he": "דיון מובנה",
+                  "fr": "Discussion structurée"
+                },
+                {
+                  "he": "נאומים",
+                  "fr": "Discours"
+                },
+                {
+                  "he": "הצגות דברים (פרזנטציות)",
+                  "fr": "Présentations orales"
+                },
+                {
+                  "he": "הרצאה: הצגת דברים לפני קהל (מאפייני הסוגה ומחוון)",
+                  "fr": "Exposé devant un public (caractéristiques du genre et grille d'évaluation)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/noseem_nilmadim/habaa-beal-pe/"
+            },
+            {
+              "id": "hebrew-2-all-04",
+              "he": "הבנה והבעה של טקסטים שבעל פה (תוכנית תשס\"ג, פרק ד)",
+              "fr": "Compréhension et expression de textes oraux (programme 2003, chapitre 4)",
+              "subtopics": [
+                {
+                  "he": "הרצאת דברים ('פרזנטציה')",
+                  "fr": "Exposé oral (présentation)"
+                },
+                {
+                  "he": "דיון",
+                  "fr": "Discussion"
+                },
+                {
+                  "he": "האזנה וסיכום",
+                  "fr": "Écoute et résumé"
+                },
+                {
+                  "he": "קריאה בקול",
+                  "fr": "Lecture à voix haute"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/hebrew-7-12.pdf"
+            },
+            {
+              "id": "hebrew-2-all-05",
+              "he": "פרק ד בתוכנית תשס\"ג: הבנה והבעה",
+              "fr": "Chapitre 4 du programme 2003 : compréhension et expression",
+              "subtopics": [
+                {
+                  "he": "טיפולוגיה של טקסטים",
+                  "fr": "Typologie des textes"
+                },
+                {
+                  "he": "קריאה והבנה של טקסטים",
+                  "fr": "Lecture et compréhension des textes"
+                },
+                {
+                  "he": "תהליכי כתיבה: סביבת הכתיבה, תכנון, יצירה ופיתוח, עריכה",
+                  "fr": "Processus d'écriture : cadre, planification, production et développement, révision"
+                },
+                {
+                  "he": "סיכום של טקסטים",
+                  "fr": "Résumé de textes"
+                },
+                {
+                  "he": "כתיבת טיעון",
+                  "fr": "Rédaction argumentative"
+                },
+                {
+                  "he": "כתיבה עיונית על סמך מקורות שונים",
+                  "fr": "Écriture analytique à partir de sources diverses"
+                },
+                {
+                  "he": "טקסטים מן המקורות — המקרא וספרות חז\"ל",
+                  "fr": "Textes des sources — Bible et littérature rabbinique"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/hebrew-7-12.pdf"
+            },
+            {
+              "id": "hebrew-2-all-06",
+              "he": "לשון — תקינות בשם המספר, באותיות השימוש ובמילות היחס (10 נקודות)",
+              "fr": "Langue — correction du nom de nombre, des lettres d'usage et des prépositions (10 points)",
+              "subtopics": [
+                {
+                  "he": "שימוש תקני בשם המספר: צורה והתאם (מספר מונה, לרבות תאריכים; מספר סודר; מספר סתמי)",
+                  "fr": "Nom de nombre : forme et accord (cardinal, dont dates ; ordinal ; indéfini)"
+                },
+                {
+                  "he": "הגייתן הרגילה של אותיות השימוש (וכל\"ב), גם לפני שמות מספר הפותחים בשווא",
+                  "fr": "Prononciation usuelle des lettres d'usage (ו, כ, ל, ב), y compris devant les noms de nombre commençant par un chva"
+                },
+                {
+                  "he": "ניקוד מבחין במילים הומוגרפיות (שמונָה/שמונֶה, שָלוש/שְלוש)",
+                  "fr": "Vocalisation distinctive des homographes (שמונָה/שמונֶה, שָלוש/שְלוש)"
+                },
+                {
+                  "he": "מילות היחס: נטייה תקנית ובחירה תקנית (בתשפ\"ז אין שאלה ייעודית בפרק הלשון)",
+                  "fr": "Prépositions : flexion et choix corrects (pas de question dédiée dans le chapitre de langue en תשפ\"ז)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf"
+            },
+            {
+              "id": "hebrew-2-all-07",
+              "he": "לשון — מערכת הצורות (שאלון 11281, 70%)",
+              "fr": "Langue — système des formes (morphologie ; questionnaire 11281, 70 %)",
+              "subtopics": [
+                {
+                  "he": "זיהוי חלקי הדיבור: שם עצם, שם תואר, פועל (כולל שם פועל); צורות הבינוני",
+                  "fr": "Parties du discours : nom, adjectif, verbe (dont infinitif) ; formes du participe"
+                },
+                {
+                  "he": "ניתוח, יצירה והטיה של פעלים לפי שורש, בניין, גוף, זמן או דרך",
+                  "fr": "Analyse, formation et conjugaison des verbes (racine, binyan, personne, temps, mode)"
+                },
+                {
+                  "he": "ניתוח, יצירה ומיון של שמות לפי שורש ומשקל",
+                  "fr": "Analyse, formation et classement des noms (racine et schème)"
+                },
+                {
+                  "he": "גזרות: שלמים (לרבות מרובעים), פ\"נ, פ\"י/ו, ל\"י, ל\"א, ע\"ו/י",
+                  "fr": "Types de racines : régulières (dont quadrilitères), פ\"נ, פ\"י/ו, ל\"י, ל\"א, ע\"ו/י"
+                },
+                {
+                  "he": "בניינים: פעיל וסביל; המרת צורות מפעיל לסביל ולהפך",
+                  "fr": "Binyanim : actif et passif ; conversion actif ↔ passif"
+                },
+                {
+                  "he": "דרכי התצורה של שמות: שורש ומשקל, בסיס וצורן גזירה, בסיס ובסיס, ראשי תיבות",
+                  "fr": "Formation des noms : racine et schème, base et affixe, base et base, acronymes"
+                },
+                {
+                  "he": "משמעויות המשקלים (לרבות שמות הפעולה) והצורנים",
+                  "fr": "Sens des schèmes (dont noms d'action) et des affixes"
+                },
+                {
+                  "he": "שאילה מלעז, חידושי מילים ותקניות הצורה בהקשר (נוצָרות/נוצְרות)",
+                  "fr": "Emprunts, néologismes et forme correcte en contexte (נוצָרות/נוצְרות)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf"
+            },
+            {
+              "id": "hebrew-2-all-08",
+              "he": "לשון — תחביר (שאלון 11281, 70%)",
+              "fr": "Langue — syntaxe (questionnaire 11281, 70 %)",
+              "subtopics": [
+                {
+                  "he": "זיהוי חלקי הדיבור; צורות הבינוני",
+                  "fr": "Parties du discours ; formes du participe"
+                },
+                {
+                  "he": "סיווג משפטים מכל הסוגים: פשוט, מורכב, איחוי (מאוחה); משפט בעל חלקים כוללים",
+                  "fr": "Classement des phrases : simple, complexe, « איחוי » (מאוחה) ; phrase à parties générales"
+                },
+                {
+                  "he": "תפקידים תחביריים: נושא, נשוא (פועלי, שמני, מורחב, מודלי, דמוי פועל, יש־אין), האוגד, מושא, תיאור, לוואי, תמורה, הסגר",
+                  "fr": "Fonctions : sujet, prédicat (verbal, nominal, étendu, modal, quasi-verbal, יש/אין), copule, complément d'objet, circonstanciel, épithète, apposition, incise"
+                },
+                {
+                  "he": "זיהוי ותחימה של איברים ופסוקיות; פסוקיות תיאור (מקום, זמן, סיבה, תכלית, אופן, מצב, תנאי, ויתור)",
+                  "fr": "Repérage des membres et des subordonnées ; circonstancielles (lieu, temps, cause, but, manière, état, condition, concession)"
+                },
+                {
+                  "he": "הקשרים הלוגיים ומילות הקישור: זיהוי, המרה והשלמה",
+                  "fr": "Liens logiques et connecteurs : identification, conversion et complétion"
+                },
+                {
+                  "he": "המרות משפטים; פירוק והרכבת משפטים ליחידות שיח",
+                  "fr": "Conversions de phrases ; décomposition et composition de phrases en unités de discours"
+                },
+                {
+                  "he": "פיסוק תקין: נקודה, סימן שאלה, פסיק, נקודתיים, מירכאות",
+                  "fr": "Ponctuation correcte : point, point d'interrogation, virgule, deux-points, guillemets"
+                },
+                {
+                  "he": "מבנים להדגשה, דרכי מסירה (דיבור ישיר ועקיף, הסגר) ומודליות",
+                  "fr": "Mise en relief, discours rapporté (direct, indirect, incise) et modalité"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf"
+            },
+            {
+              "id": "hebrew-2-all-09",
+              "he": "לשון בתוכנית 30% — פרקי תחביר נבחרים (כ־25 שעות)",
+              "fr": "Langue, programme 30 % — chapitres de syntaxe choisis (env. 25 h)",
+              "subtopics": [
+                {
+                  "he": "חלקי הדיבור; ההבחנה בין צירוף למשפט (חזרה על חטיבת הביניים)",
+                  "fr": "Parties du discours ; distinction groupe/phrase (révision du collège)"
+                },
+                {
+                  "he": "קשרים לוגיים, לרבות שימוש תקין בהם",
+                  "fr": "Liens logiques et leur emploi correct"
+                },
+                {
+                  "he": "המשפט הפועלי והמשפט השמני: נושא, נשוא, משלימים (מושא, תיאור, לוואי, הסגר)",
+                  "fr": "Phrase verbale et phrase nominale : sujet, prédicat, compléments"
+                },
+                {
+                  "he": "סוגי משפטים: פשוט, איחוי, מורכב; המרות ביניהם",
+                  "fr": "Types de phrases : simple, « איחוי », complexe ; conversions"
+                },
+                {
+                  "he": "שינוי סדר המילים לצורכי הדגשה (לא, גם, רק)",
+                  "fr": "Changement d'ordre des mots pour la mise en relief (לא, גם, רק)"
+                },
+                {
+                  "he": "דיבור ישיר, דיבור עקיף והסגר",
+                  "fr": "Discours direct, discours indirect et incise"
+                },
+                {
+                  "he": "משפטים סתמיים וסבילים: העלמת עושה הפעולה",
+                  "fr": "Phrases impersonnelles et passives : effacement de l'agent"
+                },
+                {
+                  "he": "תקינות בהתאם ובפיסוק",
+                  "fr": "Accord et ponctuation corrects"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf"
+            },
+            {
+              "id": "hebrew-2-all-10",
+              "he": "לשון בתוכנית 30% — פרקי מערכת הצורות נבחרים (כ־25 שעות)",
+              "fr": "Langue, programme 30 % — chapitres de morphologie choisis (env. 25 h)",
+              "subtopics": [
+                {
+                  "he": "עקרון השורש והתבנית (בניין ומשקל) בפעלים ובשמות",
+                  "fr": "Principe racine/schème (binyan et mishkal) dans les verbes et les noms"
+                },
+                {
+                  "he": "גזרת השלמים, נטיית שבעת הבניינים, פעיל וסביל",
+                  "fr": "Racines régulières, conjugaison des sept binyanim, actif et passif"
+                },
+                {
+                  "he": "גזרות פ\"נ ופי\"צ בפעלים ובשמות",
+                  "fr": "Racines פ\"נ et פי\"צ (verbes et noms)"
+                },
+                {
+                  "he": "גזרות ל\"י ול\"א בפעלים ובשמות",
+                  "fr": "Racines ל\"י et ל\"א (verbes et noms)"
+                },
+                {
+                  "he": "שורשים תנייניים וגזורי שם",
+                  "fr": "Racines secondaires et dénominales"
+                },
+                {
+                  "he": "דרכי התצורה: שורש ומשקל, בסיס וצורן, בסיס ובסיס",
+                  "fr": "Formation des mots : racine et schème, base et affixe, base et base"
+                },
+                {
+                  "he": "משמעויות משקלים שכיחים וצורנים סופיים שכיחים",
+                  "fr": "Sens des schèmes et des suffixes fréquents"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf"
+            },
+            {
+              "id": "hebrew-2-all-11",
+              "he": "מבנה הוויתור (יחידת הוראה, כיתות י–יא)",
+              "fr": "Structure de la concession (unité d'enseignement, classes 10-11)",
+              "subtopics": [
+                {
+                  "he": "מבנה הוויתור כאמצעי לביטוי אופיו הדיאלוגי של טקסט הטיעון",
+                  "fr": "La concession, moyen d'exprimer le caractère dialogique du texte argumentatif"
+                },
+                {
+                  "he": "מבנה הוויתור בהקשרים טקסטואליים ולשוניים מגוונים",
+                  "fr": "La concession dans divers contextes textuels et linguistiques"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/noseem_nilmadim/lashon/"
+            },
+            {
+              "id": "hebrew-2-all-12",
+              "he": "אוצר המילים והמשמעים (תוכנית תשס\"ג, פרק ב)",
+              "fr": "Lexique et sens (programme 2003, chapitre 2)",
+              "subtopics": [
+                {
+                  "he": "תיעוד אוצר המילים במילונים (לקסיקולוגיה)",
+                  "fr": "Documentation du lexique dans les dictionnaires (lexicographie)"
+                },
+                {
+                  "he": "נרדפות",
+                  "fr": "Synonymie"
+                },
+                {
+                  "he": "משמעות נלווית — קונוטציה",
+                  "fr": "Connotation"
+                },
+                {
+                  "he": "ריבוי משמעויות (פוליסמיה) והומונימיה",
+                  "fr": "Polysémie et homonymie"
+                },
+                {
+                  "he": "המטפורה והמטונימיה",
+                  "fr": "Métaphore et métonymie"
+                },
+                {
+                  "he": "קולוקציות, צירופים כבולים וניבים",
+                  "fr": "Collocations, expressions figées et locutions"
+                },
+                {
+                  "he": "היכללות (היפונימיה) וניגודי משמעות",
+                  "fr": "Hyponymie (inclusion) et antonymie"
+                },
+                {
+                  "he": "שקיפות סמנטית, 'לשון נקייה' ו'תקינות פוליטית'",
+                  "fr": "Transparence sémantique, « langage châtié » et « politiquement correct »"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/hebrew-7-12.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "units": 5,
+      "label": {
+        "he": "5 יחידות לימוד (עבודת גמר בלשון עברית)",
+        "fr": "5 yéhidot (via un travail de fin d'études en langue hébraïque)"
+      },
+      "grades": [
+        {
+          "grade": "all",
+          "gradeLabel": "כל הכיתות",
+          "topics": [
+            {
+              "id": "hebrew-5-all-01",
+              "he": "עבודות גמר בעברית: למידת חקר בהיקף 5 יח\"ל (סמל 11279)",
+              "fr": "Travail de fin d'études en hébreu : recherche, valeur de 5 yéhidot (code 11279)",
+              "subtopics": [
+                {
+                  "he": "כתיבת עבודת גמר בלשון עברית בליווי מנחה אקדמי עצמאי",
+                  "fr": "Rédaction d'un travail de fin d'études en langue hébraïque avec un tuteur académique indépendant"
+                },
+                {
+                  "he": "תחומים: חקר השפה העברית, בלשנות עברית, חקר השיח בעברית",
+                  "fr": "Domaines : étude de la langue hébraïque, linguistique hébraïque, analyse du discours en hébreu"
+                },
+                {
+                  "he": "הצעה לעבודה: אפשרית מכיתה י', לתלמידים אינטרניים בלבד",
+                  "fr": "Proposition de travail : possible dès la classe 10, élèves internes uniquement"
+                },
+                {
+                  "he": "הערכה חיצונית: עבודה כתובה 60%, פרזנטציה 20% (7–10 דקות), שיחת הגנה 20%",
+                  "fr": "Évaluation externe : travail écrit 60 %, présentation 20 % (7 à 10 min), entretien de défense 20 %"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/unique-programs-tashpavz.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Organisation (circulaire du programme du lycée, תשפ\"ז) : 2 יחידות = 30 % du programme évalué en interne (portfolio : compréhension de lecture, expression écrite, chapitres choisis d'UN système de langue — syntaxe OU formes) + 70 % évalué à l'examen externe (écriture de synthèse + enseignement complet de l'AUTRE système, commencé en classe י jusqu'au bagrout en יא ou יב). On ne peut pas n'enseigner qu'un seul système ni changer d'option entre י et יא/יב ; le candidat répond sur le système étudié. Minimum 6 heures hebdomadaires-annuelles sur י–יב, dont au moins 3 en classe י ; le programme 30 % = env. 55 h pour une classe à 3 h hebdomadaires sur deux ans. https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf",
+    "Répartition horaire indicative (même circulaire). Option A (focus formes) : classe י ≈ 50 h pour le programme 30 % (≈ 25 h de syntaxe choisie + ≈ 25 h de compréhension/expression, accent sur l'argumentation en lien avec des textes) ; programme 70 % ≈ 100 h sur י–יא : ≈ 55 h de formes en profondeur (≈ 15 h en י, ≈ 40 h en יא ou יא–יב) + ≈ 50 h de compréhension/expression (écriture de synthèse). Option B : même schéma avec syntaxe et formes inversées. Le document ne détaille pas de thèmes par classe : grade « all ». https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf",
+    "Note finale du bagrout : 30 % portfolio d'établissement (code 11283) + 21 % note annuelle (« מגן ») + 49 % note de l'examen externe 11281. https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf",
+    "Examen externe 11281 (70 %, 3 heures ; 11241 = version adaptée) : compréhension de lecture 25 % (2 à 3 textes de types différents, env. 1300 mots au total) ; écriture de synthèse 25 % (fusion de deux textes de types différents, 100 à 200 mots) ; langue et métalangue 50 % (10 points : nom de nombre, lettres d'usage, prépositions — commun à tous ; 40 points : système des formes OU syntaxe, 4 questions sur 5 au choix). Aide-mémoire (דף עזר) joint au questionnaire. Les repêchés/נבחני משנה répondent sur un seul système au choix. https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf",
+    "Questionnaire 11282 (30 % externe, pour externes, נבחני משנה et élèves voulant améliorer la note d'établissement ; 2 heures) : pas de questions de langue ; compréhension de lecture 60 % (2-3 textes, au plus 1000 mots) ; expression écrite 40 % (argumentation en lien avec un ou plusieurs textes ou sans texte). Note finale des externes : 11282 (30 %) + 11281 (70 %). https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf",
+    "Expression orale : aucune épreuve orale séparée n'apparaît dans le tableau des questionnaires de la circulaire (11281, 11282, 11283…) pour l'hébreu (2 יח\"ל). En תשפ\"ז, la circulaire annonce un renforcement de l'oral : présentations (פרזנטציות) et « défense » des productions écrites complètent l'expression écrite dans le portfolio 30 %. Le portfolio présente au moins un parcours complet (textes sources, brouillons, usage éventuel de l'IA, retours, produit final : article argumentatif-persuasif + présentation orale du sujet et du processus) ; sans évaluation orale, il faut deux parcours d'écriture. https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/dvar-hamafmar-tashpaz.pdf Détails du portfolio : https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/hativa-elyona-tashpaz.pdf (p. 9-10).",
+    "Mikud תשפ\"ז (examens 2027, questionnaire 11281) — NON inclus dans la matière d'examen : entrées encyclopédiques/Wikipédia ; rédaction d'une courte opinion personnelle argumentée ; fractions avec nom de nombre ; prononciation des lettres d'usage devant noms de nombre à ḥataf et devant les noms ; usage correct des prépositions ; racines פי\"צ, פ\"א, כפולים (ע\"ע) ; formation des racines quadrilitères/secondaires/dénominales ; corrections de prononciation ; distinction affixes de flexion/dérivation ; syntaxe : apostrophe/vocatif, phrases à structure spéciale (ייחוד, sujet impersonnel), phrases complexes à subordonnée מאוחה, proposition réduite, structures ambiguës, correction de structures fautives. Dans תשפ\"ז : pas d'adaptations d'examen supplémentaires. https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/mikud-tasahpaz.pdf",
+    "Programme officiel d'ensemble (2003, classes 7-12, toujours cité par la circulaire תשפ\"ז) : 4 chapitres — א מערכת הצורות, ב אוצר המילים והמשמעים, ג תחביר (15-20 % du temps chacun), ד הבנה והבעה (40-50 %). Dans la réforme du lycée, un système (syntaxe ou formes) est traité en volume réduit (30 %), l'autre en profondeur (70 %). Pour י–יב : compréhension et expression + lexique (dans le texte) + formes/syntaxe en approfondissement. https://meyda.education.gov.il/files/Curriculum/hebrew-7-12.pdf",
+    "Extension à 5 יחידות : documentée seulement comme voie « עבודת גמר בלשון עברית » (≈ 450 heures, code 11279, accompagnement par un tuteur académique) — voir niveau 5 — et, hors ministère, conversion via le programme « שער להשכלה גבוהה » de l'Université de Tel-Aviv (payant ; équivalence 5 יח\"ל en langue, ou 3 יח\"ל pour les élèves de יא). Ce n'est pas un cours en classe. https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/unique-programs-tashpavz.pdf",
+    "Alternatives officielles : « מיזם הכתיבה » (portfolio numérique ; unité en classe י remplace la compréhension/expression du 30 %, unité en יא remplace ce chapitre à l'examen ; examen 11271 = langue seulement) et « סמסטר ראשון בתיכון » (cours « קריאה וכתיבה אקדמית » de l'Université ouverte, codes 11261/11291). Codes principaux : 11281 (70 %), 11241 (adapté), 11282 (30 % externe), 11283 (30 % établissement), 11279 (travail de fin d'études 5 יח\"ל). https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/inspector-desk/dvar-hamafmar-tashpaz.pdf",
+    "Pages pop.education.gov.il (« נושאים ומיומנויות ») : trois thèmes principaux, tous rattachés aux classes י', י\"א, י\"ב — הבנה והבעה, הבעה בעל פה, לשון. La page « לשון » cite les unités תחביר et מערכת הצורות (jusqu'à l'été תש\"ף / תשע\"ט) et l'unité sur le מבנה הוויתור (classes י–יא). https://pop.education.gov.il/tchumey_daat/ivrit_havana_habaa_lashon/chativa-elyona/noseem_nilmadim/",
+    "Contrôle de l'ordre de lecture hébreu : dans les PDF extraits (pymupdf), les mots sont dans le bon ordre, mais la ponctuation et certains chiffres sont déplacés ; les intitulés ont été reconstitués à partir de la table des matières et des intertitres, et vérifiés sur images pour les tableaux d'examen (page 19 de la circulaire). https://meyda.education.gov.il/files/Curriculum/hebrew-7-12.pdf"
+  ],
+  "unverified": [
+    "Extension à 5 יח\"ל de l'hébreu « הבנה, הבעה ולשון » en classe : aucune documentation officielle trouvée (la seule voie documentée est le travail de fin d'études 11279). Dans le PDF תש\"ף, l'extension à 5 יח\"ל ne concerne que l'hébreu des écoles arabes et druzes (matière distincte, non traitée ici).",
+    "Page « פדגוגיה עברית » (…/chativa-elyona/pedagogya-ivrit-hata/) : erreur 404 à l'extraction ; listes dynamiques (tâches d'examens passés, יחידות הוראה מתוקשבות) de la page « נושאים ומיומנויות » chargées en JavaScript : titres des tâches non repris.",
+    "Mikud תשפ\"ז : seules les pages 1 à 6 (questionnaires 11281 et 11241) ont été lues ; les pages 7 à 15 ne l'ont pas été. La circulaire de 2025 (תשפ\"ו) annonçait, d'après un extrait de recherche non relu en entier, qu'aucun mikud ne serait publié dès תשפ\"ז ; la circulaire du 2 août 2026 maintient pourtant un mikud pour 2027 (version la plus récente retenue).",
+    "Programme 2003 : chapitres א à ג lus par titres (table des matières et intertitres), pas en détail ; la circulaire תשפ\"ז prime sur lui. Aucune pondération officielle des sous-composantes du portfolio 30 % ; aucune répartition officielle des thèmes par classe.",
+    "Hébreu pour nouveaux immigrants (questionnaires 11284/11274/11272/11273, programme distinct) : non traité."
+  ]
+}
