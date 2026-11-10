@@ -1,0 +1,1227 @@
+{
+  "id": "english",
+  "name": {
+    "he": "אנגלית",
+    "fr": "Anglais"
+  },
+  "schoolYear": "תשפ\"ז",
+  "status": "draft",
+  "retrievedAt": "2026-11-10",
+  "officialPages": [
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/",
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/",
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/introduction/",
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/",
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/",
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/",
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/bagrut-exam/table-of-specifications/",
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/bagrut-exam/cobe-oral-exam/",
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/bagrut-exam/mikud/",
+    "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/bagrut-exam/literature-program/",
+    "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf",
+    "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/4pointsbooklet2025.pdf",
+    "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf",
+    "https://meyda.education.gov.il/files/portal_talmidim/mikud/2026/english.pdf",
+    "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/AgafPituachPedagogi/tochnit_hibachanut_tashap.pdf"
+  ],
+  "levels": [
+    {
+      "units": 3,
+      "label": {
+        "he": "3 יחידות לימוד",
+        "fr": "3 yéhidot (niveau CECRL A2, « Basic user II »)"
+      },
+      "grades": [
+        {
+          "grade": "all",
+          "gradeLabel": "כל הכיתות",
+          "topics": [
+            {
+              "id": "english-3-all-01",
+              "he": "Spoken reception",
+              "fr": "Réception orale (compréhension de l'oral)",
+              "subtopics": [
+                {
+                  "he": "Understand enough to meet needs of a concrete type, if speech is clearly articulated",
+                  "fr": "Comprendre assez pour répondre à des besoins concrets si le débit est clair"
+                },
+                {
+                  "he": "Phrases and expressions of most immediate priority (personal and family information, shopping, local geography)",
+                  "fr": "Expressions liées aux priorités immédiates (infos personnelles et familiales, achats, géographie locale)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-02",
+              "he": "Written reception and identifying cues",
+              "fr": "Réception écrite et repérage d'indices",
+              "subtopics": [
+                {
+                  "he": "Understand texts on familiar matters of a concrete type, rereading as required",
+                  "fr": "Comprendre des textes concrets sur des sujets familiers, en relisant si besoin"
+                },
+                {
+                  "he": "Identifying cues and prediction (spoken and written)",
+                  "fr": "Repérer des indices et anticiper (oral et écrit)"
+                },
+                {
+                  "he": "Mobilize the plurilingual repertoire to ask for help or clarification",
+                  "fr": "Mobiliser son répertoire plurilingue pour demander de l'aide ou des précisions"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-03",
+              "he": "Spoken production",
+              "fr": "Production orale",
+              "subtopics": [
+                {
+                  "he": "Describe everyday aspects of environment, events and activities (people, places, job or study experience)",
+                  "fr": "Décrire son environnement quotidien, des événements et des activités (personnes, lieux, expérience de travail ou d'études)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-04",
+              "he": "Written production",
+              "fr": "Production écrite",
+              "subtopics": [
+                {
+                  "he": "Overall written production: link phrases with simple connectors (and, but, because)",
+                  "fr": "Production écrite générale : relier des phrases avec des connecteurs simples (and, but, because)"
+                },
+                {
+                  "he": "Creative writing: simple story, imaginary biography or poem, diary entry, story introduction or continuation",
+                  "fr": "Écriture créative : récit simple, biographie imaginaire ou poème, journal, début ou suite d'histoire"
+                },
+                {
+                  "he": "Creative writing: basic descriptions of events, past activities and personal experiences",
+                  "fr": "Descriptions simples d'événements, d'activités passées et d'expériences personnelles"
+                },
+                {
+                  "he": "Written reports and essays: simple texts on familiar subjects with appropriate connectors",
+                  "fr": "Rapports et essais : textes simples sur des sujets familiers avec connecteurs adaptés"
+                },
+                {
+                  "he": "Impressions and opinions in writing on topics of personal interest (sports, music, reality TV)",
+                  "fr": "Impressions et opinions par écrit sur des sujets d'intérêt personnel (sport, musique, télé-réalité)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-05",
+              "he": "Production strategies",
+              "fr": "Stratégies de production",
+              "subtopics": [
+                {
+                  "he": "Planning: recall and rehearse an appropriate set of phrases",
+                  "fr": "Planifier : rappeler et répéter un ensemble d'expressions adaptées"
+                },
+                {
+                  "he": "Compensating: add gesture(s) to clarify an inadequate word or phrase",
+                  "fr": "Compenser : ajouter des gestes pour clarifier un mot ou une expression imparfaits"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-06",
+              "he": "Spoken interaction and interaction strategies",
+              "fr": "Interaction orale et stratégies d'interaction",
+              "subtopics": [
+                {
+                  "he": "Interact in structured situations and short social exchanges; ask for repetition, reformulation or clarification",
+                  "fr": "Interagir dans des situations structurées et des échanges sociaux courts ; demander répétition, reformulation ou précision"
+                },
+                {
+                  "he": "Ask and answer questions and exchange ideas and information on familiar topics",
+                  "fr": "Poser des questions, y répondre, échanger idées et informations sur des sujets familiers"
+                },
+                {
+                  "he": "Taking the floor: start, maintain or end a short conversation",
+                  "fr": "Prendre la parole : engager, poursuivre ou clore une courte conversation"
+                },
+                {
+                  "he": "Co-operating: indicate when following the interaction",
+                  "fr": "Coopérer : signaler que l'on suit l'échange"
+                },
+                {
+                  "he": "Asking for clarification: ask for repetition; clarify key words not understood",
+                  "fr": "Demander des précisions : faire répéter, faire clarifier des mots clés"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-07",
+              "he": "Written interaction",
+              "fr": "Interaction écrite",
+              "subtopics": [
+                {
+                  "he": "Overall written interaction: short, simple notes on routine, everyday matters",
+                  "fr": "Interaction écrite générale : courtes notes simples sur des sujets courants"
+                },
+                {
+                  "he": "Correspondence: short notes, emails and text messages (invitation, confirmation, thanks, apology)",
+                  "fr": "Correspondance : notes, courriels et SMS (invitation, confirmation, remerciements, excuses)"
+                },
+                {
+                  "he": "Correspondence: convey routine personal information (e.g., a short email introducing oneself)",
+                  "fr": "Transmettre des informations personnelles courantes (ex. courriel de présentation)"
+                },
+                {
+                  "he": "Notes, messages and forms: short, simple interpersonal messages on familiar topics",
+                  "fr": "Notes, messages et formulaires : courts messages interpersonnels simples"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-08",
+              "he": "Online interaction activities",
+              "fr": "Interaction en ligne",
+              "subtopics": [
+                {
+                  "he": "Online conversation and discussion: basic social communication online",
+                  "fr": "Conversation et discussion en ligne : communication sociale de base"
+                },
+                {
+                  "he": "Goal-oriented online transactions: fill in an online form or questionnaire; ask about availability of a product",
+                  "fr": "Transactions en ligne : remplir un formulaire ou un questionnaire ; demander la disponibilité d'un produit"
+                },
+                {
+                  "he": "Online collaboration: respond to simple instructions and ask basic questions for a shared task",
+                  "fr": "Collaboration en ligne : suivre des consignes simples et poser des questions de base pour une tâche partagée"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-09",
+              "he": "Mediation",
+              "fr": "Médiation",
+              "subtopics": [
+                {
+                  "he": "Overall mediation: recognize when difficulties occur; convey main points of short, simple texts or conversations",
+                  "fr": "Médiation générale : repérer les difficultés ; transmettre l'essentiel de textes ou conversations courts et simples"
+                },
+                {
+                  "he": "Mediating concepts – Collaboration: facilitating collaborative interaction with peers",
+                  "fr": "Médiation de concepts – collaboration : faciliter l'interaction collaborative entre pairs"
+                },
+                {
+                  "he": "Collaborating to construct meaning: ask questions, show he/she is following, make suggestions",
+                  "fr": "Construire le sens ensemble : poser des questions, montrer qu'on suit, faire des suggestions"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-10",
+              "he": "Plurilingual and pluricultural competence",
+              "fr": "Compétence plurilingue et pluriculturelle",
+              "subtopics": [
+                {
+                  "he": "Plurilingual comprehension: make sense of short spoken announcements using versions in different languages",
+                  "fr": "Compréhension plurilingue : comprendre de courtes annonces orales grâce à des versions en plusieurs langues"
+                },
+                {
+                  "he": "Building a plurilingual repertoire: use a word from another language in routine everyday situations",
+                  "fr": "Répertoire plurilingue : employer un mot d'une autre langue dans des situations quotidiennes"
+                },
+                {
+                  "he": "Recognize and apply basic cultural conventions of everyday social exchanges (greetings, rituals)",
+                  "fr": "Reconnaître et appliquer les conventions culturelles de base des échanges quotidiens (salutations, rituels)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-11",
+              "he": "Linguistic competence (Lexical Band II and Grammar Band II)",
+              "fr": "Compétence linguistique (lexique et grammaire, niveau « Band II »)",
+              "subtopics": [
+                {
+                  "he": "General linguistic range",
+                  "fr": "Étendue linguistique générale"
+                },
+                {
+                  "he": "Vocabulary range and control (Lexical Bands I and II)",
+                  "fr": "Étendue et maîtrise du vocabulaire (« Lexical Bands » I et II)"
+                },
+                {
+                  "he": "Grammatical accuracy (structures specified in Grammar Band II)",
+                  "fr": "Correction grammaticale (structures du « Grammar Band II »)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-12",
+              "he": "Phonological and orthographic control",
+              "fr": "Maîtrise phonologique et orthographique",
+              "subtopics": [
+                {
+                  "he": "Sound articulation: pronounce most lexical items intelligibly",
+                  "fr": "Articulation : prononcer la plupart des mots de façon intelligible"
+                },
+                {
+                  "he": "Prosodic features: stress, intonation and rhythm",
+                  "fr": "Prosodie : accent, intonation et rythme"
+                },
+                {
+                  "he": "Basic punctuation (full stops, commas, question/exclamation marks, apostrophes)",
+                  "fr": "Ponctuation de base (points, virgules, points d'interrogation et d'exclamation, apostrophes)"
+                },
+                {
+                  "he": "Spell most productive items from Lexical Bands I and II",
+                  "fr": "Orthographier la plupart des mots productifs des « Lexical Bands » I et II"
+                },
+                {
+                  "he": "Layout conventions of a text type (block paragraph, email, essay)",
+                  "fr": "Mise en page selon le type de texte (paragraphe, courriel, essai)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-13",
+              "he": "Sociolinguistic and pragmatic competence",
+              "fr": "Compétence sociolinguistique et pragmatique",
+              "subtopics": [
+                {
+                  "he": "Basic language functions: exchange information, make requests, express opinions and attitudes",
+                  "fr": "Fonctions de base : échanger des informations, formuler des demandes, exprimer opinions et attitudes"
+                },
+                {
+                  "he": "Everyday polite forms of greeting and address",
+                  "fr": "Formules de politesse courantes (salutations, adresse)"
+                },
+                {
+                  "he": "Thematic development: tell a story or describe in a simple list of points",
+                  "fr": "Développement thématique : raconter ou décrire en une liste simple de points"
+                },
+                {
+                  "he": "Coherence and cohesion: link groups of words with simple connectors",
+                  "fr": "Cohérence et cohésion : relier des groupes de mots avec des connecteurs simples"
+                },
+                {
+                  "he": "Spoken fluency: handle short exchanges, possibly with hesitation and false starts",
+                  "fr": "Aisance orale : gérer des échanges courts, avec d'éventuelles hésitations"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/basic-user-a2/"
+            },
+            {
+              "id": "english-3-all-14",
+              "he": "Module A (016381) – Reading comprehension",
+              "fr": "Module A (016381) – compréhension de l'écrit",
+              "subtopics": [
+                {
+                  "he": "Reading comprehension: 2 short texts, 100% of the exam",
+                  "fr": "Compréhension de l'écrit : 2 textes courts, 100 % de l'épreuve"
+                },
+                {
+                  "he": "180–200 words per text; 15 questions (6–7 multiple-choice, 8–9 open-ended and fill-ins)",
+                  "fr": "180 à 200 mots par texte ; 15 questions (6-7 QCM, 8-9 questions ouvertes et textes à trous)"
+                },
+                {
+                  "he": "Text types: advertisement, article, description, letter/email, report",
+                  "fr": "Types de textes : annonce, article, description, lettre/courriel, rapport"
+                },
+                {
+                  "he": "Task types: fill-ins, matching, multiple-choice, open-ended questions, sentence completion",
+                  "fr": "Types de tâches : textes à trous, appariement, QCM, questions ouvertes, phrases à compléter"
+                },
+                {
+                  "he": "Time 1 hour 15 minutes; no points deducted for grammar or spelling errors",
+                  "fr": "Durée 1 h 15 ; aucun point retiré pour les fautes de grammaire ou d'orthographe"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf"
+            },
+            {
+              "id": "english-3-all-15",
+              "he": "Module B (016383) – Literature program and extensive reading (school internal grade)",
+              "fr": "Module B (016383) – programme de littérature et lecture extensive (note d'établissement)",
+              "subtopics": [
+                {
+                  "he": "Literature log 80%: 2 short stories and 1 poem",
+                  "fr": "Dossier de littérature 80 % : 2 nouvelles et 1 poème"
+                },
+                {
+                  "he": "Extensive reading 20%: 2 book reports",
+                  "fr": "Lecture extensive 20 % : 2 fiches de lecture"
+                },
+                {
+                  "he": "Only texts on the Ministry's list of approved texts may be used",
+                  "fr": "Seuls les textes de la liste approuvée par le ministère sont admis"
+                },
+                {
+                  "he": "School internal grade 100%",
+                  "fr": "Note d'établissement à 100 %"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf"
+            },
+            {
+              "id": "english-3-all-16",
+              "he": "Module C (016382) – Reading comprehension and writing",
+              "fr": "Module C (016382) – compréhension de l'écrit et expression écrite",
+              "subtopics": [
+                {
+                  "he": "Reading comprehension 70%: 1 text up to 300 words, 8–10 questions",
+                  "fr": "Compréhension de l'écrit 70 % : 1 texte (jusqu'à 300 mots), 8 à 10 questions"
+                },
+                {
+                  "he": "Text types: article, descriptive and informative texts, report, book/film review",
+                  "fr": "Types de textes : article, textes descriptifs et informatifs, rapport, critique de livre ou de film"
+                },
+                {
+                  "he": "Task types: graphic organizers, multiple-choice, open-ended, sentence completion",
+                  "fr": "Types de tâches : organisateurs graphiques, QCM, questions ouvertes, phrases à compléter"
+                },
+                {
+                  "he": "Writing 30%: 1 composition of 70–90 words (opinion, description, informal letter)",
+                  "fr": "Expression écrite 30 % : 1 rédaction de 70 à 90 mots (opinion, description, lettre informelle)"
+                },
+                {
+                  "he": "Time 1 hour 30 minutes",
+                  "fr": "Durée 1 h 30"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf"
+            },
+            {
+              "id": "english-3-all-17",
+              "he": "BOOST oral exam (16387)",
+              "fr": "Épreuve orale BOOST (16387)",
+              "subtopics": [
+                {
+                  "he": "Computerized external oral exam taken by all 12th-grade 3-point students",
+                  "fr": "Oral externe informatisé passé par tous les élèves de 12e année à 3 yéhidot"
+                },
+                {
+                  "he": "Two parts, each with two sections: 2 spoken reception tasks and 2 spoken production tasks (25% each)",
+                  "fr": "Deux parties de deux sections : 2 tâches de réception orale et 2 de production orale (25 % chacune)"
+                },
+                {
+                  "he": "Special Ed students: face-to-face oral exam (16385) with project and interview",
+                  "fr": "Éducation spécialisée : oral en face à face (16385) avec projet et entretien"
+                },
+                {
+                  "he": "The project must be completed before the oral exam",
+                  "fr": "Le projet doit être terminé avant l'épreuve orale"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "units": 4,
+      "label": {
+        "he": "4 יחידות לימוד",
+        "fr": "4 yéhidot (niveau CECRL B1, « Independent user I »)"
+      },
+      "grades": [
+        {
+          "grade": "all",
+          "gradeLabel": "כל הכיתות",
+          "topics": [
+            {
+              "id": "english-4-all-01",
+              "he": "Spoken reception",
+              "fr": "Réception orale (compréhension de l'oral)",
+              "subtopics": [
+                {
+                  "he": "Understand main points and details of clearly articulated standard speech on familiar concrete and abstract matters (school, leisure)",
+                  "fr": "Comprendre points principaux et détails d'un discours standard clair sur des sujets familiers concrets et abstraits (école, loisirs)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-02",
+              "he": "Written reception and identifying cues",
+              "fr": "Réception écrite et repérage d'indices",
+              "subtopics": [
+                {
+                  "he": "Read and adequately comprehend texts on familiar subjects or topics of interest",
+                  "fr": "Lire et comprendre de façon adéquate des textes sur des sujets familiers ou d'intérêt"
+                },
+                {
+                  "he": "Make basic predictions about text content from headings, titles or headlines",
+                  "fr": "Anticiper le contenu d'un texte à partir de titres"
+                },
+                {
+                  "he": "Listen to a short narrative and predict what will happen next",
+                  "fr": "Écouter un court récit et prédire la suite"
+                },
+                {
+                  "he": "Follow a line of argument or sequence of events through logical and temporal connectors",
+                  "fr": "Suivre une argumentation ou une suite d'événements grâce aux connecteurs logiques et temporels"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-03",
+              "he": "Spoken production",
+              "fr": "Production orale",
+              "subtopics": [
+                {
+                  "he": "Present and reasonably sustain a coherent, straightforward description on subjects of interest",
+                  "fr": "Présenter et soutenir une description simple et cohérente sur des sujets d'intérêt"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-04",
+              "he": "Written production",
+              "fr": "Production écrite",
+              "subtopics": [
+                {
+                  "he": "Write straightforward connected texts on familiar subjects, linking elements into a linear sequence",
+                  "fr": "Écrire des textes suivis et simples sur des sujets familiers, en enchaînant linéairement les éléments"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-05",
+              "he": "Production strategies",
+              "fr": "Stratégies de production",
+              "subtopics": [
+                {
+                  "he": "Planning: work out how to communicate the main points with available resources",
+                  "fr": "Planifier : déterminer comment transmettre les points principaux avec les ressources disponibles"
+                },
+                {
+                  "he": "Compensating: use a similar word, define features of something concrete, foreignize a word and ask for confirmation",
+                  "fr": "Compenser : employer un mot proche, décrire les traits d'une chose concrète, adapter un mot d'une autre langue et demander confirmation"
+                },
+                {
+                  "he": "Monitoring and repair: ask for confirmation of a structure; start again with a different strategy",
+                  "fr": "Contrôle et réparation : demander confirmation d'une structure ; recommencer avec une autre stratégie"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-06",
+              "he": "Spoken interaction and interaction strategies",
+              "fr": "Interaction orale et stratégies d'interaction",
+              "subtopics": [
+                {
+                  "he": "Exploit a wide range of level-appropriate language to deal with most familiar situations",
+                  "fr": "Mobiliser un large éventail de langue adaptée au niveau pour la plupart des situations familières"
+                },
+                {
+                  "he": "Enter unprepared into conversation, express personal opinions and exchange information",
+                  "fr": "Entrer sans préparation dans une conversation, exprimer des opinions et échanger des informations"
+                },
+                {
+                  "he": "Taking the floor: initiate, maintain and close face-to-face conversation",
+                  "fr": "Prendre la parole : engager, poursuivre et clore une conversation en face à face"
+                },
+                {
+                  "he": "Co-operating: repeat part of what was said to confirm understanding; invite others into the discussion",
+                  "fr": "Coopérer : reprendre une partie des propos pour confirmer la compréhension ; inviter les autres à intervenir"
+                },
+                {
+                  "he": "Asking for clarification and elaboration",
+                  "fr": "Demander des précisions et des développements"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-07",
+              "he": "Written interaction",
+              "fr": "Interaction écrite",
+              "subtopics": [
+                {
+                  "he": "Personal correspondence and notes asking for or conveying information",
+                  "fr": "Correspondance personnelle et notes pour demander ou transmettre des informations"
+                },
+                {
+                  "he": "Correspondence: describe experiences, feelings and events in some detail",
+                  "fr": "Correspondance : décrire expériences, sentiments et événements avec un certain détail"
+                },
+                {
+                  "he": "Correspondence: basic factual emails and letters (request information, confirm)",
+                  "fr": "Courriels et lettres factuels simples (demander des informations, confirmer)"
+                },
+                {
+                  "he": "Notes, messages and forms: routine messages; notes for friends, service people, teachers",
+                  "fr": "Notes, messages et formulaires : messages courants ; notes pour amis, prestataires de services, enseignants"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-08",
+              "he": "Online interaction activities",
+              "fr": "Interaction en ligne",
+              "subtopics": [
+                {
+                  "he": "Post a comprehensible contribution in an online discussion on a familiar topic (prepared text, online tools allowed)",
+                  "fr": "Publier une contribution compréhensible dans une discussion en ligne sur un sujet familier (texte préparé, outils en ligne permis)"
+                },
+                {
+                  "he": "Personal online postings about experiences, feelings and events; respond to comments",
+                  "fr": "Publications personnelles en ligne sur expériences, sentiments et événements ; répondre aux commentaires"
+                },
+                {
+                  "he": "Goal-oriented online collaboration: project work with visual aids; respond to instructions and ask questions",
+                  "fr": "Collaboration en ligne orientée but : travail de projet avec supports visuels ; suivre des consignes et poser des questions"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-09",
+              "he": "Mediation",
+              "fr": "Médiation",
+              "subtopics": [
+                {
+                  "he": "Overall mediation: supportive role in interaction; convey information from clear, well-structured informational texts",
+                  "fr": "Médiation générale : rôle de soutien dans l'interaction ; transmettre l'information de textes informatifs clairs et bien structurés"
+                },
+                {
+                  "he": "Strategies to explain a new concept: linking to previous knowledge, adapting language, breaking down complicated information",
+                  "fr": "Expliquer un concept nouveau : lien avec les connaissances antérieures, adaptation de la langue, découpage de l'information complexe"
+                },
+                {
+                  "he": "Strategies to simplify a text: amplifying a dense text, streamlining a text",
+                  "fr": "Simplifier un texte : développer un texte dense, l'alléger"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-10",
+              "he": "Plurilingual and pluricultural competence",
+              "fr": "Compétence plurilingue et pluriculturelle",
+              "subtopics": [
+                {
+                  "he": "Building a pluricultural repertoire: apply basic cultural conventions (greeting, thanks, apology)",
+                  "fr": "Répertoire pluriculturel : appliquer les conventions culturelles de base (salutations, remerciements, excuses)"
+                },
+                {
+                  "he": "Plurilingual comprehension: deduce the topic and main message of a text in another language",
+                  "fr": "Compréhension plurilingue : déduire le sujet et le message principal d'un texte dans une autre langue"
+                },
+                {
+                  "he": "Building a plurilingual repertoire: explain a problem or ask for clarification with a limited repertoire",
+                  "fr": "Répertoire plurilingue : expliquer un problème ou demander des précisions avec un répertoire limité"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-11",
+              "he": "Linguistic competence (Lexical Band III-4 pts and Grammar Band III-4 pts)",
+              "fr": "Compétence linguistique (lexique et grammaire, « Band III » pour 4 points)",
+              "subtopics": [
+                {
+                  "he": "General linguistic range: describe predictable and some unpredictable situations; express thoughts on abstract or cultural topics",
+                  "fr": "Étendue linguistique : décrire des situations prévisibles et certaines imprévues ; exprimer ses idées sur des sujets abstraits ou culturels"
+                },
+                {
+                  "he": "Vocabulary range and control (Lexical Band III for 4 points)",
+                  "fr": "Étendue et maîtrise du vocabulaire (« Lexical Band III » pour 4 points)"
+                },
+                {
+                  "he": "Grammatical accuracy (patterns specified in Grammar Band III for 4 points)",
+                  "fr": "Correction grammaticale (structures du « Grammar Band III » pour 4 points)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-12",
+              "he": "Phonological and orthographic control",
+              "fr": "Maîtrise phonologique et orthographique",
+              "subtopics": [
+                {
+                  "he": "Sound articulation: pronounce most words intelligibly",
+                  "fr": "Articulation : prononcer la plupart des mots de façon intelligible"
+                },
+                {
+                  "he": "Prosodic features: stress, intonation, rhythm",
+                  "fr": "Prosodie : accent, intonation, rythme"
+                },
+                {
+                  "he": "Spell words, punctuate and lay out text, for the most part accurately",
+                  "fr": "Orthographe, ponctuation et mise en page le plus souvent correctes"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-13",
+              "he": "Sociolinguistic and pragmatic competence",
+              "fr": "Compétence sociolinguistique et pragmatique",
+              "subtopics": [
+                {
+                  "he": "Wide range of language functions, with increasing awareness of register",
+                  "fr": "Large éventail de fonctions langagières, avec une conscience croissante du registre"
+                },
+                {
+                  "he": "Salient politeness conventions",
+                  "fr": "Principales conventions de politesse"
+                },
+                {
+                  "he": "Thematic development: signal chronological sequence; develop a coherent argument",
+                  "fr": "Développement thématique : marquer la chronologie ; développer une argumentation cohérente"
+                },
+                {
+                  "he": "Coherence and cohesion: link elements into a coherent sequence; divide a long text into logical paragraphs",
+                  "fr": "Cohérence et cohésion : enchaîner les éléments ; diviser un long texte en paragraphes logiques"
+                },
+                {
+                  "he": "Spoken fluency: longer stretches of spontaneous production",
+                  "fr": "Aisance orale : séquences spontanées plus longues"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/4-point-bagrut-b1/"
+            },
+            {
+              "id": "english-4-all-14",
+              "he": "Module C (016382) – Reading comprehension and writing",
+              "fr": "Module C (016382) – compréhension de l'écrit et expression écrite",
+              "subtopics": [
+                {
+                  "he": "Reading comprehension 70%: 1 text up to 300 words, 8–10 questions",
+                  "fr": "Compréhension de l'écrit 70 % : 1 texte (jusqu'à 300 mots), 8 à 10 questions"
+                },
+                {
+                  "he": "Text types: article, descriptive and informative texts, report, book/film review",
+                  "fr": "Types de textes : article, textes descriptifs et informatifs, rapport, critique de livre ou de film"
+                },
+                {
+                  "he": "Task types: graphic organizers, multiple-choice, open-ended, sentence completion",
+                  "fr": "Types de tâches : organisateurs graphiques, QCM, questions ouvertes, phrases à compléter"
+                },
+                {
+                  "he": "Writing 30%: 1 composition of 70–90 words (opinion, description, informal letter)",
+                  "fr": "Expression écrite 30 % : 1 rédaction de 70 à 90 mots (opinion, description, lettre informelle)"
+                },
+                {
+                  "he": "Time 1 hour 30 minutes",
+                  "fr": "Durée 1 h 30"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/4pointsbooklet2025.pdf"
+            },
+            {
+              "id": "english-4-all-15",
+              "he": "Module D (016483) – Literature program and extensive reading (school internal grade)",
+              "fr": "Module D (016483) – programme de littérature et lecture extensive (note d'établissement)",
+              "subtopics": [
+                {
+                  "he": "Literature 80%: 3 short stories and 3 poems",
+                  "fr": "Littérature 80 % : 3 nouvelles et 3 poèmes"
+                },
+                {
+                  "he": "Extensive reading 20%: 4 book reports",
+                  "fr": "Lecture extensive 20 % : 4 fiches de lecture"
+                },
+                {
+                  "he": "Only texts on the Ministry's list of approved texts for 4 and 5 points",
+                  "fr": "Seuls les textes de la liste ministérielle approuvée (4 et 5 points) sont admis"
+                },
+                {
+                  "he": "Module D should be studied for at least two years of high school",
+                  "fr": "Module D à étudier pendant au moins deux ans de lycée"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/4pointsbooklet2025.pdf"
+            },
+            {
+              "id": "english-4-all-16",
+              "he": "Module E (16471) – Reading comprehension and vocabulary",
+              "fr": "Module E (16471) – compréhension de l'écrit et vocabulaire",
+              "subtopics": [
+                {
+                  "he": "Reading comprehension 70%: 1 text up to 400 words, 8–10 questions",
+                  "fr": "Compréhension de l'écrit 70 % : 1 texte (jusqu'à 400 mots), 8 à 10 questions"
+                },
+                {
+                  "he": "Text types: article, informative text, interview, letter, report, review, personal account",
+                  "fr": "Types de textes : article, texte informatif, interview, lettre, rapport, critique, témoignage personnel"
+                },
+                {
+                  "he": "Task types: graphic organizers, multiple-choice, open-ended, sentence completion, true/false with justification",
+                  "fr": "Types de tâches : organisateurs graphiques, QCM, questions ouvertes, phrases à compléter, vrai/faux justifié"
+                },
+                {
+                  "he": "Vocabulary 30%: 5 questions on Band I, II and III (Core 1) word lists",
+                  "fr": "Vocabulaire 30 % : 5 questions sur les listes de mots des Bands I, II et III (Core 1)"
+                },
+                {
+                  "he": "No dictionary allowed; a glossary is provided for words outside the band lists",
+                  "fr": "Dictionnaire interdit ; un glossaire est fourni pour les mots hors listes"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/4pointsbooklet2025.pdf"
+            },
+            {
+              "id": "english-4-all-17",
+              "he": "COBE (016486) – Computerised Oral Bagrut Exam",
+              "fr": "Épreuve orale informatisée COBE (016486)",
+              "subtopics": [
+                {
+                  "he": "Personal response – 2 questions (choice of two topics; Part A: 25 points; 2–3 minutes)",
+                  "fr": "Réponse personnelle – 2 questions (choix entre deux sujets ; partie A : 25 points ; 2 à 3 minutes)"
+                },
+                {
+                  "he": "Project – prompted presentation and interaction",
+                  "fr": "Projet – présentation guidée et interaction"
+                },
+                {
+                  "he": "Clip – prompt – 2 sets of questions",
+                  "fr": "Clip – consigne – 2 séries de questions"
+                },
+                {
+                  "he": "Can be taken from the winter of 12th grade; project completed beforehand",
+                  "fr": "Passable à partir de l'hiver de la 12e année ; projet terminé au préalable"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/4pointsbooklet2025.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "units": 5,
+      "label": {
+        "he": "5 יחידות לימוד",
+        "fr": "5 yéhidot (niveau CECRL B2, « Independent user II »)"
+      },
+      "grades": [
+        {
+          "grade": "all",
+          "gradeLabel": "כל הכיתות",
+          "topics": [
+            {
+              "id": "english-5-all-01",
+              "he": "Spoken reception",
+              "fr": "Réception orale (compréhension de l'oral)",
+              "subtopics": [
+                {
+                  "he": "Understand extended speech and most lines of argument on concrete and abstract topics, if sign-posted by explicit markers",
+                  "fr": "Comprendre un discours étendu et la plupart des lignes d'argumentation (sujets concrets et abstraits) si elles sont balisées par des marqueurs explicites"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-02",
+              "he": "Written reception and identifying cues",
+              "fr": "Réception écrite et repérage d'indices",
+              "subtopics": [
+                {
+                  "he": "Read level-appropriate texts with a large degree of independence, adapting style and reading rate to purpose",
+                  "fr": "Lire des textes adaptés au niveau avec une grande autonomie, en adaptant style et vitesse de lecture à l'objectif"
+                },
+                {
+                  "he": "Exploit text organization features (connectors, role of key paragraphs) to understand arguments",
+                  "fr": "Exploiter l'organisation du texte (connecteurs, rôle des paragraphes clés) pour comprendre les arguments"
+                },
+                {
+                  "he": "Extrapolate the meaning of a text section in reference to the text as a whole",
+                  "fr": "Déduire le sens d'une partie du texte en le rapportant à l'ensemble"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-03",
+              "he": "Spoken production",
+              "fr": "Production orale",
+              "subtopics": [
+                {
+                  "he": "Give clear, detailed descriptions and presentations on a wide range of subjects, supporting ideas with examples",
+                  "fr": "Faire des descriptions et présentations claires et détaillées sur de nombreux sujets, en étayant les idées par des exemples"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-04",
+              "he": "Written production",
+              "fr": "Production écrite",
+              "subtopics": [
+                {
+                  "he": "Overall written production: clear, detailed texts synthesizing and evaluating information and arguments from several sources",
+                  "fr": "Production écrite générale : textes clairs et détaillés, synthèse et évaluation d'informations et d'arguments de plusieurs sources"
+                },
+                {
+                  "he": "Creative writing: cohesive, coherent, detailed descriptions, including accounts of experiences and events",
+                  "fr": "Écriture créative : descriptions cohérentes et détaillées, y compris récits d'expériences et d'événements"
+                },
+                {
+                  "he": "Reports and essays: advantages/disadvantages, expressing and justifying a position",
+                  "fr": "Rapports et essais : avantages/inconvénients, expression et justification d'une position"
+                },
+                {
+                  "he": "Paraphrase and integrate factual information drawn from three sources",
+                  "fr": "Paraphraser et intégrer des informations factuelles tirées de trois sources"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-05",
+              "he": "Production strategies",
+              "fr": "Stratégies de production",
+              "subtopics": [
+                {
+                  "he": "Planning: rehearse and try out lexical items and grammatical structures, inviting feedback",
+                  "fr": "Planifier : répéter et tester lexique et structures en sollicitant un retour"
+                },
+                {
+                  "he": "Compensating: circumlocution and paraphrase to cover gaps in vocabulary and structure",
+                  "fr": "Compenser : périphrase et paraphrase pour combler les lacunes de vocabulaire et de structure"
+                },
+                {
+                  "he": "Monitoring and repair: reformulate after slips; document and monitor recurring mistakes",
+                  "fr": "Contrôle et réparation : reformuler après une erreur ; consigner et suivre les erreurs récurrentes"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-06",
+              "he": "Spoken interaction and interaction strategies",
+              "fr": "Interaction orale et stratégies d'interaction",
+              "subtopics": [
+                {
+                  "he": "Interact with a degree of fluency and spontaneity that makes strain-free interaction possible",
+                  "fr": "Interagir avec assez d'aisance et de spontanéité pour une interaction sans tension"
+                },
+                {
+                  "he": "Highlight the personal significance of events; account for and sustain views with explanations and arguments",
+                  "fr": "Souligner la portée personnelle d'événements ; justifier et défendre ses points de vue par explications et arguments"
+                },
+                {
+                  "he": "Taking the floor: intervene in a discussion; use stock phrases to gain time",
+                  "fr": "Prendre la parole : intervenir dans une discussion ; utiliser des formules pour gagner du temps"
+                },
+                {
+                  "he": "Co-operating: keep a discussion going; summarize the point reached",
+                  "fr": "Coopérer : maintenir la discussion ; résumer le point atteint"
+                },
+                {
+                  "he": "Asking for clarification: ask group members for further details",
+                  "fr": "Demander des précisions : solliciter des détails auprès des membres du groupe"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-07",
+              "he": "Written interaction",
+              "fr": "Interaction écrite",
+              "subtopics": [
+                {
+                  "he": "Overall written interaction: convey information and ideas on abstract and concrete topics; ask about or explain problems",
+                  "fr": "Interaction écrite générale : transmettre informations et idées sur des sujets abstraits et concrets ; poser ou expliquer des problèmes"
+                },
+                {
+                  "he": "Correspondence: give news and express thoughts on abstract or cultural topics (music, films)",
+                  "fr": "Correspondance : donner des nouvelles et exprimer ses idées sur des sujets abstraits ou culturels (musique, films)"
+                },
+                {
+                  "he": "Correspondence: consider formality and basic conventions for letters and emails",
+                  "fr": "Correspondance : tenir compte du degré de formalité et des conventions des lettres et courriels"
+                },
+                {
+                  "he": "Correspondence: obtain information in writing, collate it and forward it to others",
+                  "fr": "Correspondance : obtenir des informations par écrit, les rassembler et les transmettre"
+                },
+                {
+                  "he": "Notes, messages and forms: take or leave messages communicating enquiries and explaining problems",
+                  "fr": "Notes, messages et formulaires : prendre ou laisser des messages (demandes, explication de problèmes)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-08",
+              "he": "Online interaction activities",
+              "fr": "Interaction en ligne",
+              "subtopics": [
+                {
+                  "he": "Online conversation and discussion: real-time exchanges with more than one participant",
+                  "fr": "Conversation en ligne : échanges en temps réel avec plusieurs participants"
+                },
+                {
+                  "he": "Post online accounts of social events, experiences and activities with embedded links and media",
+                  "fr": "Publier en ligne des récits d'événements, d'expériences et d'activités avec liens et médias intégrés"
+                },
+                {
+                  "he": "Moderated online exchanges: link contributions to the thread; enlist the moderator's help with misunderstandings",
+                  "fr": "Échanges en ligne modérés : relier ses contributions au fil ; solliciter le modérateur en cas de malentendu"
+                },
+                {
+                  "he": "Goal-oriented online collaboration: follow instructions and seek clarification in a group project",
+                  "fr": "Collaboration en ligne : suivre des consignes et demander des précisions dans un projet de groupe"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-09",
+              "he": "Mediation",
+              "fr": "Médiation",
+              "subtopics": [
+                {
+                  "he": "Overall mediation: collaborate with people from other backgrounds; convey detailed information and arguments from complex but well-structured texts",
+                  "fr": "Médiation générale : collaborer avec des personnes d'autres horizons ; transmettre informations détaillées et arguments de textes complexes mais bien structurés"
+                },
+                {
+                  "he": "Strategies to explain a new concept: linking to previous knowledge, adapting language, breaking down complicated information",
+                  "fr": "Expliquer un concept nouveau : lien avec les connaissances antérieures, adaptation de la langue, découpage de l'information complexe"
+                },
+                {
+                  "he": "Strategies to simplify a text: amplifying a dense text, streamlining a text",
+                  "fr": "Simplifier un texte : développer un texte dense, l'alléger"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-10",
+              "he": "Plurilingual and pluricultural competence",
+              "fr": "Compétence plurilingue et pluriculturelle",
+              "subtopics": [
+                {
+                  "he": "Building a pluricultural repertoire: explain features of own culture to members of another culture and vice versa",
+                  "fr": "Répertoire pluriculturel : expliquer sa culture à des membres d'une autre culture et inversement"
+                },
+                {
+                  "he": "Plurilingual comprehension: similarities and contrasts between languages, including 'false friends'",
+                  "fr": "Compréhension plurilingue : ressemblances et contrastes entre langues, y compris les « faux amis »"
+                },
+                {
+                  "he": "Building a plurilingual repertoire: use different languages during collaborative interaction",
+                  "fr": "Répertoire plurilingue : recourir à plusieurs langues pendant une interaction collaborative"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-11",
+              "he": "Linguistic competence (Lexical Band III-5 pts and Grammar Band III-5 pts)",
+              "fr": "Compétence linguistique (lexique et grammaire, « Band III » pour 5 points)",
+              "subtopics": [
+                {
+                  "he": "General linguistic range: clear descriptions, express viewpoints and develop arguments",
+                  "fr": "Étendue linguistique : descriptions claires, expression de points de vue, développement d'arguments"
+                },
+                {
+                  "he": "Vocabulary range and control: receptive and productive vocabulary of Bands I–III",
+                  "fr": "Étendue et maîtrise du vocabulaire : vocabulaire réceptif et productif des « Bands » I à III"
+                },
+                {
+                  "he": "Grammatical accuracy: simple structures and evolving command of more complex ones (Grammar Band III for 5 points)",
+                  "fr": "Correction grammaticale : structures simples maîtrisées, structures complexes en progrès (« Grammar Band III » pour 5 points)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-12",
+              "he": "Phonological and orthographic control",
+              "fr": "Maîtrise phonologique et orthographique",
+              "subtopics": [
+                {
+                  "he": "Sound articulation: predict phonological features of unfamiliar words (e.g., word stress)",
+                  "fr": "Articulation : prévoir les traits phonologiques de mots inconnus (ex. accent de mot)"
+                },
+                {
+                  "he": "Prosodic features: stress, intonation, rhythm to support the message",
+                  "fr": "Prosodie : accent, intonation, rythme au service du message"
+                },
+                {
+                  "he": "Reasonably accurate spelling and punctuation; standard layout and paragraphing",
+                  "fr": "Orthographe et ponctuation assez correctes ; mise en page et paragraphes standard"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-13",
+              "he": "Sociolinguistic and pragmatic competence",
+              "fr": "Compétence sociolinguistique et pragmatique",
+              "subtopics": [
+                {
+                  "he": "Emerging awareness of formal and informal registers",
+                  "fr": "Conscience émergente des registres formel et informel"
+                },
+                {
+                  "he": "Express oneself appropriately in most situations",
+                  "fr": "S'exprimer de façon appropriée dans la plupart des situations"
+                },
+                {
+                  "he": "Thematic development: develop a clear description, narrative or argument with supporting detail and examples",
+                  "fr": "Développement thématique : développer description, récit ou argumentation avec détails et exemples"
+                },
+                {
+                  "he": "Coherence and cohesion: linking words and logical paragraphs in longer texts",
+                  "fr": "Cohérence et cohésion : mots de liaison et paragraphes logiques dans les textes longs"
+                },
+                {
+                  "he": "Propositional precision: pass on detailed information with reasonable reliability",
+                  "fr": "Précision propositionnelle : transmettre des informations détaillées avec une fiabilité raisonnable"
+                },
+                {
+                  "he": "Spoken fluency: fairly even tempo; smooth interaction with proficient interlocutors",
+                  "fr": "Aisance orale : débit assez régulier ; interaction fluide avec des locuteurs compétents"
+                }
+              ],
+              "source": "https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/5-point-bagrut-b2/"
+            },
+            {
+              "id": "english-5-all-14",
+              "he": "Module E (16471) – Reading comprehension and vocabulary",
+              "fr": "Module E (16471) – compréhension de l'écrit et vocabulaire",
+              "subtopics": [
+                {
+                  "he": "Reading comprehension 70%: 1 text up to 400 words, 8–10 questions",
+                  "fr": "Compréhension de l'écrit 70 % : 1 texte (jusqu'à 400 mots), 8 à 10 questions"
+                },
+                {
+                  "he": "Text types: article, informative text, interview, letter, report, review, personal account",
+                  "fr": "Types de textes : article, texte informatif, interview, lettre, rapport, critique, témoignage personnel"
+                },
+                {
+                  "he": "Task types: graphic organizers, multiple-choice, open-ended, sentence completion, true/false with justification",
+                  "fr": "Types de tâches : organisateurs graphiques, QCM, questions ouvertes, phrases à compléter, vrai/faux justifié"
+                },
+                {
+                  "he": "Vocabulary 30%: 5 questions on Band I, II and III (Core 1) word lists",
+                  "fr": "Vocabulaire 30 % : 5 questions sur les listes de mots des Bands I, II et III (Core 1)"
+                },
+                {
+                  "he": "No dictionary allowed; a glossary is provided for words outside the band lists",
+                  "fr": "Dictionnaire interdit ; un glossaire est fourni pour les mots hors listes"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf"
+            },
+            {
+              "id": "english-5-all-15",
+              "he": "Module F (016583) – Literature program and extensive reading (school internal grade)",
+              "fr": "Module F (016583) – programme de littérature et lecture extensive (note d'établissement)",
+              "subtopics": [
+                {
+                  "he": "Literature 80%: 1 novel or play, 3 short stories and 2 poems",
+                  "fr": "Littérature 80 % : 1 roman ou pièce, 3 nouvelles et 2 poèmes"
+                },
+                {
+                  "he": "Extensive reading 20%: 4 book reports",
+                  "fr": "Lecture extensive 20 % : 4 fiches de lecture"
+                },
+                {
+                  "he": "Only texts on the Ministry's list of approved texts for this level",
+                  "fr": "Seuls les textes de la liste ministérielle approuvée pour ce niveau sont admis"
+                },
+                {
+                  "he": "Module F should be studied for at least two years of high school",
+                  "fr": "Module F à étudier pendant au moins deux ans de lycée"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf"
+            },
+            {
+              "id": "english-5-all-16",
+              "he": "Module G (016582) – Reading comprehension and writing",
+              "fr": "Module G (016582) – compréhension de l'écrit et expression écrite",
+              "subtopics": [
+                {
+                  "he": "Reading comprehension 60%: 1 text of 450–500 words, 8–10 questions",
+                  "fr": "Compréhension de l'écrit 60 % : 1 texte de 450 à 500 mots, 8 à 10 questions"
+                },
+                {
+                  "he": "Text types: article, informative text, interview, letter, report, review, personal account",
+                  "fr": "Types de textes : article, texte informatif, interview, lettre, rapport, critique, témoignage personnel"
+                },
+                {
+                  "he": "Writing 40%: 1 composition of 120–140 words (opinion, for and against, description, emails, stories, formal letters)",
+                  "fr": "Expression écrite 40 % : 1 rédaction de 120 à 140 mots (opinion, pour et contre, description, courriels, récits, lettres formelles)"
+                },
+                {
+                  "he": "Time 1 hour 45 minutes",
+                  "fr": "Durée 1 h 45"
+                },
+                {
+                  "he": "The English Academization Program (university-level course in 12th grade) replaces the Module G exam",
+                  "fr": "Le programme d'académisation (cours de niveau universitaire en 12e année) remplace l'examen du Module G"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf"
+            },
+            {
+              "id": "english-5-all-17",
+              "he": "COBE (016586) – Computerised Oral Bagrut Exam",
+              "fr": "Épreuve orale informatisée COBE (016586)",
+              "subtopics": [
+                {
+                  "he": "Personal response – 2 questions (choice of two topics; Part A: 25 points; 2–3 minutes)",
+                  "fr": "Réponse personnelle – 2 questions (choix entre deux sujets ; partie A : 25 points ; 2 à 3 minutes)"
+                },
+                {
+                  "he": "Project – prompted presentation and interaction (Part B: 25 points; 1–2 minutes of speaking)",
+                  "fr": "Projet – présentation guidée et interaction (partie B : 25 points ; 1 à 2 minutes de parole)"
+                },
+                {
+                  "he": "Clip – prompt – 2 sets of questions",
+                  "fr": "Clip – consigne – 2 séries de questions"
+                },
+                {
+                  "he": "Only from the winter of 12th grade; project completed beforehand",
+                  "fr": "Seulement à partir de l'hiver de la 12e année ; projet terminé au préalable"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Le programme officiel (« English Curriculum 2020 », aligné sur le CECRL) n'est pas découpé par classe : il définit des niveaux de compétence sous forme d'énoncés « can-do » — 3 points = Basic user II (A2), 4 points = Independent user I (B1), 5 points = Independent user II (B2). D'où grade « all » et thèmes regroupés par domaine de compétence, puis par module d'examen. https://pop.education.gov.il/tchumey_daat/english/chativa-elyona/curriculum/introduction/",
+    "Les documents officiels sont en anglais : dans les thèmes, le champ « he » contient l'intitulé officiel anglais tel qu'écrit sur la page (aucun intitulé hébreu officiel des domaines n'a été trouvé). Termes hébreux officiels des 4 habiletés d'examen (ancien PDF תש\"ף, p. 96) : הבנת הנשמע, הבנת הנקרא, כתיבה, דיבור. https://meyda.education.gov.il/files/Mazkirut_Pedagogit/AgafPituachPedagogi/tochnit_hibachanut_tashap.pdf",
+    "Examen 3 points (guide officiel, février 2025) : Module A 016381 = 27 % (examen externe 70 % + note annuelle 30 % ; compréhension de l'écrit, 2 textes courts) ; Module B 016383 = 26 % (note d'établissement 100 % : dossier de littérature 80 % [2 nouvelles, 1 poème] + 2 fiches de lecture 20 %) ; Module C 016382 = 27 % (70 % examen + 30 % annuelle ; lecture 70 % + écriture 30 %) ; oral BOOST 16387 = 20 % (70 % examen externe + 30 % note annuelle). Le projet compte 20 % de la note annuelle du Module C. https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf",
+    "Examen 4 points (guide officiel 2025) : Module C 016382 = 27 % (lecture 70 % + écriture 30 %) ; Module D 016483 littérature = 26 % (note d'établissement 100 % : littérature 80 % [3 nouvelles, 3 poèmes] + 4 fiches de lecture 20 %) ; Module E 16471 = 27 % (lecture 70 % + vocabulaire 30 %) ; oral COBE 016486 = 20 % (70 % examen + 30 % note annuelle). Les modules C et E : 70 % examen + 30 % note annuelle. https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/4pointsbooklet2025.pdf",
+    "Examen 5 points (guide officiel 2025) : Module E 16471 = 27 % ; Module F 016583 littérature = 26 % (1 roman ou pièce, 3 nouvelles, 2 poèmes + 4 fiches de lecture) ; Module G 016582 = 27 % (lecture 60 % + écriture 40 %) ; oral COBE 016586 = 20 %. Le projet vaut 20-30 % de la note annuelle du Module E ou G ; dans le COBE, l'interaction et la présentation du projet valent 25 %. https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf",
+    "Oral : à 3 points, le BOOST (informatisé, 4 tâches de 25 % chacune) n'est passable qu'en 12e année ; à 4 et 5 points, le COBE est passable à partir de l'hiver de la 12e année (composantes : réponse personnelle, projet, clip). Le projet doit être terminé avant l'oral. https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf",
+    "Sujets possibles de la réponse personnelle du COBE (listes identiques dans les guides 4 et 5 points) : Advertising, Animals, Education, Fame and celebrities, Favorite books and movies, Food, Free time activities, Friendship, Future plans, Games, Health, Hobbies and habits/routines, Holidays and customs, Hometown, Languages, Music, Personal belongings, Personal strengths and weaknesses, Professional ambitions, Reflection on personal experiences, Respect, Role models, School, Sports, Suggesting individual/community change, Technology, Transportation, Vacations, Volunteering. https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/4pointsbooklet2025.pdf",
+    "Calendrier conseillé (guides 2025) : 3 points — modules A et C dès l'hiver de la 11e, oral seulement en 12e ; 4 points — modules passables dès l'hiver de la 11e (E déconseillé à ce moment), module D à étudier au moins deux ans ; 5 points — module E dès l'hiver de la 11e (G déconseillé en hiver de 11e), module F à étudier au moins deux ans. https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf",
+    "Mikud (focalisation) 2026, examens תשפ\"ו : Module A = 2 textes parmi article/report, advertisement, e-mail (critique de livre/film et interview exclus) ; Module C = composition d'opinion à choisir parmi 19 sujets (ex. étudier à la maison ou à l'école, voyage scolaire annuel, bénévolat, téléphone portable, caméras dans l'espace public, âge du permis de conduire) ; Module E = nouveau format, vocabulaire Bands I, II, III (core 1) listes A à D (Band III core 2 exclu). https://meyda.education.gov.il/files/portal_talmidim/mikud/2026/english.pdf",
+    "Ancien document du ministère (תש\"ף, 2019-20) : évaluation externe 70 % (הבנת הנשמע, הבנת הנקרא, כתיבה, דיבור) + évaluation d'établissement 30 % (programme de littérature avec compétences de réflexion : תלקיט seul pour 3 יח\"ל ; תלקיט, בחינה בית ספרית ou יוזמה בית ספרית pour 4-5 יח\"ל). Ses codes de questionnaires (016381, 016382, 016481, 016582 ; oral 16385, 16485 ou 16487, 16585 ou 16587) et ses pondérations diffèrent des guides 2025 : se fier aux guides 2025. https://meyda.education.gov.il/files/Mazkirut_Pedagogit/AgafPituachPedagogi/tochnit_hibachanut_tashap.pdf"
+  ],
+  "unverified": [
+    "Pages « Components » (…/curriculum/components/) et « Teaching Practice » (…/curriculum/teaching-practice/) : contenu vide ou un seul paragraphe à l'extraction, aucun thème supplémentaire n'a pu en être tiré.",
+    "Listes de vocabulaire (Lexical Bands I à III) et spécifications grammaticales (Grammar Bands) citées par les can-do : non ouvertes, donc contenu lexical et grammatical par niveau non inclus.",
+    "Liste des œuvres littéraires approuvées (Aligned Literature Handbook 2025, page Literature Program) : document téléchargé mais non lu ; aucun titre d'œuvre inclus.",
+    "Guides 4 et 5 points : pages sur le projet (guide 4 points) et partie C (clip) du COBE non lues ; pondération interne du COBE vérifiée seulement pour les parties A (25 points) et B (25 points, guide 5 points).",
+    "Incohérence interne du guide 4 points : Module C « dès l'été de la 11e » (p. 7) mais « dès l'hiver de la 11e » dans le planning (p. 5) ; code du Module B : 016383 (guide 3 points, note d'établissement) mais 16384 dans le mikud 2026 et les archives (« לנבחנים אקסטרניים בלבד ») — non réconciliés. Pieds de page : guide 5 points daté « December 2020 » alors que le portail annonce « updated June, 2025 ».",
+    "Mikud anglais pour תשפ\"ז (examens 2027) non trouvé ; seul le mikud 2026 (תשפ\"ו) a été lu.",
+    "Aucun découpage officiel par classe (י/י\"א/י\"ב) du programme d'anglais ; seuls les guides indiquent à partir de quand passer les modules."
+  ]
+}
