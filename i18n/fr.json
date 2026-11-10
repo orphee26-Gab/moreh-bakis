@@ -247,5 +247,6 @@
   "err.rate": "Trop de demandes en ce moment. Patiente un instant et réessaie.",
   "err.network": "Pas de connexion au serveur. Vérifie Internet et réessaie.",
   "err.http": "Erreur du serveur d'IA.",
-  "err.crash": "Un problème est survenu sur cet écran."
+  "err.crash": "Un problème est survenu sur cet écran.",
+  "set.ai.freeserver": "Serveur gratuit limité (90 000 requêtes par jour). Aucune clé à saisir."
 }

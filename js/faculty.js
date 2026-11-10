@@ -1,7 +1,7 @@
 // Section faculté : liste dans data/faculty/index.json, détails dans data/faculty/raw/<établissement>.json.
 import { loadJSON } from './curriculum.js';
 
-export const loadFaculty = () => loadJSON('faculty/index2.json');
+export const loadFaculty = () => loadJSON('faculty/index.json');
 export const loadInstitution = (id) => loadJSON(`faculty/raw/${id}.json`);
 
 export async function findCourse(fac, instId, courseId) {
