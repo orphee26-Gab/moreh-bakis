@@ -1,0 +1,3471 @@
+{
+  "id": "technion",
+  "name": {
+    "he": "הטכניון",
+    "fr": "Technion"
+  },
+  "website": "https://www.technion.ac.il/",
+  "retrievedAt": "2026-11-10",
+  "faculties": [
+    {
+      "id": "aerospace",
+      "he": "הפקולטה להנדסת אוירונוטיקה וחלל",
+      "fr": "Faculté de génie aérospatial",
+      "url": "https://aerospace.technion.ac.il/",
+      "mainDegrees": [
+        {
+          "he": "הנדסת אוירונוטיקה וחלל (מוסמך למדעים)",
+          "fr": "Génie aéronautique et spatial (4 ans)"
+        },
+        {
+          "he": "הנדסת אוירונוטיקה וחלל ובפיזיקה (במתכונת דו-חוגית)",
+          "fr": "Génie aéronautique et spatial et physique (double cursus, 4 ans)"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "he": "הפקולטה לארכיטקטורה ובינוי ערים",
+      "fr": "Faculté d'architecture et d'urbanisme",
+      "url": "https://architecture.technion.ac.il/",
+      "mainDegrees": [
+        {
+          "he": "ארכיטקטורה (מוסמך למדעים במדעי הארכיטקטורה)",
+          "fr": "Sciences de l'architecture (B.Sc., 4 ans)"
+        },
+        {
+          "he": "ארכיטקטורה (מוסמך לארכיטקטורה)",
+          "fr": "Architecture (B.Arch., 5 ans)"
+        },
+        {
+          "he": "אדריכלות נוף (מוסמך לאדריכלות נוף)",
+          "fr": "Architecture du paysage (B.L.A., 4 ans)"
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "he": "הפקולטה לביולוגיה",
+      "fr": "Faculté de biologie",
+      "url": "https://biology.technion.ac.il/en/",
+      "mainDegrees": [
+        {
+          "he": "ביולוגיה (בוגר למדעים)",
+          "fr": "Biologie (licence, 3 ans)"
+        },
+        {
+          "he": "דו חוגי בביולוגיה וכימיה (בוגר למדעים)",
+          "fr": "Double cursus biologie et chimie (licence, 3 ans)"
+        }
+      ]
+    },
+    {
+      "id": "bme",
+      "he": "הפקולטה להנדסה ביו-רפואית",
+      "fr": "Faculté de génie biomédical",
+      "url": "https://bme.technion.ac.il/",
+      "mainDegrees": [
+        {
+          "he": "הנדסה ביו-רפואית (מוסמך למדעים)",
+          "fr": "Génie biomédical (4 ans)"
+        },
+        {
+          "he": "הנדסה ביו-רפואית ופיזיקה (מוסמך למדעים)",
+          "fr": "Génie biomédical et physique (4 ans)"
+        },
+        {
+          "he": "תואר כפול ברפואה ובהנדסה ביו-רפואית",
+          "fr": "Double diplôme médecine et génie biomédical"
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "he": "הפקולטה להנדסת ביוטכנולוגיה ומזון",
+      "fr": "Faculté d'ingénierie des biotechnologies et de l'alimentation",
+      "url": "https://biotech.technion.ac.il/",
+      "mainDegrees": [
+        {
+          "he": "הנדסת ביוטכנולוגיה ומזון (מוסמך למדעים)",
+          "fr": "Ingénierie des biotechnologies et de l'alimentation (4 ans)"
+        },
+        {
+          "he": "תואר ראשון נוסף בכימיה (מסלול משולב, תלת-שנתי)",
+          "fr": "Seconde licence en chimie (parcours combiné, 3 ans)"
+        },
+        {
+          "he": "תואר ראשון נוסף בביולוגיה (מסלול משולב)",
+          "fr": "Seconde licence en biologie (parcours combiné)"
+        }
+      ]
+    },
+    {
+      "id": "civil",
+      "he": "הפקולטה להנדסה אזרחית וסביבתית",
+      "fr": "Faculté de génie civil et de l'environnement",
+      "url": "https://cee.technion.ac.il/en/",
+      "mainDegrees": [
+        {
+          "he": "הנדסה אזרחית (מסלולים: מבנים, תחבורה, מים, ניהול ובנייה)",
+          "fr": "Génie civil (4 ans ; structures, transports, eau, gestion et construction)"
+        },
+        {
+          "he": "הנדסת הסביבה (מוסמך למדעים)",
+          "fr": "Génie de l'environnement (4 ans)"
+        },
+        {
+          "he": "הנדסת מיפוי וגיאו-אינפורמציה (מוסמך למדעים)",
+          "fr": "Génie cartographique et géo-information (4 ans)"
+        },
+        {
+          "he": "מיפוי וגיאו-אינפורמציה (בוגר למדעים)",
+          "fr": "Cartographie et géo-information (licence, 3 ans)"
+        }
+      ]
+    },
+    {
+      "id": "chemeng",
+      "he": "הפקולטה להנדסה כימית על שם וולפסון",
+      "fr": "Faculté de génie chimique Wolfson",
+      "url": "https://chemeng.technion.ac.il/en/",
+      "mainDegrees": [
+        {
+          "he": "הנדסה כימית (מוסמך למדעים)",
+          "fr": "Génie chimique (4 ans)"
+        },
+        {
+          "he": "הנדסה ביוכימית (מוסמך למדעים)",
+          "fr": "Génie biochimique (4 ans)"
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "he": "הפקולטה לכימיה",
+      "fr": "Faculté de chimie",
+      "url": "https://chemistry.technion.ac.il/en/",
+      "mainDegrees": [
+        {
+          "he": "כימיה (בוגר למדעים)",
+          "fr": "Chimie (licence, 3 ans)"
+        },
+        {
+          "he": "דו חוגי בביולוגיה וכימיה (בוגר למדעים)",
+          "fr": "Double cursus biologie et chimie (licence, 3 ans)"
+        },
+        {
+          "he": "הנדסת חומרים וכימיה (מוסמך למדעים)",
+          "fr": "Ingénierie des matériaux et chimie (4 ans)"
+        }
+      ]
+    },
+    {
+      "id": "cs",
+      "he": "הפקולטה למדעי המחשב",
+      "fr": "Faculté d'informatique Henry et Marilyn Taub",
+      "url": "https://www.cs.technion.ac.il/",
+      "mainDegrees": [
+        {
+          "he": "מדעי המחשב (תלת-שנתי, בוגר למדעים)",
+          "fr": "Informatique (licence, 3 ans)"
+        },
+        {
+          "he": "מדעי המחשב (ארבע-שנתי, מוסמך למדעים)",
+          "fr": "Informatique (4 ans ; dont orientation bio-informatique)"
+        },
+        {
+          "he": "הנדסת תוכנה (מוסמך למדעים)",
+          "fr": "Génie logiciel (4 ans)"
+        },
+        {
+          "he": "הנדסת מחשבים (מוסמך למדעים)",
+          "fr": "Génie informatique (4 ans, avec la faculté de génie électrique)"
+        },
+        {
+          "he": "מדעי המחשב ומתמטיקה (תוכנית משולבת)",
+          "fr": "Informatique et mathématiques (cursus intégré)"
+        },
+        {
+          "he": "מדעי המחשב ופיזיקה (תוכנית משולבת)",
+          "fr": "Informatique et physique (cursus intégré, 4 ans)"
+        }
+      ]
+    },
+    {
+      "id": "dds",
+      "he": "הפקולטה למדעי הנתונים וההחלטות",
+      "fr": "Faculté des sciences des données et de la décision",
+      "url": "https://dds.technion.ac.il/",
+      "mainDegrees": [
+        {
+          "he": "הנדסת תעשיה וניהול (מוסמך למדעים)",
+          "fr": "Génie industriel et gestion (4 ans)"
+        },
+        {
+          "he": "הנדסת מערכות מידע (מוסמך למדעים)",
+          "fr": "Ingénierie des systèmes d'information (4 ans)"
+        },
+        {
+          "he": "הנדסת נתונים ומידע (מוסמך למדעים)",
+          "fr": "Ingénierie des données et de l'information (4 ans)"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "he": "הפקולטה לחינוך למדע וטכנולוגיה",
+      "fr": "Faculté d'éducation aux sciences et à la technologie",
+      "url": "https://edu.technion.ac.il/?lang=en",
+      "mainDegrees": [
+        {
+          "he": "הוראת המתמטיקה (מוסמך למדעים בהוראה)",
+          "fr": "Enseignement des mathématiques (4 ans)"
+        },
+        {
+          "he": "הוראת הפיזיקה (מוסמך למדעים בהוראה)",
+          "fr": "Enseignement de la physique (4 ans)"
+        },
+        {
+          "he": "הוראת הכימיה (מוסמך למדעים בהוראה)",
+          "fr": "Enseignement de la chimie (4 ans)"
+        },
+        {
+          "he": "הוראת הביולוגיה ומדעי הסביבה (מוסמך למדעים בהוראה)",
+          "fr": "Enseignement de la biologie et des sciences de l'environnement (4 ans)"
+        },
+        {
+          "he": "הוראת מדעי המחשב (מוסמך למדעים בהוראה)",
+          "fr": "Enseignement de l'informatique (4 ans)"
+        },
+        {
+          "he": "הוראת טכנולוגיה (מכונות) והוראת אלקטרוניקה (חשמל)",
+          "fr": "Enseignement de la technologie (mécanique) et de l'électronique (électricité) (4 ans)"
+        }
+      ]
+    },
+    {
+      "id": "ece",
+      "he": "הפקולטה להנדסת חשמל ומחשבים",
+      "fr": "Faculté de génie électrique et informatique Viterbi",
+      "url": "https://ece.technion.ac.il/",
+      "mainDegrees": [
+        {
+          "he": "הנדסת חשמל (מוסמך למדעים)",
+          "fr": "Génie électrique (4 ans)"
+        },
+        {
+          "he": "הנדסת מחשבים (מוסמך למדעים)",
+          "fr": "Génie informatique (4 ans)"
+        },
+        {
+          "he": "הנדסת מחשבים ותוכנה (מוסמך למדעים)",
+          "fr": "Génie informatique et logiciel (4 ans)"
+        },
+        {
+          "he": "הנדסת חשמל ופיזיקה (מוסמך למדעים)",
+          "fr": "Génie électrique et physique (4 ans)"
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "he": "המחלקה ללימודים הומניסטיים ואמנויות",
+      "fr": "Département d'études humanistes et d'arts",
+      "url": "https://humanities.technion.ac.il/en/",
+      "mainDegrees": []
+    },
+    {
+      "id": "materials",
+      "he": "הפקולטה למדע והנדסה של חומרים",
+      "fr": "Faculté de science et ingénierie des matériaux",
+      "url": "https://materials.technion.ac.il/he/",
+      "mainDegrees": [
+        {
+          "he": "הנדסת חומרים (מוסמך למדעים)",
+          "fr": "Ingénierie des matériaux (4 ans)"
+        },
+        {
+          "he": "הנדסת חומרים וכימיה (מוסמך למדעים)",
+          "fr": "Ingénierie des matériaux et chimie (4 ans)"
+        },
+        {
+          "he": "הנדסת חומרים ופיזיקה (מוסמך למדעים)",
+          "fr": "Ingénierie des matériaux et physique (4 ans)"
+        },
+        {
+          "he": "הנדסת חומרים וביולוגיה (מוסמך למדעים)",
+          "fr": "Ingénierie des matériaux et biologie (4 ans)"
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "he": "הפקולטה למתמטיקה",
+      "fr": "Faculté de mathématiques",
+      "url": "https://math.technion.ac.il/en/",
+      "mainDegrees": [
+        {
+          "he": "מתמטיקה (תלת-שנתי, בוגר למדעים)",
+          "fr": "Mathématiques (licence, 3 ans)"
+        },
+        {
+          "he": "מתמטיקה יישומית (תלת-שנתי, בוגר למדעים)",
+          "fr": "Mathématiques appliquées (licence, 3 ans)"
+        },
+        {
+          "he": "מתמטיקה עם מדעי המחשב (תלת-שנתי / ארבע-שנתי)",
+          "fr": "Mathématiques avec informatique (3 ou 4 ans)"
+        },
+        {
+          "he": "מתמטיקה-פיזיקה (תלת-שנתי, בוגר למדעים)",
+          "fr": "Mathématiques-physique (licence, 3 ans)"
+        },
+        {
+          "he": "מדעי המחשב ומתמטיקה (בוגר למדעים)",
+          "fr": "Informatique et mathématiques (licence, 3,5 ans)"
+        }
+      ]
+    },
+    {
+      "id": "me",
+      "he": "הפקולטה להנדסת מכונות",
+      "fr": "Faculté de génie mécanique",
+      "url": "https://meeng.technion.ac.il/",
+      "mainDegrees": [
+        {
+          "he": "הנדסת מכונות (מוסמך למדעים)",
+          "fr": "Génie mécanique (4 ans)"
+        },
+        {
+          "he": "תכנית ברקים (תכנית מצוינות בעתודה האקדמית של צה\"ל)",
+          "fr": "Programme d'excellence Brakim (réserve académique de Tsahal) : licence en 3 ans puis master"
+        },
+        {
+          "he": "תכנית מרום לסטודנטים מצטיינים",
+          "fr": "Programme Marom pour étudiants d'excellence (accès accéléré à la recherche et aux cycles supérieurs)"
+        }
+      ]
+    },
+    {
+      "id": "medicine",
+      "he": "הפקולטה לרפואה ע\"ש רות וברוך רפפורט",
+      "fr": "Faculté de médecine Ruth et Bruce Rappaport",
+      "url": "https://md.technion.ac.il/",
+      "mainDegrees": [
+        {
+          "he": "מדעי הרפואה (תלת-שנתי, בוגר למדעים)",
+          "fr": "Sciences médicales (licence, 3 ans)"
+        },
+        {
+          "he": "רפואה (דוקטור לרפואה, M.D.)",
+          "fr": "Médecine (doctorat en médecine, 6 ans)"
+        },
+        {
+          "he": "תואר כפול ברפואה ובמדעי המחשב",
+          "fr": "Double diplôme médecine et informatique"
+        },
+        {
+          "he": "תואר כפול ברפואה ובהנדסה ביו-רפואית",
+          "fr": "Double diplôme médecine et génie biomédical"
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "he": "הפקולטה לפיזיקה",
+      "fr": "Faculté de physique",
+      "url": "https://phys.technion.ac.il/en/",
+      "mainDegrees": [
+        {
+          "he": "פיזיקה (תלת-שנתי, בוגר למדעים)",
+          "fr": "Physique (licence, 3 ans)"
+        },
+        {
+          "he": "פיזיקה (ארבע-שנתי, מוסמך למדעים)",
+          "fr": "Physique (4 ans)"
+        },
+        {
+          "he": "מתמטיקה-פיזיקה (בוגר למדעים)",
+          "fr": "Mathématiques-physique (licence, 3 ans)"
+        },
+        {
+          "he": "הנדסת חשמל ופיזיקה (מוסמך למדעים)",
+          "fr": "Génie électrique et physique (4 ans)"
+        },
+        {
+          "he": "מדעי המחשב ופיזיקה (מוסמך למדעים)",
+          "fr": "Informatique et physique (4 ans)"
+        },
+        {
+          "he": "הנדסת אוירונוטיקה וחלל ובפיזיקה (במתכונת דו-חוגית)",
+          "fr": "Génie aéronautique et spatial et physique (double cursus, 4 ans)"
+        }
+      ]
+    }
+  ],
+  "foundationCourses": [
+    {
+      "id": "technion-104031",
+      "family": "calculus1",
+      "he": "חשבון אינפיניטסימלי 1מ'",
+      "fr": "Calcul infinitésimal 1m",
+      "code": "104031",
+      "credits": 5.5,
+      "facultiesServed": [
+        "cs",
+        "dds",
+        "education",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "שדה המספרים הממשיים",
+          "fr": "Le corps des nombres réels"
+        },
+        {
+          "he": "גבולות של סדרות ושל פונקציות ממשיות של משתנה יחיד",
+          "fr": "Limites de suites et de fonctions réelles d'une variable"
+        },
+        {
+          "he": "רציפות ורציפות במידה שווה של פונקציות של משתנה יחיד",
+          "fr": "Continuité et continuité uniforme"
+        },
+        {
+          "he": "הנגזרת, המשפטים היסודיים על נגזרות",
+          "fr": "Dérivée et théorèmes fondamentaux sur les dérivées"
+        },
+        {
+          "he": "נוסחת טיילור ושימושיה",
+          "fr": "Formule de Taylor et ses applications"
+        },
+        {
+          "he": "חקירת פונקציות",
+          "fr": "Étude de fonctions"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104031"
+    },
+    {
+      "id": "technion-104195",
+      "family": "calculus1",
+      "he": "חשבון אינפיניטסימלי 1",
+      "fr": "Calcul infinitésimal 1",
+      "code": "104195",
+      "credits": 5.5,
+      "facultiesServed": [
+        "cs",
+        "ece",
+        "education",
+        "math",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "שדה המספרים הממשיים",
+          "fr": "Le corps des nombres réels"
+        },
+        {
+          "he": "גבולות של סדרות ושל פונקציות ממשיות של משתנה יחיד",
+          "fr": "Limites de suites et de fonctions réelles d'une variable"
+        },
+        {
+          "he": "רציפות ורציפות במידה שווה של פונקציות של משתנה יחיד",
+          "fr": "Continuité et continuité uniforme"
+        },
+        {
+          "he": "הנגזרת, המשפטים היסודיים על נגזרות",
+          "fr": "Dérivée et théorèmes fondamentaux sur les dérivées"
+        },
+        {
+          "he": "נוסחת טיילור ושימושיה",
+          "fr": "Formule de Taylor et ses applications"
+        },
+        {
+          "he": "חקירת פונקציות",
+          "fr": "Étude de fonctions"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104195"
+    },
+    {
+      "id": "technion-104041",
+      "family": "calculus1",
+      "he": "חשבון דיפרנציאלי ואינטגרלי 1מ1",
+      "fr": "Calcul différentiel et intégral 1m1",
+      "code": "104041",
+      "credits": 5,
+      "facultiesServed": [
+        "bme",
+        "chemeng",
+        "materials",
+        "me",
+        "medicine"
+      ],
+      "topics": [
+        {
+          "he": "המספרים הממשיים",
+          "fr": "Les nombres réels"
+        },
+        {
+          "he": "סדרות אינסופיות של מספרים ממשיים",
+          "fr": "Suites infinies de nombres réels"
+        },
+        {
+          "he": "פונקציה ממשית של משתנה יחיד: גבולות ורציפות",
+          "fr": "Fonction réelle d'une variable : limites et continuité"
+        },
+        {
+          "he": "פונקציות מונוטוניות ופונקציות הפוכות",
+          "fr": "Fonctions monotones et fonctions réciproques"
+        },
+        {
+          "he": "גזירות והמשפטים היסודיים של החשבון הדיפרנציאלי",
+          "fr": "Dérivabilité et théorèmes fondamentaux du calcul différentiel"
+        },
+        {
+          "he": "כלל לופיטל, משפט טיילור, חקירת פונקציה",
+          "fr": "Règle de L'Hôpital, théorème de Taylor, étude de fonction"
+        },
+        {
+          "he": "פונקציה קדומה ושיטות אינטגרציה",
+          "fr": "Primitives et méthodes d'intégration"
+        },
+        {
+          "he": "אינטגרל מסויים ותכונותיו",
+          "fr": "Intégrale définie et ses propriétés"
+        },
+        {
+          "he": "אינטגרל מוכלל",
+          "fr": "Intégrale généralisée"
+        },
+        {
+          "he": "טורים מספריים",
+          "fr": "Séries numériques"
+        },
+        {
+          "he": "סדרות פונקציות, טורי פונקציות וטורי חזקות",
+          "fr": "Suites et séries de fonctions, séries entières"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104041"
+    },
+    {
+      "id": "technion-104042",
+      "family": "calculus1",
+      "he": "חשבון דיפרנציאלי ואינטגרלי 1מ2",
+      "fr": "Calcul différentiel et intégral 1m2",
+      "code": "104042",
+      "credits": 5,
+      "facultiesServed": [
+        "biotech",
+        "civil",
+        "dds",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "המספרים הממשיים",
+          "fr": "Les nombres réels"
+        },
+        {
+          "he": "סדרות אינסופיות של מספרים ממשיים",
+          "fr": "Suites infinies de nombres réels"
+        },
+        {
+          "he": "פונקציה ממשית של משתנה יחיד: גבולות ורציפות",
+          "fr": "Fonction réelle d'une variable : limites et continuité"
+        },
+        {
+          "he": "פונקציות מונוטוניות ופונקציות הפוכות",
+          "fr": "Fonctions monotones et fonctions réciproques"
+        },
+        {
+          "he": "גזירות והמשפטים היסודיים של החשבון הדיפרנציאלי",
+          "fr": "Dérivabilité et théorèmes fondamentaux du calcul différentiel"
+        },
+        {
+          "he": "כלל לופיטל, משפט טיילור, חקירת פונקציה",
+          "fr": "Règle de L'Hôpital, théorème de Taylor, étude de fonction"
+        },
+        {
+          "he": "פונקציה קדומה ושיטות אינטגרציה",
+          "fr": "Primitives et méthodes d'intégration"
+        },
+        {
+          "he": "אינטגרל מסויים ותכונותיו",
+          "fr": "Intégrale définie et ses propriétés"
+        },
+        {
+          "he": "אינטגרל מוכלל",
+          "fr": "Intégrale généralisée"
+        },
+        {
+          "he": "טורים מספריים",
+          "fr": "Séries numériques"
+        },
+        {
+          "he": "סדרות פונקציות, טורי פונקציות וטורי חזקות",
+          "fr": "Suites et séries de fonctions, séries entières"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104042"
+    },
+    {
+      "id": "technion-104003",
+      "family": "calculus1",
+      "he": "חשבון דיפרנציאלי ואינטגרלי 1",
+      "fr": "Calcul différentiel et intégral 1",
+      "code": "104003",
+      "credits": 5,
+      "facultiesServed": [
+        "biology",
+        "chemistry"
+      ],
+      "topics": [
+        {
+          "he": "המספרים הממשיים",
+          "fr": "Les nombres réels"
+        },
+        {
+          "he": "פונקציה ממשית של משתנה ממשי יחיד: גבולות ורציפות",
+          "fr": "Fonction réelle d'une variable réelle : limites et continuité"
+        },
+        {
+          "he": "רציפות על קטע סגור, פונקציות מונוטוניות ופונקציות הפוכות",
+          "fr": "Continuité sur un segment, fonctions monotones et réciproques"
+        },
+        {
+          "he": "גזירות והמשפטים היסודיים של החשבון הדיפרנציאלי",
+          "fr": "Dérivabilité et théorèmes fondamentaux du calcul différentiel"
+        },
+        {
+          "he": "משפט טיילור, כלל לופיטל, חקירת פונקציה",
+          "fr": "Théorème de Taylor, règle de L'Hôpital, étude de fonction"
+        },
+        {
+          "he": "פונקציה קדומה ושיטות אינטגרציה",
+          "fr": "Primitives et méthodes d'intégration"
+        },
+        {
+          "he": "אינטגרל מסוים ותכונותיו, פונקציות אינטגרביליות",
+          "fr": "Intégrale définie, propriétés, fonctions intégrables"
+        },
+        {
+          "he": "משפטים יסודיים של החשבון האינטגרלי, אינטגרל מוכלל",
+          "fr": "Théorèmes fondamentaux du calcul intégral, intégrale généralisée"
+        },
+        {
+          "he": "סדרות וטורים אינסופיים של מספרים ממשיים",
+          "fr": "Suites et séries infinies de nombres réels"
+        },
+        {
+          "he": "טורי חזקות",
+          "fr": "Séries entières"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104003"
+    },
+    {
+      "id": "technion-104032",
+      "family": "calculus2",
+      "he": "חשבון אינפיניטסימלי 2מ'",
+      "fr": "Calcul infinitésimal 2m",
+      "code": "104032",
+      "credits": 5,
+      "facultiesServed": [
+        "cs",
+        "dds",
+        "education",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "האינטגרל הלא מסויים: פונקציות קדומות ושיטות אינטגרציה",
+          "fr": "Intégrale indéfinie : primitives et méthodes d'intégration"
+        },
+        {
+          "he": "האינטגרל המסויים של רימן כולל אינטגרל מוכלל: תכונות ושימושים",
+          "fr": "Intégrale de Riemann (y compris généralisée) : propriétés et applications"
+        },
+        {
+          "he": "טורים מספריים אינסופיים",
+          "fr": "Séries numériques infinies"
+        },
+        {
+          "he": "סדרות וטורי פונקציות, התכנסות במידה שווה",
+          "fr": "Suites et séries de fonctions, convergence uniforme"
+        },
+        {
+          "he": "פונקציות בכמה משתנים, רציפות",
+          "fr": "Fonctions de plusieurs variables, continuité"
+        },
+        {
+          "he": "נגזרות חלקיות, גזירות",
+          "fr": "Dérivées partielles, différentiabilité"
+        },
+        {
+          "he": "גזירה תחת סימן האינטגרל",
+          "fr": "Dérivation sous le signe intégral"
+        },
+        {
+          "he": "אינטגרל כפול כולל אינטגרל כפול מוכלל, שטח במישור",
+          "fr": "Intégrale double (y compris généralisée), aire dans le plan"
+        }
+      ],
+      "prerequisites": [
+        "104031 - חשבון אינפיניטסימלי 1מ' או 104195 - חשבון אינפיניטסימלי 1"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104032"
+    },
+    {
+      "id": "technion-104043",
+      "family": "calculus2",
+      "he": "חשבון דיפרנציאלי ואינטגרלי 2מ1",
+      "fr": "Calcul différentiel et intégral 2m1",
+      "code": "104043",
+      "credits": 5,
+      "facultiesServed": [
+        "aerospace",
+        "biotech",
+        "chemeng",
+        "materials",
+        "me"
+      ],
+      "topics": [
+        {
+          "he": "וקטורים וגיאומטריה מרחבית",
+          "fr": "Vecteurs et géométrie dans l'espace"
+        },
+        {
+          "he": "תכונות יסודיות של פונקציות ממשיות של כמה משתנים",
+          "fr": "Propriétés de base des fonctions réelles de plusieurs variables"
+        },
+        {
+          "he": "חקירת פונקציות של כמה משתנים",
+          "fr": "Étude de fonctions de plusieurs variables"
+        },
+        {
+          "he": "פונקציות סתומות",
+          "fr": "Fonctions implicites"
+        },
+        {
+          "he": "אינטגרלים מרובים",
+          "fr": "Intégrales multiples"
+        },
+        {
+          "he": "אנליזה וקטורית",
+          "fr": "Analyse vectorielle"
+        },
+        {
+          "he": "אינטגרלים קוויים ומשטחיים",
+          "fr": "Intégrales curvilignes et de surface"
+        }
+      ],
+      "prerequisites": [
+        "104018 - חשבון דיפרנציאלי ואינטגרלי 1מ' או 104041 - חשבון דיפרנציאלי ואינטגרלי 1מ1 או 104042 - חשבון דיפרנציאלי ואינטגרלי 1מ2",
+        "מקצוע צמוד: 104016 - אלגברה 1/מורחב",
+        "מקצוע צמוד: 104019 - אלגברה ליניארית מ'",
+        "מקצוע צמוד: 104064 - אלגברה 1מ1",
+        "מקצוע צמוד: 104065 - אלגברה 1מ2",
+        "מקצוע צמוד: 104166 - אלגברה אמ'"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104043"
+    },
+    {
+      "id": "technion-104013",
+      "family": "calculus2",
+      "he": "חשבון דיפרנציאלי ואינטגרלי 2ת'",
+      "fr": "Calcul différentiel et intégral 2t",
+      "code": "104013",
+      "credits": 5.5,
+      "facultiesServed": [
+        "aerospace",
+        "cs",
+        "ece",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "וקטורים וגיאומטריה מרחבית",
+          "fr": "Vecteurs et géométrie dans l'espace"
+        },
+        {
+          "he": "תכונות יסודיות של פונקציות ממשיות של כמה משתנים",
+          "fr": "Propriétés de base des fonctions réelles de plusieurs variables"
+        },
+        {
+          "he": "הגרדיאנט, דיפרנציאביליות וכלל השרשרת",
+          "fr": "Gradient, différentiabilité et règle de la chaîne"
+        },
+        {
+          "he": "פונקציות סתומות",
+          "fr": "Fonctions implicites"
+        },
+        {
+          "he": "הפולינום של טיילור ונקודות קיצון",
+          "fr": "Polynôme de Taylor et extrema"
+        },
+        {
+          "he": "נקודות קיצון תחת אילוצים",
+          "fr": "Extrema sous contraintes"
+        },
+        {
+          "he": "אינטגרלים מרובים",
+          "fr": "Intégrales multiples"
+        },
+        {
+          "he": "אנליזה וקטורית, אינטגרלים קוויים ומשטחיים",
+          "fr": "Analyse vectorielle, intégrales curvilignes et de surface"
+        },
+        {
+          "he": "משפטי גרין גאוס וסטוקס",
+          "fr": "Théorèmes de Green, Gauss et Stokes"
+        }
+      ],
+      "prerequisites": [
+        "(104012 - חשבון דיפרנציאלי ואינטגרלי 1ת' ו- 104016 - אלגברה 1/מורחב) או (104016 - אלגברה 1/מורחב ו- 104018 - חשבון דיפרנציאלי ואינטגרלי 1מ') או (104016 - אלגברה 1/מורחב ו- 104042 - חשבון דיפרנציאלי ואינטגרלי 1מ2) או (104016 - אלגברה 1/מורחב ו- 104041 - חשבון דיפרנציאלי ואינטגרלי 1מ1) או (104016 - אלגברה 1/מורחב ו- 104036 - חשבון דיפרנציאלי ואינטגרלי 1ת) או (104016 - אלגברה 1/מורחב ו- 104031 - חשבון אינפיניטסימלי 1מ')",
+        "מקצוע צמוד: 104035 - משוואות דיפ' רגילות ואינפי 2ח'"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104013"
+    },
+    {
+      "id": "technion-104166",
+      "family": "linear-algebra1",
+      "he": "אלגברה אמ'",
+      "fr": "Algèbre A m",
+      "code": "104166",
+      "credits": 5.5,
+      "facultiesServed": [
+        "cs",
+        "dds",
+        "education",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "הגדרת המושג שדה ודוגמאות לשדות, בפרט שדות סופיים",
+          "fr": "Notion de corps et exemples, en particulier les corps finis"
+        },
+        {
+          "he": "מספרים מרוכבים ופולינומים במספרים מרוכבים",
+          "fr": "Nombres complexes et polynômes complexes"
+        },
+        {
+          "he": "מטריצות ופעולות חשבון בין מטריצות",
+          "fr": "Matrices et opérations entre matrices"
+        },
+        {
+          "he": "פעולות אלמנטריות על שורות מטריצה ומטריצות אלמנטריות, דרוג מטריצות",
+          "fr": "Opérations élémentaires sur les lignes, matrices élémentaires, échelonnement"
+        },
+        {
+          "he": "מערכות משוואות לינאריות",
+          "fr": "Systèmes d'équations linéaires"
+        },
+        {
+          "he": "מרחבים וקטוריים ותתי מרחבים",
+          "fr": "Espaces vectoriels et sous-espaces"
+        },
+        {
+          "he": "בסיס ומימד של מרחב וקטורי",
+          "fr": "Base et dimension d'un espace vectoriel"
+        },
+        {
+          "he": "מטריצות הפיכות",
+          "fr": "Matrices inversibles"
+        },
+        {
+          "he": "שינוי בסיס ומטריצת מעבר בין בסיסים",
+          "fr": "Changement de base et matrice de passage"
+        },
+        {
+          "he": "דטרמיננטים",
+          "fr": "Déterminants"
+        },
+        {
+          "he": "ערכים עצמיים ווקטורים עצמיים",
+          "fr": "Valeurs propres et vecteurs propres"
+        },
+        {
+          "he": "לכסון אופרטורים ומטריצות",
+          "fr": "Diagonalisation des opérateurs et des matrices"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104166"
+    },
+    {
+      "id": "technion-104016",
+      "family": "linear-algebra1",
+      "he": "אלגברה 1/מורחב",
+      "fr": "Algèbre 1 (étendue)",
+      "code": "104016",
+      "credits": 5,
+      "facultiesServed": [
+        "chemistry",
+        "cs",
+        "ece",
+        "education",
+        "materials",
+        "me",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "שדות, מספרים מרוכבים",
+          "fr": "Corps, nombres complexes"
+        },
+        {
+          "he": "וקטורים ב-3R",
+          "fr": "Vecteurs de R^3"
+        },
+        {
+          "he": "מערכות משוואות לינאריות ומטריצות, שיטת החילוץ",
+          "fr": "Systèmes linéaires, matrices, méthode d'élimination"
+        },
+        {
+          "he": "מטריצה הפיכה, דטרמיננטים",
+          "fr": "Matrice inversible, déterminants"
+        },
+        {
+          "he": "מרחבים לינאריים, בסיס וממד",
+          "fr": "Espaces vectoriels, base et dimension"
+        },
+        {
+          "he": "טרנספורמציות לינאריות, ייצוג ע\"י מטריצות, דמיון",
+          "fr": "Applications linéaires, représentation matricielle, similitude"
+        },
+        {
+          "he": "ערכים עצמיים, לכסון",
+          "fr": "Valeurs propres, diagonalisation"
+        },
+        {
+          "he": "משפט קיילי-המילטון",
+          "fr": "Théorème de Cayley-Hamilton"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104016"
+    },
+    {
+      "id": "technion-104064",
+      "family": "linear-algebra1",
+      "he": "אלגברה 1מ1",
+      "fr": "Algèbre 1m1",
+      "code": "104064",
+      "credits": 5,
+      "facultiesServed": [
+        "cs",
+        "ece",
+        "materials",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "שדות, מספרים מרוכבים",
+          "fr": "Corps, nombres complexes"
+        },
+        {
+          "he": "וקטורים ב-3R",
+          "fr": "Vecteurs de R^3"
+        },
+        {
+          "he": "מערכות משוואות לינאריות ומטריצות, שיטת החילוץ",
+          "fr": "Systèmes linéaires, matrices, méthode d'élimination"
+        },
+        {
+          "he": "מטריצה הפיכה, דטרמיננטים",
+          "fr": "Matrice inversible, déterminants"
+        },
+        {
+          "he": "מרחבים לינאריים, בסיס וממד",
+          "fr": "Espaces vectoriels, base et dimension"
+        },
+        {
+          "he": "טרנספורמציות לינאריות, ייצוג ע\"י מטריצות, דמיון",
+          "fr": "Applications linéaires, représentation matricielle, similitude"
+        },
+        {
+          "he": "ערכים עצמיים, לכסון",
+          "fr": "Valeurs propres, diagonalisation"
+        },
+        {
+          "he": "משפט קיילי-המילטון",
+          "fr": "Théorème de Cayley-Hamilton"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104064"
+    },
+    {
+      "id": "technion-104065",
+      "family": "linear-algebra1",
+      "he": "אלגברה 1מ2",
+      "fr": "Algèbre 1m2",
+      "code": "104065",
+      "credits": 5,
+      "facultiesServed": [
+        "bme",
+        "me",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "שדות, מספרים מרוכבים",
+          "fr": "Corps, nombres complexes"
+        },
+        {
+          "he": "וקטורים ב-3R",
+          "fr": "Vecteurs de R^3"
+        },
+        {
+          "he": "מערכות משוואות לינאריות ומטריצות, שיטת החילוץ",
+          "fr": "Systèmes linéaires, matrices, méthode d'élimination"
+        },
+        {
+          "he": "מטריצה הפיכה, דטרמיננטים",
+          "fr": "Matrice inversible, déterminants"
+        },
+        {
+          "he": "מרחבים לינאריים, בסיס וממד",
+          "fr": "Espaces vectoriels, base et dimension"
+        },
+        {
+          "he": "טרנספורמציות לינאריות, ייצוג ע\"י מטריצות, דמיון",
+          "fr": "Applications linéaires, représentation matricielle, similitude"
+        },
+        {
+          "he": "ערכים עצמיים, לכסון",
+          "fr": "Valeurs propres, diagonalisation"
+        },
+        {
+          "he": "משפט קיילי-המילטון",
+          "fr": "Théorème de Cayley-Hamilton"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104065"
+    },
+    {
+      "id": "technion-104019",
+      "family": "linear-algebra1",
+      "he": "אלגברה ליניארית מ'",
+      "fr": "Algèbre linéaire m",
+      "code": "104019",
+      "credits": 4.5,
+      "facultiesServed": [
+        "biology",
+        "biotech",
+        "chemeng",
+        "chemistry",
+        "civil",
+        "materials"
+      ],
+      "topics": [
+        {
+          "he": "שדות, מספרים מרוכבים",
+          "fr": "Corps, nombres complexes"
+        },
+        {
+          "he": "פולינומים ושורשיהם",
+          "fr": "Polynômes et leurs racines"
+        },
+        {
+          "he": "מערכות משוואות לינאריות ומטריצות",
+          "fr": "Systèmes linéaires et matrices"
+        },
+        {
+          "he": "שיטת החילוץ של גאוס",
+          "fr": "Méthode d'élimination de Gauss"
+        },
+        {
+          "he": "דטרמיננטים",
+          "fr": "Déterminants"
+        },
+        {
+          "he": "מרחבים וקטוריים",
+          "fr": "Espaces vectoriels"
+        },
+        {
+          "he": "פרישה, תלות לינארית",
+          "fr": "Sous-espace engendré, dépendance linéaire"
+        },
+        {
+          "he": "בסיס ומימד של מרחב וקטורי",
+          "fr": "Base et dimension d'un espace vectoriel"
+        },
+        {
+          "he": "דרגה של מטריצה",
+          "fr": "Rang d'une matrice"
+        },
+        {
+          "he": "טרנספורמציות לינאריות, גרעין ותמונה",
+          "fr": "Applications linéaires, noyau et image"
+        },
+        {
+          "he": "ייצוג אופרטורים לינאריים ע\"י מטריצות",
+          "fr": "Représentation matricielle des opérateurs linéaires"
+        },
+        {
+          "he": "ערכים עצמיים ווקטורים עצמיים",
+          "fr": "Valeurs propres et vecteurs propres"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104019"
+    },
+    {
+      "id": "technion-234141",
+      "family": "discrete-math",
+      "he": "קומבינטוריקה למדעי המחשב",
+      "fr": "Combinatoire pour l'informatique",
+      "code": "234141",
+      "credits": 3,
+      "facultiesServed": [
+        "cs",
+        "ece",
+        "education",
+        "math",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "עקרונות ספירה בסיסיים",
+          "fr": "Principes de dénombrement de base"
+        },
+        {
+          "he": "הבינום של ניוטון",
+          "fr": "Binôme de Newton"
+        },
+        {
+          "he": "עקרון ההכלה וההפרדה",
+          "fr": "Principe d'inclusion-exclusion"
+        },
+        {
+          "he": "רקורסיה ואינדוקציה",
+          "fr": "Récurrence et induction"
+        },
+        {
+          "he": "פונקציות יוצרות",
+          "fr": "Fonctions génératrices"
+        },
+        {
+          "he": "חלוקות",
+          "fr": "Partitions"
+        },
+        {
+          "he": "גרפים מכוונים ולא מכוונים",
+          "fr": "Graphes orientés et non orientés"
+        },
+        {
+          "he": "עצים, ספירת עצים",
+          "fr": "Arbres et dénombrement d'arbres"
+        },
+        {
+          "he": "מסלולים אוילריים",
+          "fr": "Chemins eulériens"
+        },
+        {
+          "he": "עצים מצביים ומספרי קטלן",
+          "fr": "Arbres pointés et nombres de Catalan"
+        }
+      ],
+      "prerequisites": [
+        "(104016 - אלגברה 1/מורחב ו- 104031 - חשבון אינפיניטסימלי 1מ') או (104016 - אלגברה 1/מורחב ו- 104195 - חשבון אינפיניטסימלי 1) או (104031 - חשבון אינפיניטסימלי 1מ' ו- 104166 - אלגברה אמ') או (104166 - אלגברה אמ' ו- 104195 - חשבון אינפיניטסימלי 1)"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/234141"
+    },
+    {
+      "id": "technion-234129",
+      "family": "discrete-math",
+      "he": "מבוא לתורת הקבוצות ואוטומטים למדמ\"ח",
+      "fr": "Introduction à la théorie des ensembles et aux automates pour l'informatique",
+      "code": "234129",
+      "credits": 3,
+      "facultiesServed": [
+        "cs",
+        "ece",
+        "education",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "הגדרות בסיסיות",
+          "fr": "Définitions de base"
+        },
+        {
+          "he": "יחסים",
+          "fr": "Relations"
+        },
+        {
+          "he": "פונקציות",
+          "fr": "Fonctions"
+        },
+        {
+          "he": "יחסי שקילות וסדר",
+          "fr": "Relations d'équivalence et d'ordre"
+        },
+        {
+          "he": "קבוצות בנות מניה ושיטת הליכסון של קנטור",
+          "fr": "Ensembles dénombrables et argument diagonal de Cantor"
+        },
+        {
+          "he": "אוטומטים סופיים (דטרמיניסטיים ולא דטרמיניסטיים)",
+          "fr": "Automates finis (déterministes et non déterministes)"
+        },
+        {
+          "he": "ביטויים רגולריים",
+          "fr": "Expressions régulières"
+        },
+        {
+          "he": "למת הניפוח",
+          "fr": "Lemme de pompage"
+        },
+        {
+          "he": "דקדוקים",
+          "fr": "Grammaires"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/234129"
+    },
+    {
+      "id": "technion-104002",
+      "family": "discrete-math",
+      "he": "מושגי יסוד במתמטיקה",
+      "fr": "Notions fondamentales de mathématiques",
+      "code": "104002",
+      "credits": 2.5,
+      "facultiesServed": [
+        "ece",
+        "math"
+      ],
+      "topics": [
+        {
+          "he": "לוחות אמת, טאוטולוגיות",
+          "fr": "Tables de vérité, tautologies"
+        },
+        {
+          "he": "קבוצות, פעולות בין קבוצות, הקשר לפעולות הלוגיות",
+          "fr": "Ensembles, opérations sur les ensembles, lien avec les opérations logiques"
+        },
+        {
+          "he": "קבוצת החזקה",
+          "fr": "Ensemble des parties"
+        },
+        {
+          "he": "יחסים",
+          "fr": "Relations"
+        },
+        {
+          "he": "פונקציות - תכונות, הרכב, פונקציות הפוכות",
+          "fr": "Fonctions : propriétés, composition, fonctions réciproques"
+        },
+        {
+          "he": "תמורות - זוגיות ואיזוגיות",
+          "fr": "Permutations : parité et imparité"
+        },
+        {
+          "he": "יחסי שקילות",
+          "fr": "Relations d'équivalence"
+        },
+        {
+          "he": "יחסי סדר סופיים ואינסופיים",
+          "fr": "Relations d'ordre finies et infinies"
+        },
+        {
+          "he": "קבוצות ניתנות להימנות, משפט קנטור",
+          "fr": "Ensembles dénombrables, théorème de Cantor"
+        },
+        {
+          "he": "מספרים רציונליים ואי רציונליים",
+          "fr": "Nombres rationnels et irrationnels"
+        },
+        {
+          "he": "אינדוקציה",
+          "fr": "Récurrence"
+        },
+        {
+          "he": "עקרון שובך היונים",
+          "fr": "Principe des tiroirs"
+        }
+      ],
+      "prerequisites": [
+        "בגרות במתמטיקה 5 יח\"ל עם ציון 70 ומעלה או ציון עובר בבחינת סיווג במתמטיקה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104002"
+    },
+    {
+      "id": "technion-104034",
+      "family": "probability",
+      "he": "מבוא להסתברות ח'",
+      "fr": "Introduction aux probabilités (h)",
+      "code": "104034",
+      "credits": 3.5,
+      "facultiesServed": [
+        "aerospace",
+        "cs",
+        "ece",
+        "education",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "מרחבי הסתברות, אקסיומות, הסתברות מותנית",
+          "fr": "Espaces probabilisés, axiomes, probabilité conditionnelle"
+        },
+        {
+          "he": "מאורעות בלתי תלויים, ניסויי ברנולי",
+          "fr": "Événements indépendants, épreuves de Bernoulli"
+        },
+        {
+          "he": "משתנים מקריים בדידים, רציפים ומעורבים",
+          "fr": "Variables aléatoires discrètes, continues et mixtes"
+        },
+        {
+          "he": "פונקציות התפלגות, צפיפות והסתברות",
+          "fr": "Fonctions de répartition, de densité et de probabilité"
+        },
+        {
+          "he": "התפלגויות חשובות",
+          "fr": "Lois de probabilité usuelles"
+        },
+        {
+          "he": "תוחלת ומומנטים",
+          "fr": "Espérance et moments"
+        },
+        {
+          "he": "האי שוויון של ינסן",
+          "fr": "Inégalité de Jensen"
+        },
+        {
+          "he": "וקטורים אקראיים",
+          "fr": "Vecteurs aléatoires"
+        },
+        {
+          "he": "התפלגויות משותפות ומותנות",
+          "fr": "Lois conjointes et conditionnelles"
+        },
+        {
+          "he": "האי שוויון של צ'בישב",
+          "fr": "Inégalité de Tchebychev"
+        },
+        {
+          "he": "חוק המספרים הגדולים",
+          "fr": "Loi des grands nombres"
+        },
+        {
+          "he": "משפט הגבול המרכזי",
+          "fr": "Théorème central limite"
+        }
+      ],
+      "prerequisites": [
+        "104013 - חשבון דיפרנציאלי ואינטגרלי 2ת' או 104022 - חשבון דיפרנציאלי ואינטגרלי 2מ' או 104032 - חשבון אינפיניטסימלי 2מ' או 104043 - חשבון דיפרנציאלי ואינטגרלי 2מ1 או 104044 - חשבון דיפרנציאלי ואינטגרלי 2מ2 או 104281 - חשבון אינפי 2"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104034"
+    },
+    {
+      "id": "technion-094412",
+      "family": "probability",
+      "he": "הסתברות מ",
+      "fr": "Probabilités m",
+      "code": "094412",
+      "credits": 4,
+      "facultiesServed": [
+        "cs",
+        "education",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "תורת ההסתברות כמודל מתמטי לתופעות מקריות",
+          "fr": "La théorie des probabilités comme modèle mathématique de phénomènes aléatoires"
+        },
+        {
+          "he": "מרחבי הסתברות",
+          "fr": "Espaces probabilisés"
+        },
+        {
+          "he": "הסתברות מותנית, אי תלות",
+          "fr": "Probabilité conditionnelle, indépendance"
+        },
+        {
+          "he": "משתנים מקריים ופונקציות התפלגות",
+          "fr": "Variables aléatoires et fonctions de répartition"
+        },
+        {
+          "he": "בינומית, גיאומטרית, פואסונית, אחידה, אקספוננציאלית, גאמא, נורמלית ובאטא",
+          "fr": "Lois binomiale, géométrique, de Poisson, uniforme, exponentielle, gamma, normale et bêta"
+        },
+        {
+          "he": "תוחלת ומומנטים",
+          "fr": "Espérance et moments"
+        },
+        {
+          "he": "התפלגויות רב ממדיות, קוויריאנס, סטטיסטי הסדר",
+          "fr": "Lois multidimensionnelles, covariance, statistiques d'ordre"
+        },
+        {
+          "he": "פונקציות של משתנים מקריים",
+          "fr": "Fonctions de variables aléatoires"
+        },
+        {
+          "he": "ההתפלגות הנורמלית הרב מימדית",
+          "fr": "Loi normale multidimensionnelle"
+        },
+        {
+          "he": "סכום של משתנים מקריים",
+          "fr": "Somme de variables aléatoires"
+        },
+        {
+          "he": "חוק המספרים הגדולים",
+          "fr": "Loi des grands nombres"
+        },
+        {
+          "he": "משפט הגבול המרכזי",
+          "fr": "Théorème central limite"
+        }
+      ],
+      "prerequisites": [
+        "104017 - חשבון דיפרנציאלי ואינטגרלי 1נ' או 104018 - חשבון דיפרנציאלי ואינטגרלי 1מ' או 104031 - חשבון אינפיניטסימלי 1מ' או 104042 - חשבון דיפרנציאלי ואינטגרלי 1מ2 או 104195 - חשבון אינפיניטסימלי 1",
+        "מקצוע צמוד: 104020 - חשבון דיפרנציאלי ואינטגרלי 2נ'",
+        "מקצוע צמוד: 104022 - חשבון דיפרנציאלי ואינטגרלי 2מ'",
+        "מקצוע צמוד: 104032 - חשבון אינפיניטסימלי 2מ'",
+        "מקצוע צמוד: 104281 - חשבון אינפי 2"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/094412"
+    },
+    {
+      "id": "technion-094423",
+      "family": "statistics",
+      "he": "מבוא לסטטיסטיקה",
+      "fr": "Introduction à la statistique",
+      "code": "094423",
+      "credits": 3.5,
+      "facultiesServed": [
+        "cs",
+        "math"
+      ],
+      "topics": [
+        {
+          "he": "סטטיסטיקה תיאורית ושיטות גרפיות",
+          "fr": "Statistique descriptive et méthodes graphiques"
+        },
+        {
+          "he": "יסודות דגימה",
+          "fr": "Bases de l'échantillonnage"
+        },
+        {
+          "he": "אמידה נקודתית",
+          "fr": "Estimation ponctuelle"
+        },
+        {
+          "he": "רווחי סמך",
+          "fr": "Intervalles de confiance"
+        },
+        {
+          "he": "בדיקת השערות",
+          "fr": "Tests d'hypothèses"
+        },
+        {
+          "he": "בדיקת טיב התאמה ואי תלות",
+          "fr": "Tests d'adéquation et d'indépendance"
+        },
+        {
+          "he": "רגרסיה לינארית פשוטה ומרובה",
+          "fr": "Régression linéaire simple et multiple"
+        }
+      ],
+      "prerequisites": [
+        "94411 - הסתברות ת' או 94412 - הסתברות מ או 104034 - מבוא להסתברות ח'"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/094423"
+    },
+    {
+      "id": "technion-094481",
+      "family": "statistics",
+      "he": "מבוא להסתברות וסטטיסטיקה",
+      "fr": "Introduction aux probabilités et à la statistique",
+      "code": "094481",
+      "credits": 4,
+      "facultiesServed": [
+        "biotech",
+        "chemeng",
+        "chemistry"
+      ],
+      "topics": [
+        {
+          "he": "חוקי הסתברות בסיסיים",
+          "fr": "Règles de base des probabilités"
+        },
+        {
+          "he": "קומבינטוריקה",
+          "fr": "Combinatoire"
+        },
+        {
+          "he": "הסתברות מותנה",
+          "fr": "Probabilité conditionnelle"
+        },
+        {
+          "he": "משתנים מקריים בדידים ורציפים והתפלגויותיהם",
+          "fr": "Variables aléatoires discrètes et continues et leurs lois"
+        },
+        {
+          "he": "משפט הגבול המרכזי",
+          "fr": "Théorème central limite"
+        },
+        {
+          "he": "סטטיסטיקה תיאורית",
+          "fr": "Statistique descriptive"
+        },
+        {
+          "he": "התפלגויות דגימה",
+          "fr": "Lois d'échantillonnage"
+        },
+        {
+          "he": "אמידה נקודתית ורווחי סמך",
+          "fr": "Estimation ponctuelle et intervalles de confiance"
+        },
+        {
+          "he": "בדיקת השערות",
+          "fr": "Tests d'hypothèses"
+        },
+        {
+          "he": "מבחני טיב התאמה ואי-תלות",
+          "fr": "Tests d'adéquation et d'indépendance"
+        },
+        {
+          "he": "רגרסיה לינארית פשוטה",
+          "fr": "Régression linéaire simple"
+        }
+      ],
+      "prerequisites": [
+        "104004 - חשבון דיפרנציאלי ואינטגרלי 2 או 104013 - חשבון דיפרנציאלי ואינטגרלי 2ת' או 104022 - חשבון דיפרנציאלי ואינטגרלי 2מ' או 104044 - חשבון דיפרנציאלי ואינטגרלי 2מ2"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/094481"
+    },
+    {
+      "id": "technion-014003",
+      "family": "statistics",
+      "he": "סטטיסטיקה",
+      "fr": "Statistique (génie civil et environnement)",
+      "code": "014003",
+      "credits": 3,
+      "facultiesServed": [
+        "chemeng",
+        "civil"
+      ],
+      "topics": [
+        {
+          "he": "מרחב מדגם ומאורעות, חישוב הסתברויות במרחב סימטרי",
+          "fr": "Espace d'échantillonnage, événements, probabilités en espace équiprobable"
+        },
+        {
+          "he": "הסתברות מותנית ואי-תלות",
+          "fr": "Probabilité conditionnelle et indépendance"
+        },
+        {
+          "he": "נוסחת ההסתברות השלימה ונוסחת בייס",
+          "fr": "Formule des probabilités totales et formule de Bayes"
+        },
+        {
+          "he": "משתנה מקרי בדיד ורציף: משתנים מקריים והתפלגותיהם",
+          "fr": "Variable aléatoire discrète et continue et leurs lois"
+        },
+        {
+          "he": "תוחלת ושונות של משתנה מקרי",
+          "fr": "Espérance et variance"
+        },
+        {
+          "he": "התפלגויות מיוחדות",
+          "fr": "Lois spéciales"
+        },
+        {
+          "he": "משפט הגבול המרכזי",
+          "fr": "Théorème central limite"
+        },
+        {
+          "he": "סטטיסטיקה תאורית",
+          "fr": "Statistique descriptive"
+        },
+        {
+          "he": "אמידה נקודתית",
+          "fr": "Estimation ponctuelle"
+        },
+        {
+          "he": "אמידה מרווחית: רווחי סמך",
+          "fr": "Estimation par intervalle : intervalles de confiance"
+        },
+        {
+          "he": "בדיקת השערות: רמת מובהקות ועוצמה המבחן",
+          "fr": "Tests d'hypothèses : niveau de signification et puissance"
+        },
+        {
+          "he": "מבחן חי-בריבוע לטיב התאמה",
+          "fr": "Test du khi-deux d'adéquation"
+        }
+      ],
+      "prerequisites": [
+        "104004 - חשבון דיפרנציאלי ואינטגרלי 2 או 104022 - חשבון דיפרנציאלי ואינטגרלי 2מ' או 104044 - חשבון דיפרנציאלי ואינטגרלי 2מ2"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/014003"
+    },
+    {
+      "id": "technion-334023",
+      "family": "statistics",
+      "he": "מבוא לסטטיסטיקה להנ. ביו-רפואית",
+      "fr": "Introduction à la statistique pour le génie biomédical",
+      "code": "334023",
+      "credits": 3.5,
+      "facultiesServed": [
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "סטטיסטיקה תיאורית",
+          "fr": "Statistique descriptive"
+        },
+        {
+          "he": "ניתוח נתונים והצגה גרפית",
+          "fr": "Analyse de données et représentation graphique"
+        },
+        {
+          "he": "אומדן פרמטרים של הסתברות",
+          "fr": "Estimation de paramètres de probabilité"
+        },
+        {
+          "he": "אומדן לא פרמטרי",
+          "fr": "Estimation non paramétrique"
+        },
+        {
+          "he": "בדיקת השערות",
+          "fr": "Tests d'hypothèses"
+        },
+        {
+          "he": "הסקה סטטיסטית על משתנה בודד",
+          "fr": "Inférence statistique sur une variable"
+        },
+        {
+          "he": "השוואת אוכלוסיות",
+          "fr": "Comparaison de populations"
+        },
+        {
+          "he": "בדיקת קורלציה בין משתנים סטטיסטיים שונים",
+          "fr": "Test de corrélation entre variables"
+        },
+        {
+          "he": "רגרסיה לינארית",
+          "fr": "Régression linéaire"
+        },
+        {
+          "he": "שימוש בתוכנה לניתוח סטטיסטי והצגת נתונים",
+          "fr": "Utilisation d'un logiciel d'analyse statistique"
+        }
+      ],
+      "prerequisites": [
+        "104034 - מבוא להסתברות ח'"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/334023"
+    },
+    {
+      "id": "technion-234114",
+      "family": "intro-programming",
+      "he": "מבוא למדעי המחשב מ'",
+      "fr": "Introduction à l'informatique m (langage C)",
+      "code": "234114",
+      "credits": 4,
+      "facultiesServed": [
+        "cs",
+        "ece",
+        "education",
+        "math",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "מבנה המחשב. גישה אלגוריתמית לפתרון בעיות",
+          "fr": "Architecture de l'ordinateur ; approche algorithmique de la résolution de problèmes"
+        },
+        {
+          "he": "מושגי יסוד ותכנות בשפת C",
+          "fr": "Notions de base et programmation en langage C"
+        },
+        {
+          "he": "פיתוח תכניות מלמעלה למטה. תכנות מבני",
+          "fr": "Développement de haut en bas ; programmation structurée"
+        },
+        {
+          "he": "ניפוי שגיאות",
+          "fr": "Débogage"
+        },
+        {
+          "he": "הוכחת נכונות חלקית ושלמה של תכניות",
+          "fr": "Preuve de correction partielle et totale de programmes"
+        },
+        {
+          "he": "מדדים ליעילות האלגוריתם: סיבוכיות זמן וזכרון",
+          "fr": "Mesures d'efficacité : complexité en temps et en mémoire"
+        },
+        {
+          "he": "סיבוכיות פולינומיאלית ואקספוננציאלית",
+          "fr": "Complexité polynomiale et exponentielle"
+        },
+        {
+          "he": "בעיות שלא ניתנות להכרעה",
+          "fr": "Problèmes indécidables"
+        },
+        {
+          "he": "מחסנית. תור",
+          "fr": "Pile et file"
+        },
+        {
+          "he": "רקורסיה ומימושה",
+          "fr": "Récursivité et sa mise en œuvre"
+        },
+        {
+          "he": "חיפוש לעומק",
+          "fr": "Parcours en profondeur"
+        },
+        {
+          "he": "מיון יעיל",
+          "fr": "Tri efficace"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/234114"
+    },
+    {
+      "id": "technion-234117",
+      "family": "intro-programming",
+      "he": "מבוא למדעי המחשב ח'",
+      "fr": "Introduction à l'informatique h (langage C)",
+      "code": "234117",
+      "credits": 4,
+      "facultiesServed": [
+        "dds",
+        "ece",
+        "math",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "מבנה המחשב",
+          "fr": "Architecture de l'ordinateur"
+        },
+        {
+          "he": "גישה אלגוריתמית לפתרון בעיות",
+          "fr": "Approche algorithmique de la résolution de problèmes"
+        },
+        {
+          "he": "מושגי יסוד ותכנות בשפת C",
+          "fr": "Notions de base et programmation en langage C"
+        },
+        {
+          "he": "פיתוח תכניות מלמעלה למטה",
+          "fr": "Développement de programmes de haut en bas"
+        },
+        {
+          "he": "תכנות מבני",
+          "fr": "Programmation structurée"
+        },
+        {
+          "he": "ניפוי שגיאות",
+          "fr": "Débogage"
+        },
+        {
+          "he": "מדדים ליעילות האלגוריתם: סיבוכיות זמן וזכרון",
+          "fr": "Mesures d'efficacité : complexité en temps et en mémoire"
+        },
+        {
+          "he": "סיבוכיות פולינומיאלית ואקספוננציאלית",
+          "fr": "Complexité polynomiale et exponentielle"
+        },
+        {
+          "he": "בעיות שלא ניתנות להכרעה",
+          "fr": "Problèmes indécidables"
+        },
+        {
+          "he": "מחסנית. תור",
+          "fr": "Pile et file"
+        },
+        {
+          "he": "רקורסיה ומימושה",
+          "fr": "Récursivité et sa mise en œuvre"
+        },
+        {
+          "he": "מיון יעיל",
+          "fr": "Tri efficace"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/234117"
+    },
+    {
+      "id": "technion-234128",
+      "family": "intro-programming",
+      "he": "מבוא למחשב שפת פייתון",
+      "fr": "Introduction à l'informatique – langage Python",
+      "code": "234128",
+      "credits": 4,
+      "facultiesServed": [
+        "aerospace",
+        "biology",
+        "biotech",
+        "chemeng",
+        "chemistry",
+        "civil",
+        "education",
+        "materials",
+        "math",
+        "me",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "מבנה המחשב. חומרה ותכנה",
+          "fr": "Architecture de l'ordinateur, matériel et logiciel"
+        },
+        {
+          "he": "ייצוג נתונים",
+          "fr": "Représentation des données"
+        },
+        {
+          "he": "ערכים, משתנים, ביטויים, טיפוסי נתונים בפייתון",
+          "fr": "Valeurs, variables, expressions, types de données en Python"
+        },
+        {
+          "he": "התניות",
+          "fr": "Instructions conditionnelles"
+        },
+        {
+          "he": "חוגים (לולאות)",
+          "fr": "Boucles"
+        },
+        {
+          "he": "פונקציות",
+          "fr": "Fonctions"
+        },
+        {
+          "he": "רקורסיה",
+          "fr": "Récursivité"
+        },
+        {
+          "he": "קלט/פלט (טקסטואלי וגרפי)",
+          "fr": "Entrées/sorties (textuelles et graphiques)"
+        },
+        {
+          "he": "סביבת הפיתוח של פייתון: שטח העבודה, הרצת תוכניות, ניפוי שגיאות",
+          "fr": "Environnement Python : espace de travail, exécution, débogage"
+        },
+        {
+          "he": "פיתוח מובנה של תוכניות, ארגון מידע במחשב",
+          "fr": "Développement structuré de programmes, organisation de l'information"
+        },
+        {
+          "he": "אלגוריתמים: פיתוח מונחה נכונות וסיבוכיות בסיסית",
+          "fr": "Algorithmes : développement guidé par la correction, complexité de base"
+        },
+        {
+          "he": "פתרונות אלגוריתמים למיון, חיפוש, בעיות במספרים שלמים",
+          "fr": "Algorithmes de tri, de recherche, problèmes sur les entiers"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/234128"
+    },
+    {
+      "id": "technion-234218",
+      "family": "data-structures",
+      "he": "מבני נתונים 1",
+      "fr": "Structures de données 1",
+      "code": "234218",
+      "credits": 3,
+      "facultiesServed": [
+        "cs",
+        "ece",
+        "education",
+        "math",
+        "medicine",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "המבנים הפשוטים (מערכים, רשימות, מחסניות ותורים)",
+          "fr": "Structures simples (tableaux, listes, piles, files)"
+        },
+        {
+          "he": "רשימות דילוגים",
+          "fr": "Listes à sauts (skip lists)"
+        },
+        {
+          "he": "תורי עדיפות",
+          "fr": "Files de priorité"
+        },
+        {
+          "he": "ערמות",
+          "fr": "Tas"
+        },
+        {
+          "he": "עצים דיגיטלים",
+          "fr": "Arbres digitaux (tries)"
+        },
+        {
+          "he": "מיון וחיפוש",
+          "fr": "Tri et recherche"
+        },
+        {
+          "he": "עצים וגרפים וייצוגיהם",
+          "fr": "Arbres et graphes et leurs représentations"
+        },
+        {
+          "he": "הקצאת זכרון",
+          "fr": "Allocation de mémoire"
+        },
+        {
+          "he": "ערבול",
+          "fr": "Hachage"
+        },
+        {
+          "he": "איסוף אשפה",
+          "fr": "Ramasse-miettes"
+        }
+      ],
+      "prerequisites": [
+        "(104286 - קומבינטוריקה ו- 234122 - מבוא לתכנות מערכות) או (104286 - קומבינטוריקה ו- 234124 - מבוא לתכנות מערכות) או (234122 - מבוא לתכנות מערכות ו- 234141 - קומבינטוריקה למדעי המחשב) או (234124 - מבוא לתכנות מערכות ו- 234141 - קומבינטוריקה למדעי המחשב)",
+        "מקצוע צמוד: 94412 - הסתברות מ",
+        "מקצוע צמוד: 104034 - מבוא להסתברות ח'",
+        "מקצוע צמוד: 104222 - תורת ההסתברות"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/234218"
+    },
+    {
+      "id": "technion-044268",
+      "family": "data-structures",
+      "he": "מבוא למבני נתונים ואלגוריתמים",
+      "fr": "Introduction aux structures de données et algorithmes",
+      "code": "044268",
+      "credits": 3,
+      "facultiesServed": [
+        "aerospace",
+        "cs",
+        "ece",
+        "education",
+        "math",
+        "me",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "מבנה נתונים מופשט",
+          "fr": "Type abstrait de données"
+        },
+        {
+          "he": "מחסניות, תורים, דו-תורים, תורי קדימות",
+          "fr": "Piles, files, files doubles, files de priorité"
+        },
+        {
+          "he": "ערימות, טבלאות ערבול",
+          "fr": "Tas, tables de hachage"
+        },
+        {
+          "he": "עצים, עצים מאוזנים וגרפים",
+          "fr": "Arbres, arbres équilibrés et graphes"
+        },
+        {
+          "he": "הפרד ומשול",
+          "fr": "Diviser pour régner"
+        },
+        {
+          "he": "אלגוריתמים חמדניים",
+          "fr": "Algorithmes gloutons"
+        },
+        {
+          "he": "רקורסיה ורנדומיזציה",
+          "fr": "Récursivité et randomisation"
+        },
+        {
+          "he": "אלגוריתמי מיון, אלגוריתמי חיפוש",
+          "fr": "Algorithmes de tri et de recherche"
+        },
+        {
+          "he": "חיפושי עומק ורוחב",
+          "fr": "Parcours en profondeur et en largeur"
+        },
+        {
+          "he": "עצים פורשים מינימום",
+          "fr": "Arbres couvrants minimaux"
+        },
+        {
+          "he": "מציאת רכיבים קשירים",
+          "fr": "Recherche des composantes connexes"
+        },
+        {
+          "he": "אנליזה אסימפטוטית וחסמים עליונים ותחתונים",
+          "fr": "Analyse asymptotique, bornes supérieures et inférieures"
+        }
+      ],
+      "prerequisites": [
+        "234114 - מבוא למדעי המחשב מ' או 234117 - מבוא למדעי המחשב ח'"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/044268"
+    },
+    {
+      "id": "technion-094224",
+      "family": "data-structures",
+      "he": "מבני נתונים ואלגוריתמים",
+      "fr": "Structures de données et algorithmes",
+      "code": "094224",
+      "credits": 4,
+      "facultiesServed": [
+        "aerospace",
+        "cs",
+        "math",
+        "me",
+        "medicine"
+      ],
+      "topics": [
+        {
+          "he": "אלגוריתמי מיון",
+          "fr": "Algorithmes de tri"
+        },
+        {
+          "he": "מחסנית, תור",
+          "fr": "Pile et file"
+        },
+        {
+          "he": "עץ חיפוש בינארי",
+          "fr": "Arbre binaire de recherche"
+        },
+        {
+          "he": "עצים מאוזנים",
+          "fr": "Arbres équilibrés"
+        },
+        {
+          "he": "ערימה",
+          "fr": "Tas"
+        },
+        {
+          "he": "טבלאות גיבוב",
+          "fr": "Tables de hachage"
+        },
+        {
+          "he": "שיטות הסתברותיות בתכנון מבני נתונים כולל פונקציות גיבוב אוניברסליות",
+          "fr": "Méthodes probabilistes, fonctions de hachage universelles"
+        },
+        {
+          "he": "אלגוריתמים בסיסיים בגרפים: סריקות, מסלולים קצרים ביותר",
+          "fr": "Algorithmes de base sur les graphes : parcours, plus courts chemins"
+        },
+        {
+          "he": "עץ פורש מינימום",
+          "fr": "Arbre couvrant minimal"
+        },
+        {
+          "he": "תכנות דינמי",
+          "fr": "Programmation dynamique"
+        }
+      ],
+      "prerequisites": [
+        "(94201 - מבוא להנדסת נתונים ומידע ו- 94345 - מתמטיקה דיסקרטית ת') או (94219 - הנדסת תוכנה ו- 94347 - מתמטיקה דיסקרטית) או (94219 - הנדסת תוכנה ו- 94345 - מתמטיקה דיסקרטית ת')",
+        "מקצוע צמוד: 94411 - הסתברות ת'",
+        "מקצוע צמוד: 94412 - הסתברות מ"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/094224"
+    },
+    {
+      "id": "technion-114051",
+      "family": "physics-mechanics",
+      "he": "פיסיקה 1",
+      "fr": "Physique 1 (mécanique classique, relativité restreinte)",
+      "code": "114051",
+      "credits": 2.5,
+      "facultiesServed": [
+        "aerospace",
+        "biology",
+        "biotech",
+        "chemeng",
+        "chemistry",
+        "civil",
+        "education",
+        "materials",
+        "math",
+        "me"
+      ],
+      "topics": [
+        {
+          "he": "מכניקה קלסית",
+          "fr": "Mécanique classique"
+        },
+        {
+          "he": "מכניקה ניוטונית: הבחנה בין כוחות פנימיים וחצוניים",
+          "fr": "Mécanique newtonienne : forces internes et externes"
+        },
+        {
+          "he": "שימור אנרגיה",
+          "fr": "Conservation de l'énergie"
+        },
+        {
+          "he": "תנע ותנע זויתי",
+          "fr": "Quantité de mouvement et moment cinétique"
+        },
+        {
+          "he": "משואות תנועה",
+          "fr": "Équations du mouvement"
+        },
+        {
+          "he": "טרנספורמצית גלילאי",
+          "fr": "Transformation de Galilée"
+        },
+        {
+          "he": "מערכות מואצות",
+          "fr": "Référentiels accélérés"
+        },
+        {
+          "he": "תורת היחסות הפרטית",
+          "fr": "Relativité restreinte"
+        },
+        {
+          "he": "מדידת מהירות האור ותכונותיה, עקרון היחסות",
+          "fr": "Mesure de la vitesse de la lumière, principe de relativité"
+        },
+        {
+          "he": "טרנספורמצית לורנץ, זמן עצמי",
+          "fr": "Transformation de Lorentz, temps propre"
+        },
+        {
+          "he": "תופעת דופלר יחסותית",
+          "fr": "Effet Doppler relativiste"
+        },
+        {
+          "he": "אנרגיה ותנע יחסותיים",
+          "fr": "Énergie et quantité de mouvement relativistes"
+        }
+      ],
+      "prerequisites": [
+        "בחינת סווג בפיסיקה חלק א' - מכניקה או פטור ממנה",
+        "113013 - השלמות פיסיקה 1-סווג חלק א'",
+        "מקצוע צמוד: 104003 - חשבון דיפרנציאלי ואינטגרלי 1",
+        "מקצוע צמוד: 104018 - חשבון דיפרנציאלי ואינטגרלי 1מ'"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/114051"
+    },
+    {
+      "id": "technion-114071",
+      "family": "physics-mechanics",
+      "he": "פיסיקה 1מ",
+      "fr": "Physique 1m (mécanique)",
+      "code": "114071",
+      "credits": 3.5,
+      "facultiesServed": [
+        "biology",
+        "bme",
+        "chemistry",
+        "cs",
+        "dds",
+        "ece",
+        "math",
+        "me",
+        "medicine"
+      ],
+      "topics": [
+        {
+          "he": "חוקי ניוטון",
+          "fr": "Lois de Newton"
+        },
+        {
+          "he": "דינמיקה של חלקיק",
+          "fr": "Dynamique d'une particule"
+        },
+        {
+          "he": "טרנספורמצית גליליי",
+          "fr": "Transformation de Galilée"
+        },
+        {
+          "he": "תאור תנועה במערכות לא-אינרציאליות",
+          "fr": "Mouvement dans les référentiels non inertiels"
+        },
+        {
+          "he": "חוקי השימור של האנרגיה, התנע הקוי והתנע הזויתי",
+          "fr": "Lois de conservation de l'énergie, de la quantité de mouvement et du moment cinétique"
+        },
+        {
+          "he": "מערכות רבות חלקיקים",
+          "fr": "Systèmes de nombreuses particules"
+        },
+        {
+          "he": "דינמיקה של גוף צפיד",
+          "fr": "Dynamique du solide rigide"
+        },
+        {
+          "he": "אוסצילטור הרמוני",
+          "fr": "Oscillateur harmonique"
+        },
+        {
+          "he": "גרביטציה",
+          "fr": "Gravitation"
+        },
+        {
+          "he": "מכניקה יחסותית - טרנספורמציות לורנץ",
+          "fr": "Mécanique relativiste : transformations de Lorentz"
+        },
+        {
+          "he": "דינמיקה יחסותית",
+          "fr": "Dynamique relativiste"
+        },
+        {
+          "he": "חלקיקים עם מסת מנוחה השווה לאפס",
+          "fr": "Particules de masse nulle"
+        }
+      ],
+      "prerequisites": [
+        "בחינת סווג בפיסיקה חלק א' - מכניקה או פטור ממנה",
+        "113013 - השלמות פיסיקה 1-סווג חלק א'",
+        "מקצוע צמוד: 104031 - חשבון אינפיניטסימלי 1מ'",
+        "מקצוע צמוד: 104036 - חשבון דיפרנציאלי ואינטגרלי 1ת"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/114071"
+    },
+    {
+      "id": "technion-114074",
+      "family": "physics-mechanics",
+      "he": "פיסיקה 1פ'",
+      "fr": "Physique 1p (mécanique)",
+      "code": "114074",
+      "credits": 5,
+      "facultiesServed": [
+        "aerospace",
+        "cs",
+        "ece",
+        "math",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "חוקי ניוטון, טרנספורמציית גליליי",
+          "fr": "Lois de Newton, transformation de Galilée"
+        },
+        {
+          "he": "מערכות לא אינרציאליות",
+          "fr": "Référentiels non inertiels"
+        },
+        {
+          "he": "שימור אנרגיה, תנע קווי וזוויתי",
+          "fr": "Conservation de l'énergie, de l'impulsion et du moment cinétique"
+        },
+        {
+          "he": "מערכות רבות חלקיקים",
+          "fr": "Systèmes de nombreuses particules"
+        },
+        {
+          "he": "דינמיקה של גוף צפיד",
+          "fr": "Dynamique du solide rigide"
+        },
+        {
+          "he": "תנועה הרמונית מאולצת ומרוסנת",
+          "fr": "Mouvement harmonique forcé et amorti"
+        },
+        {
+          "he": "גרביטציה ותנועה קפלרית",
+          "fr": "Gravitation et mouvement képlérien"
+        },
+        {
+          "he": "פרצסיה",
+          "fr": "Précession"
+        },
+        {
+          "he": "מכניקה יחסותית",
+          "fr": "Mécanique relativiste"
+        },
+        {
+          "he": "טרנספורמציה של וקטור המהירות",
+          "fr": "Transformation du vecteur vitesse"
+        },
+        {
+          "he": "דינמיקה יחסותית",
+          "fr": "Dynamique relativiste"
+        },
+        {
+          "he": "פוטונים",
+          "fr": "Photons"
+        }
+      ],
+      "prerequisites": [
+        "בחינת סיווג בפיסיקה חלק א' - מכניקה או פטור ממנה",
+        "113013 - השלמות פיסיקה 1-סווג חלק א'",
+        "מקצוע צמוד: 104018 - חשבון דיפרנציאלי ואינטגרלי 1מ'",
+        "מקצוע צמוד: 104031 - חשבון אינפיניטסימלי 1מ'",
+        "מקצוע צמוד: 104036 - חשבון דיפרנציאלי ואינטגרלי 1ת",
+        "מקצוע צמוד: 104195 - חשבון אינפיניטסימלי 1"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/114074"
+    },
+    {
+      "id": "technion-114052",
+      "family": "physics-electromagnetism",
+      "he": "פיסיקה 2",
+      "fr": "Physique 2 (électromagnétisme et ondes)",
+      "code": "114052",
+      "credits": 3.5,
+      "facultiesServed": [
+        "aerospace",
+        "biology",
+        "biotech",
+        "chemeng",
+        "chemistry",
+        "civil",
+        "cs",
+        "dds",
+        "education",
+        "math",
+        "me",
+        "medicine"
+      ],
+      "topics": [
+        {
+          "he": "אלקטרוסטטיקה, שדה חשמלי, חוק גאוס, פוטנציאל",
+          "fr": "Électrostatique, champ électrique, loi de Gauss, potentiel"
+        },
+        {
+          "he": "קבלים וחומרים דיאלקטריים",
+          "fr": "Condensateurs et diélectriques"
+        },
+        {
+          "he": "חוק אום, מעגלי CR, שדה מגנטי, חוק אמפר, חוק פרדי",
+          "fr": "Loi d'Ohm, circuits CR, champ magnétique, lois d'Ampère et de Faraday"
+        },
+        {
+          "he": "השראות",
+          "fr": "Induction"
+        },
+        {
+          "he": "תכונות מגנטיות של חומר",
+          "fr": "Propriétés magnétiques de la matière"
+        },
+        {
+          "he": "משוואות מקסוול",
+          "fr": "Équations de Maxwell"
+        },
+        {
+          "he": "גלים מכניים, שרשרת אוסצילטורים, גלי רוחב במיתר",
+          "fr": "Ondes mécaniques, chaîne d'oscillateurs, ondes transversales sur une corde"
+        },
+        {
+          "he": "גלים אקוסטיים בנוזל או בגז",
+          "fr": "Ondes acoustiques dans un fluide ou un gaz"
+        },
+        {
+          "he": "גלים עומדים: ספקטרום תדרים",
+          "fr": "Ondes stationnaires : spectre de fréquences"
+        },
+        {
+          "he": "מהירות פאזה ומהירות חבורה, שבירה והחזרה",
+          "fr": "Vitesse de phase et de groupe, réfraction et réflexion"
+        },
+        {
+          "he": "עקרון הויגנס: עקיפה והתאבכות",
+          "fr": "Principe de Huygens : diffraction et interférences"
+        },
+        {
+          "he": "גלים אלקטרומגנטיים בריק, קיטוב",
+          "fr": "Ondes électromagnétiques dans le vide, polarisation"
+        }
+      ],
+      "prerequisites": [
+        "בחינת סווג בפיסיקה חלק ב' - חשמל או פטור ממנה",
+        "(113014 - השלמות פיסיקה 2-סווג חלק ב' ו- 114077 - פיסיקה 1ל) או (113014 - השלמות פיסיקה 2-סווג חלק ב' ו- 114051 - פיסיקה 1) או (113014 - השלמות פיסיקה 2-סווג חלק ב' ו- 114071 - פיסיקה 1מ)"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/114052"
+    },
+    {
+      "id": "technion-114075",
+      "family": "physics-electromagnetism",
+      "he": "פיסיקה 2ממ",
+      "fr": "Physique 2mm (électromagnétisme)",
+      "code": "114075",
+      "credits": 5,
+      "facultiesServed": [
+        "biology",
+        "chemistry",
+        "cs",
+        "ece",
+        "math",
+        "me"
+      ],
+      "topics": [
+        {
+          "he": "אלקטרוסטטיקה, שדה ופוטנציאל חשמליים",
+          "fr": "Électrostatique, champ et potentiel électriques"
+        },
+        {
+          "he": "הזרם החשמלי",
+          "fr": "Courant électrique"
+        },
+        {
+          "he": "השדות המלווים מטען נע",
+          "fr": "Champs d'une charge en mouvement"
+        },
+        {
+          "he": "שדה מגנטי",
+          "fr": "Champ magnétique"
+        },
+        {
+          "he": "השראות",
+          "fr": "Induction"
+        },
+        {
+          "he": "משוואות מקסוול ופתרונם",
+          "fr": "Équations de Maxwell et leurs solutions"
+        },
+        {
+          "he": "מעגלי זרם חילופין",
+          "fr": "Circuits en courant alternatif"
+        },
+        {
+          "he": "מבוא לגלים, נפיצה, שבירה",
+          "fr": "Introduction aux ondes, dispersion, réfraction"
+        },
+        {
+          "he": "מהירות פזה וחבורה",
+          "fr": "Vitesse de phase et de groupe"
+        },
+        {
+          "he": "תנע ואנרגיה של גל אלקטרומגנטי",
+          "fr": "Impulsion et énergie d'une onde électromagnétique"
+        },
+        {
+          "he": "קיטוב",
+          "fr": "Polarisation"
+        },
+        {
+          "he": "התאבכות ועקיפה",
+          "fr": "Interférences et diffraction"
+        }
+      ],
+      "prerequisites": [
+        "בחינת סווג בפיסיקה חלק ב' - חשמל או פטור ממנה",
+        "(113014 - השלמות פיסיקה 2-סווג חלק ב' ו- 114071 - פיסיקה 1מ)",
+        "מקצוע צמוד: 104013 - חשבון דיפרנציאלי ואינטגרלי 2ת'",
+        "מקצוע צמוד: 104136 - משוואות דיפרנציאליות רגילות מ"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/114075"
+    },
+    {
+      "id": "technion-114076",
+      "family": "physics-electromagnetism",
+      "he": "פיסיקה 2פ'",
+      "fr": "Physique 2p (électromagnétisme)",
+      "code": "114076",
+      "credits": 5,
+      "facultiesServed": [
+        "aerospace",
+        "cs",
+        "ece",
+        "education",
+        "math",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "אלקטרוסטטיקה - מטענים ושדות",
+          "fr": "Électrostatique : charges et champs"
+        },
+        {
+          "he": "פוטנציאל חשמלי",
+          "fr": "Potentiel électrique"
+        },
+        {
+          "he": "שדות חשמליים סביב מוליכים",
+          "fr": "Champs électriques autour des conducteurs"
+        },
+        {
+          "he": "זרמים חשמליים",
+          "fr": "Courants électriques"
+        },
+        {
+          "he": "שדות של מטענים נעים",
+          "fr": "Champs de charges en mouvement"
+        },
+        {
+          "he": "השדה המגנטי",
+          "fr": "Champ magnétique"
+        },
+        {
+          "he": "השראה אלקטרומגנטית",
+          "fr": "Induction électromagnétique"
+        },
+        {
+          "he": "מעגל RLC",
+          "fr": "Circuit RLC"
+        },
+        {
+          "he": "משוואות מקסוול ומשוואת הגלים האלקטרומגנטיים",
+          "fr": "Équations de Maxwell et équation des ondes électromagnétiques"
+        },
+        {
+          "he": "פיתרון גלי של משוואת מקסוול",
+          "fr": "Solution ondulatoire des équations de Maxwell"
+        },
+        {
+          "he": "שדות חשמליים בחומר",
+          "fr": "Champs électriques dans la matière"
+        },
+        {
+          "he": "שדות מגנטיים בחומר",
+          "fr": "Champs magnétiques dans la matière"
+        }
+      ],
+      "prerequisites": [
+        "(113014 - השלמות פיסיקה 2-סווג חלק ב' ו- 114071 - פיסיקה 1מ) או (113014 - השלמות פיסיקה 2-סווג חלק ב' ו- 114074 - פיסיקה 1פ')",
+        "מקצוע צמוד: 104013 - חשבון דיפרנציאלי ואינטגרלי 2ת'",
+        "מקצוע צמוד: 104281 - חשבון אינפי 2"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/114076"
+    },
+    {
+      "id": "technion-124120",
+      "family": "general-chemistry",
+      "he": "יסודות הכימיה",
+      "fr": "Fondements de la chimie",
+      "code": "124120",
+      "credits": 5,
+      "facultiesServed": [
+        "biology",
+        "biotech",
+        "chemeng",
+        "chemistry",
+        "cs",
+        "education",
+        "materials",
+        "math"
+      ],
+      "topics": [
+        {
+          "he": "אטומים, מולקולות ויונים",
+          "fr": "Atomes, molécules et ions"
+        },
+        {
+          "he": "התורה הקוונטית והמבנה האלקטרוני של אטומים",
+          "fr": "Théorie quantique et structure électronique des atomes"
+        },
+        {
+          "he": "הטבלה המחזורית",
+          "fr": "Tableau périodique"
+        },
+        {
+          "he": "הקשר הכימי",
+          "fr": "Liaison chimique"
+        },
+        {
+          "he": "גיאומטריה של מולקולות ואורביטלים מולקולרים",
+          "fr": "Géométrie des molécules et orbitales moléculaires"
+        },
+        {
+          "he": "תרמוכימיה",
+          "fr": "Thermochimie"
+        },
+        {
+          "he": "מצב הצבירה הגזי",
+          "fr": "État gazeux"
+        },
+        {
+          "he": "כוחות בין מולקולריים, נוזלים ומוצקים",
+          "fr": "Forces intermoléculaires, liquides et solides"
+        },
+        {
+          "he": "קינטיקה כימית",
+          "fr": "Cinétique chimique"
+        },
+        {
+          "he": "שווי משקל כימי",
+          "fr": "Équilibre chimique"
+        },
+        {
+          "he": "חומצות ובסיסים",
+          "fr": "Acides et bases"
+        },
+        {
+          "he": "אלקטרוכימיה",
+          "fr": "Électrochimie"
+        }
+      ],
+      "prerequisites": [
+        "123015 - השלמות כימיה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/124120"
+    },
+    {
+      "id": "technion-125001",
+      "family": "general-chemistry",
+      "he": "כימיה כללית",
+      "fr": "Chimie générale",
+      "code": "125001",
+      "credits": 3,
+      "facultiesServed": [
+        "aerospace",
+        "bme",
+        "civil",
+        "cs",
+        "education",
+        "math",
+        "me",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "מבוא, משקלים אטומיים ומולקולריים, יחידת ריכוז, סטויכיומטריה",
+          "fr": "Introduction, masses atomiques et moléculaires, concentration, stœchiométrie"
+        },
+        {
+          "he": "ספקטרום אטומי. אטום המימן לפי מודל בוהר",
+          "fr": "Spectre atomique, atome d'hydrogène selon Bohr"
+        },
+        {
+          "he": "חלקיקים וגלים, משוואת שרדינגר. אורביטלים אטומיים",
+          "fr": "Particules et ondes, équation de Schrödinger, orbitales atomiques"
+        },
+        {
+          "he": "המערכה המחזורית. הקשר היוני, הקשר הקוולנטי, נוסחאות לואיס",
+          "fr": "Classification périodique ; liaisons ionique et covalente, formules de Lewis"
+        },
+        {
+          "he": "מבנה מרחבי של מולקולות",
+          "fr": "Structure spatiale des molécules"
+        },
+        {
+          "he": "גזים, משוואת הגזים האידאליים",
+          "fr": "Gaz, équation des gaz parfaits"
+        },
+        {
+          "he": "נוזלים, לחץ אדים, רתיחה, תכונות נוזלים",
+          "fr": "Liquides, pression de vapeur, ébullition"
+        },
+        {
+          "he": "מוצקים, סוגי סריגים גבישיים, גבישים יונים. דיאגרמת פאזות",
+          "fr": "Solides, réseaux cristallins, cristaux ioniques, diagrammes de phases"
+        },
+        {
+          "he": "תרמוכימיה, אנרגיה פנימית ואנטלפיה, חוק הס",
+          "fr": "Thermochimie, énergie interne et enthalpie, loi de Hess"
+        },
+        {
+          "he": "שווי משקל בריאקציות כימיות, שיווי משקל הטרוגני, שווי משקל במערכות גזיות, עקרון לה שטליה",
+          "fr": "Équilibre chimique, principe de Le Chatelier"
+        },
+        {
+          "he": "תמיסות אלקטרוליטיות, מלחים קשי תמס ומכפלת המסיסות, חומצות ובסיסים",
+          "fr": "Solutions électrolytiques, produit de solubilité, acides et bases"
+        },
+        {
+          "he": "תהליכי חימצון חיזור, תאים אלקטרוכימיים, מצברים ותאי דלק",
+          "fr": "Oxydoréduction, cellules électrochimiques, batteries et piles à combustible"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/125001"
+    },
+    {
+      "id": "technion-125801",
+      "family": "organic-chemistry",
+      "he": "כימיה אורגנית",
+      "fr": "Chimie organique",
+      "code": "125801",
+      "credits": 5,
+      "facultiesServed": [
+        "biology",
+        "biotech",
+        "chemeng",
+        "cs",
+        "materials",
+        "math"
+      ],
+      "topics": [
+        {
+          "he": "פחמימנים רוויים ובלתי רוויים",
+          "fr": "Hydrocarbures saturés et insaturés"
+        },
+        {
+          "he": "כהלים ואתרים",
+          "fr": "Alcools et éthers"
+        },
+        {
+          "he": "אלקיל-הלידים",
+          "fr": "Halogénures d'alkyle"
+        },
+        {
+          "he": "חומצות אורגניות",
+          "fr": "Acides organiques"
+        },
+        {
+          "he": "אסטרים וליפידים",
+          "fr": "Esters et lipides"
+        },
+        {
+          "he": "סטראוכימיה",
+          "fr": "Stéréochimie"
+        },
+        {
+          "he": "נגזרות של חומצות קרבוקסיליות",
+          "fr": "Dérivés des acides carboxyliques"
+        },
+        {
+          "he": "אמינים",
+          "fr": "Amines"
+        },
+        {
+          "he": "חומצות אמיניות, חלבונים",
+          "fr": "Acides aminés, protéines"
+        },
+        {
+          "he": "אלדהידים וקטונים",
+          "fr": "Aldéhydes et cétones"
+        },
+        {
+          "he": "כימיה של סוכרים",
+          "fr": "Chimie des sucres"
+        },
+        {
+          "he": "ארומטיות ותגובות הבנזן",
+          "fr": "Aromaticité et réactions du benzène"
+        }
+      ],
+      "prerequisites": [
+        "124114 - יסודות הכימיה או 124120 - יסודות הכימיה או 125001 - כימיה כללית או 125011 - כימיה כללית + מעבדה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/125801"
+    },
+    {
+      "id": "technion-124801",
+      "family": "organic-chemistry",
+      "he": "כימיה אורגנית 1ב",
+      "fr": "Chimie organique 1b",
+      "code": "124801",
+      "credits": 2.5,
+      "facultiesServed": [
+        "civil",
+        "cs",
+        "math",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "פחמימנים רוויים ובלתי רוויים",
+          "fr": "Hydrocarbures saturés et insaturés"
+        },
+        {
+          "he": "כהלים, פנולים ואתרים",
+          "fr": "Alcools, phénols et éthers"
+        },
+        {
+          "he": "אלקיל-הלידים",
+          "fr": "Halogénures d'alkyle"
+        },
+        {
+          "he": "חומצות אורגניות",
+          "fr": "Acides organiques"
+        },
+        {
+          "he": "אסטרים וליפידים",
+          "fr": "Esters et lipides"
+        },
+        {
+          "he": "נגזרות של חומצות קרבוקסיליות",
+          "fr": "Dérivés des acides carboxyliques"
+        }
+      ],
+      "prerequisites": [
+        "124114 - יסודות הכימיה או 124120 - יסודות הכימיה או 125001 - כימיה כללית או 125011 - כימיה כללית + מעבדה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/124801"
+    },
+    {
+      "id": "technion-134058",
+      "family": "intro-biology",
+      "he": "ביולוגיה 1",
+      "fr": "Biologie 1",
+      "code": "134058",
+      "credits": 3,
+      "facultiesServed": [
+        "biology",
+        "biotech",
+        "bme",
+        "chemeng",
+        "chemistry",
+        "civil",
+        "cs",
+        "ece",
+        "education",
+        "math",
+        "me",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "הביולוגיה והגישה המחקרית, המים והסביבה",
+          "fr": "La biologie et la démarche de recherche ; l'eau et l'environnement"
+        },
+        {
+          "he": "האבולוציה הכימית, מקרומולקולות",
+          "fr": "Évolution chimique ; macromolécules"
+        },
+        {
+          "he": "חומצות גרעין, שכפול, שעתוק",
+          "fr": "Acides nucléiques, réplication, transcription"
+        },
+        {
+          "he": "הצופן הגנטי והתרגום",
+          "fr": "Code génétique et traduction"
+        },
+        {
+          "he": "טכנולוגיית הד.נ.א. והגנומיקה",
+          "fr": "Technologie de l'ADN et génomique"
+        },
+        {
+          "he": "התא הפרוקריוטי",
+          "fr": "La cellule procaryote"
+        },
+        {
+          "he": "קרום התא-מבנה ותפקוד",
+          "fr": "Membrane cellulaire : structure et fonction"
+        },
+        {
+          "he": "עקרונות המטבוליזם ומיחזור האנרגיה",
+          "fr": "Principes du métabolisme et recyclage de l'énergie"
+        },
+        {
+          "he": "יסודות הסיסטמטיקה, הטקסונומיה, והפילוגנזה",
+          "fr": "Systématique, taxonomie et phylogénie"
+        },
+        {
+          "he": "מחזור התא, מיטוזה ומיוזה",
+          "fr": "Cycle cellulaire, mitose et méiose"
+        },
+        {
+          "he": "מהתא לרקמה, תאי גזע והתמיינות",
+          "fr": "De la cellule au tissu, cellules souches et différenciation"
+        },
+        {
+          "he": "יסודות האבולוציה",
+          "fr": "Bases de l'évolution"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/134058"
+    },
+    {
+      "id": "technion-134019",
+      "family": "other-biochemistry",
+      "he": "מבוא לביוכימיה ואנזימולוגיה",
+      "fr": "Introduction à la biochimie et à l'enzymologie",
+      "code": "134019",
+      "credits": 2.5,
+      "facultiesServed": [
+        "biology",
+        "biotech",
+        "chemeng",
+        "chemistry",
+        "civil",
+        "cs",
+        "me",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "המבנה והתכונות של חומצות אמינו",
+          "fr": "Structure et propriétés des acides aminés"
+        },
+        {
+          "he": "מבנה ראשוני, שניוני ושלישוני",
+          "fr": "Structures primaire, secondaire et tertiaire"
+        },
+        {
+          "he": "תהליך הקיפול של חלבונים ותפקוד של השפרונים",
+          "fr": "Repliement des protéines et rôle des chaperons"
+        },
+        {
+          "he": "תכונות ייחודיות לחלבונים סיביים, מבניים וממברנאלים",
+          "fr": "Protéines fibreuses, structurales et membranaires"
+        },
+        {
+          "he": "בידוד והפרדה של חלבונים",
+          "fr": "Isolement et séparation des protéines"
+        },
+        {
+          "he": "מבנה רביעוני: המוגלובין כמודל לאינטראקציות קואופרטיביות",
+          "fr": "Structure quaternaire : l'hémoglobine, modèle d'interactions coopératives"
+        },
+        {
+          "he": "אנזימים, עקרונות הקטליזה האנזימתית",
+          "fr": "Enzymes et principes de la catalyse enzymatique"
+        },
+        {
+          "he": "קואנזימים וקופקטורים",
+          "fr": "Coenzymes et cofacteurs"
+        },
+        {
+          "he": "קינטיקה אנזימתית",
+          "fr": "Cinétique enzymatique"
+        },
+        {
+          "he": "מבנה האתר הפעיל ומנגנוני קטליזה נפוצים",
+          "fr": "Site actif et mécanismes de catalyse courants"
+        },
+        {
+          "he": "בקרת פעולתם של אנזימים ומנגנוני עיכוב שונים",
+          "fr": "Régulation des enzymes et mécanismes d'inhibition"
+        }
+      ],
+      "prerequisites": [
+        "(124114 - יסודות הכימיה ו- 134058 - ביולוגיה 1) או (124114 - יסודות הכימיה ו- 134127 - נושאים בביולוגיה) או (124120 - יסודות הכימיה ו- 134058 - ביולוגיה 1) או (125011 - כימיה כללית + מעבדה ו- 134058 - ביולוגיה 1)",
+        "מקצוע צמוד: 124708 - כימיה אורגנית מורחב 1",
+        "מקצוע צמוד: 125801 - כימיה אורגנית"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/134019"
+    },
+    {
+      "id": "technion-094591",
+      "family": "microeconomics",
+      "he": "מבוא לכלכלה",
+      "fr": "Introduction à l'économie (micro et macro)",
+      "code": "094591",
+      "credits": 3.5,
+      "facultiesServed": [
+        "biotech",
+        "chemeng",
+        "civil",
+        "cs"
+      ],
+      "topics": [
+        {
+          "he": "בקוש והצע: שווי המשקל בשוק",
+          "fr": "Offre et demande : équilibre du marché"
+        },
+        {
+          "he": "מדיניות הממשלה בתחום המיקרו והשפעתה על שווי המשקל",
+          "fr": "Politique publique microéconomique et effet sur l'équilibre"
+        },
+        {
+          "he": "פונקצית העלויות וגזירת עקומת ההצע",
+          "fr": "Fonction de coût et dérivation de la courbe d'offre"
+        },
+        {
+          "he": "מונופול ותחרות בלתי משוכללת",
+          "fr": "Monopole et concurrence imparfaite"
+        },
+        {
+          "he": "המשק הלאומי: החשבונות הלאומיים",
+          "fr": "Économie nationale : comptes nationaux"
+        },
+        {
+          "he": "קביעת התוצר המקומי במשק",
+          "fr": "Détermination du produit intérieur"
+        },
+        {
+          "he": "שער הריבית והשפעתו על ההשקעה",
+          "fr": "Taux d'intérêt et investissement"
+        },
+        {
+          "he": "הבקוש לכסף",
+          "fr": "Demande de monnaie"
+        },
+        {
+          "he": "הבנקים המסחריים, הבנק המרכזי והצע הכסף",
+          "fr": "Banques commerciales, banque centrale et offre de monnaie"
+        },
+        {
+          "he": "שווי משקל בשוק הכסף ושווי משקל כללי",
+          "fr": "Équilibre du marché monétaire et équilibre général"
+        },
+        {
+          "he": "מדיניות הממשלה בתחום המאקרו והשפעתה על התוצר, שער הריבית ושעור האינפלציה",
+          "fr": "Politique macroéconomique : effets sur le produit, le taux d'intérêt et l'inflation"
+        }
+      ],
+      "prerequisites": [
+        "104003 - חשבון דיפרנציאלי ואינטגרלי 1 או 104017 - חשבון דיפרנציאלי ואינטגרלי 1נ' או 104018 - חשבון דיפרנציאלי ואינטגרלי 1מ' או 104031 - חשבון אינפיניטסימלי 1מ' או 104042 - חשבון דיפרנציאלי ואינטגרלי 1מ2 או 104195 - חשבון אינפיניטסימלי 1",
+        "מקצוע צמוד: 104004 - חשבון דיפרנציאלי ואינטגרלי 2",
+        "מקצוע צמוד: 104020 - חשבון דיפרנציאלי ואינטגרלי 2נ'",
+        "מקצוע צמוד: 104022 - חשבון דיפרנציאלי ואינטגרלי 2מ'",
+        "מקצוע צמוד: 104032 - חשבון אינפיניטסימלי 2מ'",
+        "מקצוע צמוד: 104044 - חשבון דיפרנציאלי ואינטגרלי 2מ2",
+        "מקצוע צמוד: 104281 - חשבון אינפי 2"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/094591"
+    },
+    {
+      "id": "technion-094820",
+      "family": "financial-accounting",
+      "he": "מבוא לחשבונאות",
+      "fr": "Introduction à la comptabilité",
+      "code": "094820",
+      "credits": 2,
+      "facultiesServed": [
+        "cs"
+      ],
+      "topics": [
+        {
+          "he": "הבנת הליכי הדיווח הכספי",
+          "fr": "Comprendre les procédures de reporting financier"
+        },
+        {
+          "he": "משמעות המידע המוכל בדוחות הכספיים",
+          "fr": "Signification de l'information des états financiers"
+        },
+        {
+          "he": "העקרונות הבסיסיים של חשבונאות ניהולית (תמחיר)",
+          "fr": "Principes de base de la comptabilité de gestion (calcul des coûts)"
+        },
+        {
+          "he": "כלים עיקריים",
+          "fr": "Principaux outils"
+        },
+        {
+          "he": "ניתוח חברות עסקיות",
+          "fr": "Analyse d'entreprises"
+        },
+        {
+          "he": "שימוש אינטגרטיבי במידע אודות החברה",
+          "fr": "Usage intégré de l'information sur l'entreprise"
+        }
+      ],
+      "prerequisites": [
+        "מקצוע צמוד: 94594 - עקרונות הכלכלה למהנדסים"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/094820"
+    },
+    {
+      "id": "technion-094821",
+      "family": "financial-accounting",
+      "he": "חשבונאות פיננסית וניהולית",
+      "fr": "Comptabilité financière et de gestion",
+      "code": "094821",
+      "credits": 3.5,
+      "facultiesServed": [
+        "biotech"
+      ],
+      "topics": [
+        {
+          "he": "עקרונות החשבונאות",
+          "fr": "Principes de la comptabilité"
+        },
+        {
+          "he": "צרכני המידע החשבונאי",
+          "fr": "Utilisateurs de l'information comptable"
+        },
+        {
+          "he": "יחידות עסקיות כלכליות",
+          "fr": "Entités économiques"
+        },
+        {
+          "he": "מבנה הדו\"ח הכספי",
+          "fr": "Structure du rapport financier"
+        },
+        {
+          "he": "שיטות רישום חשבונאי",
+          "fr": "Méthodes d'enregistrement comptable"
+        },
+        {
+          "he": "שימוש בדוחות כספיים לצרכי מעקב והחלטות כלכליות",
+          "fr": "Usage des états financiers pour le suivi et les décisions"
+        },
+        {
+          "he": "הערכת ביצוע",
+          "fr": "Évaluation de la performance"
+        },
+        {
+          "he": "עקרונות תיקצוב ובקרה",
+          "fr": "Principes de budgétisation et de contrôle"
+        },
+        {
+          "he": "מרכיבי עלויות ושיטות חישובן",
+          "fr": "Composantes des coûts et méthodes de calcul"
+        }
+      ],
+      "prerequisites": [
+        "מקצוע צמוד: 94591 - מבוא לכלכלה"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/094821"
+    },
+    {
+      "id": "technion-095605",
+      "family": "intro-psychology",
+      "he": "מבוא לפסיכולוגיה",
+      "fr": "Introduction à la psychologie",
+      "code": "095605",
+      "credits": 2.5,
+      "facultiesServed": [
+        "cs"
+      ],
+      "topics": [
+        {
+          "he": "מודל הנדסי המאפשר ניבוי של התנהגות אנושית בסביבות עבודה ובמסגרות למידה",
+          "fr": "Construire un modèle d'ingénierie pour prédire le comportement humain (travail, apprentissage)"
+        },
+        {
+          "he": "הדישות המחקריות הבסיסיות",
+          "fr": "Exigences de base de la recherche"
+        },
+        {
+          "he": "הממצאים הניסויים הקלאסיים",
+          "fr": "Résultats expérimentaux classiques"
+        },
+        {
+          "he": "הגישות התיאורטיות המקובלות במדעי ההתנהגות והחברה",
+          "fr": "Approches théoriques en sciences du comportement et sociales"
+        },
+        {
+          "he": "מודלים שמנבאים התנהגויות ברמת הקבוצה והפרט",
+          "fr": "Modèles prédictifs du comportement (groupe et individu)"
+        },
+        {
+          "he": "שינוי התנהגות אנושית באמצעות אימון ותמריצים",
+          "fr": "Changer le comportement par l'entraînement et les incitations"
+        }
+      ],
+      "prerequisites": [
+        "94423 - מבוא לסטטיסטיקה או 94424 - סטטיסטיקה 1"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/095605"
+    },
+    {
+      "id": "technion-216033",
+      "family": "research-methods",
+      "he": "שיטות מחקר כמותיות בסיסי",
+      "fr": "Méthodes de recherche quantitatives (niveau de base)",
+      "code": "216033",
+      "credits": 2.5,
+      "facultiesServed": [
+        "education"
+      ],
+      "topics": [
+        {
+          "he": "עקרונות המחקר הכמותי-אמפירי",
+          "fr": "Principes de la recherche quantitative empirique"
+        },
+        {
+          "he": "תהליך עבודת החוקר",
+          "fr": "Démarche du chercheur"
+        },
+        {
+          "he": "סוגי משתנים",
+          "fr": "Types de variables"
+        },
+        {
+          "he": "סטטיסטיקה תיאורית כולל מתאמים",
+          "fr": "Statistique descriptive, y compris les corrélations"
+        },
+        {
+          "he": "מהימנות וניתוח גורמים (תוקף מבנה)",
+          "fr": "Fiabilité et analyse factorielle (validité de construit)"
+        },
+        {
+          "he": "סטטיסטיקה היסקית: בדיקת השערות ומובהקות",
+          "fr": "Statistique inférentielle : tests d'hypothèses et significativité"
+        },
+        {
+          "he": "מבחני טי למדגמים לא תלויים",
+          "fr": "Test t pour échantillons indépendants"
+        },
+        {
+          "he": "ניתוחי שונות בסיסיים",
+          "fr": "Analyses de variance de base"
+        },
+        {
+          "he": "קריאה ביקורתית של מאמרים מחקריים בתחום הוראת המדעים",
+          "fr": "Lecture critique d'articles de recherche en didactique des sciences"
+        },
+        {
+          "he": "תרגול בתוכנת ה-SPSS",
+          "fr": "Travaux pratiques avec le logiciel SPSS"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/216033"
+    },
+    {
+      "id": "technion-324033",
+      "family": "other-technical-english",
+      "he": "אנגלית טכנית-מתקדמים ב'",
+      "fr": "Anglais technique – niveau avancé B",
+      "code": "324033",
+      "credits": 3,
+      "facultiesServed": [
+        "aerospace",
+        "biology",
+        "biotech",
+        "chemeng",
+        "chemistry",
+        "civil",
+        "cs",
+        "ece",
+        "education",
+        "materials",
+        "math",
+        "me",
+        "physics"
+      ],
+      "topics": [
+        {
+          "he": "אנגלית מקצועית ואקדמית",
+          "fr": "Anglais professionnel et académique"
+        },
+        {
+          "he": "טקסטים מקצועיים אקדמיים",
+          "fr": "Textes académiques professionnels"
+        },
+        {
+          "he": "מיומנויות תקשורת מקצועית בדיבור, שמיעה, קריאה וכתיבה",
+          "fr": "Compétences de communication : expression orale, écoute, lecture et écriture"
+        },
+        {
+          "he": "דקדוק ואוצר מילים",
+          "fr": "Grammaire et vocabulaire"
+        },
+        {
+          "he": "שיפור ארבע המיומניות",
+          "fr": "Amélioration des quatre compétences"
+        },
+        {
+          "he": "הכנה לקורסים שיילמדו באנגלית ולאנגלית הנדרשת בתארים מתקדמים",
+          "fr": "Préparation aux cours en anglais et à l'anglais des cycles supérieurs"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/324033"
+    },
+    {
+      "id": "technion-104131",
+      "family": "other-ordinary-differential-equations",
+      "he": "משוואות דיפרנציאליות רגילות/ח",
+      "fr": "Équations différentielles ordinaires (h)",
+      "code": "104131",
+      "credits": 2.5,
+      "facultiesServed": [
+        "aerospace",
+        "biology",
+        "biotech",
+        "chemeng",
+        "chemistry",
+        "civil",
+        "cs",
+        "education",
+        "me"
+      ],
+      "topics": [
+        {
+          "he": "דוגמאות ושימושים למשוואות דיפרנציאליות",
+          "fr": "Exemples et applications des équations différentielles"
+        },
+        {
+          "he": "משוואות ניתנות להפרדה, משוואות לינאריות",
+          "fr": "Équations à variables séparables, équations linéaires"
+        },
+        {
+          "he": "שיטות אד-הוק",
+          "fr": "Méthodes ad hoc"
+        },
+        {
+          "he": "משפט קיום ויחידות לבעיות התחלה",
+          "fr": "Théorème d'existence et d'unicité pour les problèmes de Cauchy"
+        },
+        {
+          "he": "משוואות לינאריות מסדר שני ומעלה: בסיס, ורונסקיאן",
+          "fr": "Équations linéaires d'ordre ≥ 2 : base, wronskien"
+        },
+        {
+          "he": "משוואות עם מקדמים קבועים",
+          "fr": "Équations à coefficients constants"
+        },
+        {
+          "he": "משוואות אי-הומוגניות, השוואת מקדמים, וריאציה של פרמטרים",
+          "fr": "Équations non homogènes, coefficients indéterminés, variation des constantes"
+        },
+        {
+          "he": "פתרון בעזרת טורי חזקות",
+          "fr": "Résolution par séries entières"
+        },
+        {
+          "he": "מערכות של משוואות, מושגי היציבות",
+          "fr": "Systèmes d'équations, notions de stabilité"
+        },
+        {
+          "he": "התמרת לפלס, קיום ושימושים",
+          "fr": "Transformée de Laplace, existence et applications"
+        }
+      ],
+      "prerequisites": [
+        "אחד מהמקצועות (104018, 104003, 104041, 104042) ואחד מהמקצועות (104016, 104019, 104166, 104064, 104065)",
+        "(104003 - חשבון דיפרנציאלי ואינטגרלי 1 ו- 104016 - אלגברה 1/מורחב) או (104003 - חשבון דיפרנציאלי ואינטגרלי 1 ו- 104166 - אלגברה אמ') או (104003 - חשבון דיפרנציאלי ואינטגרלי 1 ו- 104019 - אלגברה ליניארית מ') או (104012 - חשבון דיפרנציאלי ואינטגרלי 1ת' ו- 104016 - אלגברה 1/מורחב) או (104016 - אלגברה 1/מורחב ו- 104042 - חשבון דיפרנציאלי ואינטגרלי 1מ2) או (104016 - אלגברה 1/מורחב ו- 104036 - חשבון דיפרנציאלי ואינטגרלי 1ת) או (104016 - אלגברה 1/מורחב ו- 104018 - חשבון דיפרנציאלי ואינטגרלי 1מ') או (104018 - חשבון דיפרנציאלי ואינטגרלי 1מ' ו- 104019 - אלגברה ליניארית מ') או (104018 - חשבון דיפרנציאלי ואינטגרלי 1מ' ו- 104166 - אלגברה אמ')",
+        "מקצוע צמוד: 104004 - חשבון דיפרנציאלי ואינטגרלי 2",
+        "מקצוע צמוד: 104022 - חשבון דיפרנציאלי ואינטגרלי 2מ'",
+        "מקצוע צמוד: 104043 - חשבון דיפרנציאלי ואינטגרלי 2מ1",
+        "מקצוע צמוד: 104044 - חשבון דיפרנציאלי ואינטגרלי 2מ2"
+      ],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/104131"
+    },
+    {
+      "id": "technion-103015",
+      "family": "other-remedial-math",
+      "he": "השלמות מתמטיקה",
+      "fr": "Remise à niveau en mathématiques",
+      "code": "103015",
+      "credits": 0,
+      "facultiesServed": [
+        "math"
+      ],
+      "topics": [
+        {
+          "he": "חשבון בסיסי וטכניקה אלגברית",
+          "fr": "Calcul de base et technique algébrique"
+        },
+        {
+          "he": "סדרות חשבוניות וגיאומטריות, אינדוקציה מתמטית",
+          "fr": "Suites arithmétiques et géométriques, récurrence"
+        },
+        {
+          "he": "משוואות ואי שוויוניות",
+          "fr": "Équations et inéquations"
+        },
+        {
+          "he": "פונקציות וגרפים",
+          "fr": "Fonctions et graphes"
+        },
+        {
+          "he": "משוואות ריבועיות והפונקציה הריבועית",
+          "fr": "Équations du second degré et fonction quadratique"
+        },
+        {
+          "he": "פולינומים, שורשים ופונקציות רציונאליות",
+          "fr": "Polynômes, racines et fonctions rationnelles"
+        },
+        {
+          "he": "פונקציות מעריכיות ולוגריתמיות",
+          "fr": "Fonctions exponentielles et logarithmiques"
+        },
+        {
+          "he": "טריגונומטריה",
+          "fr": "Trigonométrie"
+        },
+        {
+          "he": "וקטורים",
+          "fr": "Vecteurs"
+        },
+        {
+          "he": "גיאומטריה אנליטית במישור ובמרחב",
+          "fr": "Géométrie analytique plane et spatiale"
+        },
+        {
+          "he": "מספרים מרוכבים",
+          "fr": "Nombres complexes"
+        },
+        {
+          "he": "גבולות ונגזרות, חקירת פונקציות, אינטגרלים",
+          "fr": "Limites, dérivées, étude de fonctions, intégrales"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/103015"
+    },
+    {
+      "id": "technion-123015",
+      "family": "other-remedial-chemistry",
+      "he": "השלמות כימיה",
+      "fr": "Remise à niveau en chimie",
+      "code": "123015",
+      "credits": 0,
+      "facultiesServed": [
+        "chemistry"
+      ],
+      "topics": [
+        {
+          "he": "מושגי יסוד",
+          "fr": "Notions de base"
+        },
+        {
+          "he": "מבנה האטום",
+          "fr": "Structure de l'atome"
+        },
+        {
+          "he": "הטבלה המחזורית",
+          "fr": "Tableau périodique"
+        },
+        {
+          "he": "הקשר הכימי",
+          "fr": "Liaison chimique"
+        },
+        {
+          "he": "סטוכיומטריה",
+          "fr": "Stœchiométrie"
+        },
+        {
+          "he": "שיווי משקל בגזים",
+          "fr": "Équilibre en phase gazeuse"
+        },
+        {
+          "he": "חומצות ובסיסים",
+          "fr": "Acides et bases"
+        }
+      ],
+      "prerequisites": [],
+      "source": "https://students.technion.ac.il/local/technionsearch/course/123015"
+    }
+  ],
+  "notes": [
+    "Unité de crédits : le Technion compte en נ\"ז (נקודות אקדמיות / נקודות זכות). Le champ credits est exprimé en נ\"ז, tel qu'affiché sur la fiche du cours (ex. « 5.5 נקודות אקדמיות • 4 שעות הרצאה • 3 שעות תרגול » pour 104031) et recoupé avec le catalogue 2026-27.",
+    "Codes : la fiche publique du portail étudiant utilise 6 chiffres (104031). Le catalogue 2026-27 et le portail de premier cycle utilisent 8 chiffres : '0' + faculté (3 chiffres) + '0' + numéro (3 chiffres), p. ex. 104031 = 01040031 (catalogue : https://ugportal.technion.ac.il/wp-content/uploads/2026/10/קטלוג-לימודים-תשפז-2026.2027.pdf).",
+    "Fiches de cours (nom officiel, description des thèmes, prérequis, faculté) : https://students.technion.ac.il/local/technionsearch/course/<code à 6 chiffres>. Les thèmes sont des fragments de la description officielle de la fiche (recopiés à l'identique en hébreu, vérifiés mécaniquement contre le texte de la fiche), traduits en français.",
+    "Les crédits viennent de l'information « סמסטריאלי » la plus récente affichée sur chaque fiche (le plus souvent printemps 2023/24, תשפ\"ד ; 216033 : printemps 2022/23) et ont été recoupés avec les plans d'études du catalogue 2026-27 : valeurs identiques pour 47 cours sur 49 (seuls 103015 et 123015, cours de remise à niveau à 0 נ\"ז, n'apparaissent pas dans le catalogue). Le catalogue 2026-27 écrit « פיזיקה » là où les fiches écrivent encore « פיסיקה ».",
+    "facultiesServed = facultés dont le chapitre du catalogue 2026-27 (plans d'études) cite le cours (obligatoire ou à option) et/ou dont la « מערכת מומלצת לסמסטר א' » d'hiver תשפ\"ז (https://ugportal.technion.ac.il/הוראה-ובחינות/recommended-courses/) l'inclut ; la filière biochimique est rattachée à chemeng. Pour 103015 et 123015 (non cités dans les chapitres), c'est la faculté qui les donne.",
+    "Facultés : 17 facultés et 1 département (humanities) listés sur https://www.technion.ac.il/en/all-faculties/ ; diplômes issus du tableau « מסלולי הרשמה ומסלולי לימוד לתואר ראשון » (catalogue 2026-27, pp. 28-29) et des chapitres de chaque faculté. 'Technion Excellence Program' (https://excellence.technion.ac.il/en/) figure sur cette page mais n'est pas une faculté (l'URL renvoie 404 le 10/11/2026) : ignoré. Les programmes interunités (nanoscience, énergie, ingénierie urbaine, etc.) et 'Mathématiques appliquées' (chapitre 19) ne sont pas des facultés : ignorés.",
+    "Humanities : le département n'offre pas de licence ; il donne des cours de service (sciences humaines et sociales, anglais, langues, éducation physique, cours d'enrichissement) : mainDegrees volontairement vide. Mechanical (me) : une seule licence + 2 programmes d'excellence (Brakim, Marom) cités dans le chapitre du catalogue.",
+    "094591 'מבוא לכלכלה' couvre à la fois la micro et la macroéconomie (offre/demande, coûts, monopole ; comptes nationaux, monnaie, politique macro) : classé microeconomics, il couvre aussi la famille macroeconomics. Les anciennes fiches 094501 (micro) et 094511 (macro) existent mais sans information semestrielle.",
+    "Plusieurs variantes d'un même cours ont un texte de fiche identique (104031/104195 ; 104041/104042 ; 104016/104064/104065) : elles sont toutes listées car chaque filière s'inscrit à sa propre variante (voir facultiesServed).",
+    "Premier semestre recommandé (hiver תשפ\"ז) de CS : 104031, 104166, 234114, 234129, 324033 ; Mathématiques : 104002, 104195, 104066, 234128 ; (autres facultés : voir pages 'מערכת מומלצת' du portail ugportal). Les cours de remise à niveau 103015 (maths) et 123015 (chimie) sont des cours à 0 נ\"ז sans valeur de crédits."
+  ],
+  "unverified": [
+    "intro-law : aucun cours d'introduction au droit de premier cycle trouvé dans le catalogue 2026-27 ; seuls des cours spécialisés/optionnels apparaissent (ex. 'היבטים משפטיים ביזמות עסקית', 'משפט העבודה בישראל', 'אתיקה ומשפט רפואי' en médecine) : leurs fiches n'ont pas été ouvertes, donc non inclus.",
+    "academic-writing : aucun cours de rédaction académique de premier cycle trouvé (seul 'כתיבה אקדמית למגיסטרנטים', code 3280017, niveau master, cité dans le catalogue, fiche non ouverte). L'anglais technique 324033 (13 chapitres du catalogue) travaille la lecture et l'écriture académiques en anglais : classé other-technical-english.",
+    "Cours de remise à niveau en physique 113013 (השלמות פיסיקה 1) et 113014 (השלמות פיסיקה 2) : fiches sans description de contenu sur le portail, donc non inclus (seuls 103015 et 123015 ont une description).",
+    "Les pages du portail étudiant affichent comme dernier semestre d'enseignement un semestre 2023/24 (תשפ\"ד) ou antérieur : l'offre effective en hiver 2026/27 n'est confirmée que par la présence du code (8 chiffres) dans le catalogue 2026-27 et dans les systèmes recommandés d'hiver תשפ\"ז.",
+    "Prérequis : recopiés des fiches du portail (peuvent précéder des changements 2026-27). Certaines fiches contiennent des prérequis en texte libre (ex. bagrout de maths 5 יח\"ל, ou examen de classification) en plus de la liste structurée.",
+    "094821 : la fiche n'affiche pas de crédits ; 3.5 נ\"ז lu dans le catalogue 2026-27 (p. 149).",
+    "Hors périmètre non lu : portalex.technion.ac.il/ovv (catalogue en ligne SAP, dynamique) n'a pas été ouvert ; les syllabus détaillés semaine par semaine (sites de cours/Moodle) ne sont pas publics et n'ont pas été lus ; les cours de génie électrique (044252 etc.), de mécanique et de génie civil (statique, dynamique, thermodynamique) n'ont pas été inclus."
+  ]
+}
