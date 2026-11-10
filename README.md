@@ -20,8 +20,8 @@ Maquette de travail d'un prof virtuel par la voix pour les lycéens israéliens 
 |---|---|
 | Application | fonctionnelle, testée dans le navigateur |
 | Programmes scolaires | **brouillon** : 7 matières, 172 thèmes, assemblés depuis le site du ministère de l'Éducation |
-| Faculté | **brouillon** : 2 établissements, 80 cours (Université ouverte, Technion) |
-| Serveur gratuit (mandataire d'IA) | code écrit, **pas encore déployé** |
+| Faculté | **brouillon** : 4 établissements, 159 cours de première année (Université ouverte, Technion, Tel-Aviv, Bar-Ilan) |
+| Serveur gratuit (mandataire d'IA) | **en ligne** (Cloudflare Workers), vérifié chaque semaine ; voir `server/README.md` |
 | Clé d'IA | aucune clé dans ce dépôt |
 
 Le bandeau « טיוטה » (brouillon) affiché dans l'application rappelle que les programmes ne sont pas encore validés.
@@ -37,7 +37,7 @@ Le bandeau « טיוטה » (brouillon) affiché dans l'application rappelle que
 
 ```bash
 python3 -m http.server 8080
-# puis http://localhost:8080/moreh-bakis/
+# puis http://localhost:8080/
 ```
 
 ## Reconstruire les données
@@ -50,21 +50,21 @@ node scripts/check-i18n.mjs     # vérifie que toutes les langues ont les mêmes
 
 ## Serveur mandataire (server/)
 
-Le dossier `server/` contient un « worker » Cloudflare gratuit qui relaie les appels d'IA sans jamais mettre la clé dans le téléphone des élèves. Il limite la dépense : 90 000 appels par jour et 3 000 000 au total.
+Le dossier `server/` contient un « worker » Cloudflare gratuit qui relaie les appels d'IA sans jamais mettre la clé dans le téléphone des élèves. Il ne stocke rien, n'accepte que le site de l'appli et les modèles Haiku et Sonnet, et freine les rafales. Le vrai plafond de dépense est le crédit prépayé du compte Anthropic.
 
 ```bash
 cd server
-npm i -g wrangler
-wrangler login
-wrangler kv namespace create mb
-# mettre l'identifiant du namespace dans wrangler.toml
-wrangler deploy
-wrangler secret put ANTHROPIC_API_KEY
+wrangler login                             # une seule fois
+wrangler deploy                            # publie le serveur
+node ../scripts/set-ai-key.mjs             # enregistre ou change la clé d'IA (formulaire local, la clé n'est jamais affichée)
+node --test ../scripts/                    # tests, sans réseau
 ```
+
+Détails, protections et dépannage : `server/README.md`. Le workflow `.github/workflows/check-server.yml` interroge le serveur chaque lundi et ouvre une issue s'il ne répond plus correctement (crédit épuisé, clé refusée, modèle retiré).
 
 ## Surveillance du ministère
 
-`.github/workflows/watch-ministry.yml` vérifie chaque mois (et plus souvent en août-septembre) si les pages officielles ont changé. L'IA prépare la mise à jour, Gabriel la valide avant publication.
+`.github/workflows/watch-ministry.yml` vérifie chaque dimanche (et tous les jours en août et septembre) si les pages officielles ont changé. L'IA prépare la mise à jour, Gabriel la valide avant publication.
 
 ## Confidentialité
 

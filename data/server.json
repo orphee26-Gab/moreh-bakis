@@ -1,6 +1,6 @@
 {
-  "proxyUrl": "",
+  "proxyUrl": "https://moreh-bakis-proxy.moreh-bakis.workers.dev",
+  "deployed": true,
   "updatedAt": "2026-11-10",
-  "note": "Adresse du serveur gratuit, à remplir après le déploiement du Worker Cloudflare. Ce fichier ne contient aucune clé d'API.",
-  "deployed": false
+  "note": "Adresse du serveur gratuit (Cloudflare Workers, voir server/README.md). Ce fichier ne contient aucune clé d'API."
 }

@@ -1,0 +1,50 @@
+name: Surveillance du serveur d'IA
+
+# Une fois par semaine, envoie une demande d'un seul mot à chaque modèle de l'appli en passant par le serveur public
+# (≈ 0,00005 $ par semaine). Si quelque chose ne va pas (crédit épuisé, clé refusée, modèle retiré, serveur arrêté),
+# une issue est ouverte : GitHub envoie alors un e-mail. Script : scripts/check-server.mjs
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # chaque lundi, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: check-server
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: Interroger le serveur d'IA
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Interroger le serveur
+        id: check
+        shell: bash
+        run: node scripts/check-server.mjs | tee report.md
+
+      - name: Ouvrir ou compléter une issue
+        if: failure() && steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create "serveur" --color "B60205" --description "Problème du serveur d'IA" --force
+          n=$(gh issue list --label serveur --state open --json number -q '.[0].number')
+          if [ -n "$n" ]; then
+            gh issue comment "$n" --body-file report.md
+          else
+            gh issue create --title "Le serveur d'IA ne répond plus correctement" --body-file report.md --label serveur
+          fi
