@@ -1,0 +1,492 @@
+{
+  "id": "history",
+  "name": {
+    "he": "היסטוריה (ממלכתי)",
+    "fr": "Histoire (secteur laïc « ממלכתי »)"
+  },
+  "schoolYear": "תשפ\"ז",
+  "status": "draft",
+  "retrievedAt": "2026-11-10",
+  "officialPages": [
+    "https://pop.education.gov.il/learning-plans/history/high-school/",
+    "https://pop.education.gov.il/learning-plans/history/high-school/introduction/",
+    "https://pop.education.gov.il/learning-plans/history/high-school/structure-goals/",
+    "https://pop.education.gov.il/learning-plans/history/high-school/teaching-methods/",
+    "https://pop.education.gov.il/learning-plans/history/high-school/assessment-methods/",
+    "https://pop.education.gov.il/learning-plans/history/high-school/alternative-assessment/",
+    "https://pop.education.gov.il/learning-plans/history/high-school/examinations/",
+    "https://pop.education.gov.il/tchumey_daat/historya/chativa-elyona/pedagogia-historia/bhinot-bagrut-halofot-haraha",
+    "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/ashnav-2027.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/new-22261.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/aaracha.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/yeshuv.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/medina.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/sheelonim.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/historya/Chativa-Elyona/bagrut-gamish.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/avodat-gemer.pdf"
+  ],
+  "levels": [
+    {
+      "units": 2,
+      "label": {
+        "he": "2 יחידות לימוד (חובה)",
+        "fr": "2 yéhidot (obligatoire)"
+      },
+      "grades": [
+        {
+          "grade": "all",
+          "gradeLabel": "י'–י\"ב",
+          "topics": [
+            {
+              "id": "history-2-all-01",
+              "he": "הלאומיות בישראל ובעמים – ראשית הדרך עד 1920",
+              "fr": "Le nationalisme chez les Juifs et chez les peuples – des débuts à 1920 (sionisme)",
+              "subtopics": [
+                {
+                  "he": "מאפייני תופעת הלאומיות המודרנית והתנועות הלאומיות באירופה במאה ה-19",
+                  "fr": "Caractéristiques du nationalisme moderne et des mouvements nationaux européens au XIXe siècle"
+                },
+                {
+                  "he": "התנועה הלאומית היהודית המודרנית ומאפייניה העיקריים: הגורמים לצמיחתה ולהתארגנותה של התנועה הציונית",
+                  "fr": "Le mouvement national juif moderne : causes de la naissance et de l'organisation du sionisme"
+                },
+                {
+                  "he": "פועלו של בנימין זאב הרצל: 'מדינת היהודים', תוכנית באזל, ויכוח אוגנדה",
+                  "fr": "L'action de Herzl : « L'État des Juifs », programme de Bâle, débat sur l'Ouganda"
+                },
+                {
+                  "he": "הוויכוח בין הציונים: הבעיה העיקרית של היהודים בגולה, שאלת התרבות ודמות החברה שתקום בארץ ישראל",
+                  "fr": "Débats entre sionistes : problème juif, culture, modèle de société en Eretz-Israël"
+                },
+                {
+                  "he": "'הבונד' כתנועה לאומית יהודית: יעדים, דרכי פעילות, המחלוקת בין הציונים ובין הבונדיסטים",
+                  "fr": "Le Bund comme mouvement national juif et son désaccord avec les sionistes"
+                },
+                {
+                  "he": "דפוסי הפעילות של התנועה הציונית בגולה ובארץ ישראל",
+                  "fr": "Formes d'action du mouvement sioniste en diaspora et en Eretz-Israël"
+                },
+                {
+                  "he": "התנועה הציונית והיישוב היהודי בארץ ישראל בזמן מלחמת העולם הראשונה (כולל הצהרת בלפור)",
+                  "fr": "Le mouvement sioniste et le Yichouv pendant la Première Guerre mondiale (dont la déclaration Balfour)"
+                },
+                {
+                  "he": "השוואה בין התנועה הציונית בראשית דרכה ובין תנועות לאומיות של עמים אחרים באירופה במאה ה-19 – נקודות דמיון ושוני",
+                  "fr": "Comparaison entre le sionisme naissant et d'autres mouvements nationaux européens du XIXe siècle"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf"
+            },
+            {
+              "id": "history-2-all-02",
+              "he": "נאציזם, אנטישמיות, מלחמת העולם השנייה והשואה – יחידות מבוא: מיעוטים באירופה בין שתי מלחמות עולם; המשטר הטוטליטרי",
+              "fr": "Nazisme, antisémitisme, guerre mondiale et Shoah – introduction : minorités entre les deux guerres ; régime totalitaire",
+              "subtopics": [
+                {
+                  "he": "התפרקות האימפריות הרב־לאומיות והקמת מדינות לאומיות חדשות באירופה: שאלת המיעוטים, חוזי המיעוטים, אוטונומיה תרבותית",
+                  "fr": "Éclatement des empires multinationaux, nouveaux États-nations, question des minorités"
+                },
+                {
+                  "he": "המיעוט היהודי באירופה בין שתי מלחמות העולם: מעמד משפטי, עיסוקים כלכליים, אוטונומיה תרבותית, אנטישמיות",
+                  "fr": "La minorité juive en Europe entre les deux guerres : statut, économie, autonomie culturelle, antisémitisme"
+                },
+                {
+                  "he": "המיעוט היהודי בארצות אגן הים התיכון ובארצות האסלאם והשפעת השלטון הקולוניאלי",
+                  "fr": "Les Juifs du bassin méditerranéen et des pays d'Islam sous domination coloniale"
+                },
+                {
+                  "he": "פרק מבוא: המשטר הטוטליטרי – דוגמאות מברית המועצות הסטליניסטית או מאיטליה הפשיסטית",
+                  "fr": "Introduction : le régime totalitaire (URSS stalinienne ou Italie fasciste)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf"
+            },
+            {
+              "id": "history-2-all-03",
+              "he": "נאציזם, אנטישמיות, מלחמת העולם השנייה והשואה – חלק ראשון: 1933–1939",
+              "fr": "Nazisme, antisémitisme, Seconde Guerre mondiale et Shoah – partie 1 : 1933-1939",
+              "subtopics": [
+                {
+                  "he": "האידיאולוגיה הנאצית, כולל האנטישמיות המודרנית בגלגולה הנאצי, ומרכזיות השאלה היהודית באידיאולוגיה זו",
+                  "fr": "Idéologie nazie, antisémitisme moderne dans sa forme nazie, centralité de la « question juive »"
+                },
+                {
+                  "he": "הגורמים והנסיבות שהובילו לעליית הנאצים לשלטון – ממפלגה שולית למפלגה הגדולה ביותר",
+                  "fr": "Causes de l'accession des nazis au pouvoir"
+                },
+                {
+                  "he": "המעבר של גרמניה מדמוקרטיה לנאציזם (בניית המשטר הנאצי, כולל המדיניות כלפי היהודים)",
+                  "fr": "Passage de l'Allemagne de la démocratie au nazisme ; politique envers les Juifs"
+                },
+                {
+                  "he": "השימוש בטרור, הקמת מחנות הריכוז, הרחקת יסודות המתנגדים למשטר",
+                  "fr": "Terreur, camps de concentration, exclusion des opposants"
+                },
+                {
+                  "he": "דרכי ההתמודדות של הנהגת יהודי גרמניה עם המדיניות שנכפתה על היהודים",
+                  "fr": "Réactions de la direction des Juifs d'Allemagne"
+                },
+                {
+                  "he": "תגובות המדינות בעולם כלפי גורל היהודים ברייך השלישי: ועידת אוויאן, פרשת האונייה 'סנט לואיס'",
+                  "fr": "Réactions internationales : conférence d'Évian, affaire du Saint-Louis"
+                },
+                {
+                  "he": "מדיניות החוץ של הנאצים ותחילת מלחמת העולם השנייה: מדיניות הפיוס, סיפוח אוסטריה, הסכם מינכן, הסכם ריבנטרופ-מולוטוב",
+                  "fr": "Politique extérieure nazie et début de la guerre : apaisement, Anschluss, Munich, pacte germano-soviétique"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf"
+            },
+            {
+              "id": "history-2-all-04",
+              "he": "נאציזם, אנטישמיות, מלחמת העולם השנייה והשואה – חלק שני: ראשית מלחמת העולם השנייה עד מבצע ברברוסה (יוני 1941), והמדיניות כלפי היהודים באזורי הכיבוש",
+              "fr": "Partie 2 : début de la guerre jusqu'à l'opération Barbarossa (juin 1941) et politique envers les Juifs dans les zones occupées",
+              "subtopics": [
+                {
+                  "he": "המהלכים הצבאיים העיקריים בחזיתות השונות עד 1941 והסברים להצלחת הצבא הגרמני",
+                  "fr": "Principales opérations militaires jusqu'en 1941 ; causes des succès allemands"
+                },
+                {
+                  "he": "'הסדר החדש' באירופה: הבהרת המושג והצעדים שנקטו הנאצים",
+                  "fr": "Le « Nouvel Ordre » en Europe"
+                },
+                {
+                  "he": "יהודי פולין: המדיניות עד ריכוזם בגטאות, הקמת הגטאות, ניהולם והיודנראטים",
+                  "fr": "Juifs de Pologne : politique jusqu'aux ghettos, création et gestion des ghettos, Judenräte"
+                },
+                {
+                  "he": "יהודי פולין: תנאי החיים בגטו ודרכי ההתמודדות של היהודים (הישרדות, 'קידוש החיים', תנועות הנוער)",
+                  "fr": "Vie dans le ghetto et modes de survie et de résistance"
+                },
+                {
+                  "he": "מדיניות הנאצים כלפי היהודים בארצות הכבושות במערב, במרכז ובדרום אירופה – הדגמה מארץ אחת",
+                  "fr": "Politique nazie envers les Juifs des pays occupés d'Europe occidentale, centrale et méridionale (un pays en exemple)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf"
+            },
+            {
+              "id": "history-2-all-05",
+              "he": "נאציזם, אנטישמיות, מלחמת העולם השנייה והשואה – חלק שלישי: המלחמה העולמית ו'הפתרון הסופי', מקיץ 1941 עד לכניעת גרמניה ויפן בשנת 1945",
+              "fr": "Partie 3 : guerre mondiale et « solution finale », de l'été 1941 à la capitulation de l'Allemagne et du Japon (1945)",
+              "subtopics": [
+                {
+                  "he": "הרחבת המלחמה לחזיתות נוספות (ברברוסה, פרל הרבור); הקשר בין תחילת ההרג ההמוני למלחמה בברית המועצות; השלבים בביצוע הפתרון הסופי",
+                  "fr": "Extension de la guerre ; lien entre début des massacres et guerre contre l'URSS ; étapes de la solution finale"
+                },
+                {
+                  "he": "ועידת ואנזה",
+                  "fr": "Conférence de Wannsee"
+                },
+                {
+                  "he": "הדילמות ודרכי ההתמודדות של היודנראטים בגטאות במזרח אירופה בזמן ביצוע 'הפתרון הסופי'",
+                  "fr": "Dilemmes des Judenräte dans les ghettos d'Europe de l'Est"
+                },
+                {
+                  "he": "דרכי הלחימה של היהודים: המרד בגטאות, המרידות במחנות ההשמדה, הלחימה של הפרטיזנים היהודיים, לוחמים יהודיים בצבאות בעלות הברית",
+                  "fr": "Formes de combat des Juifs : révoltes des ghettos et des camps, partisans, soldats dans les armées alliées"
+                },
+                {
+                  "he": "ביצוע הפתרון הסופי בארצות הכיבוש במערב ובמרכז אירופה; יהודי צפון אפריקה בימי הכיבוש הנאצי; השמדת הצוענים באירופה",
+                  "fr": "Solution finale en Europe occidentale et centrale ; Juifs d'Afrique du Nord sous occupation nazie ; extermination des Tsiganes"
+                },
+                {
+                  "he": "יחס האוכלוסייה בארצות הכיבוש ליהודים: 'הרוב הדומם', חסידי אומות עולם, יהודים שהצילו יהודים, ניסיונות הצלה",
+                  "fr": "Attitude des populations des pays occupés : « majorité silencieuse », Justes parmi les nations, sauvetages"
+                },
+                {
+                  "he": "עמדת ממשלות בעולם החופשי (ארה\"ב ובריטניה), הצלב האדום, הכנסייה הקתולית והיישוב היהודי בארץ ישראל בשאלת העזרה ליהודים",
+                  "fr": "Position des gouvernements alliés, de la Croix-Rouge, de l'Église catholique et du Yichouv face à l'aide aux Juifs"
+                },
+                {
+                  "he": "המִפנה במלחמה (מידווי, אל־עלמיין, סטלינגרד, נורמנדי) וסיום המלחמה: העם היהודי לאחר השואה, הקמת האו\"ם, משפטי נירנברג",
+                  "fr": "Tournant de la guerre ; fin de la guerre et peuple juif après la Shoah, création de l'ONU, procès de Nuremberg"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf"
+            },
+            {
+              "id": "history-2-all-06",
+              "he": "בונים את מדינת ישראל במזרח התיכון – פרק המבוא: בניין הבית הלאומי בשנים 1920–1945",
+              "fr": "Construire l'État d'Israël au Moyen-Orient – chapitre d'introduction : édification du foyer national, 1920-1945",
+              "subtopics": [
+                {
+                  "he": "המנדט הבריטי בארץ ישראל ותרומתו לפיתוחה של הארץ",
+                  "fr": "Le Mandat britannique et sa contribution au développement du pays"
+                },
+                {
+                  "he": "מוסדות היישוב היהודי והתנועה הציונית",
+                  "fr": "Institutions du Yichouv et du mouvement sioniste"
+                },
+                {
+                  "he": "מסגרות כלכליות, חברתיות ותרבותיות",
+                  "fr": "Cadres économiques, sociaux et culturels"
+                },
+                {
+                  "he": "התגברות המתח בין היהודים לערבים והיערכות היישוב בתחום הביטחון",
+                  "fr": "Montée des tensions judéo-arabes et organisation de la défense du Yichouv"
+                },
+                {
+                  "he": "היערכות היישוב היהודי והתנועה הציונית בימי מלחמת העולם השנייה",
+                  "fr": "Le Yichouv et le mouvement sioniste pendant la Seconde Guerre mondiale"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf"
+            },
+            {
+              "id": "history-2-all-07",
+              "he": "בונים את מדינת ישראל במזרח התיכון – המאבק להקמת המדינה ומלחמת העצמאות, בשנים 1945–1949",
+              "fr": "Le combat pour la création de l'État et la guerre d'Indépendance, 1945-1949",
+              "subtopics": [
+                {
+                  "he": "עמדת בריטניה וארצות הברית בקשר לשאלת העקורים ולשאלת ארץ ישראל",
+                  "fr": "Positions britannique et américaine sur la question des déplacés et d'Eretz-Israël"
+                },
+                {
+                  "he": "חלקם של יהודי ארצות הברית באחריות לעם היהודי ובלחץ להקמת המדינה",
+                  "fr": "Rôle des Juifs américains dans la pression pour la création de l'État"
+                },
+                {
+                  "he": "מאבק היישוב היהודי בשלטונות המנדט הבריטי בתחומים: העפלה, התיישבות, המאבק הצבאי",
+                  "fr": "Lutte du Yichouv contre le Mandat : immigration clandestine, colonisation, lutte armée"
+                },
+                {
+                  "he": "העברת שאלת ארץ ישראל לאו\"ם: החלטת האו\"ם בכ\"ט בנובמבר 1947, עמדת המעצמות והמלחמה הקרה, התגובות",
+                  "fr": "Question d'Eretz-Israël à l'ONU : résolution du 29 novembre 1947, positions des puissances, guerre froide, réactions"
+                },
+                {
+                  "he": "מלחמת העצמאות",
+                  "fr": "La guerre d'Indépendance"
+                },
+                {
+                  "he": "ההכרזה על הקמת מדינת ישראל, הקמת צה\"ל, פירוק המחתרות ופירוק מטה הפלמ\"ח",
+                  "fr": "Déclaration d'indépendance, création de Tsahal, dissolution des organisations clandestines et de l'état-major du Palmah"
+                },
+                {
+                  "he": "הסכמי שביתת הנשק, היווצרות בעיית הפליטים הפלסטינים",
+                  "fr": "Accords d'armistice ; naissance du problème des réfugiés palestiniens"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf"
+            },
+            {
+              "id": "history-2-all-08",
+              "he": "בונים את מדינת ישראל במזרח התיכון – מדינת ישראל במזרח התיכון",
+              "fr": "Israël au Moyen-Orient",
+              "subtopics": [
+                {
+                  "he": "השפעת תהליך הדה־קולוניזציה ו'המלחמה הקרה' על הקמתן של המדינות העצמאיות באגן הים התיכון",
+                  "fr": "Influence de la décolonisation et de la guerre froide sur la naissance des États indépendants de la Méditerranée"
+                },
+                {
+                  "he": "גורמי אחדות ופירוד בעולם הערבי במזרח התיכון",
+                  "fr": "Facteurs d'unité et de division dans le monde arabe"
+                },
+                {
+                  "he": "מדיניות הפנים ומדיניות החוץ של מצרים בימי נאצר",
+                  "fr": "Politique intérieure et extérieure de l'Égypte sous Nasser"
+                },
+                {
+                  "he": "מדיניות הפנים ומדיניות החוץ של אחת מהמדינות: ירדן, לבנון, סוריה או עירק בשנות החמישים והשישים",
+                  "fr": "Politique intérieure et extérieure d'un pays au choix : Jordanie, Liban, Syrie ou Irak (années 1950-60)"
+                },
+                {
+                  "he": "השפעת מלחמת העצמאות והקמת מדינות עצמאיות בארצות אגן הים התיכון על גורל היהודים בארצות אלה",
+                  "fr": "Effets de la guerre d'Indépendance et des indépendances sur le sort des Juifs de ces pays"
+                },
+                {
+                  "he": "הבעיות הלא־פתורות בעקבות מלחמות העצמאות, שאלת הביטחון; מלחמת סיני: גורמים, מעורבות המעצמות, תוצאות והשפעות",
+                  "fr": "Problèmes non résolus, sécurité ; guerre du Sinaï : causes, rôle des puissances, résultats"
+                },
+                {
+                  "he": "מלחמת ששת הימים: סיבות, תוצאות והשפעות – או: מלחמת יום הכיפורים: סיבות, נסיבות, תוצאות והשפעות",
+                  "fr": "Guerre des Six Jours – ou : guerre de Kippour (causes, circonstances, résultats, effets)"
+                },
+                {
+                  "he": "הסכמי השלום בין מדינת ישראל ובין מצרים וירדן",
+                  "fr": "Accords de paix d'Israël avec l'Égypte et la Jordanie"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf"
+            },
+            {
+              "id": "history-2-all-09",
+              "he": "בונים את מדינת ישראל במזרח התיכון – עלייה, קליטה ועיצוב החברה והתרבות במדינת ישראל",
+              "fr": "Immigration, intégration et façonnement de la société et de la culture israéliennes",
+              "subtopics": [
+                {
+                  "he": "העלייה בשנות החמישים והשישים: ארצות המוצא, הסיבות, ממדי העלייה, תהליך הקליטה, אירועי ואדי סאליב",
+                  "fr": "L'aliyah des années 1950-60 : pays d'origine, causes, ampleur, absorption, émeutes de Wadi Salib"
+                },
+                {
+                  "he": "גלי העלייה למדינת ישראל בשלושים השנים האחרונות של המאה ה-20",
+                  "fr": "Vagues d'immigration pendant les trente dernières années du XXe siècle"
+                },
+                {
+                  "he": "המעבר מ'כור היתוך' לחברה רב־תרבותית במדינת ישראל",
+                  "fr": "Du « creuset » à la société multiculturelle"
+                },
+                {
+                  "he": "או: התמורות בעיצוב זיכרון השואה עד סוף המאה ה-20 (השפעת משפט אייכמן, מלחמות ישראל ופיגועי הטרור)",
+                  "fr": "Ou : évolution de la mémoire de la Shoah jusqu'à la fin du XXe siècle (procès Eichmann, guerres, attentats)"
+                },
+                {
+                  "he": "קשרים ויחסי גומלין בין מדינת ישראל ליהדות התפוצות",
+                  "fr": "Relations entre Israël et les Juifs de la diaspora"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf"
+            },
+            {
+              "id": "history-2-all-10",
+              "he": "הערכה חלופית (30%) – היישוב היהודי בשנים 1920–1945: מבית לאומי למדינה בדרך – ארץ ישראל בין מלחמות עולם (20 שעות)",
+              "fr": "Évaluation alternative scolaire (30 %) – le Yichouv 1920-1945 (nouveau thème dès la cohorte entrant en classe י' en תשפ\"ז ; 3 chapitres à choisir sur 7 ; ~20 h)",
+              "subtopics": [
+                {
+                  "he": "המסגרת המדינית והתהוות הבית הלאומי (סן רמו, סוור 1920; חבר הלאומים 1922; עקרונות כתב המנדט)",
+                  "fr": "Cadre politique et naissance du foyer national (San Remo, Sèvres, Société des Nations, Mandat)"
+                },
+                {
+                  "he": "העלייה ובניית החברה היהודית בארץ",
+                  "fr": "L'aliyah et la construction de la société juive"
+                },
+                {
+                  "he": "תרומת ההתיישבות בעיר ובכפר לבניין הבית הלאומי",
+                  "fr": "Apport de la colonisation urbaine et rurale au foyer national"
+                },
+                {
+                  "he": "מוסדות וארגונים מרכזיים ביישוב",
+                  "fr": "Institutions et organisations centrales du Yichouv"
+                },
+                {
+                  "he": "הסכסוך היהודי-ערבי: גורמים והתפתחות",
+                  "fr": "Le conflit judéo-arabe : causes et développement"
+                },
+                {
+                  "he": "המדיניות הבריטית והשלכותיה",
+                  "fr": "La politique britannique et ses conséquences"
+                },
+                {
+                  "he": "דילמות והכרעות ביישוב",
+                  "fr": "Dilemmes et décisions au sein du Yichouv"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/aaracha.pdf"
+            },
+            {
+              "id": "history-2-all-11",
+              "he": "הערכה חלופית (30%) – מדינת ישראל בשנים 1977–1995: סוגיות בתולדות מדינת ישראל בעשורים – השלישי, הרביעי, והחמישי (20 שעות)",
+              "fr": "Évaluation alternative scolaire (30 %) – Israël 1977-1995 (nouveau thème dès la cohorte entrant en classe י' en תשפ\"ז ; 3 chapitres à choisir sur 7 ; ~20 h)",
+              "subtopics": [
+                {
+                  "he": "המהפך הפוליטי (1977): גורמים לירידת כוחו של המערך, בחירות 1977 והקמת ממשלת בגין הראשונה",
+                  "fr": "Le tournant politique de 1977 : déclin du Maarakh, élections et premier gouvernement Begin"
+                },
+                {
+                  "he": "האינתיפאדה הראשונה",
+                  "fr": "La première Intifada"
+                },
+                {
+                  "he": "הסכמי השלום",
+                  "fr": "Les accords de paix"
+                },
+                {
+                  "he": "קליטת העלייה",
+                  "fr": "L'absorption de l'immigration"
+                },
+                {
+                  "he": "מלחמת לבנון הראשונה",
+                  "fr": "La première guerre du Liban"
+                },
+                {
+                  "he": "רצח רבין",
+                  "fr": "L'assassinat de Rabin"
+                },
+                {
+                  "he": "המשבר הכלכלי",
+                  "fr": "La crise économique"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/aaracha.pdf"
+            },
+            {
+              "id": "history-2-all-12",
+              "he": "ממדינת מקדש לעם הספר – בית שני",
+              "fr": "De l'État-Temple au peuple du Livre (Second Temple) – ancien thème d'évaluation alternative (6 thèmes d'approfondissement, dans au moins 2 périodes)",
+              "subtopics": [
+                {
+                  "he": "פרק ראשון: יהודה בתקופה הפרסית – גלות בבל, הצהרת כורש ושיבת ציון; בניית בית המקדש; עזרא ונחמיה",
+                  "fr": "Chap. 1 : la Judée à l'époque perse – exil de Babylone, édit de Cyrus, reconstruction du Temple, Esdras et Néhémie"
+                },
+                {
+                  "he": "פרק שני: מאפייני ההלניזם",
+                  "fr": "Chap. 2 : caractéristiques de l'hellénisme"
+                },
+                {
+                  "he": "פרק שלישי: המפגש בין החברה ביהודה ובין ההלניזם – בית תלמי ובית סלווקוס, השפעת ההלניזם, המתייוונים והמתנגדים, גזרות אנטיוכוס, מרד החשמונאים",
+                  "fr": "Chap. 3 : rencontre entre la société de Judée et l'hellénisme – Ptolémées et Séleucides, hellénisés et opposants, décrets d'Antiochos, révolte des Hasmonéens"
+                },
+                {
+                  "he": "פרק רביעי: ממדינה חשמונאית עצמאית לכיבוש רומי וחורבן בית המקדש",
+                  "fr": "Chap. 4 : de l'État hasmonéen indépendant à la conquête romaine et à la destruction du Temple"
+                },
+                {
+                  "he": "פרק חמישי: בין ייאוש לבנייה: מירושלים ליבנה – רבן יוחנן בן זכאי, מרד התפוצות, מרד בר כוכבא, הנשיאות בגליל",
+                  "fr": "Chap. 5 : de Jérusalem à Yavné – Yohanan ben Zakkaï, révolte de la diaspora, Bar Kokhba, le Nassi en Galilée"
+                }
+              ],
+              "source": "https://pop.education.gov.il/learning-plans/history/high-school/alternative-assessment/"
+            },
+            {
+              "id": "history-2-all-13",
+              "he": "ערים וקהילות – חברה ותרבות בימי הביניים",
+              "fr": "Villes et communautés – société et culture au Moyen Âge (ancien thème d'évaluation alternative)",
+              "subtopics": [
+                {
+                  "he": "יחידת המבוא: תמורות במאפייני העיר",
+                  "fr": "Unité d'introduction : mutations des caractéristiques de la ville"
+                },
+                {
+                  "he": "העיר בעולם המוסלמי והקהילה היהודית בה",
+                  "fr": "La ville dans le monde musulman et la communauté juive"
+                },
+                {
+                  "he": "העיר באירופה הנוצרית והקהילה היהודית בה",
+                  "fr": "La ville dans l'Europe chrétienne et la communauté juive"
+                },
+                {
+                  "he": "ערים מדגימות: בגדד או פראג (העיר והקהילה היהודית; רס\"ג; המהר\"ל מפראג)",
+                  "fr": "Villes exemples : Bagdad ou Prague (ville et communauté juive ; Saadia Gaon ; Maharal de Prague)"
+                }
+              ],
+              "source": "https://pop.education.gov.il/learning-plans/history/high-school/alternative-assessment/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Organisation officielle : le programme (PDF « תוכנית הלימודים בהיסטוריה לכיתות י'–י\"ב », édition pour la cohorte entrée en י' en תש\"ף) n'est PAS découpé par classe ; tous les thèmes sont donc sous grade « all ». 70 % de la matière (פרקי בסיס) forment les chapitres obligatoires de l'examen externe ; les 30 % restants sont approfondis dans un programme scolaire (évaluation alternative). Le focus 2027 ajoute : au moins 6 ש\"ש au total et un plan de travail sur deux ans à bâtir avec le מדריך/כת. https://meyda.education.gov.il/files/Curriculum/history_mm_10_12.pdf ; https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/ashnav-2027.pdf",
+    "Structure de l'examen 2026-27 (תשפ\"ז), deux modèles coexistent : (a) 70/30 : examen externe 70 % (שאלון 022261, 4 chapitres : לאומיות–ציונות ; מלחמת העולם והשואה ; המאבק על הקמת המדינה ; סוגיות מתולדות מדינת ישראל) + évaluation scolaire 30 % (שאלון 22283). (b) « מתווה גמיש / תוכנית הבסיס » (שאלון ראשי 022250) : examen externe 35 % [022215 = אשכול 1 שואה + לאומיות וציונות ; 022225 = אשכול 2 שואה + המאבק על הקמת המדינה ; 022235 = אשכול 3 שואה + סוגיות מתולדות המדינה] + 2 tâches contrôlées (משימות מבוקרות) de 17 % + 18 % = 35 % (codes 22211, 22212, 22221, 22222, 22231, 22232) + évaluation scolaire 30 % (22283) ; 022245 = examen pour améliorer la note des tâches. Le chapitre Shoah est toujours examiné à l'externe (dans le 70 % ou dans le 35 %). https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/sheelonim.pdf ; https://meyda.education.gov.il/files/Pop/0files/historya/Chativa-Elyona/bagrut-gamish.pdf ; https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/ashnav-2027.pdf",
+    "Règles de réponse 2027 : שאלונים 022215 / 022225 / 022235 = une question dans chacun des deux chapitres (2 × 50 points) ; שאלון 022261 = règles « publiées dans une circulaire du מפמ\"ר ». Aux sessions de תשפ\"ז, les quatre chapitres de l'examen sont avec manuel ouvert (ספר פתוח) et les questions sont de pensée d'ordre supérieur ; la liste des livres autorisés est sur le site du מפמ\"ר. https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/ashnav-2027.pdf (p. 1-2 et 37)",
+    "Focus (מיקוד / אשנ\"ב) de l'année : « אשנ\"ב לנבחנים במועדי תשפ\"ז בלבד » = https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/ashnav-2027.pdf (37 p.). Il fixe les questions de fond examinées dans 4 chapitres : (1) לאומיות וציונות ; (2) טוטליטריות, אנטישמיות, מלחמת העולם השנייה והשואה ; (3) המאבק על הקמת המדינה ; (4) סוגיות בתולדות מדינת ישראל. Points explicites : le chapitre d'introduction 1920-1945 (בניין הבית הלאומי) ne donne PAS lieu à des questions ; il faut enseigner la guerre des Six Jours OU la guerre de Kippour ; en (1) un mouvement national exemplaire au choix parmi איטליה, גרמניה, יוון, פולין ; le chapitre (4) comprend : הדה-קולוניזציה, גורל היהודים בארצות האסלאם, מלחמת ששת הימים או מלחמת יום הכיפורים, העלייה בשנות החמישים והשישים.",
+    "Pour les examens de חורף et קיץ תשפ\"ח (2028), un autre אשנ\"ב s'applique : https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/new-22261.pdf (שאלונים 22261, 22215, 22225, 22235, 22245). Règles indiquées : 022215 = 2 questions sur 4 dans le chapitre nationalisme (25 points chacune) + 1 question sur la Shoah (50) ; 022225 et 022235 = 1 question dans chacun des deux chapitres (50 + 50) ; 022261 = 4 chapitres (לאומיות וציונות ; מלחמת העולם השנייה והשואה ; המאבק על הקמת המדינה ; סוגיות נבחרות בתולדות ישראל), barème lu 16 + 28 + 28 + 28.",
+    "Évaluation alternative scolaire (30 %, שאלון 22283) – CHANGEMENT dès תשפ\"ז pour les élèves qui commencent la classe י' en תשפ\"ז : à la place de « ממדינת מקדש לעם הספר » ou « ערים וקהילות », le צוות ההוראה choisit « היישוב היהודי בשנים 1920–1945 » ou « מדינת ישראל בשנים 1977–1995 » (≈ 20 heures ; 3 chapitres à choisir parmi 7, 2 pour l'éducation spécialisée et שח\"ר ; un thème différent possible par classe). Le tableau bagrut-gamish.pdf (non daté) parle encore de « בית שני או ערים וקהילות » et précise que le 30 % = note de l'évaluation alternative + note scolaire sur les chapitres examinés à l'externe. https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/aaracha.pdf (« תיק עזר למורה », juin 2026) ; https://pop.education.gov.il/tchumey_daat/historya/chativa-elyona/pedagogia-historia/bhinot-bagrut-halofot-haraha (rubrique « 30% חובה הערכה חלופית ») ; https://meyda.education.gov.il/files/Pop/0files/historya/Chativa-Elyona/bagrut-gamish.pdf",
+    "Anciens thèmes d'évaluation alternative (programme תש\"ף, toujours affichés sur https://pop.education.gov.il/learning-plans/history/high-school/alternative-assessment/) : choisir 6 thèmes d'approfondissement dans au moins deux périodes parmi « ממדינת מקדש לעם הספר » (Second Temple) ou « ערים וקהילות בימי הביניים ».",
+    "Voie à 5 יחידות par travail de fin d'études (עבודת גמר בהיסטוריה) : une réussite donne 5 יחידות בגרות, qui s'ajoutent aux יחידות החובה étudiées en parallèle (sauf renoncement dans le cadre de « עבודה צמודה ») ; שאלון ראשי 22590 ; travail écrit + entretien 22379 (80 %) ; présentation 22279 (20 %). Document daté de septembre 2026 : https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/avodat-gemer.pdf ; pondérations : https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/sheelonim.pdf",
+    "Autres parcours qui remplacent l'examen externe (page https://pop.education.gov.il/tchumey_daat/historya/chativa-elyona/pedagogia-historia/bhinot-bagrut-halofot-haraha et https://meyda.education.gov.il/files/Pop/0files/historya/edi/high-school/sheelonim.pdf) : יהלום (conversion numérique, שאלון 22257 ; examen externe avec Internet ouvert à partir de תשפ\"ח), נש\"ף (conversion complète de l'examen externe en évaluation scolaire, 2 יח\"ל, שאלון 22258), סחל\"ב (examen externe 40 % 22271 + évaluation scolaire 60 % 22273).",
+    "Objectifs officiels (page https://pop.education.gov.il/learning-plans/history/high-school/structure-goals/) : connaissance des événements et personnages, pensée historique et compétences (recherche, analyse de sources, cartes), identité nationale et lien au patrimoine juif, compréhension et tolérance envers l'autre, valeurs humanistes universelles.",
+    "Constat sur la page https://pop.education.gov.il/learning-plans/history/high-school/examinations/ : sous l'intitulé « עלייה, קליטה ועיצוב החברה והתרבות במדינת ישראל », les puces affichées sont identiques à celles de « מדינת ישראל במזרח התיכון » (apparente erreur de la page) ; le contenu de ce thème vient donc du PDF du programme."
+  ],
+  "unverified": [
+    "Aucune répartition officielle par classe (י'/י\"א/י\"ב) dans les documents lus : tous les thèmes sont sous grade « all ». La correspondance classe ↔ session d'examen (élèves de י\"ב en 2026-27 → session תשפ\"ז → ashnav 2027 ; élèves de י\"א → תשפ\"ח → ashnav 2028 ; entrants en י' → nouveaux thèmes d'évaluation alternative) est une déduction, non écrite telle quelle dans les documents.",
+    "yeshuv.pdf (4 p.) et medina.pdf (7 p.), qui détaillent les chapitres des deux nouveaux thèmes d'évaluation alternative, sont des scans sans texte (pages pivotées, extraits du programme תשפ\"ז, pp. 88-92 et suivantes), lus visuellement et seulement en partie. Yichouv 1920-45 : chapitres 1, 2, 4 et 6 confirmés ; chapitres 3, 5 et 7 (התיישבות / הסכסוך היהודי-ערבי / דילמות והכרעות) repris des propositions du תיק עזר, ordre non confirmé. Israël 1977-95 : seul le chapitre 1 (המהפך הפוליטי 1977) est confirmé ; les six autres noms (האינתיפאדה הראשונה, הסכמי השלום, קליטת העלייה, מלחמת לבנון הראשונה, רצח רבין, המשבר הכלכלי) viennent du תיק עזר (aaracha.pdf), leur ordre n'est pas officiel.",
+    "Édition complète du programme pour תשפ\"ז non localisée : le lien « לתוכנית המלאה » mène au PDF de 22 pages (cohorte תש\"ף), alors que les pages scannées citées portent le pied de page « תשפ\"ז – 2027 » avec une pagination 88-92.",
+    "Pour les élèves déjà en י\"א/י\"ב en 2026-27, aucune page lue ne dit explicitement si l'évaluation alternative reste « בית שני / ערים וקהילות » ; le תיק עזר ne parle que des élèves qui entrent en י' en תשפ\"ז.",
+    "Règles de réponse du שאלון 022261 pour תשפ\"ז : « יפורסמו בחוזר מפמ\"ר » – circulaire non trouvée ; barème 2028 (16/28/28/28) lu dans un tableau PDF mal extrait, à reconfirmer ; liste des livres autorisés (manuel ouvert) non lue ; codes des משימות מבוקרות non rattachés avec certitude à chaque אשכול (tableaux mal extraits).",
+    "Documents téléchargés mais non analysés : 22262-2027.pdf, 22381-2027.pdf, 22382-2027.pdf, mutam-win.pdf, tavniot-sheelot-bhina.pdf, haskala-klalit-history.pdf ; programmes adaptés (עולים חדשים, כבדי שמיעה, נבחני משנה/אקסטרנים, היסטוריה מורחב) non traités ; le site https://history-mamlahti.education.gov.il/ (circulaires éventuelles) n'a pas été consulté.",
+    "L'ashnav 2028 (new-22261.pdf) semble ne plus citer la Pologne dans la liste des mouvements nationaux exemplaires (איטליה, גרמניה, יוון) alors que celui de 2027 cite איטליה, גרמניה, יוון, פולין : à reconfirmer. De même, « מיעוטים באירופה בין שתי מלחמות עולם » est absent du texte de l'ashnav 2027 (recherche par mot-clé) : il n'est pas confirmé qu'il soit évalué en 2027 ; le reste de l'ashnav n'a pas été comparé point par point au programme complet."
+  ]
+}
