@@ -1,0 +1,63 @@
+name: Surveillance du ministère
+
+# Détecte les programmes et documents publiés ou modifiés sur pop.education.gov.il
+# (script : scripts/watch-ministry.mjs, référence : data/ministry-snapshot.json).
+# Les pages sont lues chaque dimanche, et tous les jours en août et en septembre,
+# période où le ministère publie les programmes de la nouvelle année scolaire.
+
+on:
+  schedule:
+    - cron: "0 5 * * 0" # chaque dimanche, 05:00 UTC
+    - cron: "0 5 * 8,9 *" # tous les jours en août et septembre, 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# Un dimanche d'août ou de septembre déclenche les deux horaires : on les exécute l'un après l'autre.
+concurrency:
+  group: watch-ministry
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    name: Surveiller les pages du ministère
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Installer Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Interroger les pages du ministère
+        id: watch
+        run: node scripts/watch-ministry.mjs
+
+      - name: Enregistrer la référence et le rapport sur main
+        if: steps.watch.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ministry-snapshot.json data/ministry-diff.md
+          if git diff --cached --quiet; then
+            echo "Rien de nouveau à enregistrer."
+          else
+            git commit -m "chore(ministère): nouvelle référence et rapport des changements"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Ouvrir une issue
+        if: steps.watch.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create "ministère" --color "1D76DB" --description "Changements détectés sur les pages du ministère de l'Éducation" --force
+          gh issue create --title "Le ministère a publié des changements" --body-file data/ministry-diff.md --label "ministère"
