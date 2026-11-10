@@ -1,0 +1,1095 @@
+{
+  "id": "math",
+  "name": {
+    "he": "מתמטיקה",
+    "fr": "Mathématiques"
+  },
+  "schoolYear": "תשפ\"ז",
+  "status": "draft",
+  "retrievedAt": "2026-11-10",
+  "officialPages": [
+    "https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/new-curriculum/",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/hozer-mafmar-tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/Topics-not-be-taught-in-Tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/3-points-tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/4-points-tashpaz.pdf",
+    "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/5-points-tashpaz.pdf"
+  ],
+  "levels": [
+    {
+      "units": 3,
+      "label": {
+        "he": "3 יחידות לימוד",
+        "fr": "3 yéhidot"
+      },
+      "grades": [
+        {
+          "grade": "10",
+          "gradeLabel": "י'",
+          "topics": [
+            {
+              "id": "math-3-10-01",
+              "he": "אשכול מדעים וחברה",
+              "fr": "Grappe « Sciences et société » (40 h)",
+              "subtopics": [
+                {
+                  "he": "הסקת מסקנות ממידע (המיוצג בייצוגים שונים) הקשור לנושאים ממדעים וחברה",
+                  "fr": "Tirer des conclusions d'informations (représentations variées) sur des sujets de sciences et de société — 12 h"
+                },
+                {
+                  "he": "ייצוגים סטטיסטיים שונים לתופעות מדעיות וחברתיות ומעבר ביניהם",
+                  "fr": "Représentations statistiques variées et passage de l'une à l'autre — 5 h"
+                },
+                {
+                  "he": "שימוש בכלים סטטיסטיים (מדדי מרכז) לעיבוד מידע בהקשר לתופעות מדעיות וחברתיות",
+                  "fr": "Outils statistiques (mesures de tendance centrale) pour traiter l'information — 12 h"
+                },
+                {
+                  "he": "חישוב סיכויים / הסתברויות להתרחשות של תופעות חברתיות לא וודאיות",
+                  "fr": "Calcul de chances / probabilités de phénomènes sociaux incertains — 7 h"
+                },
+                {
+                  "he": "אינטגרציה של עיבוד סטטיסטי וחישוב סיכויים בהקשר לתופעות חברתיות ומדעיות",
+                  "fr": "Synthèse : traitement statistique et calcul de chances — 4 h"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/eshkol_madaei_10.pdf"
+            },
+            {
+              "id": "math-3-10-02",
+              "he": "אשכול התמצאות במישור ובמרחב",
+              "fr": "Grappe « Orientation dans le plan et dans l'espace » (40 h)",
+              "subtopics": [
+                {
+                  "he": "היקפים של צורות גיאומטריות (משולשים, מרובעים, מעגלים, צורות המורכבות ממלבנים ו/או ממעגלים ו/או מחלקי מעגלים)",
+                  "fr": "Périmètres de figures géométriques (triangles, quadrilatères, cercles, figures composées) — 8 h"
+                },
+                {
+                  "he": "מסלולים – חישוב מהירות",
+                  "fr": "Trajets : calcul de vitesse — 8 h"
+                },
+                {
+                  "he": "שטחים של צורות גיאומטריות (משולשים, מרובעים, מעגלים, צורות המורכבות ממלבנים ו/או ממעגלים ו/או מחלקי מעגלים)",
+                  "fr": "Aires de figures géométriques — 8 h"
+                },
+                {
+                  "he": "ריצופים",
+                  "fr": "Pavages — 6 h"
+                },
+                {
+                  "he": "היקפים ושטחים של צורות גיאומטריות – מינימום/מקסימום (פונקציה ריבועית)",
+                  "fr": "Périmètres et aires ; minimum/maximum d'une fonction quadratique — 10 h"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/eshkol_merhav_10.pdf"
+            },
+            {
+              "id": "math-3-10-03",
+              "he": "אשכול כלכלי-פיננסי",
+              "fr": "Grappe économico-financière (40 h)",
+              "subtopics": [
+                {
+                  "he": "קריאת נתונים שמוצגים באופן מספרי, ויזואלי או אלגברי, הסקת מסקנות וקבלת החלטות מושכלות בהקשר כלכלי-פיננסי",
+                  "fr": "Lire des données (numériques, visuelles, algébriques), conclure et décider en contexte économique et financier — 6 h"
+                },
+                {
+                  "he": "שימוש במודל ליניארי לייצוג תופעות בהקשר כלכלי ובהקשר פיננסי",
+                  "fr": "Modèle linéaire pour représenter des phénomènes économiques et financiers — 12 h"
+                },
+                {
+                  "he": "יישום בהקשר של קנייה-מכירה ושכר",
+                  "fr": "Application : achat-vente et salaire — 15 h"
+                },
+                {
+                  "he": "יישום מדדי המרכז מתחום הסטטיסטיקה בתחום הכלכלי-פיננסי",
+                  "fr": "Mesures de tendance centrale appliquées à l'économie et à la finance — 7 h"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/eshkol_financi_10.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "11",
+          "gradeLabel": "י\"א",
+          "topics": [
+            {
+              "id": "math-3-11-01",
+              "he": "אשכול חברה ומדע",
+              "fr": "Grappe « Société et sciences » (40 h)",
+              "subtopics": [
+                {
+                  "he": "למידת תהליכים ותופעות המתנהגים באופן מעריכי בהקשר למדעים וחברה",
+                  "fr": "Processus et phénomènes à comportement exponentiel (croissance et décroissance) en sciences et société"
+                },
+                {
+                  "he": "שימוש בכלים סטטיסטיים לעיבוד מידע – הרחבה (סטיית תקן)",
+                  "fr": "Outils statistiques : approfondissement (écart-type)"
+                },
+                {
+                  "he": "חישוב מתקדם של הסתברות/סיכוי להתרחשויות לא ודאיות",
+                  "fr": "Calcul avancé de probabilités (intersection d'événements indépendants et dépendants)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/11th-social.pdf"
+            },
+            {
+              "id": "math-3-11-02",
+              "he": "אשכול התמצאות במישור ובמרחב",
+              "fr": "Grappe « Orientation dans le plan et dans l'espace » (40 h)",
+              "subtopics": [
+                {
+                  "he": "יחס ופרופורציה בהקשר אורייני – כולל קנה מידה",
+                  "fr": "Rapport et proportion en contexte, échelle comprise"
+                },
+                {
+                  "he": "דמיון משולשים בהקשר אורייני",
+                  "fr": "Similitude de triangles en contexte"
+                },
+                {
+                  "he": "שימוש בטריגונומטריה בהקשר אורייני",
+                  "fr": "Trigonométrie en contexte (sinus, cosinus, tangente dans le triangle rectangle)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/yud_alef_02.pdf"
+            },
+            {
+              "id": "math-3-11-03",
+              "he": "אשכול פיננסי כלכלי",
+              "fr": "Grappe « Financier et économique » (40 h)",
+              "subtopics": [
+                {
+                  "he": "למידת תהליכים ותופעות המתנהגים באופן מעריכי בהקשר פיננסי כלכלי",
+                  "fr": "Processus exponentiels en contexte financier et économique"
+                },
+                {
+                  "he": "שימוש בכלים סטטיסטיים לעיבוד מידע – הרחבה (סטיית תקן)",
+                  "fr": "Outils statistiques : approfondissement (écart-type)"
+                },
+                {
+                  "he": "מדדי המיקום היחסי: רבעונים ועשירונים",
+                  "fr": "Mesures de position relative : quartiles et déciles"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/11th-financial.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "12",
+          "gradeLabel": "י\"ב",
+          "topics": [
+            {
+              "id": "math-3-12-01",
+              "he": "אשכול התמצאות במישור ובמרחב: גאומטריה במרחב, ראייה מרחבית",
+              "fr": "Grappe « Orientation dans le plan et dans l'espace » : géométrie dans l'espace et vision spatiale (30 h)",
+              "subtopics": [
+                {
+                  "he": "הכרת התכונות של הגופים: תיבה (כולל קובייה), מנסרה ישרה שבסיסה משולש, פירמידה ישרה, פירמידה לא ישרה שאחד מהמקצועות הצדדיים מאונך לבסיס, גליל ישר, חרוט ישר וכדור",
+                  "fr": "Propriétés des solides : pavé/cube, prisme droit à base triangulaire, pyramides (droite ou à arête latérale perpendiculaire à la base), cylindre droit, cône droit, sphère"
+                },
+                {
+                  "he": "נוסחאות לחישוב שטח מעטפת של הגופים",
+                  "fr": "Formules d'aire latérale"
+                },
+                {
+                  "he": "נוסחאות לחישוב שטח פנים של הגופים",
+                  "fr": "Formules d'aire totale"
+                },
+                {
+                  "he": "נוסחאות לחישוב נפח של הגופים",
+                  "fr": "Formules de volume"
+                },
+                {
+                  "he": "ראייה מרחבית: הסתכלות על גוף תלת ממדי נתון מנקודות מבט שונות",
+                  "fr": "Vision spatiale : un solide vu sous différents points de vue — 10 h"
+                },
+                {
+                  "he": "זיהוי גוף תלת ממדי הבנוי מקוביות על סמך תרשים מספרי או תרשים מבטים",
+                  "fr": "Reconnaître un solide fait de cubes d'après un schéma numérique ou un schéma de vues"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/geometry-merhav-12.pdf"
+            },
+            {
+              "id": "math-3-12-02",
+              "he": "אשכול פיננסי וכלכלי - תכנון ליניארי",
+              "fr": "Programmation linéaire (25 h)",
+              "subtopics": [
+                {
+                  "he": "פתרון גרפי של אי-שוויונות ליניאריים",
+                  "fr": "Résolution graphique d'inéquations linéaires"
+                },
+                {
+                  "he": "תרגום מייצוג מילולי לייצוג אלגברי – פונקציה ממעלה ראשונה בשני משתנים f(x,y)",
+                  "fr": "Du verbal à l'algébrique : fonction du premier degré à deux variables f(x,y)"
+                },
+                {
+                  "he": "מערכת אילוצים, פונקציית מטרה ותחום אפשרי של פונקציית המטרה",
+                  "fr": "Système de contraintes, fonction objectif, domaine admissible"
+                },
+                {
+                  "he": "ערך מקסימלי וערך מינימלי של פונקציה בשני משתנים ממעלה ראשונה בתחום אילוצים נתון",
+                  "fr": "Maximum et minimum d'une fonction linéaire à deux variables sous contraintes"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/linear-12.pdf"
+            },
+            {
+              "id": "math-3-12-03",
+              "he": "גאומטריה אנליטית",
+              "fr": "Géométrie analytique (25 h)",
+              "subtopics": [
+                {
+                  "he": "נקודות וקטעים: אורך קטע ואמצע קטע",
+                  "fr": "Points et segments : longueur, milieu"
+                },
+                {
+                  "he": "ישרים: שיפוע ומשוואת הקו הישר (בצורה מפורשת ובצורה סתומה)",
+                  "fr": "Droites : pente, équation explicite et implicite"
+                },
+                {
+                  "he": "מצבים הדדיים בין ישרים: התלכדות, הקבלה, חיתוך, ניצבות",
+                  "fr": "Positions relatives : confondues, parallèles, sécantes, perpendiculaires"
+                },
+                {
+                  "he": "חיתוך ישרים: נקודות חיתוך עם הצירים ונקודת חיתוך של שני ישרים",
+                  "fr": "Intersections : avec les axes et de deux droites"
+                },
+                {
+                  "he": "מצולעים: שימוש בתכונות משולשים ומרובעים, היקפים ושטחים",
+                  "fr": "Polygones : propriétés des triangles et quadrilatères, périmètres, aires"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/analitic-geometry-12.pdf"
+            },
+            {
+              "id": "math-3-12-04",
+              "he": "למידת תהליכים ותופעות בהקשר כלכלי פיננסי וחברתי מדעי שמתנהגים כמודל ריבועי (משוואה ופונקציה ריבועית)",
+              "fr": "Modèle quadratique : équation et fonction du second degré en contexte (20 h)",
+              "subtopics": [
+                {
+                  "he": "פתרון אלגברי של משוואה ריבועית",
+                  "fr": "Résolution algébrique d'une équation du second degré"
+                },
+                {
+                  "he": "משמעות משוואה ריבועית כחיתוך של פרבולה עם ציר x",
+                  "fr": "Sens d'une équation du 2e degré : intersection d'une parabole avec l'axe x"
+                },
+                {
+                  "he": "הפרבולה ותכונותיה: קודקוד, סימטריה, חיתוך צירים, עלייה/ירידה, שליליות/חיוביות",
+                  "fr": "La parabole : sommet, symétrie, intersections avec les axes, variations, signe"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/model-ribuei-12.pdf"
+            },
+            {
+              "id": "math-3-12-05",
+              "he": "הערכת סיכויים בעזרת מודל של התפלגות נורמלית",
+              "fr": "Évaluer des chances avec la loi normale (20 h)",
+              "subtopics": [
+                {
+                  "he": "תכונות עקומת ההתפלגות הנורמלית",
+                  "fr": "Propriétés de la courbe de la loi normale"
+                },
+                {
+                  "he": "שימושים בעקומה: מציאת הסתברות או החלק היחסי (באחוזים) של קבוצה עם תכונה משותפת",
+                  "fr": "Utilisations : probabilité ou proportion (en %) d'un groupe ayant une propriété commune"
+                },
+                {
+                  "he": "מציאת תכונה של קבוצה בהינתן החלק היחסי של הקבוצה",
+                  "fr": "Trouver une propriété d'un groupe à partir de sa proportion"
+                },
+                {
+                  "he": "ציון תקן",
+                  "fr": "Score standard (note z)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/itpalgut-normalit-12.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "units": 4,
+      "label": {
+        "he": "4 יחידות לימוד",
+        "fr": "4 yéhidot"
+      },
+      "grades": [
+        {
+          "grade": "10",
+          "gradeLabel": "י'",
+          "topics": [
+            {
+              "id": "math-4-10-01",
+              "he": "גאומטריה",
+              "fr": "Géométrie (au moins 40 h)",
+              "subtopics": [
+                {
+                  "he": "גאומטריה של המישור – קווים מיוחדים במשולש: תיכונים, חוצי זוויות, אנכים אמצעיים, גבהים",
+                  "fr": "Géométrie du plan — droites remarquables du triangle : médianes, bissectrices, médiatrices, hauteurs"
+                },
+                {
+                  "he": "דמיון משולשים: משפטי דמיון, יחס היקפים, יחס שטחים ויחס קווים מיוחדים במשולשים דומים",
+                  "fr": "Similitude de triangles : critères, rapports des périmètres, des aires et des droites remarquables"
+                },
+                {
+                  "he": "טריגונומטריה במשולש ישר זווית: סינוס, קוסינוס וטנגנס של זווית חדה",
+                  "fr": "Trigonométrie du triangle rectangle : sinus, cosinus, tangente d'un angle aigu"
+                },
+                {
+                  "he": "שטח משולש לפי הנוסחה S = ½·a·b·sinγ; צורות המתפרקות למשולשים ישרי זווית ו/או למרובעים",
+                  "fr": "Aire d'un triangle S = ½·a·b·sinγ ; figures décomposables en triangles rectangles et/ou quadrilatères"
+                },
+                {
+                  "he": "גאומטריה אנליטית – נקודות וקטעים: אורך קטע ואמצע קטע",
+                  "fr": "Géométrie analytique — points et segments : longueur, milieu"
+                },
+                {
+                  "he": "גאומטריה אנליטית – ישרים: שיפוע, משוואת ישר, מצבים הדדיים וחיתוך ישרים",
+                  "fr": "Géométrie analytique — droites : pente, équation, positions relatives, intersection"
+                },
+                {
+                  "he": "שילוב שלושת תחומי הגאומטריה (גאומטריה של המישור, טריגונומטריה וגאומטריה אנליטית)",
+                  "fr": "Enseignement intégré des trois domaines (géométrie du plan, trigonométrie, géométrie analytique)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/10th-4-yachal-22.pdf"
+            },
+            {
+              "id": "math-4-10-02",
+              "he": "אלגברה וחשבון דיפרנציאלי",
+              "fr": "Algèbre et calcul différentiel (au moins 45 h)",
+              "subtopics": [
+                {
+                  "he": "טכניקה אלגברית בסיסית: פירוק לגורמים, חוקי חזקות, שורשים ריבועיים",
+                  "fr": "Technique algébrique : factorisation, puissances, racines carrées"
+                },
+                {
+                  "he": "פתרון משוואות ואי-שוויונות ממעלה ראשונה ושנייה, כולל משוואות עם שברים אלגבריים",
+                  "fr": "Équations et inéquations du 1er et du 2e degré, fractions algébriques comprises"
+                },
+                {
+                  "he": "הכרת משפחות של פונקציות ותכונותיהן: תחום הגדרה, חיוביות ושליליות, עלייה וירידה, זוגיות ואי-זוגיות (12 שעות)",
+                  "fr": "Familles de fonctions et propriétés : domaine, signe, variations, parité — 12 h"
+                },
+                {
+                  "he": "פונקציות חזקה, פונקציית השורש ופעולות על פונקציות: הזזה, מתיחה/כיווץ, שיקוף, ערך מוחלט",
+                  "fr": "Fonctions puissance, racine carrée et transformations : translation, étirement, symétrie, valeur absolue"
+                },
+                {
+                  "he": "חשבון דיפרנציאלי של פונקציות פולינומיאליות (לפחות 15 שעות): נגזרת, משיק, חקירת פונקציה, גרף הנגזרת",
+                  "fr": "Dérivées de fonctions polynomiales : dérivée, tangente, étude de fonction, graphe de la dérivée — au moins 15 h"
+                },
+                {
+                  "he": "חשבון דיפרנציאלי של פונקציית שורש (לפחות 10 שעות)",
+                  "fr": "Dérivées de fonctions avec racine carrée — au moins 10 h"
+                },
+                {
+                  "he": "בעיות ערך קיצון (8 שעות)",
+                  "fr": "Problèmes d'extremum — 8 h"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/10th-4-yachal-22.pdf"
+            },
+            {
+              "id": "math-4-10-03",
+              "he": "סטטיסטיקה והסתברות",
+              "fr": "Statistiques et probabilités (au moins 35 h)",
+              "subtopics": [
+                {
+                  "he": "סוגי משתנים והצגת נתונים: רשימה, טבלאות שכיחויות וייצוגים גרפיים (דיאגרמת עמודות, היסטוגרמה, דיאגרמת עיגול, גרף)",
+                  "fr": "Types de variables et présentation des données : liste, tableaux d'effectifs, représentations graphiques"
+                },
+                {
+                  "he": "מדדי מרכז: ממוצע, ממוצע משוקלל, שכיח וחציון",
+                  "fr": "Mesures de position centrale : moyenne, moyenne pondérée, mode, médiane"
+                },
+                {
+                  "he": "עשירונים ורבעונים",
+                  "fr": "Déciles et quartiles"
+                },
+                {
+                  "he": "מדדי פיזור: טווח, שונות וסטיית תקן",
+                  "fr": "Mesures de dispersion : étendue, variance, écart-type"
+                },
+                {
+                  "he": "מרחב מדגם, מאורעות (זרים, משלימים), הגדרת ההסתברות וחוקי ההסתברות",
+                  "fr": "Univers, événements (incompatibles, complémentaires), définition et règles de la probabilité"
+                },
+                {
+                  "he": "הסתברות מותנית; מאורעות תלויים ובלתי תלויים",
+                  "fr": "Probabilité conditionnelle ; événements dépendants et indépendants"
+                },
+                {
+                  "he": "ייצוג וחישוב הסתברויות בטבלה דו-ממדית ובעץ הסתברויות (ניסויים דו-שלביים ותלת-שלביים)",
+                  "fr": "Tableau à double entrée et arbre de probabilités (épreuves à deux et trois étapes)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/10th-4-yachal-22.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "11",
+          "gradeLabel": "י\"א",
+          "topics": [
+            {
+              "id": "math-4-11-01",
+              "he": "פונקציות וחשבון דיפרנציאלי ואינטגרלי",
+              "fr": "Fonctions et calcul différentiel et intégral (au moins 45 h)",
+              "subtopics": [
+                {
+                  "he": "קדם אנליזה של פונקציה רציונלית (לפחות 4 שעות)",
+                  "fr": "Pré-analyse d'une fonction rationnelle — au moins 4 h"
+                },
+                {
+                  "he": "חשבון דיפרנציאלי של פונקציה רציונלית ופונקציית שורש (לפחות 21 שעות)",
+                  "fr": "Calcul différentiel : fonction rationnelle et fonction racine carrée — au moins 21 h"
+                },
+                {
+                  "he": "שאלות ערך קיצון (לפחות 10 שעות)",
+                  "fr": "Problèmes d'extremum — au moins 10 h"
+                },
+                {
+                  "he": "חשבון אינטגרלי (לפחות 10 שעות): פונקציה קדומה, אינטגרל מסוים, שטח בין גרפים של פונקציות",
+                  "fr": "Calcul intégral : primitive, intégrale définie, aire entre des courbes — au moins 10 h"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/curriculum-4units.pdf"
+            },
+            {
+              "id": "math-4-11-02",
+              "he": "גאומטריה",
+              "fr": "Géométrie (40 h)",
+              "subtopics": [
+                {
+                  "he": "גאומטריה אוקלידית – מעגל: הגדרות, מיתר, קשת, זווית מרכזית וזווית היקפית",
+                  "fr": "Géométrie euclidienne — cercle : définitions, corde, arc, angle au centre et angle inscrit"
+                },
+                {
+                  "he": "משיקים למעגל: הגדרה, תכונות ומשפטים",
+                  "fr": "Tangentes à un cercle : définition, propriétés, théorèmes"
+                },
+                {
+                  "he": "משולש ומרובע חסום במעגל; משולש חוסם מעגל",
+                  "fr": "Triangle et quadrilatère inscrits dans un cercle ; triangle circonscrit à un cercle"
+                },
+                {
+                  "he": "היקף מעגל ושטח עיגול",
+                  "fr": "Circonférence du cercle et aire du disque"
+                },
+                {
+                  "he": "טריגונומטריה במישור: משפט הסינוסים, שטח משולש ושטח מקבילית בעזרת סינוס הזווית",
+                  "fr": "Trigonométrie plane : loi des sinus, aire d'un triangle et d'un parallélogramme avec le sinus"
+                },
+                {
+                  "he": "גאומטריה אנליטית – מעגל: משוואה קנונית ומשוואה כללית של מעגל",
+                  "fr": "Géométrie analytique — cercle : équation canonique et équation générale"
+                },
+                {
+                  "he": "מעגל וישר: מצב הדדי, משוואת משיק למעגל בנקודה שעל המעגל, מעגל המשיק לצירים",
+                  "fr": "Cercle et droite : position relative, tangente en un point du cercle, cercle tangent aux axes"
+                },
+                {
+                  "he": "העשרה: אומדן המספר π",
+                  "fr": "Enrichissement : estimation du nombre π"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/curriculum-4units.pdf"
+            },
+            {
+              "id": "math-4-11-03",
+              "he": "סטטיסטיקה",
+              "fr": "Statistiques (35 h)",
+              "subtopics": [
+                {
+                  "he": "חזרה על תכנים שנלמדו בכיתה י' – ממוצע וסטיית תקן (4 שעות)",
+                  "fr": "Rappel de la classe de 10e : moyenne et écart-type — 4 h"
+                },
+                {
+                  "he": "התפלגות נורמלית (15 שעות): ציוני תקן, תכונות עקומת ההתפלגות הנורמלית ושימושיה",
+                  "fr": "Loi normale : scores standard, propriétés de la courbe et utilisations — 15 h"
+                },
+                {
+                  "he": "הקשר בין שני משתנים כמותיים – ניבוי ורגרסיה לינארית (16 שעות): דיאגרמת פיזור, מקדם המתאם, ישר הרגרסיה",
+                  "fr": "Lien entre deux variables quantitatives, prévision et régression linéaire : nuage de points, coefficient de corrélation, droite de régression — 16 h"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/curriculum-4units.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "12",
+          "gradeLabel": "י\"ב",
+          "topics": [
+            {
+              "id": "math-4-12-01",
+              "he": "פונקציות מעריכיות ולוגריתמיות",
+              "fr": "Fonctions exponentielles et logarithmiques (au moins 50 h)",
+              "subtopics": [
+                {
+                  "he": "קדם אנליזה של פונקציות מעריכיות ולוגריתמיות (לפחות 15 שעות): חוקי חזקות, פונקציה מעריכית, לוגריתמים, פונקציה לוגריתמית, משוואות ואי-שוויונות",
+                  "fr": "Pré-analyse : puissances, fonction exponentielle, logarithmes, fonction logarithme, équations et inéquations — au moins 15 h"
+                },
+                {
+                  "he": "בעיות גדילה ודעיכה (לפחות 10 שעות), כולל זמן מחצית חיים",
+                  "fr": "Problèmes de croissance et de décroissance, demi-vie comprise — au moins 10 h"
+                },
+                {
+                  "he": "חשבון דיפרנציאלי ואינטגרלי של פונקציות מעריכיות ולוגריתמיות (לפחות 25 שעות): המספר e, נגזרות, משיק, חקירת פונקציה, אינטגרל",
+                  "fr": "Calcul différentiel et intégral : nombre e, dérivées, tangente, étude de fonction, intégrale — au moins 25 h"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/dif-4yachal-12.pdf"
+            },
+            {
+              "id": "math-4-12-02",
+              "he": "גאומטריה במרחב",
+              "fr": "Géométrie dans l'espace (40 h)",
+              "subtopics": [
+                {
+                  "he": "ישרים, מישורים והמצב ההדדי ביניהם",
+                  "fr": "Droites, plans et positions relatives"
+                },
+                {
+                  "he": "גופים ותכונותיהם: מנסרה ופירמידה (ישרות ולא ישרות)",
+                  "fr": "Solides et propriétés : prisme et pyramide (droits ou non)"
+                },
+                {
+                  "he": "וקטור בגישה גאומטרית: פעולות, קולינאריות, צירוף לינארי",
+                  "fr": "Vecteur (approche géométrique) : opérations, colinéarité, combinaison linéaire"
+                },
+                {
+                  "he": "וקטור בגישה אלגברית: מערכת צירים במרחב והצגה אלגברית של וקטור",
+                  "fr": "Vecteur (approche algébrique) : repère de l'espace, écriture algébrique"
+                },
+                {
+                  "he": "מכפלה סקלרית של וקטורים: זווית בין וקטורים, אורכים ושטחים",
+                  "fr": "Produit scalaire : angle entre vecteurs, longueurs, aires"
+                },
+                {
+                  "he": "ניצבות בין וקטורים ובין וקטור למישור",
+                  "fr": "Orthogonalité entre vecteurs et entre vecteur et plan"
+                },
+                {
+                  "he": "חישובי נפחים של גופים (מנסרה, פירמידה)",
+                  "fr": "Calculs de volumes (prisme, pyramide)"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/geo-vector-4y-12.pdf"
+            },
+            {
+              "id": "math-4-12-03",
+              "he": "אלגברה: סדרות",
+              "fr": "Algèbre : suites (au moins 20 h)",
+              "subtopics": [
+                {
+                  "he": "הקדמה לסדרות (2 שעות): ייצוגים שונים של סדרות, איבר כללי וכלל נסיגה",
+                  "fr": "Introduction aux suites : représentations, terme général et relation de récurrence — 2 h"
+                },
+                {
+                  "he": "סדרה חשבונית (לפחות 9 שעות)",
+                  "fr": "Suite arithmétique — au moins 9 h"
+                },
+                {
+                  "he": "סדרה הנדסית (לפחות 9 שעות)",
+                  "fr": "Suite géométrique — au moins 9 h"
+                },
+                {
+                  "he": "סכום סדרה הנדסית אינסופית שסכומה מתכנס",
+                  "fr": "Somme d'une suite géométrique infinie convergente"
+                },
+                {
+                  "he": "פתרון שאלות המשלבות סדרה חשבונית וסדרה הנדסית",
+                  "fr": "Problèmes combinant suite arithmétique et suite géométrique"
+                }
+              ],
+              "source": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/new-curriculum/sdarot-4units.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "units": 5,
+      "label": {
+        "he": "5 יחידות לימוד",
+        "fr": "5 yéhidot"
+      },
+      "grades": [
+        {
+          "grade": "10",
+          "gradeLabel": "י'",
+          "topics": [
+            {
+              "id": "math-5-10-01",
+              "he": "מבוא להנדסה אנליטית",
+              "fr": "Introduction à la géométrie analytique (10 h)",
+              "subtopics": [
+                {
+                  "he": "חזרה על נושא הישר והפרבולה והרחבתו תוך קישור למושג הפונקציה",
+                  "fr": "Rappel de la droite et de la parabole, lien avec la notion de fonction"
+                },
+                {
+                  "he": "מציאת משוואת ישר על פי שתי נקודות ועל פי שיפוע ונקודה, הקבלה, אמצע קטע, חיתוך, ניצבות ומרחק בין שתי נקודות",
+                  "fr": "Équation d'une droite (deux points ; pente et point), parallélisme, milieu, intersection, perpendicularité, distance entre deux points"
+                },
+                {
+                  "he": "מערכת משוואות לינאריות והצגתה הגרפית; משוואה מפורשת לעומת משוואה כללית של קו ישר",
+                  "fr": "Système linéaire et sa représentation graphique ; équation explicite ou générale d'une droite"
+                },
+                {
+                  "he": "מערכת של משוואה ריבועית ומשוואה לינארית",
+                  "fr": "Système d'une équation du second degré et d'une équation linéaire"
+                },
+                {
+                  "he": "משוואת מעגל קנוני (שמרכזו בראשית הצירים) והזזתו",
+                  "fr": "Équation canonique du cercle (centre à l'origine) et sa translation"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            },
+            {
+              "id": "math-5-10-02",
+              "he": "מבוא לאנליזה של פונקציות",
+              "fr": "Introduction à l'analyse des fonctions (15 h)",
+              "subtopics": [
+                {
+                  "he": "היכרות עם פונקציות פולינומיאליות תוך חזרה על הפונקציה הקווית והפונקציה הריבועית",
+                  "fr": "Fonctions polynomiales, rappel des fonctions affine et quadratique"
+                },
+                {
+                  "he": "פונקציות חזקה f(x)=xⁿ; זוגיות ואי-זוגיות",
+                  "fr": "Fonctions puissance f(x)=xⁿ ; parité"
+                },
+                {
+                  "he": "הזזות ומתיחות ככלי ליצירת משפחות של פונקציות",
+                  "fr": "Translations et étirements pour créer des familles de fonctions"
+                },
+                {
+                  "he": "היכרות ראשונית עם פונקציות רציונליות ופונקציות שורש",
+                  "fr": "Première approche des fonctions rationnelles et des fonctions racines"
+                },
+                {
+                  "he": "פעולות על פונקציות: שיקוף, סכום והפרש, מכפלה ומנה, פונקציה הפוכה, הרכבת פונקציות",
+                  "fr": "Opérations sur les fonctions : symétrie, somme, produit, quotient, fonction réciproque, composition"
+                },
+                {
+                  "he": "התנהגות אסימפטוטית והגדרה אינטואיטיבית של רציפות",
+                  "fr": "Comportement asymptotique et définition intuitive de la continuité"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            },
+            {
+              "id": "math-5-10-03",
+              "he": "חשבון דיפרנציאלי",
+              "fr": "Calcul différentiel (45 h)",
+              "subtopics": [
+                {
+                  "he": "קצב שינוי אחיד ומשתנה; מדרגות ככלי לתיאור קצב השינוי",
+                  "fr": "Taux de variation constant et variable ; « marches » pour décrire le taux de variation"
+                },
+                {
+                  "he": "הגדרת הנגזרת כגבול שיפוע החותכים; משיק לגרף",
+                  "fr": "Dérivée comme limite de la pente des sécantes ; tangente"
+                },
+                {
+                  "he": "נגזרת של פונקציות פולינומיאליות",
+                  "fr": "Dérivée des fonctions polynomiales"
+                },
+                {
+                  "he": "חקירת פונקציות פולינומיאליות: תחום הגדרה, נקודות קיצון, עלייה וירידה, זוגיות ואי-זוגיות, סקיצת גרף",
+                  "fr": "Étude de fonctions polynomiales : domaine, extrema, variations, parité, esquisse du graphe"
+                },
+                {
+                  "he": "משוואת משיק ופתרון בעיות יישומיות של ערך קיצון",
+                  "fr": "Équation de la tangente et problèmes d'extremum appliqués"
+                },
+                {
+                  "he": "פונקציה קדומה לפונקציות פולינומיאליות",
+                  "fr": "Primitive des fonctions polynomiales"
+                },
+                {
+                  "he": "הרחבה לפונקציות רציונליות ופונקציות שורש, כולל הרכבה ונגזרת פונקציית המנה",
+                  "fr": "Extension aux fonctions rationnelles et aux fonctions racines, composition, dérivée du quotient"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            },
+            {
+              "id": "math-5-10-04",
+              "he": "גאומטריה אוקלידית",
+              "fr": "Géométrie euclidienne (50 h)",
+              "subtopics": [
+                {
+                  "he": "מקומות גאומטריים, נקודות מיוחדות במשולש ומשפט חפיפה רביעי (10 שעות)",
+                  "fr": "Lieux géométriques, points remarquables du triangle et quatrième critère d'égalité des triangles — 10 h"
+                },
+                {
+                  "he": "המעגל (20 שעות): קשתות, זוויות ומיתרים; משיק למעגל; בניות",
+                  "fr": "Cercle : arcs, angles et cordes ; tangente ; constructions — 20 h"
+                },
+                {
+                  "he": "פרופורציה ודמיון משולשים (20 שעות): משפט תאלס, משפטי הדמיון, משפט חוצה הזווית הפנימית",
+                  "fr": "Proportions et similitude : théorème de Thalès, critères de similitude, bissectrice intérieure — 20 h"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            },
+            {
+              "id": "math-5-10-05",
+              "he": "פונקציות טריגונומטריות",
+              "fr": "Fonctions trigonométriques (15 h)",
+              "subtopics": [
+                {
+                  "he": "הפונקציות הטריגונומטריות על מעגל היחידה: סינוס, קוסינוס וטנגנס",
+                  "fr": "Fonctions trigonométriques sur le cercle unité : sinus, cosinus, tangente"
+                },
+                {
+                  "he": "מחזוריות וסימטריה של הפונקציות הטריגונומטריות וגרפיהן",
+                  "fr": "Périodicité, symétries et graphes"
+                },
+                {
+                  "he": "היכרות עם משוואות וזהויות טריגונומטריות בסיסיות",
+                  "fr": "Équations et identités trigonométriques de base"
+                },
+                {
+                  "he": "קשר ליחסי צלעות במשולש ישר זווית ושימוש בדמיון משולשים",
+                  "fr": "Lien avec les rapports de côtés du triangle rectangle ; usage de la similitude"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            },
+            {
+              "id": "math-5-10-06",
+              "he": "טריגונומטריה במישור כולל משוואות טריגונומטריות",
+              "fr": "Trigonométrie plane, équations trigonométriques comprises (15 h)",
+              "subtopics": [
+                {
+                  "he": "שימוש בנוסחה לחישוב שטח משולש S = ½·a·b·sinγ",
+                  "fr": "Aire d'un triangle S = ½·a·b·sinγ"
+                },
+                {
+                  "he": "משפט הסינוסים ומשפט הקוסינוסים ושימושיהם",
+                  "fr": "Loi des sinus et loi des cosinus, applications"
+                },
+                {
+                  "he": "קישור בין פתרון בעיות גאומטריות להכרה איכותית של הפונקציות הטריגונומטריות",
+                  "fr": "Lien entre résolution de problèmes géométriques et connaissance qualitative des fonctions trigonométriques"
+                },
+                {
+                  "he": "שימושים של המשפטים הטריגונומטריים להוכחת משפטים וטענות בגאומטריה",
+                  "fr": "Théorèmes trigonométriques pour démontrer des propriétés géométriques"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yod5.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "11",
+          "gradeLabel": "י\"א",
+          "topics": [
+            {
+              "id": "math-5-11-01",
+              "he": "אינדוקציה מתמטית וסדרות",
+              "fr": "Induction mathématique et suites (40 h)",
+              "subtopics": [
+                {
+                  "he": "מבוא לסדרות מספריות עם חוקיות; סדרה כפונקציה של משתנה בדיד",
+                  "fr": "Introduction aux suites numériques ; suite = fonction d'une variable discrète"
+                },
+                {
+                  "he": "סדרה חשבונית",
+                  "fr": "Suite arithmétique (avec la suite géométrique : 25 h)"
+                },
+                {
+                  "he": "סדרה הנדסית, כולל סכום אינסוף איברים",
+                  "fr": "Suite géométrique, somme infinie comprise"
+                },
+                {
+                  "he": "אינדוקציה מתמטית – עקרונות ודוגמאות (15 שעות)",
+                  "fr": "Induction mathématique : principes et exemples — 15 h"
+                },
+                {
+                  "he": "שימוש באינדוקציה בחקירת סדרות חשבוניות, הנדסיות ואחרות",
+                  "fr": "Induction pour étudier des suites arithmétiques, géométriques et autres"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodalef5.pdf"
+            },
+            {
+              "id": "math-5-11-02",
+              "he": "חשבון דיפרנציאלי",
+              "fr": "Calcul différentiel (30 h)",
+              "subtopics": [
+                {
+                  "he": "השתנות של קצב השינוי של הפונקציה (18 שעות): קעירות, נגזרת שנייה, נקודות פיתול",
+                  "fr": "Variation du taux de variation : concavité, dérivée seconde, points d'inflexion — 18 h"
+                },
+                {
+                  "he": "פונקציות עם שורשים ריבועיים (12 שעות)",
+                  "fr": "Fonctions avec racines carrées — 12 h"
+                },
+                {
+                  "he": "העמקה בחקר פונקציות רציונליות: אסימפטוטות, נקודות אי-הגדרה ונקודת אי-רציפות סליקה",
+                  "fr": "Étude approfondie des fonctions rationnelles : asymptotes, points non définis, discontinuité éliminable"
+                },
+                {
+                  "he": "הקשר בין גרף הפונקציה, גרף הנגזרת הראשונה וגרף הנגזרת השנייה",
+                  "fr": "Lien entre le graphe, la dérivée première et la dérivée seconde"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodalef5.pdf"
+            },
+            {
+              "id": "math-5-11-03",
+              "he": "חשבון אינטגרלי",
+              "fr": "Calcul intégral (25 h)",
+              "subtopics": [
+                {
+                  "he": "פונקציית ההצטברות ומושג האינטגרל",
+                  "fr": "Fonction d'accumulation et notion d'intégrale"
+                },
+                {
+                  "he": "המשפט היסודי של החשבון הדיפרנציאלי והאינטגרלי",
+                  "fr": "Théorème fondamental du calcul différentiel et intégral"
+                },
+                {
+                  "he": "מציאת האינטגרל של פונקציות פשוטות: פולינום, 1/(2√x), 1/xⁿ, פונקציות טריגונומטריות",
+                  "fr": "Intégrales de fonctions simples : polynômes, 1/(2√x), 1/xⁿ, fonctions trigonométriques"
+                },
+                {
+                  "he": "יישומים של פונקציית ההצטברות: שטחים, נפחים, תנועה",
+                  "fr": "Applications : aires, volumes, mouvement"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodalef5.pdf"
+            },
+            {
+              "id": "math-5-11-04",
+              "he": "זהויות טריגונומטריות ויישומן בבעיות בגאומטריה",
+              "fr": "Identités trigonométriques et applications en géométrie (15 h)",
+              "subtopics": [
+                {
+                  "he": "הזהויות sin(α±β), cos(α±β), sin2α, cos2α, סכום והפרש סינוסים וקוסינוסים, ופתרון משוואות מתאימות",
+                  "fr": "Identités de somme/différence d'angles, angle double, somme/différence de sinus et cosinus ; équations correspondantes"
+                },
+                {
+                  "he": "שימוש בזהויות בצורות גאומטריות במישור ובמרחב",
+                  "fr": "Utilisation des identités sur des figures géométriques du plan et de l'espace"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodalef5.pdf"
+            },
+            {
+              "id": "math-5-11-05",
+              "he": "חשבון דיפרנציאלי ואינטגרלי של פונקציות טריגונומטריות",
+              "fr": "Calcul différentiel et intégral des fonctions trigonométriques (15 h)",
+              "subtopics": [
+                {
+                  "he": "חקירת פונקציה טריגונומטרית באמצעות הזזות ומתיחות והבנת תפקידי הפרמטרים",
+                  "fr": "Étude d'une fonction trigonométrique par translations et étirements ; rôle des paramètres"
+                },
+                {
+                  "he": "נגזרות של סינוס, קוסינוס וטנגנס (ברדיאנים)",
+                  "fr": "Dérivées du sinus, du cosinus et de la tangente (en radians)"
+                },
+                {
+                  "he": "חקירת סכום, הפרש, מכפלה ומנה של פונקציות טריגונומטריות והרכבה",
+                  "fr": "Étude de sommes, différences, produits, quotients et composées de fonctions trigonométriques"
+                },
+                {
+                  "he": "בעיות ערך קיצון",
+                  "fr": "Problèmes d'extremum"
+                },
+                {
+                  "he": "אינטגרלים מיידיים של פונקציות טריגונומטריות, כולל שימוש בזהויות, ויישומיהם",
+                  "fr": "Intégrales immédiates de fonctions trigonométriques, identités comprises, et applications"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodalef5.pdf"
+            },
+            {
+              "id": "math-5-11-06",
+              "he": "הסתברות",
+              "fr": "Probabilités (25 h)",
+              "subtopics": [
+                {
+                  "he": "מרחב מדגם ומאורעות (פשוט, מורכב, וודאי, בלתי אפשרי, זרים, משלימים); פעולות על מאורעות ודיאגרמת ון",
+                  "fr": "Univers et événements ; opérations sur les événements et diagramme de Venn"
+                },
+                {
+                  "he": "חישוב הסתברות (תאורטי, יחס שטחים, שכיחות יחסית) וחוקי ההסתברות",
+                  "fr": "Calcul de probabilités (théorique, rapport d'aires, fréquence relative) et règles"
+                },
+                {
+                  "he": "הסתברות מותנית; מאורעות תלויים ובלתי תלויים",
+                  "fr": "Probabilité conditionnelle ; événements dépendants et indépendants"
+                },
+                {
+                  "he": "ייצוג בטבלה דו-ממדית ובעץ הסתברויות; ניסויים רב-שלביים",
+                  "fr": "Tableau à double entrée et arbre de probabilités ; épreuves à plusieurs étapes"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodalef5.pdf"
+            }
+          ]
+        },
+        {
+          "grade": "12",
+          "gradeLabel": "י\"ב",
+          "topics": [
+            {
+              "id": "math-5-12-01",
+              "he": "וקטורים בגישה גאומטרית ואלגברית (כולל טריגונומטריה במרחב)",
+              "fr": "Vecteurs, approches géométrique et algébrique, trigonométrie de l'espace comprise (50 h)",
+              "subtopics": [
+                {
+                  "he": "מבוא ותכונות בסיסיות (8 שעות)",
+                  "fr": "Introduction et propriétés de base — 8 h"
+                },
+                {
+                  "he": "תלות לינארית ויחידות ההצגה (10 שעות)",
+                  "fr": "Dépendance linéaire et unicité de la représentation — 10 h"
+                },
+                {
+                  "he": "מכפלה סקלארית בין וקטורים (8 שעות)",
+                  "fr": "Produit scalaire — 8 h"
+                },
+                {
+                  "he": "ההצגה האלגברית של וקטורים במרחב ושימושיה (12 שעות): מערכת צירים, הצגה פרמטרית של ישר, משוואת מישור, מצבים הדדיים, מרחקים וזוויות",
+                  "fr": "Écriture algébrique des vecteurs de l'espace : repère, droite paramétrée, plan, positions relatives, distances et angles — 12 h"
+                },
+                {
+                  "he": "יישומים בגאומטריית המרחב (12 שעות)",
+                  "fr": "Applications à la géométrie de l'espace — 12 h"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodbet5.pdf"
+            },
+            {
+              "id": "math-5-12-02",
+              "he": "גאומטריה אנליטית",
+              "fr": "Géométrie analytique (40 h)",
+              "subtopics": [
+                {
+                  "he": "נקודות וישרים (7 שעות): חלוקת קטע ביחס נתון, מרחק נקודה מישר ומרחק בין ישרים, מקומות גאומטריים, מצבים הדדיים",
+                  "fr": "Points et droites : partage d'un segment dans un rapport donné, distance point-droite, lieux géométriques, positions relatives — 7 h"
+                },
+                {
+                  "he": "מעגל (7 שעות)",
+                  "fr": "Cercle — 7 h"
+                },
+                {
+                  "he": "פרבולה (8 שעות)",
+                  "fr": "Parabole — 8 h"
+                },
+                {
+                  "he": "אליפסה (8 שעות)",
+                  "fr": "Ellipse — 8 h"
+                },
+                {
+                  "he": "היפרבולה (8 שעות)",
+                  "fr": "Hyperbole — 8 h"
+                },
+                {
+                  "he": "מבט מאחד אלגברי באמצעות המשוואה הכללית Ax² + By² + Cx + Dy + E = 0",
+                  "fr": "Vue unifiée par l'équation générale Ax² + By² + Cx + Dy + E = 0"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodbet5.pdf"
+            },
+            {
+              "id": "math-5-12-03",
+              "he": "חשבון דיפרנציאלי: פונקציות מעריכיות ולוגריתמיות",
+              "fr": "Calcul différentiel : fonctions exponentielles et logarithmiques (40 h)",
+              "subtopics": [
+                {
+                  "he": "אלגברה הקשורה לחזקות ולוגריתמים (8 שעות)",
+                  "fr": "Algèbre des puissances et des logarithmes — 8 h"
+                },
+                {
+                  "he": "חשבון דיפרנציאלי של פונקציות מעריכיות ופונקציות לוגריתמיות",
+                  "fr": "Calcul différentiel des fonctions exponentielles et logarithmiques"
+                },
+                {
+                  "he": "גדילה מעריכית ודעיכה מעריכית, זמן מחצית חיים ויישומים נוספים",
+                  "fr": "Croissance et décroissance exponentielles, demi-vie, applications"
+                },
+                {
+                  "he": "המספר e ופונקציות בבסיס e",
+                  "fr": "Le nombre e et les fonctions de base e"
+                },
+                {
+                  "he": "חשבון אינטגרלי של פונקציות מעריכיות ושל פונקציות שהקדומה שלהן לוגריתמית (10 שעות)",
+                  "fr": "Calcul intégral de fonctions exponentielles et de fonctions à primitive logarithmique — 10 h"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodbet5.pdf"
+            },
+            {
+              "id": "math-5-12-04",
+              "he": "מספרים מרוכבים",
+              "fr": "Nombres complexes (20 h)",
+              "subtopics": [
+                {
+                  "he": "הגדרת המספר המרוכב, שוויון וארבע פעולות החשבון",
+                  "fr": "Définition d'un nombre complexe, égalité, quatre opérations"
+                },
+                {
+                  "he": "הצגה גרפית של מספרים מרוכבים במישור גאוס",
+                  "fr": "Représentation graphique dans le plan de Gauss"
+                },
+                {
+                  "he": "הערך המוחלט והמספר הצמוד",
+                  "fr": "Module et conjugué"
+                },
+                {
+                  "he": "שורש של מספר מרוכב ופתרון משוואה ריבועית",
+                  "fr": "Racine d'un nombre complexe et résolution d'une équation du second degré"
+                },
+                {
+                  "he": "הצגה קוטבית של מספר מרוכב ומכפלה בהצגה קוטבית",
+                  "fr": "Forme polaire et produit en forme polaire"
+                },
+                {
+                  "he": "משפט דה-מואבר ושורשי היחידה מסדר n",
+                  "fr": "Théorème de De Moivre et racines n-ièmes de l'unité"
+                },
+                {
+                  "he": "פתרון בעיות גאומטריות ומקומות גאומטריים בעזרת מספרים מרוכבים",
+                  "fr": "Problèmes géométriques et lieux géométriques avec les nombres complexes"
+                }
+              ],
+              "source": "http://meyda.education.gov.il/files/Mazkirut_Pedagogit/matematika/yodbet5.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Page source : https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/new-curriculum/ — la nouvelle תוכנית לימודים de mathématiques de la חטיבה עליונה est appliquée dans toutes les écoles depuis תשפ\"ד ; la page donne, pour chaque niveau (3, 4, 5 יח\"ל) et chaque classe (י', י\"א, י\"ב), un ou plusieurs PDF de « פירוט תוכנית הלימודים ». Toutes les `source` de ce fichier sont ces PDF (meyda.education.gov.il), téléchargés et lus.",
+    "Structure : 3 יח\"ל = trois אשכולות (חברה ומדע, פיננסי-כלכלי, התמצאות במישור ובמרחב) en י' et י\"א (40 h chacun), puis en י\"ב des chapitres séparés (géométrie dans l'espace + vision spatiale 30 h, programmation linéaire 25 h, géométrie analytique 25 h, modèle quadratique 20 h, loi normale 20 h) ; introduction du programme 3 יח\"ל : https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mavo-math.pdf . 5 יח\"ל = 150 h par classe ; 4 יח\"ל י' = 120 h (géométrie ≥40, algèbre et calcul différentiel ≥45, statistiques et probabilités ≥35).",
+    "Les heures dans `fr` sont celles des documents officiels (« au moins » = לפחות). Dans les documents 4 et 5 יח\"ל, la répartition des chapitres par classe est celle du ministère ; l'ordre d'enseignement reste libre (voir recommandations).",
+    "Épreuves de bagrout (page du ministère) et poids : 3 יח\"ל — 35172/35173 (25 %), 35371 (35 %), 35372 (40 %) ; 4 יח\"ל — 35471 (65 %), 35472 (35 %) ; 5 יח\"ל — 35571 (60 %), 35572 (40 %).",
+    "Recommandations d'enseignement pour תשפ\"ז (ordre proposé par la supervision, modifiable) : 3 יח\"ל https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/3-points-tashpaz.pdf ; 4 יח\"ל https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/4-points-tashpaz.pdf ; 5 יח\"ל https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/5-points-tashpaz.pdf . Elles confirment le contenu par classe ; en 5 יח\"ל י\"א elles ajoutent « מאורעות רב שלביים תוך שימוש בנוסחת ברנולי » dans les probabilités. Consigne générale : étudier un thème à la fois (deux en parallèle possible) et prévoir un cours hebdomadaire de révision.",
+    "Circulaire de la supervision pour תשפ\"ז (אב תשפ\"ו, juillet 2026, mise à jour 23/08/26) : https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/hozer-mafmar-tashpaz.pdf — en תשפ\"ז tous les élèves passent les épreuves de la nouvelle תוכנית ; 3 יח\"ל : conseil de passer 35371 en י\"א et 35372 en י\"ב (en י' évaluation interne, 35173) ; 4 יח\"ל : en י' la géométrie intègre géométrie du plan, géométrie analytique et trigonométrie ; en י\"א (35471) les questions de géométrie ne combinent que deux de ces trois thèmes et sans paramètres ; en י\"ב (35472) « בדיקת השערות » n'est pas enseigné en תשפ\"ז.",
+    "Thèmes officiellement NON enseignés en תשפ\"ז (sessions d'hiver et d'été) — fichier du ministère : https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/Topics-not-be-taught-in-Tashpaz.pdf . 3 יח\"ל : י' et י\"ב = tous les thèmes sont enseignés ; י\"א (35371) : probabilité de l'intersection de 3 événements (grappe חברה ומדע) ; pavages et trigonométrie des polygones réguliers de plus de 4 côtés (grappe התמצאות במישור ובמרחב) ; quartiles et déciles (grappe פיננסי כלכלי).",
+    "Suite du fichier des thèmes non enseignés en תשפ\"ז (https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/Topics-not-be-taught-in-Tashpaz.pdf). 4 יח\"ל : י' = tout est enseigné ; י\"א (35471) : théorème de la bissectrice d'un angle du triangle et sa réciproque, point de concours des bissectrices, deux tangentes à un cercle, triangle circonscrit à un cercle ; événements à trois étapes ; déciles et quartiles ; problèmes d'extremum (économiques, numériques, solides) et avec fonction racine ; fonction racine avec expression non linéaire sous la racine ; י\"ב (35472) : géométrie dans l'espace sans combinaison avec le point de concours des médianes ni avec la loi des sinus ; calcul sans racine à expression non linéaire, sans intégrale de fonction rationnelle à dénominateur au carré, sans primitive déterminée par la dérivée et un point du graphe, sans paramètre en calcul intégral.",
+    "Suite du fichier des thèmes non enseignés en תשפ\"ז (https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativa-Elyona/mafmar/Topics-not-be-taught-in-Tashpaz.pdf). 5 יח\"ל : י' = tout est enseigné ; י\"א (35571) : suite arithmétique ; induction (propositions représentées visuellement, problèmes de divisibilité) ; géométrie (quadrilatère circonscrit à un cercle ; rapports entre périmètres, médianes, bissectrices, rayons des cercles circonscrits et inscrits dans des triangles semblables) ; calcul (intégrale de fonctions avec racine, volume d'un solide de révolution, extremum avec intégrale, extremum en contextes numériques/économiques/physiques/solides) ; י\"ב (35572) : nombres complexes (combinaison avec la suite arithmétique) ; calcul (combinaison avec intégrale de fonction racine ou trigonométrique ; extremum avec fonctions trigonométriques ou intégrale) ; applications en géométrie de l'espace : cylindre, cône, sphère."
+  ],
+  "unverified": [
+    "10th-4-yachal-22.pdf (4 יח\"ל, י') : le PDF lui-même contient des mots et des lignes écrits à l'envers (aussi avec web_extract et PyMuPDF). Les intitulés ont été remis à l'endroit mot par mot (vocabulaire tiré des autres PDF) puis relus en contexte ; certaines formules (valeurs trigonométriques, certains items des pages 5-10 et 43-49) restent partiellement illisibles → sous-thèmes de cette classe à valider contre le PDF.",
+    "yodbet5.pdf (5 יח\"ל, י\"ב) : le sous-chapitre « חשבון דיפרנציאלי של פונקציות מעריכיות ופונקציות לוגריתמיות » est indiqué à 27 heures alors que le chapitre entier en compte 40 (8 + 27 + 10 = 45) : incohérence du document, heures de ce sous-chapitre non reprises.",
+    "4 יח\"ל, י\"ב : aucun des trois PDF liés par la page (dif-4yachal-12, geo-vector-4y-12, sdarot-4units) ne traite de statistiques ; la page décrit pourtant pour l'épreuve 35472 « סטטיסטיקה (בדיקת השערות) » ; la circulaire précise que ce sujet n'est pas enseigné en תשפ\"ז. Aucun programme officiel de statistique pour 4 יח\"ל י\"ב n'a été trouvé.",
+    "Annexes des PDF 4 et 5 יח\"ל (exemples de questions, liste des théorèmes de géométrie, place des démonstrations), exemples de bagrout et annales : non repris (hors titres de thèmes). Le détail des sous-thèmes de 5 יח\"ל repose sur les sections « תכנים » ; les passages « העשרה » (enrichissement) ont été ignorés sauf le π en 4 יח\"ל י\"א.",
+    "Documents listés sur la page mais non lus : aide-mémoire 3/4/5 יח\"ל (3-MATH-Formula_NEW.pdf, 4-MATH-Formula_NEW.pdf, 5-MATH-Formula_NEW.pdf), manuels agréés (tashpav/Approved_books.pdf), matériel pédagogique (Weizmann, centre des enseignants, vecteurs, régression, hyperbole), mafmar/exams-time.pdf. La section « מיקוד הלמידה » de la page n'expose pas de lien PDF dans le HTML récupéré (ancres internes) ; le fichier des thèmes non enseignés a été trouvé via les liens de la circulaire."
+  ]
+}
