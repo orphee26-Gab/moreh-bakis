@@ -3,7 +3,7 @@ import { S } from '../store.js';
 import { t } from '../i18n.js';
 import { $, esc } from '../ui.js';
 import { tr } from '../curriculum.js';
-import { loadFaculty } from '../faculty.js';
+import { loadFaculty, findCourse } from '../faculty.js';
 import { unlockAudio } from '../voice.js';
 
 const go = (h) => { location.hash = h; };
@@ -50,9 +50,9 @@ export const academy = {
     }
 
     if (sub === 'course') {
-      const inst = fac.institutions.find((i) => i.id === a);
-      const c = inst?.courses?.find((x) => x.id === b);
-      if (!c) return go('#/learn');
+      const found = await findCourse(fac, a, b);
+      if (!found) return go('#/learn');
+      const inst = found.inst, c = found.course;
       const base = `${inst.id}/${c.id}`;
       root.innerHTML = top(c.he || tr(c)) + `
         <div class="muted small">${esc(nm(inst))}${c.code ? ' · ' + esc(c.code) : ''}${c.credits != null ? ' · ' + esc(String(c.credits)) + ' ' + t('acad.credits') : ''}</div>
