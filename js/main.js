@@ -40,6 +40,12 @@ async function route() {
 async function boot() {
   flags.sound = S.prefs.sound;
   await loadLang(S.lang);
+  // Adresse du serveur gratuit (fichier data/server.json, sans aucune clé d'API).
+  try {
+    const r = await fetch('data/server.json');
+    const cfg = await r.json();
+    if (cfg && cfg.proxyUrl) S.ai.proxyUrl = cfg.proxyUrl;
+  } catch { /* le réglage déjà saisi est conservé */ }
   document.addEventListener('pointerdown', unlockAudio, { once: true });
   window.addEventListener('hashchange', route);
   window.addEventListener('unhandledrejection', (e) => { console.error(e.reason); });
