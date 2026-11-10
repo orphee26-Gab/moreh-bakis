@@ -1,0 +1,79 @@
+{
+ "id": "math",
+ "name": {
+  "he": "מתמטיקה",
+  "fr": "Mathématiques"
+ },
+ "schoolYear": "תשפ\"ז",
+ "status": "draft",
+ "levels": [
+  {
+   "units": 4,
+   "label": {
+    "he": "4 יחידות לימוד",
+    "fr": "4 yéhidot"
+   },
+   "grades": [
+    {
+     "grade": "11",
+     "gradeLabel": "י\"א",
+     "topics": [
+      {
+       "id": "math-4-11-01",
+       "he": "נגזרת של פונקציה",
+       "fr": "Dérivée d'une fonction",
+       "subtopics": [
+        {
+         "he": "כלל החזקה",
+         "fr": "Règle de la puissance"
+        },
+        {
+         "he": "נגזרת של מכפלה",
+         "fr": "Dérivée d'un produit"
+        }
+       ]
+      },
+      {
+       "id": "math-4-11-02",
+       "he": "חקירת פונקציה",
+       "fr": "Étude de fonction",
+       "subtopics": [
+        {
+         "he": "נקודות קיצון"
+        },
+        {
+         "he": "תחומי עלייה וירידה"
+        }
+       ]
+      },
+      {
+       "id": "math-4-11-03",
+       "he": "טריגונומטריה במשולש",
+       "fr": "Trigonométrie dans le triangle",
+       "subtopics": [
+        {
+         "he": "משפט הסינוסים"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "units": 5,
+   "grades": [
+    {
+     "grade": "11",
+     "topics": [
+      {
+       "id": "math-5-11-01",
+       "he": "גבולות ורציפות",
+       "fr": "Limites et continuité"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
