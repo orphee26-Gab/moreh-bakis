@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#26357d"/><stop offset="1" stop-color="#0d1430"/></linearGradient>
+    <radialGradient id="st" cx="50%" cy="38%" r="70%"><stop offset="0" stop-color="#ffe08a"/><stop offset="1" stop-color="#ffb938"/></radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <polygon points="256,86 303,200 426,210 332,290 361,410 256,346 151,410 180,290 86,210 209,200" fill="url(#st)" stroke="#ffcf5e" stroke-width="30" stroke-linejoin="round"/>
+  <ellipse cx="226" cy="262" rx="14" ry="18" fill="#1b1f3a"/><ellipse cx="286" cy="262" rx="14" ry="18" fill="#1b1f3a"/>
+  <circle cx="231" cy="255" r="5" fill="#fff"/><circle cx="291" cy="255" r="5" fill="#fff"/>
+  <path d="M226 300 Q256 330 286 300" fill="none" stroke="#1b1f3a" stroke-width="10" stroke-linecap="round"/>
+</svg>
