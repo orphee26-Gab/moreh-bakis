@@ -5,3 +5,7 @@ data/CHILD_BRIEF.md
 .wrangler/
 .dev.vars
 server/.dev.vars
+.env
+.env.*
+*.zip
+tests/.tmp/
