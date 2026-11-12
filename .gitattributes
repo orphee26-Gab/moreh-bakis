@@ -1,0 +1,3 @@
+# Fichier où chaque assistant (Claude, Hermes) ajoute ses propres lignes : si les deux ajoutent en même temps,
+# git garde les lignes des deux côtés au lieu de bloquer l'envoi. Un vrai désaccord sur une même ligne reste un conflit.
+DECISIONS.md merge=union

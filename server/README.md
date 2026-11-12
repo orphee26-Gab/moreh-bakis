@@ -28,7 +28,7 @@ Tests sans réseau ni compte : `node --test scripts/test-worker.mjs` (depuis la 
 ## Adresse et compte
 
 - Adresse publique : `https://moreh-bakis-proxy.moreh-bakis.workers.dev` (le sous-domaine `moreh-bakis` a été choisi en attendant le nom de marque ; il se change dans le tableau de bord Cloudflare, puis il faut mettre à jour `data/server.json`).
-- Le compte Cloudflare est celui de l'adresse `orphee26@gmail.com`. L'identifiant de connexion de `wrangler` est dans `~/Library/Preferences/.wrangler/config/default.toml` (ne jamais le copier dans le dépôt).
+- Le compte Cloudflare est le compte personnel de Gabriel. L'identifiant de connexion de `wrangler` est dans `~/Library/Preferences/.wrangler/config/default.toml` (ne jamais le copier dans le dépôt).
 
 ## Changer ou renouveler la clé d'IA
 

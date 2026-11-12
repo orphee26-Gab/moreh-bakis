@@ -1,8 +1,10 @@
 # Où on en est
 
-Dernière mise à jour : **10 novembre 2026**. Le dépôt est à jour : tout est envoyé sur GitHub.
+Dernière mise à jour : **12 novembre 2026** (Hermes).
 
 > Lire aussi **CLAUDE-HANDOFF.md** (point d'étape de Claude, qui écrit aussi dans ce dépôt depuis le 12 novembre 2026).
+>
+> Règles de synchronisation entre les deux assistants : **docs/synchronisation.md**. En bref : tirer au début de chaque séance (`node scripts/sync.mjs pull`), puis enregistrer et envoyer à chaque changement (`node scripts/sync.mjs push "message"`).
 
 ## Fait
 
@@ -15,7 +17,7 @@ Niveaux affichés : maths 3/4/5, anglais 3/4/5, physique 5, histoire 2, Tanakh 2
 
 **Faculté** (`data/faculty/`). 4 établissements, 159 cours de première année : Université ouverte 31, Technion 49, Tel-Aviv 50, Bar-Ilan 29. Index allégé (`data/faculty/index.json`) et détails par établissement à la demande (`data/faculty/raw/*.json`). Unité des crédits par établissement : נ״ז pour Technion et l'Université ouverte, ש״ס (heures hebdomadaires) pour Tel-Aviv, cours par cours pour Bar-Ilan.
 
-**Serveur gratuit d'IA** (`server/`). En ligne à https://moreh-bakis-proxy.moreh-bakis.workers.dev (Cloudflare Workers, compte `orphee26@gmail.com`, sous-domaine `moreh-bakis`).
+**Serveur gratuit d'IA** (`server/`). En ligne à https://moreh-bakis-proxy.moreh-bakis.workers.dev (Cloudflare Workers, compte personnel de Gabriel, sous-domaine `moreh-bakis`).
 - Aucune clé dans le dépôt : la clé Anthropic est dans un secret Cloudflare.
 - Protections : seuls le site de l'appli peut l'appeler, modèles Haiku et Sonnet uniquement, réponses plafonnées à 2 400 jetons, demandes limitées à 4 Mo, freinage des rafales (approximatif).
 - Il ne stocke rien (le plan gratuit ne permet que 1 000 écritures par jour).
@@ -26,7 +28,11 @@ Niveaux affichés : maths 3/4/5, anglais 3/4/5, physique 5, histoire 2, Tanakh 2
 - `watch-ministry.yml` : chaque dimanche, et tous les jours en août-septembre, compare les pages du ministère à une référence ; ouvre une issue et enregistre la différence. Tourné une fois avec succès (306 fichiers suivis, 0 changement).
 - `check-server.yml` : chaque lundi, envoie une demande d'un mot à chaque modèle en passant par le serveur public (≈ 0,00005 $ par semaine) ; ouvre une issue en cas de problème. Tourné une fois avec succès.
 
-**Tests** : `node --test scripts/` → 33 tests sans réseau (`test-worker.mjs`, `test-set-ai-key.mjs`, `test-check-server.mjs`) ; `node scripts/check-i18n.mjs` ; tests navigateur avec micro, voix et appareil photo simulés.
+**Reçu de Claude le 12/11** (`CLAUDE-HANDOFF.md`, `docs/espace-profs-methode.md`, `reference/claude-version/`). Une version de référence de l'appli en un seul fichier, avec l'**espace profs** qui fonctionne (`reference/claude-version/#teacher`), et la méthode de correction dans l'écriture du prof décrite d'après la demande de Gabriel du 21/10 : page de calibrage de 80 caractères, correction page par page par l'IA, annotations dans l'écriture du prof, vérification par le prof, impression et PDF. Testée avec une police qui simule une écriture (80 caractères sur 80), **pas encore avec une vraie page manuscrite**. À valider par Gabriel avant de la reporter dans l'appli. Relecture par Hermes : aucun secret ni donnée personnelle dans ces fichiers ; les limites du serveur (réponses de 2 400 jetons, images sous 4 Mo) sont déjà prises en compte dans la méthode.
+
+**Synchronisation entre les deux assistants** (12/11). `docs/synchronisation.md` (règles), `scripts/sync.mjs` (tirer, enregistrer, envoyer ; refuse un secret ou un fichier d'élève ; ne force jamais ; s'arrête sur un conflit sans rien écraser) et `.gitattributes` (les lignes ajoutées en même temps à `DECISIONS.md` par les deux assistants sont toutes gardées ; sans cette règle, git bloque). Hermes écrit dans `HANDOFF.md`, Claude dans `CLAUDE-HANDOFF.md`. GitHub détecte aussi les secrets et bloque l'envoi (activé sur le dépôt).
+
+**Tests** : `node --test scripts/` → 52 tests sans réseau (`test-worker.mjs` 17, `test-sync.mjs` 18, `test-set-ai-key.mjs` 9, `test-check-server.mjs` 7, `test-watch.mjs` 1) ; `node scripts/check-i18n.mjs` ; tests navigateur avec micro, voix et appareil photo simulés.
 
 ## À faire, par ordre
 
@@ -38,23 +44,27 @@ Niveaux affichés : maths 3/4/5, anglais 3/4/5, physique 5, histoire 2, Tanakh 2
    - Pas de cours de droit de première année au Technion ni à Tel-Aviv.
    - Lacunes du relevé du 10/11 : PDF de 10e (4 yéhidot) à l'envers, heures de calcul en 5 yéhidot de 12e incohérentes, pas de statistique pour 4 yéhidot de 12e.
 3. **Nom de marque** : l'adresse du serveur et le nom du produit ne sont pas décidés (`moreh-bakis` par défaut).
-4. **Test sur le vrai iPhone de Gabriel**, puis par Rivka (prof de maths).
+4. **Test sur le vrai iPhone de Gabriel**, puis par une prof de maths.
 5. **Finitions** : barre du bas sur ordinateur (largeur), classes en français (Seconde/Première/Terminale déjà en place).
 
 ## Problèmes ouverts
 
 - **Le freinage des rafales est approximatif** (Cloudflare compte par point de présence). En test : 26 demandes rapides d'un appareil n'ont jamais déclenché de blocage ; 150 demandes simultanées en ont laissé passer une centaine ; le plafond par adresse IP n'a pas réagi à 200 demandes. Un quota exact par élève demanderait une brique Cloudflare payante (Durable Objects). Le vrai garde-fou reste le crédit prépayé.
 - **Le localisateur des mineurs** n'est pas implémenté et ne doit pas l'être sans l'accord de l'avocat.
-- **Le compte Cloudflare** est un compte perso (`orphee26@gmail.com`). À passer sur une adresse professionnelle avant de monter en charge.
-- **54 anciens fichiers** d'historique de la tâche « Veille horaire » citent encore des noms de fichiers de NOMAD (projet supprimé le 10/11). Texte d'archive, sans action.
+- **Le contrôle d'origine du serveur d'IA n'arrête pas un script** (remarque de Claude, confirmée : un `curl` avec l'en-tête `Origin` du site obtient de vraies réponses, vu lors des tests du 10/11). Il ne protège que contre les autres sites web ouverts dans un navigateur ; le plafond réel reste le crédit prépayé. Parade gratuite proposée par Claude : Cloudflare Turnstile (contrôle anti-robot vérifié par le serveur) ; plus tard, des comptes élèves. À décider par Gabriel.
+- **Business plan** (remarque de Claude) : il ne compte ni la faculté ni l'espace profs, et les coûts ont changé (serveur gratuit, crédit prépayé). Les documents financiers ne sont pas dans ce dépôt public, volontairement.
+- **Photos de copies envoyées à l'IA** (espace profs) : consentement et Amendement 13 à traiter avec l'avocat (remarque de Claude).
+- **Le compte Cloudflare** est un compte personnel de Gabriel (adresse Gmail). À passer sur une adresse professionnelle avant de monter en charge.
 
 ## Commandes utiles (macOS)
 
 ```bash
 cd ~/moreh-bakis
-git pull && cat HANDOFF.md DECISIONS.md      # au début d'une séance
+node scripts/sync.mjs pull                   # début de séance : tire et résume ce que l'autre assistant a envoyé
+node scripts/sync.mjs push "message"         # enregistre, refuse un secret, tire, envoie
+node scripts/sync.mjs status                 # ce qui reste à envoyer ou à recevoir
 python3 -m http.server 8080                  # tester l'appli : http://localhost:8080/
-node --test scripts/                         # 33 tests, sans réseau
+node --test scripts/                         # 52 tests, sans réseau
 node scripts/check-server.mjs                # état du serveur d'IA en production
 cd server && wrangler deploy                 # republier le serveur
 node scripts/set-ai-key.mjs                  # enregistrer ou changer la clé d'IA
