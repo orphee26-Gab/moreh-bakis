@@ -2,6 +2,8 @@
 
 Dernière mise à jour : **10 novembre 2026**. Le dépôt est à jour : tout est envoyé sur GitHub.
 
+> Lire aussi **CLAUDE-HANDOFF.md** (point d'étape de Claude, qui écrit aussi dans ce dépôt depuis le 12 novembre 2026).
+
 ## Fait
 
 **Application** (maquette, hébreu d'abord, français complet — 230 clés dans les deux langues).
@@ -28,7 +30,7 @@ Niveaux affichés : maths 3/4/5, anglais 3/4/5, physique 5, histoire 2, Tanakh 2
 
 ## À faire, par ordre
 
-1. **Espace profs** (le plus gros chantier). Aujourd'hui : `#/teacher` ouvre l'accueil, l'espace de correction de copies à l'écriture du prof n'est pas reconstruit. La méthode de correction doit être précisée par Gabriel avant de construire.
+1. **Espace profs** (le plus gros chantier). Aujourd'hui : `#/teacher` ouvre l'accueil, l'espace de correction de copies à l'écriture du prof n'est pas reconstruit. La méthode de correction doit être précisée par Gabriel avant de construire. Méthode proposée par Claude dans `docs/espace-profs-methode.md` (version qui fonctionne : `reference/claude-version/#teacher`), à valider par Gabriel.
 2. **Données à valider par Gabriel** (règle d'or : rien de publié sans document officiel lu).
    - Hébreu : le niveau 5 n'existe pas comme cours, c'est le travail de fin d'études (code 11279) — niveau masqué, à confirmer.
    - Physique : le niveau 1 (« introduction aux sciences ») n'est pas un cours de bagrout — niveau masqué, à confirmer.

@@ -15,3 +15,4 @@ Une ligne par décision prise par Gabriel. La plus récente en haut.
 - **2026-11-10 — La localisation des mineurs n'est pas implémentée.** À trancher avec l'avocat avant toute version.
 - **2026-11-10 — Règle d'or des données** : rien de publié sans document officiel lu ; sinon, dans `unverified`.
 - **2026-11-10 — Deux surveillances automatiques** : le ministère chaque dimanche (quotidien en août-septembre) et le serveur d'IA chaque lundi. Toutes deux ouvrent une issue ; Gabriel valide avant toute publication.
+- **2026-10-21 — Espace profs** : le prof remplit à la main une page de chiffres et de lettres pour que l'IA reconnaisse son écriture, scanne la copie de l'élève, l'IA corrige, puis le prof imprime la copie corrigée dans son écriture.
