@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T10:11:28.265Z",
+  "generatedAt": "2026-11-15T12:31:44.521Z",
   "sources": {
     "math": {
       "url": "https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/new-curriculum/",
@@ -901,11 +901,10 @@
       "url": "https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/examination-evaluation/",
       "ok": true,
       "files": {
-        "https://meyda.education.gov.il/files/Exams/PossibleCombinationsMathExams2023.pdf": {
-          "etag": null,
-          "lastModified": null,
-          "length": null,
-          "status": 404
+        "https://meyda.education.gov.il/files/Exams/PossibleCombinationsMathExams102026.pdf": {
+          "etag": "\"831ed1edf556dd1:0\"",
+          "lastModified": "Thu, 08 Oct 2026 07:23:34 GMT",
+          "length": 80273
         },
         "https://meyda.education.gov.il/files/Exams/SafetyNet4or5GradeMath.pdf": {
           "etag": "\"21296e1ae92bd91:0\"",
