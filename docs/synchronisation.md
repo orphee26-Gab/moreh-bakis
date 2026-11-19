@@ -32,6 +32,7 @@ Il n'y a pas d'envoi automatique en arrière-plan : c'est l'assistant qui enregi
 |---|---|---|
 | `HANDOFF.md` | Hermes | état du projet : fait, à faire, problèmes ouverts |
 | `CLAUDE-HANDOFF.md` | Claude | son point d'étape et ses remarques |
+| `CLAUDE.md` | Hermes, à la demande de Gabriel | résumé de ces règles, lu par Claude au début de chaque séance ; rien n'y change sans l'accord de Gabriel, et ce document-ci fait foi |
 | `DECISIONS.md` | les deux | une ligne datée par décision de Gabriel ; on ajoute, on ne modifie pas les lignes de l'autre |
 | `docs/`, `reference/` | celui qui les a créés | notes et versions de référence |
 
