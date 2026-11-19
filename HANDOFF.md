@@ -1,6 +1,6 @@
 # Où on en est
 
-Dernière mise à jour : **12 novembre 2026** (Hermes).
+Dernière mise à jour : **19 novembre 2026** (Hermes).
 
 > Lire aussi **CLAUDE-HANDOFF.md** (point d'étape de Claude, qui écrit aussi dans ce dépôt depuis le 12 novembre 2026).
 >
@@ -32,6 +32,8 @@ Niveaux affichés : maths 3/4/5, anglais 3/4/5, physique 5, histoire 2, Tanakh 2
 
 **Synchronisation entre les deux assistants** (12/11). `docs/synchronisation.md` (règles), `scripts/sync.mjs` (tirer, enregistrer, envoyer ; refuse un secret ou un fichier d'élève ; ne force jamais ; s'arrête sur un conflit sans rien écraser) et `.gitattributes` (les lignes ajoutées en même temps à `DECISIONS.md` par les deux assistants sont toutes gardées ; sans cette règle, git bloque). Hermes écrit dans `HANDOFF.md`, Claude dans `CLAUDE-HANDOFF.md`. GitHub détecte aussi les secrets et bloque l'envoi (activé sur le dépôt).
 
+**Check-up automatique du travail chez Claude** (19/11). Hermes relève toutes les 30 minutes, sans IA et sans coût : ce que Claude et les robots envoient sur ce dépôt (le dépôt local est mis à jour tout seul en avance rapide, sans rien écraser), les issues, les exécutions en échec, la santé du serveur d'IA, les sessions Claude Desktop de Gabriel et ses sujets épinglés (importés dans Hermes), et les exports officiels de claude.ai déposés dans Téléchargements. À chaque début de séance, Hermes en résume l'essentiel à Gabriel. L'outil et les données restent sur le Mac de Gabriel, hors de ce dépôt public. Voir `docs/synchronisation.md`.
+
 **Tests** : `node --test scripts/` → 52 tests sans réseau (`test-worker.mjs` 17, `test-sync.mjs` 18, `test-set-ai-key.mjs` 9, `test-check-server.mjs` 7, `test-watch.mjs` 1) ; `node scripts/check-i18n.mjs` ; tests navigateur avec micro, voix et appareil photo simulés.
 
 ## À faire, par ordre
@@ -46,9 +48,11 @@ Niveaux affichés : maths 3/4/5, anglais 3/4/5, physique 5, histoire 2, Tanakh 2
 3. **Nom de marque** : l'adresse du serveur et le nom du produit ne sont pas décidés (`moreh-bakis` par défaut).
 4. **Test sur le vrai iPhone de Gabriel**, puis par une prof de maths.
 5. **Finitions** : barre du bas sur ordinateur (largeur), classes en français (Seconde/Première/Terminale déjà en place).
+6. **Issue #1 du ministère** (relevé automatique du 15/11) : le PDF des combinaisons possibles d'examens de maths de 2023 est remplacé par celui d'octobre 2026. Aucun fichier de données de l'appli ne cite ces PDF. À fermer par Gabriel après lecture.
 
 ## Problèmes ouverts
 
+- **Conversations web de claude.ai** : elles ne se mettent à jour que par l'export officiel de Gabriel (Réglages › Confidentialité › Exporter les données). L'accès automatisé au site est interdit par les conditions d'Anthropic. Les sessions Claude Desktop et ce que Claude envoie sur GitHub, eux, sont relevés automatiquement.
 - **Le freinage des rafales est approximatif** (Cloudflare compte par point de présence). En test : 26 demandes rapides d'un appareil n'ont jamais déclenché de blocage ; 150 demandes simultanées en ont laissé passer une centaine ; le plafond par adresse IP n'a pas réagi à 200 demandes. Un quota exact par élève demanderait une brique Cloudflare payante (Durable Objects). Le vrai garde-fou reste le crédit prépayé.
 - **Le localisateur des mineurs** n'est pas implémenté et ne doit pas l'être sans l'accord de l'avocat.
 - **Le contrôle d'origine du serveur d'IA n'arrête pas un script** (remarque de Claude, confirmée : un `curl` avec l'en-tête `Origin` du site obtient de vraies réponses, vu lors des tests du 10/11). Il ne protège que contre les autres sites web ouverts dans un navigateur ; le plafond réel reste le crédit prépayé. Parade gratuite proposée par Claude : Cloudflare Turnstile (contrôle anti-robot vérifié par le serveur) ; plus tard, des comptes élèves. À décider par Gabriel.

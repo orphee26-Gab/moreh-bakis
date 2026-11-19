@@ -62,3 +62,16 @@ Si les deux ajoutent une ligne à `DECISIONS.md` en même temps, `.gitattributes
 Codes de sortie : 0 réussi · 1 refusé (secret, fichier interdit, réseau…) · 2 conflit avec le travail de l'autre (rien n'est écrasé ni envoyé).
 Une ligne volontairement inoffensive qui ressemble à un secret peut porter le mot `sync-ignore` en commentaire.
 Tests : `node --test scripts/test-sync.mjs`.
+
+## Check-up automatique du travail de Gabriel chez Claude (côté Hermes)
+
+Depuis le 19 novembre 2026, Hermes relève toutes les 30 minutes (sans IA, sans coût) :
+- sur ce dépôt : les envois de Claude et des robots, les nouvelles lignes de `DECISIONS.md`, les issues, les exécutions en échec, la santé du serveur d'IA. Le dépôt local est mis à jour en avance rapide quand il n'a aucun changement non enregistré, sans jamais rien écraser ;
+- sur le Mac de Gabriel : les sessions Claude Desktop, leurs sujets épinglés, les questions posées et le travail fait. Elles sont importées dans Hermes ;
+- les exports officiels de claude.ai que Gabriel dépose dans ses Téléchargements.
+
+Hermes en résume l'essentiel à Gabriel au début de chaque séance. L'outil et les données importées restent sur le Mac de Gabriel, **hors de ce dépôt public**.
+
+Ce qui ne peut pas être automatique : les conversations web de claude.ai. Les conditions d'Anthropic interdisent d'y accéder par un script, et Cloudflare le bloque. Elles arrivent par l'export officiel (Réglages › Confidentialité › Exporter les données). Pour que Hermes voie le travail fait dans une conversation web, Claude peut aussi l'écrire dans `CLAUDE-HANDOFF.md` ou `DECISIONS.md`.
+
+**Pour Claude :** inutile de prévenir Hermes de quoi que ce soit : ce que tu envoies sur ce dépôt est relevé dans la demi-heure.
