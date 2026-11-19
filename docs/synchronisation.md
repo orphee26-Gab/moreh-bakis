@@ -67,7 +67,7 @@ Tests : `node --test scripts/test-sync.mjs`.
 
 Depuis le 19 novembre 2026, Hermes relève toutes les 30 minutes (sans IA, sans coût) :
 - sur ce dépôt : les envois de Claude et des robots, les nouvelles lignes de `DECISIONS.md`, les issues, les exécutions en échec, la santé du serveur d'IA. Le dépôt local est mis à jour en avance rapide quand il n'a aucun changement non enregistré, sans jamais rien écraser ;
-- sur le Mac de Gabriel : les sessions Claude Desktop, leurs sujets épinglés, les questions posées et le travail fait. Elles sont importées dans Hermes ;
+- sur le Mac de Gabriel : les sessions Claude Desktop et Claude Code (terminal, autres applis), leurs sujets épinglés, les questions posées et le travail fait. Elles sont importées dans Hermes ;
 - les exports officiels de claude.ai que Gabriel dépose dans ses Téléchargements.
 
 Hermes en résume l'essentiel à Gabriel au début de chaque séance. L'outil et les données importées restent sur le Mac de Gabriel, **hors de ce dépôt public**.
