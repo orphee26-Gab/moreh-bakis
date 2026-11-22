@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>מורה בכיס · כיוון עיצובי</title>
+<style>
+@font-face{font-family:Rubik;font-weight:400;src:url(../node_modules/@fontsource/rubik/files/rubik-hebrew-400-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}
+@font-face{font-family:Rubik;font-weight:500;src:url(../node_modules/@fontsource/rubik/files/rubik-hebrew-500-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}
+@font-face{font-family:Rubik;font-weight:600;src:url(../node_modules/@fontsource/rubik/files/rubik-hebrew-600-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}
+@font-face{font-family:Rubik;font-weight:400;src:url(../node_modules/@fontsource/rubik/files/rubik-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Rubik;font-weight:500;src:url(../node_modules/@fontsource/rubik/files/rubik-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Rubik;font-weight:600;src:url(../node_modules/@fontsource/rubik/files/rubik-latin-600-normal.woff2) format("woff2")}
+:root{
+  /* rampe neutre graphite, à peine chaude ; l'encre bleue de l'élève comme seul accent */
+  --bg:#f6f6f4;--card:#ffffff;--raised:#efefec;--line:rgba(24,24,26,.09);
+  --ink:#18181a;--ink2:#52525b;--muted:#6f6f78;
+  --accent:#2a47c4;--accent-ink:#ffffff;--accent-soft:#e9edfb;
+  --pen:#c8372d;--good:#16833f;
+  --grid:rgba(42,71,196,.10);
+  --board:#1d3a32;--chalk:#eaf3ee;
+  --r-ctl:10px;--r-card:16px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --font:Rubik,"Noto Sans Hebrew",system-ui,sans-serif;
+}
+:root[data-theme="dark"]{
+  --bg:#141415;--card:#1b1b1d;--raised:#252528;--line:rgba(237,237,237,.09);
+  --ink:#ededed;--ink2:#a6a6ac;--muted:#8a8a91;
+  --accent:#9db0ff;--accent-ink:#10132a;--accent-soft:#232a45;
+  --pen:#f0776d;--good:#5ccf8a;--grid:rgba(157,176,255,.08);
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.55 var(--font);-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:pointer}
+.ic{width:18px;height:18px;flex:none;stroke:currentColor}
+.ic svg{width:100%;height:100%;display:block}
+.num{font-variant-numeric:tabular-nums}
+.screen{width:390px;height:844px;display:flex;flex-direction:column;overflow:hidden;background:var(--bg)}
+.scroll{flex:1;overflow:hidden;padding:0 20px 24px}
+/* barre du haut */
+.topbar{display:flex;align-items:center;justify-content:space-between;height:56px;padding:0 20px;margin-top:44px}
+.brand{display:flex;align-items:center;gap:8px;font-weight:500;font-size:17px}
+.brand .mark{width:24px;height:24px}
+.meta{display:flex;align-items:center;gap:14px;color:var(--ink2);font-size:14px}
+.meta span{display:inline-flex;align-items:center;gap:4px}
+.meta .ic{width:16px;height:16px;color:var(--muted)}
+/* titre */
+.title{font-size:26px;font-weight:500;line-height:1.25;margin:12px 0 4px}
+.sub{color:var(--ink2);font-size:14px}
+.level{display:flex;align-items:center;gap:12px;margin-top:12px;color:var(--muted);font-size:13px}
+.bar{position:relative;flex:1;height:6px;border-radius:3px;background:var(--raised);overflow:hidden}
+.bar i{position:absolute;inset-block:0;inset-inline-start:0;border-radius:3px;background:var(--accent)}
+/* carte reprise : l'action principale de l'accueil */
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-card)}
+.resume{margin-top:24px;padding:20px}
+.eyebrow{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.resume h2{font-size:20px;font-weight:500;line-height:1.3;margin:6px 0 2px}
+.resume .where{font-size:14px;color:var(--ink2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 20px;border-radius:var(--r-ctl);font-weight:500;font-size:16px;transition:background-color .15s var(--ease),transform .12s var(--ease)}
+.btn:active{transform:scale(.98)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.secondary{background:var(--raised);color:var(--ink)}
+.btn.block{width:100%}
+.resume .btn{margin-top:16px}
+/* objectif du jour */
+.goal{margin-top:12px;padding:16px 20px;display:flex;align-items:center;gap:16px}
+.goal .txt{flex:1;min-width:0}
+.goal b{font-weight:500;font-size:15px;display:block}
+.goal .fig{font-size:13px;color:var(--muted)}
+.goal .bar{margin-top:8px}
+/* accès rapides */
+.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.quick button{background:var(--card);border:1px solid var(--line);border-radius:12px;height:76px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;font-size:13px;color:var(--ink)}
+.quick .ic{width:20px;height:20px;color:var(--ink2)}
+/* matières */
+.sec{display:flex;align-items:baseline;justify-content:space-between;margin:32px 0 12px}
+.sec h3{margin:0;font-size:17px;font-weight:500}
+.sec a{font-size:14px;color:var(--accent);text-decoration:none}
+.subjects{background:var(--card);border:1px solid var(--line);border-radius:var(--r-card);overflow:hidden}
+.srow{display:flex;align-items:center;gap:12px;height:64px;padding:0 16px;width:100%;text-align:start}
+.srow+.srow{border-top:1px solid var(--line)}
+.srow .ic{width:20px;height:20px;color:var(--ink2)}
+.srow .nm{flex:1;min-width:0}
+.srow .nm b{display:block;font-weight:500;font-size:15px;line-height:1.3}
+.srow .nm span{font-size:13px;color:var(--muted)}
+.srow .pr{width:64px;display:flex;flex-direction:column;align-items:flex-end;gap:4px;font-size:12px;color:var(--muted)}
+.srow .pr .bar{width:100%;flex:none;height:4px}
+.srow .pr .bar i,.level .bar i{background:var(--ink2)}
+.srow .chev{width:16px;height:16px;color:var(--muted)}
+/* barre de navigation */
+.nav{display:flex;align-items:center;height:82px;padding:0 8px 26px;background:var(--card);border-top:1px solid var(--line)}
+.nav a{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;color:var(--muted);text-decoration:none}
+.nav a .ic{width:22px;height:22px}
+.nav a.on{color:var(--accent)}
+.nav a.cam .disc{width:44px;height:44px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center}
+.nav a.cam .ic{width:22px;height:22px}
+/* signature : la coche du prof, tracée à la main */
+.check{width:22px;height:22px;color:var(--accent)}
+.check path{fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+/* ---------- carte d'une matière ---------- */
+.head{display:flex;align-items:center;gap:8px;height:56px;padding:0 12px;margin-top:44px}
+.iconbtn{width:40px;height:40px;border-radius:var(--r-ctl);display:grid;place-items:center;color:var(--ink)}
+.head h1{font-size:20px;font-weight:500;margin:0;flex:1}
+.seg{display:flex;background:var(--raised);border-radius:var(--r-ctl);padding:3px;gap:2px}
+.seg button{flex:1;height:34px;border-radius:7px;font-size:14px;color:var(--ink2)}
+.seg button.on{background:var(--card);color:var(--ink);font-weight:500;box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.segs{display:flex;flex-direction:column;gap:8px;padding:4px 20px 0}
+.note{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--ink2);margin:16px 20px 0;line-height:1.5}
+.note .ic{width:16px;height:16px;color:var(--muted);margin-top:2px}
+.prog{display:flex;align-items:center;gap:12px;margin:16px 20px 0;font-size:13px;color:var(--muted)}
+/* le parcours sur papier à petits carreaux : le moment de l'appli */
+.paper{margin:16px 20px 0;border-radius:var(--r-card);border:1px solid var(--line);
+  background-color:var(--card);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:20px 20px;background-position:-1px -1px;padding:20px 16px 20px 16px;position:relative}
+.route{position:relative}
+.route::before{content:"";position:absolute;inset-inline-start:19px;top:20px;bottom:20px;border-inline-start:2px dashed color-mix(in srgb,var(--ink2) 35%,transparent)}
+.stop{position:relative;display:flex;align-items:center;gap:12px;min-height:60px;width:100%;text-align:start}
+.stop .dot{position:relative;z-index:1;width:40px;height:40px;border-radius:50%;flex:none;display:grid;place-items:center;background:var(--card);border:1.5px solid var(--line);color:var(--muted);font-size:14px}
+.stop .lbl{flex:1;min-width:0;font-size:15px;line-height:1.35}
+.stop .lbl small{display:block;font-size:12px;color:var(--muted)}
+.stop.done .dot{border-color:var(--accent);background:var(--card)}
+.stop.done .lbl{color:var(--ink)}
+.stop.cur .dot{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:500}
+.stop.lock .lbl{color:var(--muted)}
+.stop.cur{margin:4px 0}
+.curcard{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
+.curcard b{font-weight:500;font-size:16px;display:block;line-height:1.3}
+.curcard small{font-size:12px;color:var(--muted)}
+.curcard .acts{display:flex;gap:8px;margin-top:12px}
+.curcard .btn{height:40px;font-size:14px;padding:0 12px;white-space:nowrap}
+.curcard .btn.primary{flex:1}
+.stop.boss .dot{border-style:dashed}
+</style>
+</head>
+<body>
+<!--SCREEN-->
+</body>
+</html>

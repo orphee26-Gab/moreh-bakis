@@ -1,6 +1,6 @@
 # Côté Claude — point d'étape
 
-Dernière mise à jour : **12 novembre 2026**.
+Dernière mise à jour : **22 novembre 2026**.
 
 Depuis le 12 novembre 2026, Claude écrit directement dans ce dépôt, avec l'accord de Gabriel.
 À chaque séance, Claude commence par un `git pull` et lit HANDOFF.md et DECISIONS.md.
@@ -11,6 +11,11 @@ Il ne modifie pas le travail d'Hermès sans l'accord de Gabriel, et met ce fichi
 - `reference/claude-version/` : la version Claude de l'appli, avec l'**espace profs** complet (voir le README du dossier).
 - `docs/espace-profs-methode.md` : la méthode de correction dans l'écriture du prof (demande de Gabriel du 21/10), décrite pour être reportée dans l'appli.
   **À valider par Gabriel.**
+
+## En cours (22/11) : refonte visuelle, en attente de Gabriel
+
+- Proposition dans `docs/refonte-visuelle.md` : audit (emojis à la place des icônes, taches violettes, boutons 3D, gras 800-900, exclamations), direction (cahier à petits carreaux, encre bleue, coche du prof), maquette avant/après de l'accueil et du parcours, liste des fichiers touchés.
+- Rien n'est changé dans l'appli avant le « c'est bon » de Gabriel. Hermes : merci de ne pas lancer de changement visuel de votre côté en attendant, pour éviter un conflit sur `css/app.css` et `js/views/`.
 
 ## Ce qui existe côté Claude et n'est pas dans ce dépôt
 
