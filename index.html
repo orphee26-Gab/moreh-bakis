@@ -3,20 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0d1430">
+<meta name="theme-color" content="#f6f6f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141415" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="מורה בכיס">
 <title>מורה בכיס</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preload" href="fonts/rubik-hebrew-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/rubik-hebrew-500-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-<div id="app"><div class="boot">⭐</div></div>
-<noscript><p style="padding:24px;color:#fff">יש להפעיל JavaScript כדי להשתמש באפליקציה.</p></noscript>
+<div id="app"><svg class="boot" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,10 63.5,35.4 91.8,40.4 72,61.1 75.9,89.6 50,77 24.1,89.6 28,61.1 8.2,40.4 36.5,35.4" fill="#f2b230" stroke="#f2b230" stroke-width="8" stroke-linejoin="round"/></svg></div>
+<noscript><p style="padding:24px">יש להפעיל JavaScript כדי להשתמש באפליקציה.</p></noscript>
 <script type="module" src="js/main.js"></script>
 </body>
 </html>

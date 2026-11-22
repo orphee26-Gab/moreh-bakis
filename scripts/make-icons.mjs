@@ -29,17 +29,18 @@ function distSeg(x, y, ax, ay, bx, by) {
 const body = star(cx, cy, R, R * 0.58);
 const eyeL = [cx - R * 0.34, cy - R * 0.12], eyeR = [cx + R * 0.34, cy - R * 0.12], eyeRr = R * 0.11;
 const smile = { a: [cx - R * 0.3, cy + R * 0.2], b: [cx, cy + R * 0.36], c: [cx + R * 0.3, cy + R * 0.2], w: R * 0.05 };
+// Refonte du 22/11/2026 : ניצוץ à plat (jaune #f2b230, visage #1d1d22) sur le bleu d'encre de l'appli (#2a47c4), fond plein
+// (iOS arrondit lui-même les angles de l'icône).
+const set = (i, [r, g, b]) => { px[i] = r; px[i + 1] = g; px[i + 2] = b; px[i + 3] = 255; };
+const INK = [42, 71, 196], STAR = [242, 178, 48], FACE = [29, 29, 34];
 for (let y = 0; y < S; y++) for (let x = 0; x < S; x++) {
   const i = (y * S + x) * 4;
+  set(i, INK);
   if (!inPoly(x, y, body)) continue;
-  // dégradé vertical du jaune vers l'orange
-  const t = y / S;
-  px[i] = 255; px[i + 1] = Math.round(224 - 60 * t); px[i + 2] = Math.round(106 - 80 * t); px[i + 3] = 255;
+  set(i, STAR);
   const dL = Math.hypot(x - eyeL[0], y - eyeL[1]), dR = Math.hypot(x - eyeR[0], y - eyeR[1]);
-  if (dL < eyeRr || dR < eyeRr) { px[i] = 26; px[i + 1] = 20; px[i + 2] = 46; px[i + 3] = 255; continue; }
-  if (distSeg(x, y, ...smile.a, ...smile.b) < smile.w || distSeg(x, y, ...smile.b, ...smile.c) < smile.w) {
-    px[i] = 26; px[i + 1] = 20; px[i + 2] = 46; px[i + 3] = 255;
-  }
+  if (dL < eyeRr || dR < eyeRr) { set(i, FACE); continue; }
+  if (distSeg(x, y, ...smile.a, ...smile.b) < smile.w || distSeg(x, y, ...smile.b, ...smile.c) < smile.w) set(i, FACE);
 }
 function png(size) {
   const k = size / S;

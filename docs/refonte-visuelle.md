@@ -1,17 +1,19 @@
-# Refonte visuelle de l'appli (méthode unslop) : proposition
+# Refonte visuelle de l'appli (méthode unslop)
 
 Demande de Gabriel du 22 novembre 2026 : redessiner l'appli avec unslop pour la rendre plus professionnelle et plus intuitive.
 
-**Statut : proposition de Claude, à valider par Gabriel. L'appli n'a pas été modifiée.**
+**Statut : validée par Gabriel le 22 novembre 2026 et appliquée à toute l'appli le même jour** (thème clair par défaut, sombre si le téléphone l'est ; ניצוץ à plat, logo et voix).
 
 Méthode : [unslop](https://github.com/heydamir/unslop), de Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), licence CC BY 4.0.
 On garde toutes les fonctions, tous les contenus et l'ordre des écrans. On change les tailles, les couleurs, les mots et les icônes, pour qu'ils soient choisis plutôt que laissés par défaut.
 
 ![Avant et après : accueil et parcours de maths](refonte/avant-apres.png)
 
-![Après, en mode sombre](refonte/apres-sombre.png)
+![Mode sombre et leçon](refonte/apres-sombre.png)
 
-## 1. Ce qui fait « appli générée » aujourd'hui (audit)
+![Français, profil, photo, appel](refonte/autres-ecrans.png)
+
+## 1. Ce qui faisait « appli générée » avant la refonte (audit)
 
 - **Couleurs** :
   - fond bleu nuit avec deux taches violettes floues derrière tout (`body` dans `css/app.css`) ;
@@ -30,7 +32,7 @@ On garde toutes les fonctions, tous les contenus et l'ordre des écrans. On chan
   - sur l'accueil, cinq zones ont le même poids et l'action principale (reprendre la leçon) ne ressort pas ;
   - sur le parcours d'une matière, le zigzag cache où l'on en est (« 0/6 » en petit).
 
-## 2. Direction proposée
+## 2. Direction
 
 - **Produit** : ניצוץ, un prof particulier à la voix, dans le téléphone, qui fait réviser le bagrout (3, 4 ou 5 yéhidot) et la première année de fac, en hébreu.
 - **Caractère** : patient, précis, complice.
@@ -59,7 +61,7 @@ On garde toutes les fonctions, tous les contenus et l'ordre des écrans. On chan
 - **Boutons** : à plat, 48 px de haut pour les actions principales, angles de 10 px (16 px pour les cartes). Les espacements sont tous des multiples de 4 px.
 - **Mouvement** : plus d'animation en boucle. Il reste un changement de couleur au toucher et une légère pression. Les confettis restent seulement pour une vraie réussite (badge, niveau).
 
-## 4. Ce que la refonte touchera, une fois validée
+## 4. Fichiers touchés
 
 - `css/app.css` (réécrit), `index.html` (couleur du thème, police) ;
 - `js/ui.js` (icônes, ניצוץ à plat), `js/main.js` (barre du bas) ;
@@ -67,10 +69,30 @@ On garde toutes les fonctions, tous les contenus et l'ordre des écrans. On chan
 - `i18n/he.json` et `i18n/fr.json` (textes sans exclamation ni emoji, mêmes clés) ;
 - un dossier `fonts/` (Rubik) et un fichier d'icônes.
 
-Ces fichiers ont en grande partie été écrits par Hermes : la refonte les réécrit, d'où l'accord nécessaire de Gabriel.
-Vérifications prévues :
-- `node scripts/check-i18n.mjs` et `node --test scripts/` ;
-- captures de chaque écran, en clair et en sombre, sur téléphone.
+Ces fichiers avaient en grande partie été écrits par Hermes ; Gabriel a accepté qu'ils soient réécrits.
+Aussi touchés : `js/icons.js` (nouveau), `fonts/` (nouveau), `js/curriculum.js` et `js/game.js` (icônes des matières et des badges), `manifest.webmanifest`, `icons/` et `scripts/make-icons.mjs` (icône de l'appli : ניצוץ à plat sur le bleu d'encre).
+
+## 5. Ce qui a été fait (22/11)
+
+- Tous les écrans, en hébreu et en français :
+  - accueil, apprentissage, parcours d'une matière, leçon, quiz ;
+  - photo d'exercice, appel, vrai prof ;
+  - profil, rapport pour les parents, réglages, faculté, première ouverture.
+- Plus aucun emoji dans l'interface (vérifié par un script sur tout le code).
+- Plus aucun « ! » dans les textes. Les gains de points sont écrits en mots (« קיבלתם 18 נקודות »), pour que le « + » ne passe pas du mauvais côté en hébreu.
+- Clés de texte ajoutées dans les deux langues ; `node scripts/check-i18n.mjs` : tout est cohérent.
+- Classes en français : « Première », avec la lettre hébraïque dessous (décision du 10/11 respectée).
+- Confettis gardés seulement pour un nouveau niveau et un nouveau badge.
+- Sur ordinateur, l'appli garde une largeur de téléphone, centrée.
+- Vérifications :
+  - `node --test scripts/test-*.mjs` : 52 tests réussis ;
+  - parcours complet dans un navigateur de téléphone simulé (première ouverture, leçon jusqu'aux étoiles, quiz jusqu'au score, photo et indices, appel, réservation d'un prof, réglages en français, faculté, rapport parents) : aucune erreur ;
+  - captures de chaque écran en clair, en sombre et en français.
+
+## 6. Reste à faire
+
+- Essai sur le vrai iPhone de Gabriel (police, mode sombre, barre du bas avec l'encoche).
+- L'icône de l'appli a changé : sur un téléphone où l'appli est déjà installée, il faut la retirer de l'écran d'accueil et la réinstaller pour voir la nouvelle.
 
 ## Maquette
 

@@ -2,6 +2,7 @@
 import { S, save } from './store.js';
 import { loadLang, t } from './i18n.js';
 import { $, esc, flags, toast } from './ui.js';
+import { icon } from './icons.js';
 import { unlockAudio } from './voice.js';
 import { welcome, home, learn, profile, parent } from './views/home.js';
 import { map, lesson, quiz } from './views/study.js';
@@ -10,12 +11,12 @@ import { academy } from './views/academy.js';
 import { settings } from './views/settings.js';
 
 const routes = { welcome, home, learn, profile, parent, map, lesson, quiz, camera, call, teachers, academy, settings };
-const NAV = [['home', '🏠', 'nav.home'], ['learn', '📚', 'nav.learn'], ['camera', '📷', 'nav.camera'], ['call', '🎙️', 'nav.talk'], ['profile', '👤', 'nav.profile']];
+const NAV = [['home', 'house', 'nav.home'], ['learn', 'book-open', 'nav.learn'], ['camera', 'camera', 'nav.camera'], ['call', 'mic', 'nav.talk'], ['profile', 'user', 'nav.profile']];
 const GROUP = { map: 'learn', lesson: 'learn', quiz: 'learn', academy: 'learn', teachers: 'profile', parent: 'profile', settings: 'profile' };
 
 const navHtml = (active) => `<nav class="nav" aria-label="${esc(t('nav.label'))}">${NAV.map(([id, ic, key]) => (id === 'camera'
-  ? `<a class="cam" href="#/camera" aria-label="${esc(t(key))}"><span class="fab">${ic}</span></a>`
-  : `<a href="#/${id}" class="${(GROUP[active] || active) === id ? 'on' : ''}"><span class="ic">${ic}</span>${esc(t(key))}</a>`)).join('')}</nav>`;
+  ? `<a class="cam" href="#/camera"><span class="disc">${icon(ic)}</span>${esc(t(key))}</a>`
+  : `<a href="#/${id}" class="${(GROUP[active] || active) === id ? 'on' : ''}"${(GROUP[active] || active) === id ? ' aria-current="page"' : ''}>${icon(ic)}${esc(t(key))}</a>`)).join('')}</nav>`;
 
 let active = null, seq = 0;
 async function route() {
@@ -33,7 +34,7 @@ async function route() {
   try { await view.render(root, { args, q: new URLSearchParams(qs || '') }); }
   catch (e) {
     console.error(e);
-    if (my === seq) root.innerHTML = `<div class="card center gap2"><p>${esc(t('err.crash'))}</p><pre dir="ltr" class="small">${esc(e.message)}</pre><a class="btn block" href="#/home">${esc(t('nav.home'))}</a></div>`;
+    if (my === seq) root.innerHTML = `<div class="card gap2"><p>${esc(t('err.crash'))}</p><pre dir="ltr" class="small muted">${esc(e.message)}</pre><a class="btn block gap" href="#/home">${esc(t('nav.home'))}</a></div>`;
   }
 }
 

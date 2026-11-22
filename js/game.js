@@ -11,20 +11,21 @@ export function levelInfo() {
   return { level: l, pct: Math.round(((S.xp - lo) / (hi - lo)) * 100), toNext: hi - S.xp };
 }
 
+// icon : nom de l'icône au trait (js/icons.js).
 export const BADGES = [
-  { id: 'first_lesson', icon: '🎓', ok: (s) => s.stats.lessons >= 1 },
-  { id: 'lessons5', icon: '📚', ok: (s) => s.stats.lessons >= 5 },
-  { id: 'streak3', icon: '🔥', ok: (s) => s.streak >= 3 },
-  { id: 'streak7', icon: '🌋', ok: (s) => s.streak >= 7 },
-  { id: 'xp100', icon: '⚡', ok: (s) => s.xp >= 100 },
-  { id: 'xp500', icon: '🚀', ok: (s) => s.xp >= 500 },
-  { id: 'photo1', icon: '📷', ok: (s) => s.stats.photos >= 1 },
-  { id: 'call1', icon: '🎙️', ok: (s) => s.stats.calls >= 1 },
-  { id: 'perfect', icon: '⭐', ok: (s) => Object.values(s.done).some((d) => d.stars >= 3) },
+  { id: 'first_lesson', icon: 'graduation-cap', ok: (s) => s.stats.lessons >= 1 },
+  { id: 'lessons5', icon: 'library', ok: (s) => s.stats.lessons >= 5 },
+  { id: 'streak3', icon: 'flame', ok: (s) => s.streak >= 3 },
+  { id: 'streak7', icon: 'calendar-check', ok: (s) => s.streak >= 7 },
+  { id: 'xp100', icon: 'zap', ok: (s) => s.xp >= 100 },
+  { id: 'xp500', icon: 'trending-up', ok: (s) => s.xp >= 500 },
+  { id: 'photo1', icon: 'camera', ok: (s) => s.stats.photos >= 1 },
+  { id: 'call1', icon: 'mic', ok: (s) => s.stats.calls >= 1 },
+  { id: 'perfect', icon: 'star', ok: (s) => Object.values(s.done).some((d) => d.stars >= 3) },
 ];
 export function checkBadges() {
   BADGES.forEach((b) => {
-    if (!S.badges.includes(b.id) && b.ok(S)) { S.badges.push(b.id); save(); toast(`${b.icon} ${t('badge.' + b.id)}`); sfx('win'); }
+    if (!S.badges.includes(b.id) && b.ok(S)) { S.badges.push(b.id); save(); toast(t('badge.new', { b: t('badge.' + b.id) })); confetti(); sfx('win'); }
   });
 }
 
@@ -53,7 +54,7 @@ export function dailyInfo() {
 }
 export function openChest() {
   if (!dailyInfo().chestReady) return 0;
-  S.daily.chest = true; S.coins += 25; save(); confetti(); sfx('win'); return 25;
+  S.daily.chest = true; S.coins += 25; save(); sfx('win'); return 25;
 }
 export function markDone(id, stars) {
   const prev = S.done[id];
@@ -74,10 +75,10 @@ export function spendEnergy() {
 export function paywall() {
   modal({
     title: t('pay.title'),
-    body: `<p>${t('pay.body')}</p><p class="warn">${t('pay.demo')}</p>`,
+    body: `<p>${t('pay.body')}</p><p class="warn gap">${t('pay.demo')}</p>`,
     actions: [
-      { label: t('pay.start'), cls: 'sun', onClick: () => { S.plan = 'pro'; save(); toast(t('pay.on')); } },
-      { label: t('pay.later'), cls: 'ghost' },
+      { label: t('pay.start'), onClick: () => { S.plan = 'pro'; save(); toast(t('pay.on')); } },
+      { label: t('pay.later'), cls: 'secondary' },
     ],
   });
 }

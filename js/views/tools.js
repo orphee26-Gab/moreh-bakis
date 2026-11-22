@@ -1,7 +1,8 @@
 // Outils : photo d'un exercice, appel en direct avec Nitzotz, réservation d'un vrai prof (démonstration).
 import { S, save } from '../store.js';
 import { t, lang as uiLang } from '../i18n.js';
-import { $, esc, toast, modal, mascot, setMascot, confetti, sfx } from '../ui.js';
+import { $, esc, toast, modal, mascot, setMascot, sfx } from '../ui.js';
+import { icon, tick } from '../icons.js';
 import { SUBJECTS, subjectMeta, gradeLabel } from '../curriculum.js';
 import { chat, parseJSON, aiReady, aiErrorKey, fileToJpeg } from '../ai.js';
 import { cameraSystem, callSystem } from '../prompts.js';
@@ -26,10 +27,11 @@ export const camera = {
   async render(root) {
     const home = () => {
       root.innerHTML = `
-        <div class="center gap">${mascot('idle', 120)}<h1 class="h1 gap">${t('cam.title')}</h1><p class="muted">${t('cam.sub')}</p></div>
-        <button class="btn sun block gap2" id="shoot">📷 ${t('cam.shoot')}</button>
-        <button class="btn ghost block gap" id="gal">🖼️ ${t('cam.gallery')}</button>
-        ${aiReady() ? '' : `<div class="warn small gap2">${t('cam.demo')}</div>`}`;
+        <div class="gap3"><span class="empty">${icon('camera')}</span></div>
+        <h1 class="h1 center gap2">${t('cam.title')}</h1><p class="muted center gap">${t('cam.sub')}</p>
+        <button class="btn block gap3" id="shoot">${icon('camera')}${t('cam.shoot')}</button>
+        <button class="btn secondary block gap" id="gal">${icon('image')}${t('cam.gallery')}</button>
+        ${aiReady() ? '' : `<div class="warn gap2">${icon('info')}<span>${t('cam.demo')}</span></div>`}`;
       $('#shoot', root).onclick = () => start(true);
       $('#gal', root).onclick = () => start(false);
     };
@@ -43,7 +45,7 @@ export const camera = {
     const analyze = async (file) => {
       let img;
       try { img = await fileToJpeg(file); } catch { toast(t('cam.badimg')); return home(); }
-      root.innerHTML = `<img src="${img.dataUrl}" alt="" style="width:100%;max-height:34dvh;object-fit:contain;border-radius:18px;background:#0006"><div class="center gap2">${mascot('thinking', 100)}<p>${t('cam.reading')}</p></div>`;
+      root.innerHTML = `<img class="photo gap" src="${img.dataUrl}" alt=""><div class="row gap2" style="justify-content:center">${mascot('thinking', 48)}<p class="muted">${t('cam.reading')}</p></div>`;
       let r;
       if (!aiReady()) {
         r = { say: t('cam.demosay'), board: '', subject: 'other', topic: '', hints: [t('cam.demohint')], solution: [], answer: '' };
@@ -59,22 +61,22 @@ export const camera = {
       const meta = subjectMeta(r.subject);
       const draw = () => {
         root.innerHTML = `
-          <div class="top"><button class="icon" id="bk" aria-label="${t('back')}"><span class="arr">→</span></button><h2 class="h2 grow">${t('cam.result')}</h2></div>
-          <img src="${img.dataUrl}" alt="" style="width:100%;max-height:26dvh;object-fit:contain;border-radius:18px;background:#0006">
-          <div class="chips">${meta ? `<span class="pill">${meta.icon} ${esc(t('subj.' + meta.id))}</span>` : ''}${r.topic ? `<span class="pill" dir="auto">${esc(r.topic)}</span>` : ''}</div>
-          ${r.board ? `<div class="board" dir="auto" style="max-height:none">${esc(r.board)}</div>` : ''}
+          <div class="top"><button class="icon" id="bk" aria-label="${t('back')}">${icon('back')}</button><h1 class="h2">${t('cam.result')}</h1></div>
+          <img class="photo" src="${img.dataUrl}" alt="">
+          ${meta || r.topic ? `<p class="row small muted gap">${meta ? `${icon(meta.icon)}<span>${esc(t('subj.' + meta.id))}</span>` : ''}${r.topic ? `<span dir="auto">${meta ? '· ' : ''}${esc(r.topic)}</span>` : ''}</p>` : ''}
+          ${r.board ? `<div class="board gap" dir="auto" style="max-height:none">${esc(r.board)}</div>` : ''}
           <div class="card gap" dir="auto">${esc(r.say || '')}</div>
-          <div id="hl">${hints.slice(0, shown).map((h, k) => `<div class="explain" dir="auto"><b>💡 ${k + 1}.</b> ${esc(h)}</div>`).join('')}</div>
+          <div id="hl">${hints.slice(0, shown).map((h, k) => `<div class="explain" dir="auto"><span class="small muted">${icon('lightbulb')} ${t('cam.hintn', { n: k + 1 })}</span><div>${esc(h)}</div></div>`).join('')}</div>
           ${sol ? `<div class="card gap" dir="auto"><b>${t('cam.solution')}</b><ol>${steps.map((x) => `<li>${esc(x)}</li>`).join('')}</ol>${r.answer ? `<p><b>${t('cam.answer')}:</b> ${esc(r.answer)}</p>` : ''}</div>` : ''}
           <div class="list gap2">
-            ${shown < hints.length ? `<button class="btn violet block" id="hint">💡 ${shown ? t('cam.morehint') : t('cam.hint')}</button>` : ''}
-            ${!sol && steps.length ? `<button class="btn ghost block" id="sol">${t('cam.showsol')}</button>` : ''}
-            <button class="btn sun block" id="talk">💬 ${t('cam.talk')}</button>
-            <button class="btn ghost block" id="teach">👩‍🏫 ${t('map.teacher')}</button>
+            ${shown < hints.length ? `<button class="btn block" id="hint">${icon('lightbulb')}${shown ? t('cam.morehint') : t('cam.hint')}</button>` : ''}
+            <button class="btn ${shown < hints.length ? 'secondary' : ''} block" id="talk">${icon('message-circle')}${t('cam.talk')}</button>
+            ${!sol && steps.length ? `<button class="btn secondary block" id="sol">${t('cam.showsol')}</button>` : ''}
+            <button class="btn quiet block" id="teach">${icon('video')}${t('map.teacher')}</button>
           </div>`;
         $('#bk', root).onclick = home;
         const hb = $('#hint', root); if (hb) hb.onclick = () => { shown++; draw(); };
-        const sb = $('#sol', root); if (sb) sb.onclick = () => modal({ title: t('cam.sure'), body: `<p>${t('cam.suretext')}</p>`, actions: [{ label: t('cam.tryfirst'), cls: '' }, { label: t('cam.yes'), cls: 'ghost', onClick: () => { sol = true; draw(); } }] });
+        const sb = $('#sol', root); if (sb) sb.onclick = () => modal({ title: t('cam.sure'), body: `<p>${t('cam.suretext')}</p>`, actions: [{ label: t('cam.tryfirst'), cls: '' }, { label: t('cam.yes'), cls: 'secondary', onClick: () => { sol = true; draw(); } }] });
         $('#talk', root).onclick = () => { sessionStorage.setItem('mb.callctx', JSON.stringify({ subject: r.subject, topic: r.topic, extra: `L'élève travaille sur cet exercice : ${r.board || ''}. Aide-le oralement sans donner la solution d'un coup.` })); go('#/call'); };
         $('#teach', root).onclick = () => go(`#/teachers?subject=${r.subject || ''}`);
       };
@@ -98,15 +100,15 @@ export const call = {
     const pickScreen = () => {
       root.innerHTML = `
         <div class="call">
-          ${mascot('idle', 140)}
+          ${mascot('idle', 96)}
           <h1 class="h1">${t('call.title')}</h1>
           <p class="muted">${t('call.sub')}</p>
-          ${ctx?.topic ? `<div class="pill" dir="auto">${esc(ctx.topic)}</div>` : ''}
-          <div class="chips" style="justify-content:center" id="sj">${SUBJECTS.map((s) => `<button class="chip ${s.id === sid ? 'on' : ''}" data-s="${s.id}">${s.icon} ${esc(t('subj.' + s.id))}</button>`).join('')}</div>
+          ${ctx?.topic ? `<p class="small" dir="auto">${esc(ctx.topic)}</p>` : ''}
+          <div class="chips" id="sj" role="group" aria-label="${esc(t('call.pick'))}">${SUBJECTS.map((s) => `<button class="chip ${s.id === sid ? 'on' : ''}" data-s="${s.id}" aria-pressed="${s.id === sid}">${icon(s.icon)}${esc(t('subj.' + s.id))}</button>`).join('')}</div>
           ${sid === 'english' ? `<p class="small muted">${t('call.oral')}</p>` : ''}
-          <button class="btn block" id="go">📞 ${t('call.start')}</button>
-          <button class="btn ghost block" id="bk">${t('back')}</button>
-          ${aiReady() ? '' : `<div class="warn small">${t('call.demo')}</div>`}
+          <button class="btn block" id="go">${icon('phone')}${t('call.start')}</button>
+          <button class="btn secondary block" id="bk">${t('back')}</button>
+          ${aiReady() ? '' : `<div class="warn">${icon('info')}<span>${t('call.demo')}</span></div>`}
         </div>`;
       $('#sj', root).onclick = (e) => { const b = e.target.closest('[data-s]'); if (b) { sid = b.dataset.s; pickScreen(); } };
       $('#bk', root).onclick = () => go('#/home');
@@ -117,21 +119,22 @@ export const call = {
       const me = C = { aborted: false, muted: false, msgs: [], exchanges: 0, listener: null, empty: 0 };
       root.innerHTML = `
         <div class="call">
-          <div id="m" style="cursor:pointer">${mascot('idle', 170)}</div>
-          <div class="status" id="st"></div>
+          <div id="m" style="cursor:pointer">${mascot('idle', 144)}</div>
+          <div class="status" id="st" aria-live="polite"></div>
           <div class="say" id="say" dir="auto"></div>
           <div class="you" id="you" dir="auto"></div>
           <div class="btns">
-            <button class="round on" id="mute" aria-label="${t('call.mute')}">🎙️</button>
-            <button class="round end" id="end" aria-label="${t('call.end')}">📞</button>
+            <button class="round on" id="mute" aria-label="${t('call.mute')}" aria-pressed="false">${icon('mic')}</button>
+            <button class="round end" id="end" aria-label="${t('call.end')}">${icon('phone-off')}</button>
           </div>
           <div class="small muted">${t('call.tip')}</div>
         </div>`;
       const st = (k) => { $('#st', root).textContent = t('call.st.' + k); setMascot(root, { listen: 'listening', think: 'thinking', speak: 'speaking' }[k] || 'idle'); };
       const sayEl = $('#say', root), youEl = $('#you', root);
-      const pause = () => { me.muted = true; const mb = $('#mute', root); if (mb) mb.className = 'round'; st('paused'); };
+      const muteBtn = (muted) => { const mb = $('#mute', root); if (!mb) return; mb.className = 'round ' + (muted ? '' : 'on'); mb.innerHTML = icon(muted ? 'mic-off' : 'mic'); mb.setAttribute('aria-pressed', String(muted)); };
+      const pause = () => { me.muted = true; muteBtn(true); st('paused'); };
       const finishCall = () => {
-        if (me.exchanges >= 1) { S.stats.calls++; save(); addXP(20); confetti(); sfx('win'); toast(t('call.bye', { xp: 20 })); }
+        if (me.exchanges >= 1) { S.stats.calls++; save(); addXP(20); sfx('win'); toast(t('call.bye', { xp: 20 })); }
         call.destroy(); go('#/home');
       };
       async function listenLoop() {
@@ -170,7 +173,7 @@ export const call = {
       }
       $('#m', root).onclick = () => { stopSpeaking(); };
       $('#mute', root).onclick = (e) => {
-        me.muted = !me.muted; e.currentTarget.className = 'round ' + (me.muted ? '' : 'on');
+        me.muted = !me.muted; muteBtn(me.muted);
         if (me.muted) { try { me.listener?.stop(); } catch { /* ignoré */ } st('muted'); } else listenLoop();
       };
       $('#end', root).onclick = finishCall;
@@ -207,38 +210,38 @@ export const teachers = {
     const list = () => {
       const items = TEACHERS.filter((x) => !want || x.subject === want || want === 'other' || !subjectMeta(want));
       root.innerHTML = `
-        <div class="top"><button class="icon" id="bk" aria-label="${t('back')}"><span class="arr">→</span></button><h1 class="h1 grow">👩‍🏫 ${t('teach.title')}</h1></div>
-        <div class="warn small">${t('teach.demo')}</div>
-        <p class="muted">${t('teach.sub', { price: PRICE })}</p>
-        <div class="list">${(items.length ? items : TEACHERS).map((x) => `<button class="item" data-id="${x.id}"><div class="avatar">${esc(x.name[0])}</div><div class="grow"><b>${esc(x.name)} <span class="tag">${t('teach.example')}</span></b><div class="small muted" dir="auto">${esc(x.bio)}</div><div class="small">⭐ ${x.rating} · ${PRICE} ₪ · 45 ${t('teach.min')}</div></div></button>`).join('')}</div>`;
+        <div class="top"><button class="icon" id="bk" aria-label="${t('back')}">${icon('back')}</button><h1 class="h1">${t('teach.title')}</h1></div>
+        <div class="warn">${icon('info')}<span>${t('teach.demo')}</span></div>
+        <p class="muted gap">${t('teach.sub', { price: PRICE })}</p>
+        <div class="group gap">${(items.length ? items : TEACHERS).map((x) => `<button class="item" data-id="${x.id}"><div class="avatar" aria-hidden="true">${esc(x.name[0])}</div><span class="grow"><b>${esc(x.name)} <span class="tag">${t('teach.example')}</span></b><span class="sub" dir="auto">${esc(x.bio)}</span><span class="sub num">${icon('star')} ${x.rating} · ${PRICE} ₪ · 45 ${t('teach.min')}</span></span>${icon('fwd', 'fwd')}</button>`).join('')}</div>`;
       $('#bk', root).onclick = () => history.back();
-      root.querySelectorAll('.item').forEach((b) => { b.onclick = () => pick(TEACHERS.find((x) => x.id === b.dataset.id)); });
+      root.querySelectorAll('.item[data-id]').forEach((b) => { b.onclick = () => pick(TEACHERS.find((x) => x.id === b.dataset.id)); });
     };
     const pick = (tc) => {
       let slot = null;
       const sl = slotsFor();
       root.innerHTML = `
-        <div class="top"><button class="icon" id="bk" aria-label="${t('back')}"><span class="arr">→</span></button><h1 class="h1 grow">${esc(tc.name)}</h1></div>
+        <div class="top"><button class="icon" id="bk" aria-label="${t('back')}">${icon('back')}</button><h1 class="h1">${esc(tc.name)}</h1></div>
         <p class="muted" dir="auto">${esc(tc.bio)}</p>
-        <h3 class="h2 gap">${t('teach.slots')}</h3>
-        <div class="chips" id="sl">${sl.map((s) => `<button class="slot" data-k="${esc(s.key)}">${esc(s.label)}</button>`).join('')}</div>
+        <h2 class="sec-h sec">${t('teach.slots')}</h2>
+        <div class="slots num" id="sl">${sl.map((s) => `<button class="slot" data-k="${esc(s.key)}" aria-pressed="false">${esc(s.label)}</button>`).join('')}</div>
         <button class="btn block gap2" id="ok" disabled>${t('teach.continue')}</button>`;
       $('#bk', root).onclick = list;
-      $('#sl', root).onclick = (e) => { const b = e.target.closest('.slot'); if (!b) return; slot = sl.find((s) => s.key === b.dataset.k); root.querySelectorAll('.slot').forEach((x) => x.classList.toggle('on', x === b)); $('#ok', root).disabled = false; };
+      $('#sl', root).onclick = (e) => { const b = e.target.closest('.slot'); if (!b) return; slot = sl.find((s) => s.key === b.dataset.k); root.querySelectorAll('.slot').forEach((x) => { x.classList.toggle('on', x === b); x.setAttribute('aria-pressed', String(x === b)); }); $('#ok', root).disabled = false; };
       $('#ok', root).onclick = () => summary(tc, slot);
     };
     const summary = (tc, slot) => {
       root.innerHTML = `
-        <div class="top"><button class="icon" id="bk" aria-label="${t('back')}"><span class="arr">→</span></button><h1 class="h1 grow">${t('teach.summary')}</h1></div>
+        <div class="top"><button class="icon" id="bk" aria-label="${t('back')}">${icon('back')}</button><h1 class="h1">${t('teach.summary')}</h1></div>
         <div class="card"><div class="kv"><span>${t('teach.teacher')}</span><b>${esc(tc.name)}</b></div><div class="kv"><span>${t('teach.when')}</span><b>${esc(slot.label)}</b></div><div class="kv"><span>${t('teach.price')}</span><b>${PRICE} ₪</b></div>
         <div class="kv"><span>${t('teach.toteacher')}</span><span>${TEACHER_SHARE} ₪</span></div><div class="kv"><span>${t('teach.toapp')}</span><span>${PRICE - TEACHER_SHARE} ₪</span></div></div>
-        <div class="ok small gap">${t('teach.brief', { n: S.stats.questions })}</div>
-        <p class="muted small">${t('teach.parent')}</p>
-        <button class="btn sun block gap" id="send">${t('teach.send')}</button>`;
+        <div class="ok gap">${icon('circle-check')}<span>${t('teach.brief', { n: S.stats.questions })}</span></div>
+        <p class="muted small gap">${t('teach.parent')}</p>
+        <button class="btn block gap2" id="send">${t('teach.send')}</button>`;
       $('#bk', root).onclick = () => pick(tc);
       $('#send', root).onclick = () => {
-        confetti(); sfx('win');
-        root.innerHTML = `<div class="center gap2">${mascot('happy', 130)}<h1 class="h1 gap">${t('teach.sent')}</h1><p class="muted">${t('teach.sentsub')}</p><div class="warn small gap">${t('teach.demo')}</div><button class="btn block gap2" id="h">${t('nav.home')}</button></div>`;
+        sfx('win');
+        root.innerHTML = `<div class="gap3"><span class="empty">${tick()}</span></div><h1 class="h1 center gap2">${t('teach.sent')}</h1><p class="muted center gap">${t('teach.sentsub')}</p><div class="warn gap2">${icon('info')}<span>${t('teach.demo')}</span></div><button class="btn block gap2" id="h">${t('nav.home')}</button>`;
         $('#h', root).onclick = () => go('#/home');
       };
     };

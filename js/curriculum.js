@@ -3,14 +3,15 @@ import { S } from './store.js';
 import { t, lang } from './i18n.js';
 
 export const DATA_BASE = new URLSearchParams(location.search).get('data') || 'data';
+// icon : nom de l'icône au trait (js/icons.js).
 export const SUBJECTS = [
-  { id: 'math', icon: '➗', color: '#5cc8ff', units: [3, 4, 5] },
-  { id: 'geometry', icon: '📐', color: '#8f84ff', units: [3, 4, 5] },
-  { id: 'english', icon: '🗣️', color: '#4fd6a6', units: [3, 4, 5], lang: 'en' },
-  { id: 'physics', icon: '⚛️', color: '#ffc95a', units: [5] },
-  { id: 'history', icon: '🏛️', color: '#ff7b8f', units: [2] },
-  { id: 'tanakh', icon: '📖', color: '#c59bff', units: [2] },
-  { id: 'hebrew', icon: '✍️', color: '#ff9f5c', units: [2] },
+  { id: 'math', icon: 'sigma', units: [3, 4, 5] },
+  { id: 'geometry', icon: 'triangle-right', units: [3, 4, 5] },
+  { id: 'english', icon: 'languages', units: [3, 4, 5], lang: 'en' },
+  { id: 'physics', icon: 'atom', units: [5] },
+  { id: 'history', icon: 'landmark', units: [2] },
+  { id: 'tanakh', icon: 'scroll-text', units: [2] },
+  { id: 'hebrew', icon: 'pen-line', units: [2] },
 ];
 export const subjectMeta = (id) => SUBJECTS.find((s) => s.id === id);
 
@@ -74,5 +75,5 @@ export const gradeLabel = (g) => ({ 10: "י'", 11: 'י"א', 12: 'י"ב' }[Number
 // Texte affiché pour une classe : « כיתה י"א » en hébreu, « Première (י"א) » en français.
 export function gradeText(g) {
   const n = Number(g), key = `grade.n${n}`, word = t(key);
-  return lang() === 'he' || word === key ? `${t('grade')} ${gradeLabel(n)}` : `${word} (<bdi dir="rtl">${gradeLabel(n)}</bdi>)`;
+  return lang() === 'he' || word === key ? `${t('grade')} ${gradeLabel(n)}` : `${word} <span class="gl">(<bdi dir="rtl">${gradeLabel(n)}</bdi>)</span>`;
 }

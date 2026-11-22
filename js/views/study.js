@@ -1,7 +1,8 @@
 // Carte des thèmes, micro-leçon (à la voix ou à l'écrit) et quiz.
 import { S, save } from '../store.js';
 import { t } from '../i18n.js';
-import { $, esc, toast, modal, mascot, setMascot, confetti, sfx } from '../ui.js';
+import { $, esc, toast, modal, mascot, setMascot, sfx } from '../ui.js';
+import { icon, tick } from '../icons.js';
 import { SUBJECTS, subjectMeta, loadSubject, unitsAvailable, unitsFor, topicsFor, findTopic, tr, gradeLabel, gradeText, progressOf } from '../curriculum.js';
 import { loadFaculty, findCourse } from '../faculty.js';
 import { chat, parseJSON, aiReady, aiErrorKey } from '../ai.js';
@@ -63,20 +64,27 @@ export const map = {
       const grade = S.grade;
       const { topics, approx } = topicsFor(data, units, grade);
       const prog = progressOf(data, units, grade);
-      const nodes = topics.map((tp, i) => {
+      const curIdx = topics.findIndex((tp, i) => !S.done[tp.id] && (i === 0 || S.done[topics[i - 1].id]));
+      const stops = topics.map((tp, i) => {
         const done = S.done[tp.id], open = i === 0 || S.done[topics[i - 1].id];
-        const cls = done ? 'done' : open ? 'cur' : 'lock';
-        return `<button class="node ${cls} z${i % 4}" data-i="${i}"><span class="orb">${done ? '★' : open ? i + 1 : '🔒'}</span><span class="lbl" dir="auto">${esc(tr(tp))}</span></button>`;
+        if (i === curIdx) {
+          return `<div class="stop cur"><span class="dot num">${i + 1}</span><div class="curcard"><span class="eyebrow">${t('map.next')}</span><button class="t" data-i="${i}" dir="auto">${esc(tr(tp))}</button>
+            <div class="acts"><button class="btn" data-v="${i}">${icon('mic')}${t('map.voice.short')}</button><button class="btn secondary" data-w="${i}">${t('map.text.short')}</button><button class="btn quiet" data-i="${i}" aria-label="${esc(t('map.more'))}">${t('map.more')}</button></div></div></div>`;
+        }
+        const cls = done ? 'done' : open ? 'open' : 'lock';
+        return `<button class="stop ${cls}" data-i="${i}"><span class="dot num">${done ? tick() : i + 1}</span><span class="lbl" dir="auto">${esc(tr(tp))}${done ? `<span class="sr">${t('map.done')}</span>` : ''}</span></button>`;
       }).join('');
       root.innerHTML = `
-        <div class="top"><button class="icon" data-act="back" aria-label="${t('back')}"><span class="arr">→</span></button><div class="grow"><div class="h1">${meta.icon} ${esc(t('subj.' + meta.id))}</div></div></div>
-        <div class="chips" id="uc">${avail.map((u) => `<button class="chip ${u === units ? 'on' : ''}" data-u="${u}">${u} ${t('units')}</button>`).join('')}</div>
-        <div class="chips" id="gc">${[10, 11, 12].map((g) => `<button class="chip ${g === S.grade ? 'on' : ''}" data-g="${g}">${gradeText(g)}</button>`).join('')}</div>
-        ${data?.status === 'draft' ? `<div class="warn small">${t('map.draft')}</div>` : ''}
-        ${approx ? `<div class="warn small gap">${t('map.approx')}</div>` : ''}
+        <div class="top"><button class="icon" data-act="back" aria-label="${t('back')}">${icon('back')}</button><h1 class="h1">${esc(t('subj.' + meta.id))}</h1></div>
+        <div class="segs">
+          ${avail.length > 1 ? `<div class="seg num" id="uc">${avail.map((u) => `<button class="${u === units ? 'on' : ''}" data-u="${u}" aria-pressed="${u === units}">${u} ${t('units')}</button>`).join('')}</div>` : ''}
+          <div class="seg" id="gc">${[10, 11, 12].map((g) => `<button class="${g === S.grade ? 'on' : ''}" data-g="${g}" aria-pressed="${g === S.grade}">${gradeText(g)}</button>`).join('')}</div>
+        </div>
+        ${data?.status === 'draft' ? `<div class="note gap">${icon('info')}<span>${t('map.draft')}</span></div>` : ''}
+        ${approx ? `<div class="note">${icon('info')}<span>${t('map.approx')}</span></div>` : ''}
         ${topics.length
-          ? `<div class="lvl gap"><i style="width:${prog.pct}%"></i></div><div class="muted small">${prog.done}/${prog.total}</div>
-             <div class="path">${nodes}<button class="node boss z${topics.length % 4}" data-boss="1"><span class="orb">🏆</span><span class="lbl">${t('map.boss')}</span></button></div>`
+          ? `<div class="level gap"><div class="lbl num"><span>${t('map.progress', { d: prog.done, n: prog.total })}</span></div><div class="bar"><i style="width:${prog.pct}%"></i></div></div>
+             <div class="paper"><div class="route">${stops}<button class="stop boss" data-boss="1"><span class="dot">${icon('trophy')}</span><span class="lbl">${t('map.boss')}<small>${t('map.boss.sub')}</small></span></button></div></div>`
           : `<div class="card gap center"><p>${t('map.empty')}</p></div>`}`;
       root.onclick = (e) => {
         const b = e.target.closest('button'); if (!b) return;
@@ -84,6 +92,8 @@ export const map = {
         if (b.dataset.u) { units = Number(b.dataset.u); S.units[meta.id] = units; save(); return draw(); }
         if (b.dataset.g) { S.grade = Number(b.dataset.g); save(); return draw(); }
         if (b.dataset.boss) return go(`#/quiz/${meta.id}/boss?u=${units}&g=${S.grade}`);
+        if (b.dataset.v !== undefined) { unlockAudio(); return go(`#/lesson/${meta.id}/${topics[Number(b.dataset.v)].id}?mode=voice`); }
+        if (b.dataset.w !== undefined) return go(`#/lesson/${meta.id}/${topics[Number(b.dataset.w)].id}?mode=text`);
         if (b.dataset.i !== undefined) {
           const i = Number(b.dataset.i), tp = topics[i];
           const open = i === 0 || S.done[topics[i - 1].id];
@@ -91,12 +101,12 @@ export const map = {
           const base = `#/lesson/${meta.id}/${tp.id}`;
           modal({
             title: tr(tp),
-            body: `${subs ? `<p class="muted small" dir="auto">${subs}</p>` : ''}${open ? '' : `<p class="warn small">${t('map.locked')}</p>`}`,
+            body: `${subs ? `<p class="muted small" dir="auto">${subs}</p>` : ''}${open ? '' : `<p class="note gap">${icon('lock')}<span>${t('map.locked')}</span></p>`}`,
             actions: [
-              { label: '🎙️ ' + t('map.voice'), onClick: () => { unlockAudio(); go(`${base}?mode=voice`); } },
-              { label: '⌨️ ' + t('map.text'), cls: 'violet', onClick: () => go(`${base}?mode=text`) },
-              { label: '🧩 ' + t('map.quiz'), cls: 'sun', onClick: () => go(`#/quiz/${meta.id}/${tp.id}`) },
-              { label: '👩‍🏫 ' + t('map.teacher'), cls: 'ghost', onClick: () => go(`#/teachers?subject=${meta.id}`) },
+              { label: t('map.voice'), icon: 'mic', onClick: () => { unlockAudio(); go(`${base}?mode=voice`); } },
+              { label: t('map.text'), icon: 'keyboard', cls: 'secondary', onClick: () => go(`${base}?mode=text`) },
+              { label: t('map.quiz'), icon: 'list-checks', cls: 'secondary', onClick: () => go(`#/quiz/${meta.id}/${tp.id}`) },
+              { label: t('map.teacher'), icon: 'video', cls: 'quiet', onClick: () => go(`#/teachers?subject=${meta.id}`) },
             ],
           });
         }
@@ -106,6 +116,9 @@ export const map = {
   },
 };
 
+// Étoiles gagnées (1 à 3) : pleines ou vides, avec le texte pour les lecteurs d'écran.
+const starRow = (n) => `<div class="stars" role="img" aria-label="${esc(t('lesson.stars', { n }))}">${[0, 1, 2].map((k) => icon('star', k < n ? 'on' : 'off')).join('')}</div>`;
+
 /* ---------- micro-leçon ---------- */
 let cur = null;
 export const lesson = {
@@ -113,25 +126,25 @@ export const lesson = {
   async render(root, { args, q }) {
     lesson.destroy();
     const d = await describe(args, q);
-    if (!d) { root.innerHTML = `<div class="screen"><p class="center gap2">${t('lesson.notfound')}</p><button class="btn block" data-back>${t('back')}</button></div>`; $('[data-back]', root).onclick = () => history.back(); return; }
+    if (!d) { root.innerHTML = `<div class="screen"><p class="center gap2">${t('lesson.notfound')}</p><button class="btn block gap" data-back>${t('back')}</button></div>`; $('[data-back]', root).onclick = () => history.back(); return; }
     if (!spendEnergy()) { paywall(); history.back(); return; }
     S.last = { hash: location.hash, title: d.title, subject: d.subjectName }; save();
     const L = cur = { d, mode: q.get('mode') === 'text' ? 'text' : 'voice', msgs: [], right: 0, answered: 0, hints: 0, turns: 0, done: false, busy: false, listening: false, aborted: false, listener: null, demo: aiReady() ? null : createDemo(d), marks: [], auto: true };
     const START = d.lang === 'en' ? 'Start the lesson.' : 'התחילו את השיעור.';
     root.innerHTML = `
       <div class="lesson-top">
-        <button class="icon" id="x" aria-label="${t('close')}">✕</button>
-        <div class="dots" id="dots"><span></span><span></span><span></span></div>
-        <button class="icon" id="mode" aria-label="${t('lesson.switch')}">${L.mode === 'voice' ? '⌨️' : '🎙️'}</button>
+        <button class="icon" id="x" aria-label="${t('close')}">${icon('x')}</button>
+        <div class="dots" id="dots" aria-hidden="true"><span></span><span></span><span></span></div>
+        <button class="icon" id="mode" aria-label="${t('lesson.switch')}">${icon(L.mode === 'voice' ? 'keyboard' : 'mic')}</button>
       </div>
-      ${L.demo ? `<div class="warn small" style="margin:0 14px 6px">${t('lesson.demo')}</div>` : ''}
-      <div class="stage">${mascot('idle', 84)}<div class="board" id="board" dir="auto"></div></div>
-      <div class="chat" id="chat"></div>
+      ${L.demo ? `<div class="warn lesson-note">${icon('info')}<span>${t('lesson.demo')}</span></div>` : ''}
+      <div class="stage">${mascot('idle', 64)}<div class="board" id="board" dir="auto"></div></div>
+      <div class="chat" id="chat" aria-live="polite"></div>
       <div class="dock" id="dock">
-        <button class="tool" id="hint" aria-label="${t('lesson.hint')}">💡</button>
-        <button class="mic" id="mic" aria-label="${t('lesson.mic')}">🎙️</button>
-        <input class="inp" id="inp" dir="auto" placeholder="${esc(t('lesson.type'))}" enterkeyhint="send" autocomplete="off">
-        <button class="tool" id="send" aria-label="${t('lesson.send')}">➤</button>
+        <button class="tool" id="hint" aria-label="${t('lesson.hint')}">${icon('lightbulb')}</button>
+        <button class="mic" id="mic" aria-label="${t('lesson.mic')}">${icon('mic')}</button>
+        <input class="inp" id="inp" dir="auto" placeholder="${esc(t('lesson.type'))}" enterkeyhint="send" autocomplete="off" aria-label="${esc(t('lesson.type'))}">
+        <button class="tool" id="send" aria-label="${t('lesson.send')}">${icon('send')}</button>
       </div>`;
     const el = (s) => $(s, root);
     const chatEl = el('#chat'), inp = el('#inp'), mic = el('#mic');
@@ -140,7 +153,7 @@ export const lesson = {
     const syncMic = () => {
       mic.className = 'mic' + (L.listening ? ' on' : L.mode === 'text' ? ' off' : '');
       mic.disabled = L.busy;
-      el('#mode').textContent = L.mode === 'voice' ? '⌨️' : '🎙️';
+      el('#mode').innerHTML = icon(L.mode === 'voice' ? 'keyboard' : 'mic');
     };
     const stopListening = () => { L.listening = false; try { L.listener?.stop(); } catch { /* ignoré */ } };
 
@@ -209,11 +222,11 @@ export const lesson = {
       const stars = L.right >= 3 && L.hints === 0 ? 3 : L.right >= 2 ? 2 : 1;
       markDone(d.key, stars); S.stats.lessons++; save();
       const gain = 30 + stars * 10; addXP(gain);
-      confetti(); sfx('win'); setMascot(root, 'happy');
-      el('#dock').outerHTML = `<div class="dock" style="flex-direction:column;align-items:stretch">
-        <div class="center"><div class="stars">${'★'.repeat(stars)}${'☆'.repeat(3 - stars)}</div><div class="h2">${t('lesson.done', { xp: gain })}</div></div>
-        ${d.next ? `<button class="btn block" id="nx">${t('lesson.next')}</button>` : ''}
-        <button class="btn ${d.next ? 'ghost' : ''} block" id="bk">${t('lesson.back')}</button></div>`;
+      sfx('win'); setMascot(root, 'happy');
+      el('#dock').outerHTML = `<div class="result">
+        <div class="center">${starRow(stars)}<div class="h2 gap">${t('lesson.done', { xp: gain })}</div></div>
+        ${d.next ? `<button class="btn block gap" id="nx">${t('lesson.next')}</button>` : ''}
+        <button class="btn ${d.next ? 'secondary' : ''} block${d.next ? '' : ' gap'}" id="bk">${t('lesson.back')}</button></div>`;
       const nx = el('#nx'); if (nx) nx.onclick = () => go(d.kind === 'academy' ? `#/lesson/academy/${d.next}?mode=${L.mode}` : `#/lesson/${d.subjectId}/${d.next}?mode=${L.mode}`);
       el('#bk').onclick = () => go(d.back);
     }
@@ -249,7 +262,7 @@ export const quiz = {
     const d = await describe(args, q);
     if (!d) { root.innerHTML = `<p class="center gap2">${t('lesson.notfound')}</p>`; return; }
     if (!spendEnergy()) { paywall(); history.back(); return; }
-    root.innerHTML = `<div class="center gap2">${mascot('thinking', 110)}<p>${t('quiz.loading')}</p></div>`;
+    root.innerHTML = `<div class="center gap3"><div class="row" style="justify-content:center">${mascot('thinking', 64)}</div><p class="muted gap">${t('quiz.loading')}</p></div>`;
     let data = null;
     if (!aiReady()) data = demoQuiz(d);
     else {
@@ -259,22 +272,22 @@ export const quiz = {
       } catch (e) { toast(t(aiErrorKey(e))); history.back(); return; }
     }
     const qs = (data?.questions || []).filter(okQ).slice(0, 5);
-    if (qs.length < 3) { root.innerHTML = `<div class="card center gap2"><p>${t(aiReady() ? 'quiz.fail' : 'quiz.nodemo')}</p><button class="btn block gap" id="b">${t('back')}</button></div>`; $('#b', root).onclick = () => go(d.back); return; }
+    if (qs.length < 3) { root.innerHTML = `<div class="card gap2"><p>${t(aiReady() ? 'quiz.fail' : 'quiz.nodemo')}</p><button class="btn block gap" id="b">${t('back')}</button></div>`; $('#b', root).onclick = () => go(d.back); return; }
     const ltr = d.lang === 'en';
     let i = 0, right = 0;
     const draw = () => {
       const x = qs[i];
       root.innerHTML = `
-        <div class="top"><button class="icon" id="x" aria-label="${t('close')}">✕</button><div class="grow"><div class="lvl"><i style="width:${(i / qs.length) * 100}%"></i></div></div><span class="pill">${i + 1}/${qs.length}</span></div>
-        ${aiReady() ? '' : `<div class="warn small">${t('lesson.demo')}</div>`}
-        <div class="card gap" dir="${ltr ? 'ltr' : 'auto'}"><div class="h2">${esc(x.q)}</div></div>
-        <div id="opts" dir="${ltr ? 'ltr' : 'auto'}">${x.options.map((o, k) => `<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>
-        <div id="fb"></div>`;
+        <div class="qhead"><button class="icon" id="x" aria-label="${t('close')}">${icon('x')}</button><div class="bar"><i style="width:${(i / qs.length) * 100}%"></i></div><span class="count num">${i + 1}/${qs.length}</span></div>
+        ${aiReady() ? '' : `<div class="warn">${icon('info')}<span>${t('lesson.demo')}</span></div>`}
+        <div class="h2 gap" dir="${ltr ? 'ltr' : 'auto'}">${esc(x.q)}</div>
+        <div id="opts" class="gap" dir="${ltr ? 'ltr' : 'auto'}">${x.options.map((o, k) => `<button class="opt" data-k="${k}"><span>${esc(o)}</span></button>`).join('')}</div>
+        <div id="fb" aria-live="polite"></div>`;
       $('#x', root).onclick = () => go(d.back);
       $('#opts', root).onclick = (e) => {
         const b = e.target.closest('.opt'); if (!b || b.disabled) return;
         const k = Number(b.dataset.k), good = k === x.answer;
-        [...$('#opts', root).children].forEach((c, n) => { c.disabled = true; if (n === x.answer) c.classList.add('good'); else if (n === k) c.classList.add('badc'); });
+        [...$('#opts', root).children].forEach((c, n) => { c.disabled = true; if (n === x.answer) { c.classList.add('good'); c.insertAdjacentHTML('beforeend', icon('check')); } else if (n === k) { c.classList.add('badc'); c.insertAdjacentHTML('beforeend', icon('x')); } });
         if (good) { right++; sfx('ok'); } else sfx('bad');
         $('#fb', root).innerHTML = `${x.explain ? `<div class="explain" dir="${ltr ? 'ltr' : 'auto'}">${esc(x.explain)}</div>` : ''}<button class="btn block gap" id="nx">${i === qs.length - 1 ? t('quiz.finish') : t('quiz.next')}</button>`;
         $('#nx', root).onclick = () => { if (i === qs.length - 1) end(); else { i++; draw(); } };
@@ -285,9 +298,9 @@ export const quiz = {
       S.stats.quizzes++; save();
       if (stars) markDone(d.key, stars);
       const gain = right * 8 + 10; addXP(gain);
-      if (stars >= 2) { confetti(); sfx('win'); }
-      root.innerHTML = `<div class="center gap2">${mascot(stars ? 'happy' : 'sad', 120)}<div class="stars">${'★'.repeat(stars)}${'☆'.repeat(3 - stars)}</div><div class="h1">${right}/${qs.length}</div><p>${t('quiz.xp', { xp: gain })}</p>
-        <button class="btn block gap" id="again">${t('quiz.again')}</button><button class="btn ghost block gap" id="bk">${t('lesson.back')}</button></div>`;
+      if (stars >= 2) sfx('win');
+      root.innerHTML = `<div class="center gap3"><div class="row" style="justify-content:center">${mascot(stars ? 'happy' : 'sad', 72)}</div><div class="gap2">${starRow(stars)}</div><div class="title num gap">${right}/${qs.length}</div><p class="muted">${t('quiz.xp', { xp: gain })}</p></div>
+        <button class="btn block gap3" id="again">${t('quiz.again')}</button><button class="btn secondary block gap" id="bk">${t('lesson.back')}</button>`;
       $('#again', root).onclick = () => quiz.render(root, { args, q });
       $('#bk', root).onclick = () => go(d.back);
     };

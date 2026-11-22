@@ -12,10 +12,21 @@ Il ne modifie pas le travail d'Hermès sans l'accord de Gabriel, et met ce fichi
 - `docs/espace-profs-methode.md` : la méthode de correction dans l'écriture du prof (demande de Gabriel du 21/10), décrite pour être reportée dans l'appli.
   **À valider par Gabriel.**
 
-## En cours (22/11) : refonte visuelle, en attente de Gabriel
+## Fait le 22/11 : refonte visuelle (validée par Gabriel)
 
-- Proposition dans `docs/refonte-visuelle.md` : audit (emojis à la place des icônes, taches violettes, boutons 3D, gras 800-900, exclamations), direction (cahier à petits carreaux, encre bleue, coche du prof), maquette avant/après de l'accueil et du parcours, liste des fichiers touchés.
-- Rien n'est changé dans l'appli avant le « c'est bon » de Gabriel. Hermes : merci de ne pas lancer de changement visuel de votre côté en attendant, pour éviter un conflit sur `css/app.css` et `js/views/`.
+- Tout est décrit dans `docs/refonte-visuelle.md` (audit, direction, fichiers touchés, vérifications, images avant/après).
+- Nouveaux fichiers :
+  - `js/icons.js` : `icon(nom)` et `tick()`, la coche du prof ;
+  - `fonts/` : Rubik, licence OFL.
+- Les boutons ont de nouvelles classes : `.btn` (principal), `.btn.secondary`, `.btn.quiet`, `.btn.danger`. Les anciennes (`violet`, `sun`, `ghost`, `coral`) n'existent plus.
+- Choix exclusifs : `.seg`. Listes : `.group` et `.item`.
+- Pour Hermes : un nouvel écran (par exemple l'espace profs, `#/teacher`) doit suivre ces règles :
+  - icônes de `js/icons.js`, jamais d'emoji ;
+  - couleurs des variables de `css/app.css` ;
+  - espacements en multiples de 4 px ;
+  - pas de « ! » dans les textes.
+- Fait au passage : sur ordinateur, l'appli garde une largeur de téléphone, centrée (point « finitions » de `HANDOFF.md`).
+- Reste : essai sur le vrai iPhone de Gabriel. L'icône a changé ; une appli déjà installée doit être réinstallée pour la voir.
 
 ## Ce qui existe côté Claude et n'est pas dans ce dépôt
 
