@@ -1,0 +1,57 @@
+{
+  "id": "anglais-litterature-6-questions",
+  "subject": "english",
+  "name": {
+    "he": "מבחן ספרות באנגלית: 6 שאלות פתוחות",
+    "fr": "Évaluation de littérature en anglais : 6 questions ouvertes"
+  },
+  "status": "draft",
+  "decidedBy": "Gabriel",
+  "decidedAt": "2026-11-25",
+  "source": "Barème d'une prof d'anglais, transmis par Gabriel le 25/11/2026, avec une évaluation sommative sur la pièce « All My Sons » (Arthur Miller). Exemples corrigés gardés hors du dépôt, dans la mémoire OCR privée du projet.",
+  "structure": {
+    "parts": [
+      { "id": "1", "questions": [1, 2, 3, 4, 5], "choose": 3 },
+      { "id": "2", "questions": [6, 7, 8, 9, 10], "choose": 3 }
+    ],
+    "answered": 6
+  },
+  "pointsPerQuestion": 16,
+  "criteria": [
+    {
+      "id": "content",
+      "points": 8,
+      "he": "תוכן",
+      "fr": "Contenu : répondre à la question posée, arguments et exemples tirés de l'œuvre, développement"
+    },
+    {
+      "id": "language",
+      "points": 8,
+      "he": "דקדוק, אוצר מילים, סימני פיסוק וכו׳",
+      "fr": "Langue : grammaire, vocabulaire, ponctuation, etc."
+    }
+  ],
+  "total": 96,
+  "halfPoints": true,
+  "teacherNotation": "Sous chaque réponse, la prof entoure le total sur 16 et écrit les deux notes sur 8 côte à côte. Ordre supposé : contenu à gauche, langue à droite (à confirmer par Gabriel).",
+  "calibration": {
+    "note": "Notes réelles de la prof sur une copie anonyme (5 réponses sur 6 reçues), sans le texte de l'élève.",
+    "examples": [
+      { "question": 2, "content": 8, "language": 7.5, "why": "Avis argumenté et développé ; une dizaine de fautes d'orthographe" },
+      { "question": 5, "content": 7.5, "language": 7.5, "why": "Un élément attendu manque (Steve Deever) ; la prof le nomme dans la marge, en anglais" },
+      { "question": 10, "content": 8, "language": 7, "why": "Bien argumenté ; un mot corrigé au-dessus, ponctuation manquante" },
+      { "question": 8, "content": 7, "language": 7.5, "why": "Bonne idée, développement plus court" },
+      { "question": 6, "content": 5, "language": 7.5, "why": "Réponse juste mais courte (six lignes), une seule raison développée" }
+    ],
+    "lessons": [
+      "Langue : la prof est indulgente (7 à 7,5 sur 8 malgré une dizaine de fautes d'orthographe par réponse). La note juge si l'anglais reste clair, pas le nombre de fautes.",
+      "Contenu : une réponse juste mais courte prend environ 5 sur 8 ; un élément attendu qui manque coûte un demi-point, et la prof le nomme.",
+      "Les commentaires de la prof sont en anglais, comme l'épreuve."
+    ]
+  },
+  "openQuestions": [
+    "Si l'élève répond à plus de 3 questions dans une partie, lesquelles comptent ?",
+    "La note sur 96 est-elle gardée telle quelle, ou ramenée sur 100 ?",
+    "L'ordre des deux notes sous la réponse : contenu à gauche, langue à droite ?"
+  ]
+}

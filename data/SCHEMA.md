@@ -82,3 +82,28 @@ Familles de cours (champ `family`) : `calculus1`, `calculus2`, `linear-algebra1`
 `physics-electromagnetism`, `general-chemistry`, `organic-chemistry`, `intro-biology`,
 `microeconomics`, `macroeconomics`, `financial-accounting`, `intro-psychology`,
 `research-methods`, `academic-writing`, `intro-law`, ou `other-<slug>`.
+
+## Barèmes de correction — `data/baremes/<id>.json`
+
+Barèmes donnés par Gabriel ou par des profs (pas des données du ministère). Utilisés par l'espace profs
+pour corriger une copie. Jamais de copie, de nom ou de texte d'élève dans ces fichiers.
+
+```json
+{
+  "id": "anglais-litterature-6-questions",
+  "subject": "english",
+  "status": "draft",
+  "decidedBy": "Gabriel",
+  "decidedAt": "2026-11-25",
+  "structure": { "parts": [ { "id": "1", "questions": [1, 2, 3, 4, 5], "choose": 3 } ], "answered": 6 },
+  "pointsPerQuestion": 16,
+  "criteria": [ { "id": "content", "points": 8 }, { "id": "language", "points": 8 } ],
+  "total": 96,
+  "halfPoints": true,
+  "calibration": { "examples": [ { "question": 6, "content": 5, "language": 7.5, "why": "réponse juste mais courte" } ] },
+  "openQuestions": ["ce qui reste à confirmer"]
+}
+```
+
+- `calibration` : notes réelles d'un prof sur des copies anonymes, avec la raison en une ligne, pour que l'IA note comme lui.
+

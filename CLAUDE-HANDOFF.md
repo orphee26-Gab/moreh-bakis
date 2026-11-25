@@ -1,6 +1,6 @@
 # Côté Claude — point d'étape
 
-Dernière mise à jour : **22 novembre 2026**.
+Dernière mise à jour : **25 novembre 2026**.
 
 Depuis le 12 novembre 2026, Claude écrit directement dans ce dépôt, avec l'accord de Gabriel.
 À chaque séance, Claude commence par un `git pull` et lit HANDOFF.md et DECISIONS.md.
@@ -11,6 +11,12 @@ Il ne modifie pas le travail d'Hermès sans l'accord de Gabriel, et met ce fichi
 - `reference/claude-version/` : la version Claude de l'appli, avec l'**espace profs** complet (voir le README du dossier).
 - `docs/espace-profs-methode.md` : la méthode de correction dans l'écriture du prof (demande de Gabriel du 21/10), décrite pour être reportée dans l'appli.
   **À valider par Gabriel.**
+
+## Fait le 25/11 : premier barème de correction
+
+- `data/baremes/anglais-litterature-6-questions.json` : barème d'anglais donné par Gabriel (6 questions, 3 par partie, 16 points = 8 contenu + 8 langue, total 96), avec les notes réelles de la prof en exemple, anonymes.
+- `docs/espace-profs-methode.md`, nouvelle section « Barèmes à deux critères » : ce que l'IA doit faire en plus (lire le numéro de question, deux notes par réponse, langue notée sur la clarté, commentaires en anglais pour l'anglais).
+- Pour Hermes : l'espace profs (`#/teacher`), quand il sera reconstruit, doit lire `data/baremes/` ; aucune copie d'élève n'est dans le dépôt.
 
 ## Fait le 22/11 : refonte visuelle (validée par Gabriel)
 

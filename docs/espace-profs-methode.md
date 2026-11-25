@@ -59,6 +59,44 @@ Test réalisé : page remplie avec une police, puis « photographiée » de trav
 La copie n'est **jamais enregistrée** : elle disparaît quand on ferme la page.
 Une copie d'exemple permet de faire la démonstration sans IA.
 
+## Barèmes à deux critères (décision de Gabriel du 25/11/2026)
+
+Certaines épreuves sont notées sur deux critères par question. Premier cas, en anglais :
+une évaluation de littérature (pièce « All My Sons »). Le barème est rangé dans
+`data/baremes/anglais-litterature-6-questions.json`.
+
+- L'élève répond à 6 questions sur 10, 3 dans chaque partie.
+- Chaque question vaut 16 points : 8 pour le contenu, 8 pour la langue (grammaire, vocabulaire, ponctuation, etc.).
+- Total : 96 points. Les demi-points sont permis.
+
+Ce que l'IA doit faire en plus :
+
+1. **Lire le numéro que l'élève écrit** avant chaque réponse. Les réponses ne suivent pas forcément l'ordre (10 avant 8).
+   Vérifier qu'il y a 3 réponses par partie ; s'il y en a plus, le signaler au prof sans choisir à sa place.
+2. **Donner deux notes par réponse**, puis le total. Format JSON étendu :
+   ```json
+   {"q":"5","part":"1","criteria":{"content":7.5,"language":7.5},"points":15,"max":16,
+    "comment":"What about Steve?","x":0.1,"y":0.62}
+   ```
+3. **Noter la langue comme la prof** : c'est la clarté de l'anglais qui compte, pas le nombre de fautes.
+   Exemple réel : 7 à 7,5 sur 8 malgré une dizaine de fautes d'orthographe par réponse.
+4. **Noter le contenu sur le développement** : une réponse juste mais courte prend environ 5 sur 8.
+   Un élément attendu qui manque coûte un demi-point et se nomme dans le commentaire.
+5. **Écrire les commentaires dans la langue de l'épreuve** : en anglais pour l'anglais (la règle « 8 mots en hébreu »
+   vaut pour les autres matières).
+6. **Sur la copie**, écrire comme la prof : le total entouré sur 16 et, dessous, les deux notes sur 8.
+
+Épreuves dont les points sont imprimés par question (exemple : la compréhension écrite « Paper 4 », 70 points) :
+le barème est celui qui est imprimé. Le prof écrit les points retirés ; l'outil vérifie que le total écrit
+est égal au maximum moins la somme des retraits, comme on contrôle un chèque.
+
+Exemples corrigés (5 pages d'anglais, lot du 25/11) : dans la mémoire OCR privée du projet, jamais dans ce dépôt public.
+
+Questions ouvertes pour Gabriel :
+- au-delà de 3 réponses dans une partie, lesquelles comptent ?
+- la note sur 96 est-elle ramenée sur 100 ?
+- sous la réponse, la note de gauche est-elle bien le contenu ?
+
 ## Notes pour le report dans l'appli GitHub
 
 - Route `#/teacher`, accessible depuis le profil.
