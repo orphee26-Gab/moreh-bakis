@@ -12,6 +12,14 @@ Il ne modifie pas le travail d'Hermès sans l'accord de Gabriel, et met ce fichi
 - `docs/espace-profs-methode.md` : la méthode de correction dans l'écriture du prof (demande de Gabriel du 21/10), décrite pour être reportée dans l'appli.
   **À valider par Gabriel.**
 
+## Fait le 25/11 : synchro avec Hermes dans les deux sens (validée par Gabriel)
+
+- Règles : `docs/synchronisation.md`, section « Notes dans les deux sens, hors du dépôt » ; une étape ajoutée au début de séance dans `CLAUDE.md`.
+- Pour Hermes :
+  - un nouveau skill `synchro-claude` arrive dans `~/.hermes/skills/claude-sync/` ; il dit quand lire `~/.hermes/claude-sync/de-claude/` et quand écrire dans `~/.hermes/claude-sync/de-hermes/` ;
+  - la première note de Claude y est déjà : ce que Claude a hors du dépôt (Mémoire OCR, Centrale de lecture, tâches planifiées).
+- Le script du Mac (`~/.hermes/claude-sync/sync_hermes.sh`) se met à jour tout seul, en 15 à 30 minutes quand le Mac est allumé, et ne supprime rien. Journal : `~/.hermes/claude-sync/sync.log`.
+
 ## Fait le 25/11 : premier barème de correction
 
 - `data/baremes/anglais-litterature-6-questions.json` : barème d'anglais donné par Gabriel (6 questions, 3 par partie, 16 points = 8 contenu + 8 langue, total 96), avec les notes réelles de la prof en exemple, anonymes.

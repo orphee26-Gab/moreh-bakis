@@ -13,7 +13,8 @@ Prof virtuel par la voix pour les lycéens israéliens (bagrout, 10e-12e, 3/4/5 
 ## Début de séance
 1. `node scripts/sync.mjs pull`
 2. Lis `HANDOFF.md`, `CLAUDE-HANDOFF.md` et `DECISIONS.md`.
-3. Dis à Gabriel, en 2 ou 3 phrases, ce qu'Hermes a changé.
+3. Lis les notes récentes d'Hermes dans le dossier Drive privé `Hermes-Sync/de-hermes` (décision du 25/11/2026, voir `docs/synchronisation.md`).
+4. Dis à Gabriel, en 2 ou 3 phrases, ce qu'Hermes a changé.
 
 ## À chaque changement, sans attendre la fin de la séance
 Quand Gabriel décide, corrige ou demande quelque chose, ou qu'un travail est terminé :
@@ -21,6 +22,8 @@ Quand Gabriel décide, corrige ou demande quelque chose, ou qu'un travail est te
 2. si l'état du projet change, mets à jour `CLAUDE-HANDOFF.md` ;
 3. `ASSISTANT=Claude node scripts/sync.mjs push "message clair en français"` ;
 4. dis à Gabriel, en une ligne, ce qui a été envoyé.
+
+Ce qui se passe hors du dépôt (ou ne peut pas y aller) : une note datée dans `Hermes-Sync/de-claude`, tout de suite. Dans une longue séance, `node scripts/sync.mjs pull` avant chaque nouvelle demande de Gabriel.
 
 « On synchronise » (Gabriel) veut dire : fais tout cela maintenant.
 
