@@ -97,6 +97,20 @@ Questions ouvertes pour Gabriel :
 - la note sur 96 est-elle ramenée sur 100 ?
 - sous la réponse, la note de gauche est-elle bien le contenu ?
 
+## Contrôles notés par items (biologie, lot du 26/11/2026)
+
+Barème : `data/baremes/biologie-9-matieres-organiques.json` (QCM, vrai ou faux, tableau à cocher, appariement, classement, réponses courtes).
+Deux copies de כיתה ט corrigées par leur prof, gardées dans la mémoire OCR privée avec la clé de correction.
+
+Ce que l'outil doit savoir faire :
+- **Repérer la convention de chaque copie dans un tableau à cocher.** La consigne dit « X là où ça s'applique ». Une copie met ✓ pour oui et X pour non, l'autre X pour oui et rien pour non ; la prof accepte les deux.
+- **Rattacher la marque du prof à la question**, pas à la ligne de l'option : sa coche est dans la marge, à la hauteur de la question.
+- **Lire les ratures** : la dernière option entourée et non barrée compte ; deux options entourées sans rature valent une croix et un « ? ».
+- **Reconstituer la clé avec plusieurs copies** du même contrôle, et signaler au prof un item corrigé différemment d'une copie à l'autre.
+- **Recalculer la note comme un chèque**, même quand les points ne sont pas tous imprimés. Ici, la note de la copie B (75) se retrouve exactement avec 3 points par QCM et 1 point par item non imprimé. Celle de la copie A donne 84 au lieu de 89 : l'outil doit montrer cet écart au prof, sans corriger sa note à sa place.
+
+Questions ouvertes pour Gabriel (à poser à la prof) : le « 33 » imprimé pour la partie A (3 × 13 = 39), le total sur 110 et l'écart de 5 points de la copie A.
+
 ## Notes pour le report dans l'appli GitHub
 
 - Route `#/teacher`, accessible depuis le profil.

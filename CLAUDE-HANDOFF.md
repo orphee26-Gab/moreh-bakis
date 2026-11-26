@@ -12,6 +12,13 @@ Il ne modifie pas le travail d'Hermès sans l'accord de Gabriel, et met ce fichi
 - `docs/espace-profs-methode.md` : la méthode de correction dans l'écriture du prof (demande de Gabriel du 21/10), décrite pour être reportée dans l'appli.
   **À valider par Gabriel.**
 
+## Fait le 26/11 : barème de biologie, notation par items
+
+- `data/baremes/biologie-9-matieres-organiques.json` : contrôle de כיתה ט (matières organiques, glucides, lipides), 8 parties, 110 points déduits de la copie B. Format décrit dans `data/SCHEMA.md` (`"gradingType": "items"`).
+- Ce que l'outil doit savoir faire : `docs/espace-profs-methode.md`, section « Contrôles notés par items ».
+- Les copies et la clé de correction restent dans la mémoire OCR privée (lot 6), jamais dans ce dépôt public.
+- Questions pour Gabriel : le « 33 » de la partie A, le total sur 110, l'écart de 5 points de la copie A (84 recalculé, 89 donné).
+
 ## En cours le 26/11 : une mascotte à la place de ניצוץ (ébauche, choix de Gabriel attendu)
 
 - Gabriel trouve que ניצוץ ne colle pas au projet. Il veut une mascotte animée qui parle sur chaque exercice, en hébreu, français et anglais.

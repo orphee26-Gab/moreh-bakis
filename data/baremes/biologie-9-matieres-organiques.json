@@ -1,0 +1,51 @@
+{
+  "id": "biologie-9-matieres-organiques",
+  "subject": "biology",
+  "grade": "9",
+  "name": {
+    "he": "מבחן ט: חומרים אורגנים, פחמימות, שומנים",
+    "fr": "Contrôle de 9e : matières organiques, glucides, lipides"
+  },
+  "status": "draft",
+  "source": "Contrôle de biologie de כיתה ט corrigé par sa prof, transmis par Gabriel le 26/11/2026 : deux copies complètes de cinq pages, notées 89 et 75. Copies, clé de correction et lecture détaillée gardées hors du dépôt, dans la mémoire OCR privée du projet (lot 6).",
+  "gradingType": "items",
+  "sections": [
+    { "id": "A", "type": "mcq", "fr": "QCM", "he": "שאלות אמריקאיות", "count": 13, "options": 4, "pointsEach": 3, "printedTotal": 33, "computedTotal": 39 },
+    { "id": "B1", "type": "short-answer", "fr": "Cinq réponses courtes", "count": 5, "pointsEach": 3, "printedTotal": 15 },
+    { "id": "B2", "type": "classify", "fr": "Classer 8 formules en organique ou inorganique", "count": 8, "printedTotal": 8 },
+    { "id": "B3", "type": "table-check", "fr": "Tableau mono-, di- et polysaccharides : 7 lignes × 3 colonnes", "count": 21, "pointsEach": 1, "printedTotal": 21 },
+    { "id": "B4", "type": "two-choice", "fr": "Graisses (Fats) ou huiles (Oils), 5 phrases", "count": 5, "printedTotal": null, "inferredPointsEach": 1 },
+    { "id": "B5", "type": "short-answer", "fr": "Une réponse argumentée", "count": 1, "printedTotal": 5 },
+    { "id": "B6", "type": "matching", "fr": "Appariement, 4 paires", "count": 4, "printedTotal": null, "inferredPointsEach": 1 },
+    { "id": "B7", "type": "true-false", "fr": "Vrai ou faux, 13 affirmations (numéroté 6 sur la copie, comme l'appariement)", "count": 13, "pointsEach": 1, "printedTotal": 13 }
+  ],
+  "inferredTotal": 110,
+  "inference": "Points déduits de la copie B, dont la note se retrouve exactement : 3 points par QCM, 1 point par item en B4 et B6, 3 points par réponse courte juste, 0 pour une croix (24 + 6 + 8 + 19 + 5 + 0 + 4 + 9 = 75). À confirmer par la prof.",
+  "teacherNotation": [
+    "Coche ou croix rouge dans la marge, à la hauteur de la question, pas toujours sur l'option entourée.",
+    "Note finale entourée en rouge en haut de la première page.",
+    "Partie B : une croix sans points écrits à côté (points partiels inconnus).",
+    "Deux options entourées sans rature : croix et « ? »."
+  ],
+  "calibration": {
+    "note": "Verdicts réels de la prof sur deux copies anonymes (A et B), sans texte d'élève.",
+    "copies": [
+      { "copy": "A", "teacherTotal": 89, "recomputedTotal": 84, "mcq": "13/13", "shortAnswers": "0/5 justes (5 croix)", "classify": "8/8", "table": "17/21", "fatsOils": "3/5", "argued": "croix", "matching": "4/4", "trueFalse": "13/13" },
+      { "copy": "B", "teacherTotal": 75, "recomputedTotal": 75, "mcq": "8/13", "shortAnswers": "2/5 justes (une laissée vide)", "classify": "8/8", "table": "19/21", "fatsOils": "5/5", "argued": "croix", "matching": "4/4", "trueFalse": "9/13" }
+    ],
+    "lessons": [
+      "Tableau : la consigne demande un X là où ça s'applique. Une copie met ✓ pour oui et X pour non, l'autre X pour oui et rien pour non ; la prof accepte les deux. L'outil repère la convention de chaque copie.",
+      "La coche de la prof est à la hauteur de la question : l'outil la rattache à la question, pas à la ligne de l'option.",
+      "Réponse raturée : la dernière option entourée et non barrée compte.",
+      "Sur 26 items communs (QCM et vrai ou faux), la prof corrige les deux copies de la même façon : avec plusieurs copies d'un même contrôle, l'outil peut reconstituer la clé et signaler une incohérence.",
+      "Réponses courtes : croix même quand l'idée est en partie juste mais que l'élément attendu manque. L'IA signale un désaccord au prof, elle ne le corrige pas.",
+      "Formules chimiques manuscrites : les indices ressemblent à des virgules (« CH,CH,OH » se lit CH₂CH₂OH)."
+    ]
+  },
+  "openQuestions": [
+    "Partie A : la copie imprime 33 points, mais la note de la copie B ne se retrouve qu'avec 3 points par question (39). Le « 33 » est-il une faute de frappe ?",
+    "Avec ces points, le contrôle vaut 110 : la note est-elle plafonnée à 100, ou y a-t-il 10 points de bonus ?",
+    "Copie A : la même règle donne 84, la prof a mis 89. L'écart vaut exactement les points de la question B5 (marquée d'une croix). Erreur d'addition ou points accordés ?",
+    "Le tableau des sucres : « source d'énergie rapide » pour un disaccharide est-il attendu oui ou non ? La prof n'a rien marqué sur cette case."
+  ]
+}

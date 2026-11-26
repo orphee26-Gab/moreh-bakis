@@ -106,4 +106,5 @@ pour corriger une copie. Jamais de copie, de nom ou de texte d'élève dans ces 
 ```
 
 - `calibration` : notes réelles d'un prof sur des copies anonymes, avec la raison en une ligne, pour que l'IA note comme lui.
+- Barème **par items** (`"gradingType": "items"`, depuis le 26/11/2026, ex. `biologie-9-matieres-organiques.json`) : `sections` liste chaque partie avec son `type` (`mcq`, `true-false`, `table-check`, `two-choice`, `matching`, `classify`, `short-answer`), `count`, `pointsEach` et `printedTotal` (les points imprimés sur la copie, `null` s'ils ne le sont pas ; `computedTotal` quand le calcul ne donne pas le chiffre imprimé). La clé de correction d'un contrôle réel ne va pas dans ce dépôt public.
 
