@@ -12,6 +12,19 @@ Il ne modifie pas le travail d'Hermès sans l'accord de Gabriel, et met ce fichi
 - `docs/espace-profs-methode.md` : la méthode de correction dans l'écriture du prof (demande de Gabriel du 21/10), décrite pour être reportée dans l'appli.
   **À valider par Gabriel.**
 
+## En cours le 26/11 : une mascotte à la place de ניצוץ (ébauche, choix de Gabriel attendu)
+
+- Gabriel trouve que ניצוץ ne colle pas au projet. Il veut une mascotte animée qui parle sur chaque exercice, en hébreu, français et anglais.
+- Il proposait Maestro (« Il était une fois… », Procidis) avec la voix du dessin animé : personnage, nom et voix sont protégés, inutilisables sans licence de Procidis.
+- **Pour Hermes : ne mettre dans le dépôt ni dans l'appli aucune image, aucun nom, aucune voix de ce personnage.**
+- Ébauche de Claude (page privée) : trois mascottes originales dans le style de l'appli.
+  - A. le daman des rochers (שפן סלע), complice ;
+  - B. le stylo bleu (עט כחול), précis ;
+  - C. la tortue (צב) à carapace en petits carreaux, patiente.
+- Chacune a un écran de leçon où elle dit quatre répliques (accueil, indice, juste, presque) dans les trois langues, avec la voix du téléphone en attendant.
+- La voix finale sera créée pour la mascotte (par exemple avec VoxCPM2 à partir d'une description, voir `docs/outils-pinokio.md`), sans imiter de voix existante.
+- L'appli n'est pas modifiée tant que Gabriel n'a pas choisi.
+
 ## Fait le 25/11 : synchro avec Hermes dans les deux sens (validée par Gabriel)
 
 - Règles : `docs/synchronisation.md`, section « Notes dans les deux sens, hors du dépôt » ; une étape ajoutée au début de séance dans `CLAUDE.md`.
